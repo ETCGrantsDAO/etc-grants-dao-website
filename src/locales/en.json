@@ -1,0 +1,467 @@
+{
+  "ETC Cooperative": "ETC Cooperative",
+  "ETC": "ETC",
+  "Cooperative": "Cooperative",
+  "Overview": "Overview",
+  "Requirements": "Requirements",
+  "Decision Making": "Decision Making",
+  "Round 1": "Round 1",
+  "Apply Now": "Apply Now",
+  "Application Form": "Application Form",
+
+  "title": "Ethereum Classic Grants",
+  "description": " We aim to revitalize the ecosystem by providing no strings attached funding to promising projects building on Ethereum Classic.",
+
+  "Contents": "Contents",
+  "overviewText": "Who is Funding this program? how much has been pledged?",
+  "overviewText1": "How is it going to work?",
+  "reqText1": " No retroactive Funding",
+  "reqText2": "Projects must be open source",
+  "reqText3": " Progress reports",
+  "decMakingT1": "Who will Be Making the Decisions?",
+  "decMakingT2": " Standing Committee Members",
+  "Grant Round 1": "Grant Round 1",
+  "grantRound1T1": "What Is the Timeline for Application?",
+  "grantRound1T2": "How Much Funding Is Available?",
+  "grantRound1T3": "How do I Apply?",
+
+  "overviewT1": "The ETC Grants program was launched in November 2022 to support the growth of the",
+  "overviewT1Link": "Ethereum Classic",
+  "overviewT1AfterLink": "ecosystem.",
+  "overviewT2": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on",
+  "overviewT2Link1": "every major exchange",
+  "overviewT2AfterLink1": " and hundreds of millions of dollars of $ETC are traded daily but there are very",
+  "overviewT2Link2": "few decentralized applications",
+  "overviewT2AfterLink2": "using the platform and only a very small amount of",
+  "overviewT2Link3": "TVL",
+  "overviewT2AfterLink3": " in its Defi ecosystem and only a few",
+  "overviewT2Link4": "NFT projects.",
+
+  "tableHeading1": "CMC Ranking",
+  "tableHeading2": "Project",
+  "tableHeading3": "Market Cap",
+  "tableHeading4": "Daily Rewards",
+
+  "tableCol1-1": "#1",
+  "tableCol1-2": "#9",
+  "tableCol1-3": "#20",
+  "tableCol1-4": "#1",
+  "tableCol1-5": "#23",
+  "tableCol1-6": "#24",
+  "tableCol1-7": "#28",
+  "tableCol1-8": "#56",
+  "tableCol1-9": "#64",
+
+  "tableCol2-1": "Bitcoin",
+  "tableCol2-2": "Dogecoin",
+  "tableCol2-3": "Litecoin",
+  "tableCol2-4": "Bitcoin",
+  "tableCol2-5": "ETC",
+  "tableCol2-6": "Monero",
+  "tableCol2-7": "Bitcoin Cash",
+  "tableCol2-8": "Bitcoin SV",
+  "tableCol2-9": "ZCash",
+
+  "tableCol3-1": "$313.1B",
+  "tableCol3-2": "$10.6B",
+  "tableCol3-3": "$3.8B",
+  "tableCol3-4": "$313.1B",
+  "tableCol3-5": "$2.7B",
+  "tableCol3-6": "$2.3B",
+  "tableCol3-7": "$1.8B",
+  "tableCol3-8": "$707M",
+  "tableCol3-9": "$560M",
+
+  "tableCol4-1": "$15.4M",
+  "tableCol4-2": "$1.1M",
+  "tableCol4-3": "$371K",
+  "tableCol4-4": "$15.4M",
+  "tableCol4-5": "$314K",
+  "tableCol4-6": "$57K",
+  "tableCol4-7": "$86K",
+  "tableCol4-8": "$43K",
+  "tableCol4-9": "$103K",
+
+  "overviewHeading1": "  Who Is Funding This Program? How Much Has Been Pledged?",
+
+  "overviewHeading1Text1": " In July 2022, Antpool ",
+  "overviewHeading1Text1Link1": "announced",
+  "overviewHeading1Text1Link1After": " that they  were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig",
+  "overviewHeading1Text1Link2": "(0xA208...E8D6)",
+  "overviewHeading1Text1Link2After": " on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig",
+  "overviewHeading1Text1Link3": "(0x3db3...2f82)",
+  "overviewHeading1Text1Link3After": " on ETC mainnet.",
+
+  "overviewHeading1Text2": "The ETC Cooperative had $250K USD",
+  "overviewHeading1Text2Link": "budgeted",
+  "overviewHeading1Text2LinkAfter": " for grants during calendar year 2022 and will be contributing those funds into the program as well.",
+
+  "overviewHeading2": "How Is It Going to Work?",
+
+  "overviewHeading2Text1": "The grants process will be open for proposals once every quarter. A timetable will be published for each round showing:",
+
+  "overviewHeading2Text2-1": "- When the process is open for applications.",
+  "overviewHeading2Text2-2": "- Total maximum funding assigned to this round.",
+  "overviewHeading2Text2-3": "- What kind of projects will be welcomed in that round.",
+  "overviewHeading2Text2-4": "- How to apply for a grant and what kind of information you must provide.",
+  "overviewHeading2Text2-5": "- Expectations on likely USD amounts for particular proposals. ",
+  "overviewHeading2Text2-6": "- Timelines for applications, for assessments, for payout and for progress reporting.",
+
+  "overviewHeading2Text2": "Everything will be happening via this website and on the various channels. Grant recipients will funded in $ETC, to aligh incentives with the network.",
+
+  "requirementsHeading1": "No Retroactive Funding",
+  "requirementsHeading1Text": "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants.",
+
+  "requirementsHeading2": "Projects Must Be Open Source",
+  "requirementsHeading2Text": "All projects must make their ''outputs'' available using permissive open source licensing (Apache 2, Mozilla MPL 2 or Creative Commons). Funding will not be provided for projects seeking to build propriatory solutions. The copyright will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
+
+  "requirementsHeading3": "Progress Reports",
+  "requirementsHeading3Text1": "Applicants are obliged to provide two status reports. The first report will be mid-project and the second report is due at the completion of the project, or when work towards its stated goals comes to an end for whatever reason.",
+  "requirementsHeading3Text2": "These reports will all be made public, as will the proposals themselves, together with feedback and rationale from the committee on each of the proposals explaining how their merits were assessed and how that assessment informed the decision-making process for allocation of funds.",
+  "requirementsHeading3Text3": "The first status report will be due 6 weeks after the funds are released, so around the end of January. The final status reports will be due mid-February. The intention for the program is for everything to be completely transparent so that applicants can see which proposals are having success, likely ''market rates'' for proposals and so on.",
+
+  "decisionEtcHeading": "Decision Making For The ETC Grants Program",
+
+  "decisionEtcHeading1": "Who Will Be Making The Decisions?",
+
+  "decisionEtcHeading1Text1": "Decisions on the initial round of grants will be made by a committee appointed by Bitmain, Antpool and ETC Cooperative, as the initial donors into this grants process. If further donors join the process, they will be invited to participate in the decision making process as well.",
+
+  "decisionEtcHeading1Text2": "Voting will be managed using Snapshot (see ",
+  "decisionEtcHeading1Text2Link": "Litecoin/Antpool voting",
+  "decisionEtcHeading1Text2LinkAfter": " for an example).",
+
+  "decisionEtcHeading1Text3": "Interestingly enough it looks like there ",
+  "decisionEtcHeading1Text3Link": "are a few",
+  "decisionEtcHeading1Text3LinkAfter": " ETC snapshot polls already, so it should be easy enough to add one of our own, with a nested ''treasury'' entry pointing to the ETC Safe multisig.",
+
+  "decisionEtcHeading1Text4": "There is no specific plan to open up the decision making progress to the broader ETC community at the time of writing. Longer term it might make sense to move, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision making process.",
+
+  "decisionEtcHeading2": "Standing Committee Members",
+
+  "decisionEtcHeading2List1": "Bitmain (Xmei)",
+  "decisionEtcHeading2List2": "Antpool (Leon, Lucien, Rory, Lilian)",
+  "decisionEtcHeading2List3": "ETC Cooperative (Bob, Alison)",
+  "decisionEtcHeading2List4": "Grayscale (Craig)",
+
+  "round1Heading": "Round 1 Of The ETC Grants Program",
+
+  "round1Text": "We are seeking interesting and innovative dapps, along with foundational projects for enriching the ETC Defi ecosystem. We also welcome proposals related to events, education and other communication of ETC's unique value propositions.",
+
+  "round1Heading1": "What Is The Timeline For Application?",
+
+  "round1Text1": "The first round of ETC Grants was opened on Thursday 10th November 2022, when the program was announced on stage by Xmei Lin, Head of Marketing for Bitmain. The application process will be open until end-of-day Sunday 4th December 2022 (so applications are open for just over 3 weeks). The projects receiving funding will be announced on Thursday 15th December and payments will be made to the recipients that day.",
+
+  "round1Heading2": "How Much Funding Is Available?",
+
+  "round1Text2": "Up to $1M USD worth of ETC is available for successful applicants in this first round of grants, which was funded by Antpool ($750K) and ETC Coop ($250K). Individual grant proposals cannot exceed $50K USD per round.",
+
+  "round1Heading3": "How Do I Apply?",
+
+  "round1Text3": "Please read the ",
+  "round1Text3Link1": " requirements page",
+  "round1Text3Link1After": " and then fill in this ",
+  "round1Text3Link2": "application form",
+  "round1Text3Link2After": " All ongoing communication will be via this website and on the associated ",
+  "round1Text3Link3": "Telegram",
+  "round1Text3Link3After": " channel. Grant recipients will funded in $ETC, to aligh incentives with the network.",
+
+  "footerHeading1": "Learn",
+  "footerHeading1Text1": "ethereumclassic.org",
+  "footerHeading1Text2": "ETC Community Discord",
+  "footerHeading1Text3": "ETC Cooperative Discord",
+  "footerHeading1Text4": "ECIPs",
+
+  "footerHeading2": "Projects",
+  "footerHeading2Text1": "Hyperledger Besu",
+  "footerHeading2Text2": "Core-Geth",
+
+  "footerHeading3": "Run",
+  "footerHeading3Text1": "Hyperledger Besu",
+  "footerHeading3Text2": "Core-Geth",
+  "footerHeading3Text3": "BlockScout",
+  "footerHeading3Text4": "ETC Public RPC Endpoints",
+  "footerHeading3Text5": "ETC Nodes Explorer",
+
+  "footerHeading4": "Partners",
+
+
+
+
+
+  "about": {
+    "heading": "About ETC Grants DAO",
+    "shortened": "About",
+
+    "ethereumClassicIn2023": {
+      "heading": "Ethereum Classic in 2023",
+      "body": {
+        "p1": "The ETC Grants program was first announced at the WDMS conference in November 2022 to support the growth of the Ethereum Classic ecosystem.",
+        "p2": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on every major exchange and hundreds of millions of dollars of $ETC are traded daily but there are very few decentralized applications using the platform, only a very small amount of TVL in its Defi ecosystem and few NFT projects.",
+        "p3": "(Data above from 27th December 2022)",
+        "p4": "We aim to revitalize the ecosystem by providing 'no strings attached' funding to promising projects building on Ethereum Classic."
+      }
+    },
+
+    "funding": {
+      "heading": "Who is funding this program? How much has been pledged?",
+      "shortened": "Funding",
+      "body": {
+        "p1": "In July 2022, Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
+        "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
+      }
+    }
+  },
+
+  "categories": {
+    "heading": "Grants categories",
+    "body": {
+      "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
+    },
+
+    "generalGrants": {
+      "heading": "General grants",
+      "body": {
+        "p1": "General grants are open to all and any teams looking to build their projects on ETC, with anything they would like to propose. There is a list of suggestions, but all options are the on the table. We welcome your creative suggestions on how to add value."
+      }
+    },
+
+    "targetedGrants": {
+      "heading": "Targeted grants",
+      "body": {
+        "p1": "Targeted grants are those that have been selected by the grant selection committee and community as priority items and growth areas and which have an open request. These items may or may not change each grant round, as priorities change and teams launch their projects.",
+        "p2": "There may not be any open requests at the beginning of a new round. In that case, general grants should be selected for the category."  
+      }
+    },
+
+    "typesOfGrant": {
+      "heading": "Types of grant",
+      "DIAGRAM_HERE": "xxx"
+    }
+  },
+
+  "needToKnow": {
+    "heading": "What do grant applications need to know?",
+ 
+    "englishOrChinese": {
+      "heading": "English or Chinese",
+      "body": {
+        "p1": "The entire ETC Grants DAO process has been built with equal access in Chinese and English as a primary requirement. This website, application process, display of proposals and all other elements of the process will be visible in both languages. We want to open up accessibility to Ethereum Classic for the Chinese-speaking community, and welcome applications from that demographic, even if the outputs of those proposals are only applicable to a Chinese-speaking audience. That is no different than existing projects where the value only accrues to English speakers.",
+        "p2": "We will be translating all of the applications from English to Chinese and visa-versa so that speakers of either language are able to see all of the applications. The feedback from the Committee on projects and final fund assignments will also be available in both languages.",
+        "p3": "(ETC Cooperative have been publishing all content in both English and Chinese since November 2022.)"  
+      }
+    },
+
+    "noRetroactiveFunding": {
+      "heading": "No Retroactive Funding",
+      "body": {
+        "p1" : "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants"
+      }
+    },
+
+    "openSource": {
+      "heading": "Projects must be permissively licensed open source",
+      "body": {
+        "p1" : "All projects must make their 'outputs' available using permissive open source licensing, with only the following licenses being acceptable:",
+        "p2": "Apache 2.0 - good for source code",
+        "p3": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
+        "p4": "Creative Commons (CC-BY-SA) - good for documentation",
+        "p5": "Funding will not be provided for projects seeking to build proprietary solutions.",
+        "p6": "The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
+        "p7": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering."  
+      }
+    },
+
+    "kycAml": {
+      "heading": "Applicants will be subject to KYC/AML checks",
+      "body": {
+        "p1": "For regulatory compliance, applicants for the grants process will be subject to KYC (know your customer) checks through a third party agency. None of that information will be held by the parties participating in the ETC Grants DAO processes. Real names or other PII (personally identifying information) will not be made public unless applications choose to make that information publicly available on their application (ie. work history, past projects)."  
+      }
+    },
+
+    "publiclyVisible": {
+      "heading": "All applications will be publicly visible",
+      "body": {
+        "p1": "All applications will be visible to the public on the website, so that other applicants can calibrate their own applications and get a good idea of the 'playing field'. This will become especially important in later rounds.",
+        "p2": "Here are the ZCash Foundation proposals as an example of a desired end-state for the ETC program, though we are likely to have something more primitive at first."
+      }
+    }
+  },
+
+  "etcGrantsProcess": {
+    "heading": "ETC Grants Process",
+    "bullets": {
+      "b1": "Call for proposals",
+      "b2": "Grant Application submission",
+      "b3": "Evaluation/Technical review",
+      "b4": "Grants team approval",
+      "b5": "Formal agreement & Due diligence (KYC/KYB)",
+      "b6": "Milestone reviews & payments",
+      "b7": "Project Launch & Project retrospective analysis",  
+    },
+
+    "timeline": {
+      "heading": "Timeline",
+      "bullets": {
+        "b1": "Announcement of new grant round - Call for proposals",
+        "b2": "Grant application submissions open (3 months)",
+        "b3": "Evaluation/Technical review, approval and due diligence (1-3 months)",
+        "b4": "Milestone reviews and project launch will be done on a project by project basis. It should be outlined in the application, when milestones and deliverables are expected. This part of the grant process will run concurrently, with the launch of subsequent grant rounds. (No defined timeline - each project will have a different timeline)."  
+      },
+      "MISSING_DIAGRAM": "flowchart",
+    },
+
+    "phases": {
+      "body": {
+        "p1": "The 7 step grant process is outlined below:",
+      },
+
+      "step1": {
+        "heading": "Step 1: Call for Proposals",
+
+        "phasesSummary": {
+          "body": {
+            "p1": "At the beginning of each grant round, the ETC grant committee will formally open the round with a call for proposals. The documentation on the grant site and other marketing materials , will outline the exact timeline for each grant round, for the following phases:"
+          },
+          "bullets": {
+            "b1": "The application submission (generally 3 months, subject to change)",
+            "b2": "The grant committee review and approval (generally one month, subject to change"  
+          }  
+        },
+        "phasesWrapup": {
+          "body": {
+            "p1": "The call for proposals documentation will also identify the open requests for that specific grant round and teams will identify if they are submitting their application, under one of these open requests as well as the type of grant they are applying for."
+          }  
+        }
+      },
+
+      "step2": {
+        "heading": "Step 2: Grant Application Submission",
+        "body": {
+          "p1": "Grant applications should be submitted via the website.",
+          "p2": "The application will outline all relevant details each team or individual should include. People should enter as much information as possible about their project, providing clear milestones and deliverables.",
+          "p3": "When submitting the application, you will choose one of the grant types. You will need to ensure that your requested grant funding does not exceed the guidelines for the grant type. To receive a premium grant, a team will be expected to have a clear financial break-down, proven track record of success, and clearly demonstrate the value proposition to the grants committee."
+        }
+      },
+
+      "step3": {
+        "heading": "Step 3: Evaluation/Technical review",
+        "body": {
+          "p1": "Decisions on the initial round of grants will be made by a committee appointed by Bitmain, Antpool and ETC Cooperative, as the initial donors into this grants process. If further donors join the process, they will be invited to participate in the decision making process as well.",
+          "p2": "There is no specific plan to open up the decision making progress to the broader ETC community at the time of writing. Longer term it might make sense to move, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision making process.",
+          "p3": "Voting will be recorded using Snapshot (see etcgrantsdao.eth), in a similar manner to the existing Snapshot instance used for Litecoin/Antpool voting.",
+          "p4": "During the evaluation and technical review the grant committee will look at all the information submitted by each team and evaluate the application. Please note that the voting for the projects will be done by the members listed above, but the technical evaluation of the projects will be done by a broader set of individuals, including the ETC core developers. This is to ensure that there is sufficient technical review of all applications.",
+          "p5": "For each open request there may be grants awarded to multiple teams, one team, or no teams if none of the submissions meet the standards required."
+        },
+
+        "betterChance": {
+          "body": {
+            "p1": "Your project will have better chances for acceptance if the following are met:",
+            "bullets": {
+              "b1": "The team has proven experience and strong technical background.",
+              "b2": "The team can demonstrate that they have a business model that will sustain the project long term. If the project is an open source public good and thus there are no financial incentives for the team or to sustain the project, the application should be clear on how much annual funding would be required to maintain the project. Funding beyond the initial grant, is not guaranteed and the team would have to apply for grants in subsequent periods.",
+              "b3": "The application clearly presents milestones and how to evaluate whether KPIs have been met or not.",
+              "b4": "The project fills an obvious void in the current ecosystem.",
+              "b5": "The project provides clear value to the ETC ecosystem."
+            }
+          }
+        },
+
+        "mayBeDeclined": {
+          "body": {
+            "p1": "Reasons a project may be declined:",
+            "bullets": {
+              "b1": "The project is not aligned with ETC’s values.",
+              "b2": "The project doesn’t have a way to sustain itself after grant funding has been fully utilized (if it is not an open source public good type grant).",
+              "b3": "The project team does not appear to have requisite expertise to accomplish project goals.",
+              "b4": "The cost/benefit of the project is insufficient."
+            }
+          }
+        },
+
+        "wrapup": {
+          "body": {
+            "p1": "During this phase, the grant committee team may reach out for more information regarding your project and conduct an interview. If your project is already at a testing phase, we may schedule a time to demonstrate the project and for the committee members and other involved stakeholders to review and ask questions.",
+            "p2": "As the grant program matures more feedback will be provided on what quantitative and qualitative factors grants will be evaluated against."
+          }
+        }
+      },
+
+      "step4": {
+        "heading": "Step 4: Grants team approval",
+        "body": {
+          "p1": "After evaluation of all submitted grants (within the submission timeline), an applicant will be notified about whether their application has been accepted or denied. If an application was denied, the team will receive a notification with some feedback on why. If an application was approved, the team will move into the due diligence phase."
+        }
+      },
+
+      "step5": {
+        "heading": "Step 5: Due diligence and KYC/AML requirements",
+        "body": {
+          "p1": "If your grant application has been accepted, you will go through due diligence and sign your formal agreement, which includes KYC/KYB required information. This information will be obtained by a third party independent company to comply with all AML and KYC requirements. The final agreement will specify terms of the contract and required milestones to release milestone payments. Agreements would be signed by all relevant parties.",
+          "p2": "Once all successful applicants have completed the due diligence and rejected projects, the grant committee team will announce that round's grantees. The amount of funding committed in the round will also be disclosed. The plan is to have an active directory tab on the ETC grant website, that will show the status of all applications. This may not be achievable for the first grant round."
+        }
+      },
+
+      "step6": {
+        "heading": "Step 6: Grant progress and Milestone review",
+        "body": {
+          "p1": "During this stage of the process, the grantee would submit milestone/progress reports. These reports will provide insight to the grant committee and the community, about the progress of the individual grant. It will also be used to assess the efficacy and robustness of the ETC grant-making program and process. These reports will be made public, for transparency.",
+          "p2": "The documentation will depend on whether it is a larger project, that has clear and differentiated milestones, or a smaller project without discrete pieces of work. If it is the latter, then a grant progress report template will be completed mid-way through the grant period, to assess the progress of the project.",
+          "p3": "Larger projects, that have specific milestones, would be required to submit a milestone progress report, after completing each milestone. Funding will occur after each milestone has been performed and reviewed.",
+          "p4": "During this phase, project evaluations and KPI’s should be documented, as well as any changes in scope. In order to release milestone payments, it should be clear to the grant committee that these milestones were in fact met and that the project is on track. If at any milestones project review, it is determined that the project will not be able to achieve its final targets or objectives, the team should have formal discussions with the grant committee about whether a change of scope is needed or if the project should be abandoned.",
+          "p5": "If milestones are not met or do not meet expectations, or continuing the project does not make sense, work will be stopped and a post-mortem analysis will occur at that point. If a project goes to completion, post mortem analysis will commence at the end of the project.",
+          "p6": "Projects are expected to submit their invoice for milestone payments and the grant team, administering the payment, will calculate the ETC to be paid. More information will be provided during the grant acceptance phase."
+        }
+      },
+      "step7": {
+        "heading": "Step 7: Project Launch and Retrospective",
+        "body": {
+          "p1": "This phase is the final step in the grant making process and if the project has been successful, will lead to the launch of the final project and/or deliverables, as well as the completion milestone payment. This phase commences with the project retrospective that provides post mortem analysis to determine and analyze elements of the project that were successful or unsuccessful.",
+          "p2": "Project post-mortems are intended to inform process improvements which mitigate future risks and to promote iterative best practices. Post-mortems are often considered a key component of, and ongoing precursor to, effective risk management. A grant project post mortem will be required on all projects, as this will allow the grant team to tweak the process as the program matures.",
+          "p3": "As this is a new process, it will be regularly evolving to take into account learnings from each round and to integrate feedback from participants and the community. Please keep in mind that the ETC grant committee and grant admin teams are not as well resourced as many other crypto grant programs. We aim to make the processes as clear and transparent as possible and will adapt as needed."
+        }
+      }
+    }
+  },
+
+  "whatProjectsToFund": {
+    "heading": "What kind of projects are you looking to fund?",
+    "body": {
+      "p1": "Here are some ideas of projects which are likely to be well received, but please just take these as suggestions and feel free to bring your own ideas to the table too.",
+      "bullets": {
+        "b1": "Unique and compelling ETC-only dapps",
+        "b2": "Novel NFT projects (especially for real-world assets)",
+        "b3": "Native stablecoins (USDT, USDC, DAI, RAI, RICO, other)",
+        "b4": "First-class ETC support in key Ethereum projects",
+        "b5": "Deploying and supporting clones of key Ethereum project on ETC",
+        "b6": "Privacy solutions",
+        "b7": "Oracle solutions",
+        "b8": "Lending protocols",
+        "b9": "Bridges and interoperability",
+        "b10": "Atomic swaps",
+        "b11": "Educational content",
+        "b12": "Meetups and events",
+        "b13": "Podcasts",
+        "b14": "Safe apps",
+        "b15": "MetaMask snaps",
+        "b16": "Projects supporting self-custody",
+        "b17": "Projects supporting running your own node"
+      }
+    },
+
+    "timeline": {
+      "heading": "What is the timeline for applications?",
+      "body": {
+        "p1": "The grants process will be open for applications Thursday 19th January 2023. The application process will remain open through February and March 2023. Decisions on which grants will be funded will be made in April 2023.",
+        "p2": "The final decisions will be announced and initial funds disbursed in May 2023."
+      }
+    },
+
+    "readyToGo": {
+      "heading": "Ready to go?",
+      "body": {
+        "p1": "Bring your best ideas.",
+        "p2": "Apply here!"
+      }
+    }
+  }
+}
