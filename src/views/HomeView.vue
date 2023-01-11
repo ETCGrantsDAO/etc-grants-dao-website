@@ -99,10 +99,10 @@
           >
             {{ $t("about.shortened") }}
           </a>
-          <p class="font-notoSans text-textColor text-base font-normal">
-            {{ $t("about.ethereumClassicIn2023.shortened") }}
-            <span class="pb-8">{{ $t("about.funding.shortened") }}</span>
-          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("about.ethereumClassicIn2023.shortened") }}</p>
+           <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("about.funding.shortened") }}</p>          
           <a
             v-on:click="closeNav()"
             href="#requirements"
@@ -212,7 +212,7 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#about.ethereumClassicIn2023"
                 >
-                  {{ $t("about.ethereumClassicIn2023.heading") }}
+                  {{ $t("about.ethereumClassicIn2023.shortened") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
