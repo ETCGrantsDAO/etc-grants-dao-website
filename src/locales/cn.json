@@ -9,8 +9,6 @@
   "Application Form": "占位符符占 位符符",
 
   "Contents": "占位符符",
-  "overviewText": "占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符 占位符符",
-  "overviewText1": "占位符符 占位 符符 占位符符 符符 占位符符?",
   "reqText1": "占位符符 占位符符 占位符符.",
   "reqText2": "占位符符 占位符符 占位符符.",
   "reqText3": " 占位符符 占位符符",
@@ -20,18 +18,6 @@
   "grantRound1T1": "占位符符 占位符符 占位 占位符符?",
   "grantRound1T2": " 占位符符 占位符符 占位 占位符符?",
   "grantRound1T3": " 占位符符 占位符符 占位 占位符符?",
-
-  "overviewT1": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewT1Link": "占位符符 占位符",
-  "overviewT1AfterLink": "占位符符 占位符",
-  "overviewT2": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewT2Link1": "占位符符 占位符符 占位 占位符符",
-  "overviewT2AfterLink1": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewT2Link2": "占位符符 占位符符 占位 占位符符",
-  "overviewT2AfterLink2": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewT2Link3": "占位符符",
-  "overviewT2AfterLink3": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewT2Link4": "占位符 占位符符.",
 
   "tableHeading1": "占位符 占位符符",
   "tableHeading2": "占位符符",
@@ -180,10 +166,15 @@
   "footerHeading4": "占位符符",
 
 
+  "-------------------------------------------------------------------------------------------": "",
+  "EVERYTHING-ABOVE-THIS-LINE-IS-OLD-STRINGS-TO-BE-IGNORED-AND-WITH-BE-DELETED-BY-BOB-OVER-TIME": "",
+  "THE-NEW-STRINGS-ARE-BELOW-AND-EVERYTHING-WILL-BE-IN-THIS-NEW-NESTED-FORM-IN-THE-END": "",
+  "--------------------------------------------------------------------------------------------": "",
 
+  
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
-    "description": "占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符占位符 占位符 占位符."
+    "description": "We aim to revitalize the ecosystem by providing no strings attached funding to promising projects building on Ethereum Classic."
   },
   
   "about": {

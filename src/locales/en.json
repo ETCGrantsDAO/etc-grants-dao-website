@@ -9,8 +9,6 @@
   "Application Form": "Application Form",
 
   "Contents": "Contents",
-  "overviewText": "Who is Funding this program? how much has been pledged?",
-  "overviewText1": "How is it going to work?",
   "reqText1": " No retroactive Funding",
   "reqText2": "Projects must be open source",
   "reqText3": " Progress reports",
@@ -20,18 +18,6 @@
   "grantRound1T1": "What Is the Timeline for Application?",
   "grantRound1T2": "How Much Funding Is Available?",
   "grantRound1T3": "How do I Apply?",
-
-  "overviewT1": "The ETC Grants program was launched in November 2022 to support the growth of the",
-  "overviewT1Link": "Ethereum Classic",
-  "overviewT1AfterLink": "ecosystem.",
-  "overviewT2": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on",
-  "overviewT2Link1": "every major exchange",
-  "overviewT2AfterLink1": " and hundreds of millions of dollars of $ETC are traded daily but there are very",
-  "overviewT2Link2": "few decentralized applications",
-  "overviewT2AfterLink2": "using the platform and only a very small amount of",
-  "overviewT2Link3": "TVL",
-  "overviewT2AfterLink3": " in its Defi ecosystem and only a few",
-  "overviewT2Link4": "NFT projects.",
 
   "tableHeading1": "CMC Ranking",
   "tableHeading2": "Project",
@@ -176,6 +162,11 @@
 
   "footerHeading4": "Partners",
 
+
+  "-------------------------------------------------------------------------------------------": "",
+  "EVERYTHING-ABOVE-THIS-LINE-IS-OLD-STRINGS-TO-BE-IGNORED-AND-WITH-BE-DELETED-BY-BOB-OVER-TIME": "",
+  "THE-NEW-STRINGS-ARE-BELOW-AND-EVERYTHING-WILL-BE-IN-THIS-NEW-NESTED-FORM-IN-THE-END": "",
+  "--------------------------------------------------------------------------------------------": "",
 
 
   "etc-grants-dao": {
