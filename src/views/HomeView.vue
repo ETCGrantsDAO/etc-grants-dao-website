@@ -48,7 +48,7 @@
             >
 
             <a
-              href=""
+              href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow"
             >
               {{ $t("Apply Now") }}</a
@@ -200,7 +200,7 @@
               {{ $t("etc-grants-dao.description") }}
             </p>
             <a
-              href=""
+              href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="text-xl font-bold md:text-heroTextMobile mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex hover:scale-110 transition duration-300 ease-in-out"
               ><p>{{ $t("Apply Now") }}</p>
               <img
@@ -919,7 +919,7 @@
               </p>
             </div>
             <a
-              href=""
+              href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-rightSecButton text-xl leading-twentyFour hidden lg:flex mt-8 hover:scale-110 transition duration-300 ease-in-out"
               ><p>{{ $t("Application Form") }}</p>
               <img
