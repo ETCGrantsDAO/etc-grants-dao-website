@@ -2,7 +2,6 @@
   "ETC": "ETC",
   "Cooperative": "Cooperative",
   "Overview": "Overview",
-  "Decision Making": "Decision Making",
   "Round 1": "Round 1",
   "Apply Now": "Apply Now",
   "Application Form": "Application Form",
@@ -10,8 +9,6 @@
   "reqText1": " No retroactive Funding",
   "reqText2": "Projects must be open source",
   "reqText3": " Progress reports",
-  "decMakingT1": "Who will Be Making the Decisions?",
-  "decMakingT2": " Standing Committee Members",
   "Grant Round 1": "Grant Round 1",
   "grantRound1T1": "What Is the Timeline for Application?",
   "grantRound1T2": "How Much Funding Is Available?",
@@ -84,29 +81,6 @@
   "overviewHeading2Text2-6": "- Timelines for applications, for assessments, for payout and for progress reporting.",
 
   "overviewHeading2Text2": "Everything will be happening via this website and on the various channels. Grant recipients will funded in $ETC, to aligh incentives with the network.",
-
-  "decisionEtcHeading": "Decision Making For The ETC Grants Program",
-
-  "decisionEtcHeading1": "Who Will Be Making The Decisions?",
-
-  "decisionEtcHeading1Text1": "Decisions on the initial round of grants will be made by a committee appointed by Bitmain, Antpool and ETC Cooperative, as the initial donors into this grants process. If further donors join the process, they will be invited to participate in the decision making process as well.",
-
-  "decisionEtcHeading1Text2": "Voting will be managed using Snapshot (see ",
-  "decisionEtcHeading1Text2Link": "Litecoin/Antpool voting",
-  "decisionEtcHeading1Text2LinkAfter": " for an example).",
-
-  "decisionEtcHeading1Text3": "Interestingly enough it looks like there ",
-  "decisionEtcHeading1Text3Link": "are a few",
-  "decisionEtcHeading1Text3LinkAfter": " ETC snapshot polls already, so it should be easy enough to add one of our own, with a nested ''treasury'' entry pointing to the ETC Safe multisig.",
-
-  "decisionEtcHeading1Text4": "There is no specific plan to open up the decision making progress to the broader ETC community at the time of writing. Longer term it might make sense to move, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision making process.",
-
-  "decisionEtcHeading2": "Standing Committee Members",
-
-  "decisionEtcHeading2List1": "Bitmain (Xmei)",
-  "decisionEtcHeading2List2": "Antpool (Leon, Lucien, Rory, Lilian)",
-  "decisionEtcHeading2List3": "ETC Cooperative (Bob, Alison)",
-  "decisionEtcHeading2List4": "Grayscale (Craig)",
 
   "round1Heading": "Round 1 Of The ETC Grants Program",
 
