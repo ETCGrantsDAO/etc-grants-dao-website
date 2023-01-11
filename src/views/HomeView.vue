@@ -35,11 +35,6 @@
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("requirements.nav-heading") }}</a
             >
-            <a
-              href="#round1"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
-              >{{ $t("Round 1") }}</a
-            >
 
             <a
               href=""
@@ -149,18 +144,6 @@
             {{ $t("requirements.publiclyVisible.nav-heading") }}
           </p>
 
-          <a
-            v-on:click="closeNav()"
-            href="#round1"
-            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          >
-            {{ $t("Grant Round 1") }}
-          </a>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantRound1T1") }}</p><p class="font-notoSans text-textColor text-base font-normal pb-4">{{ $t("grantRound1T2") }}</p><p class="font-notoSans text-textColor text-base font-normal pb-4">{{
-              $t("grantRound1T3")
-            }}
-          </p>
         </div>
       </section>
 
@@ -333,47 +316,6 @@
                 </a>
               </div>
 
-              <div class="text-headingsColor pt-6 pl-1">
-                <a
-                  class="font-notoSans text-textColor text-base font-normal"
-                  href="#stComitteMembers"
-                >
-                  {{ $t("decMakingT2") }}
-                </a>
-              </div>
-
-              <div class="text-headingsColor pt-8">
-                <a
-                  class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-                  href="#round1"
-                >
-                  {{ $t("Grant Round 1") }}
-                </a>
-              </div>
-              <div class="text-headingsColor pt-6 pl-1">
-                <a
-                  class="font-notoSans text-textColor text-base font-normal"
-                  href="#round1Heading1"
-                >
-                  {{ $t("grantRound1T1") }}
-                </a>
-              </div>
-              <div class="text-headingsColor pt-6 pl-1">
-                <a
-                  class="font-notoSans text-textColor text-base font-normal"
-                  href="#round1Heading2"
-                >
-                  {{ $t("grantRound1T2") }}
-                </a>
-              </div>
-              <div class="text-headingsColor pt-6 pl-1">
-                <a
-                  class="font-notoSans text-textColor text-base font-normal"
-                  href="#fvround1Heading3"
-                >
-                  {{ $t("grantRound1T3") }}
-                </a>
-              </div>
             </div>
           </div>
 
@@ -740,89 +682,6 @@
               </p>
             </div>
 
-            <div class="border-b-2 pb-16" id="round1"></div>
-            <!-- ^ id in wrong place-->
-            <div class="pt-16"></div>
-            <div class="text-headingsColor">
-              <!-- Should be here <a id="round1"/> -->
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("round1Heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-                id="round1Heading1"
-              >
-              <!-- ^ id in wrong place-->
-                {{ $t("round1Text") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <!-- Should be here <a id="round1Heading1"/> -->
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("round1Heading1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-                id="round1Heading2"
-              >
-              <!-- ^ id in wrong place-->
-                {{ $t("round1Text1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <!-- Should be here <a id="round1Heading2"/> -->
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-                id="round1Heading3"
-              >
-                <!-- ^ id in wrong place-->
-                {{ $t("round1Heading2") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-                id="fvround1Heading3"
-              >
-                <!-- ^ id in wrong place-->
-                {{ $t("round1Text2") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <!-- Should be here <a id="round1Heading3"/> -->
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("round1Heading3") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-              >
-                {{ $t("round1Text3") }}
-                <a class="cursor-pointer underline text-parrotGreen">{{
-                  $t("round1Text3Link1")
-                }}</a>
-                {{ $t("round1Text3Link1After") }}
-                <a class="cursor-pointer underline text-parrotGreen">
-                  {{ $t("round1Text3Link2") }}</a
-                >.
-                {{ $t("round1Text3Link2After") }}
-                <a class="cursor-pointer underline text-parrotGreen">
-                  {{ $t("round1Text3Link3") }}</a
-                >
-                {{ $t("round1Text3Link3After") }}
-              </p>
-            </div>
             <a
               href=""
               class="mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-rightSecButton text-xl leading-twentyFour hidden lg:flex mt-8 hover:scale-110 transition duration-300 ease-in-out"
