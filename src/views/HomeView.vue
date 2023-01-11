@@ -32,11 +32,6 @@
               >{{ $t("categories.nav-heading") }}</a
             >
             <a
-              href="#requirements"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
-              >{{ $t("Requirements") }}</a
-            >
-            <a
               href="#decisionMaking"
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("Decision Making") }}</a
@@ -129,20 +124,6 @@
             {{ $t("categories.types.nav-heading") }}
           </p>
 
-          <!-- Requirements mobile nav -->
-          <a
-            v-on:click="closeNav()"
-            href="#requirements"
-            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          >
-            {{ $t("Requirements") }}
-          </a>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("reqText1") }}</p>
-           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("reqText2") }}</p>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">  {{ $t("reqText3") }}
-          </p>
           <a
             v-on:click="closeNav()"
             href="#decisionMaking"
@@ -577,72 +558,6 @@
               </p>
             </div>
 
-            <!-- Requirements -->
-            <div class="border-b-2 pb-16" id="requirements"></div>
-            <div class="pt-16"></div>
-            <div class="text-headingsColor" id="noRetFunding">
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("Requirements") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("requirementsHeading1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-                id="pMOpenSrc"
-              >
-                {{ $t("requirementsHeading1Text") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("requirementsHeading2") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                id="pReports"
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-              >
-                {{ $t("requirementsHeading2Text") }}
-              </p>
-            </div>
-            <div></div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("requirementsHeading3") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText pb-8"
-              >
-                {{ $t("requirementsHeading3Text1") }}</p>
-
-                <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText pb-8"
-              >
-
-                {{ $t("requirementsHeading3Text2") }}</p>
-
-                <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-              >
-                {{ $t("requirementsHeading3Text3") }}
-              </p>
-            </div>
             <div class="border-b-2 pb-16" id="decisionMaking"></div>
             <div class="pt-16"></div>
             <div class="text-headingsColor" id="decisionEtcT1">

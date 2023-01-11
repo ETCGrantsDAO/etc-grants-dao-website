@@ -2,7 +2,6 @@
   "ETC": "ETC",
   "Cooperative": "Cooperative",
   "Overview": "Overview",
-  "Requirements": "Requirements",
   "Decision Making": "Decision Making",
   "Round 1": "Round 1",
   "Apply Now": "Apply Now",
@@ -85,17 +84,6 @@
   "overviewHeading2Text2-6": "- Timelines for applications, for assessments, for payout and for progress reporting.",
 
   "overviewHeading2Text2": "Everything will be happening via this website and on the various channels. Grant recipients will funded in $ETC, to aligh incentives with the network.",
-
-  "requirementsHeading1": "No Retroactive Funding",
-  "requirementsHeading1Text": "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants.",
-
-  "requirementsHeading2": "Projects Must Be Open Source",
-  "requirementsHeading2Text": "All projects must make their ''outputs'' available using permissive open source licensing (Apache 2, Mozilla MPL 2 or Creative Commons). Funding will not be provided for projects seeking to build propriatory solutions. The copyright will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
-
-  "requirementsHeading3": "Progress Reports",
-  "requirementsHeading3Text1": "Applicants are obliged to provide two status reports. The first report will be mid-project and the second report is due at the completion of the project, or when work towards its stated goals comes to an end for whatever reason.",
-  "requirementsHeading3Text2": "These reports will all be made public, as will the proposals themselves, together with feedback and rationale from the committee on each of the proposals explaining how their merits were assessed and how that assessment informed the decision-making process for allocation of funds.",
-  "requirementsHeading3Text3": "The first status report will be due 6 weeks after the funds are released, so around the end of January. The final status reports will be due mid-February. The intention for the program is for everything to be completely transparent so that applicants can see which proposals are having success, likely ''market rates'' for proposals and so on.",
 
   "decisionEtcHeading": "Decision Making For The ETC Grants Program",
 
