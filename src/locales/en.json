@@ -1,15 +1,9 @@
 {
   "ETC": "ETC",
   "Cooperative": "Cooperative",
-  "Overview": "Overview",
   "Round 1": "Round 1",
   "Apply Now": "Apply Now",
   "Application Form": "Application Form",
-
-  "Grant Round 1": "Grant Round 1",
-  "grantRound1T1": "What Is the Timeline for Application?",
-  "grantRound1T2": "How Much Funding Is Available?",
-  "grantRound1T3": "How do I Apply?",
 
   "tableHeading1": "CMC Ranking",
   "tableHeading2": "Project",
@@ -51,28 +45,6 @@
   "tableCol4-6": "$86K",
   "tableCol4-7": "$43K",
   "tableCol4-8": "$103K",
-
-  "round1Heading": "Round 1 Of The ETC Grants Program",
-
-  "round1Text": "We are seeking interesting and innovative dapps, along with foundational projects for enriching the ETC Defi ecosystem. We also welcome proposals related to events, education and other communication of ETC's unique value propositions.",
-
-  "round1Heading1": "What Is The Timeline For Application?",
-
-  "round1Text1": "The first round of ETC Grants was opened on Thursday 10th November 2022, when the program was announced on stage by Xmei Lin, Head of Marketing for Bitmain. The application process will be open until end-of-day Sunday 4th December 2022 (so applications are open for just over 3 weeks). The projects receiving funding will be announced on Thursday 15th December and payments will be made to the recipients that day.",
-
-  "round1Heading2": "How Much Funding Is Available?",
-
-  "round1Text2": "Up to $1M USD worth of ETC is available for successful applicants in this first round of grants, which was funded by Antpool ($750K) and ETC Coop ($250K). Individual grant proposals cannot exceed $50K USD per round.",
-
-  "round1Heading3": "How Do I Apply?",
-
-  "round1Text3": "Please read the ",
-  "round1Text3Link1": " requirements page",
-  "round1Text3Link1After": " and then fill in this ",
-  "round1Text3Link2": "application form",
-  "round1Text3Link2After": " All ongoing communication will be via this website and on the associated ",
-  "round1Text3Link3": "Telegram",
-  "round1Text3Link3After": " channel. Grant recipients will funded in $ETC, to aligh incentives with the network.",
 
   "footerHeading1": "Learn",
   "footerHeading1Text1": "ethereumclassic.org",
