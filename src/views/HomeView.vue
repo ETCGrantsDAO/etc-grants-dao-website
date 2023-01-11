@@ -91,18 +91,18 @@
             </span>
           </a>
 
-          <!-- What does this section correspond to? -->
+          <!-- As per Scott, this is the navigation used for the mobile version of the website -->
           <a
             v-on:click="closeNav()"
-            href="#overview"
+            href="#about"
             class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
           >
-            {{ $t("Overview") }}
+            {{ $t("about.shortened") }}
           </a>
-          <p class="font-notoSans text-textColor text-base font-normal">
-            {{ $t("overviewText") }}
-            <span class="pb-8">{{ $t("overviewText1") }}</span>
-          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("about.ethereumClassicIn2023.shortened") }}</p>
+           <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("about.funding.shortened") }}</p>          
           <a
             v-on:click="closeNav()"
             href="#requirements"
@@ -181,7 +181,7 @@
         >
         <!-- ^ id in wrong place-->
 
-        <!-- Left hand side navigation -->
+        <!-- Left hand side navigation for desktop site -->
           <div
             class="z-20 w-bodyLeftSecMobile lg:w-bodyLeftSecDesktop hidden md:block bodyLeftSec relative"
           >
@@ -212,7 +212,7 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#about.ethereumClassicIn2023"
                 >
-                  {{ $t("about.ethereumClassicIn2023.heading") }}
+                  {{ $t("about.ethereumClassicIn2023.shortened") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
