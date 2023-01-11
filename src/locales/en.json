@@ -326,8 +326,9 @@
     }
   },
 
-  "whatProjectsToFund": {
+  "suggestions": {
     "heading": "What kind of projects are you looking to fund?",
+    "nav-heading": "Suggestions",
     "body": {
       "p1": "Here are some ideas of projects which are likely to be well received, but please just take these as suggestions and feel free to bring your own ideas to the table too.",
       "bullets": {

@@ -35,6 +35,11 @@
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("requirements.nav-heading") }}</a
             >
+            <a
+              href="#suggestions"
+              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
+              >{{ $t("suggestions.nav-heading") }}</a
+            >
 
             <a
               href=""
@@ -143,6 +148,15 @@
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
             {{ $t("requirements.publiclyVisible.nav-heading") }}
           </p>
+
+          <!-- Suggestions mobile nav -->
+          <a
+            v-on:click="closeNav()"
+            href="#suggestions"
+            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+          >
+            {{ $t("suggestions.nav-heading") }}
+          </a>
 
         </div>
       </section>
@@ -315,6 +329,17 @@
                   {{ $t("requirements.publiclyVisible.nav-heading") }}
                 </a>
               </div>
+
+              <!-- Suggestions desktop navigation -->
+              <div class="text-headingsColor pt-8">
+                <a
+                  class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+                  href="#suggestions"
+                >
+                  {{ $t("suggestions.nav-heading") }}
+                </a>
+              </div>
+
 
             </div>
           </div>
