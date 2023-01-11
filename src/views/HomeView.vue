@@ -27,6 +27,11 @@
               >{{ $t("about.nav-heading") }}</a
             >
             <a
+              href="#categories"
+              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
+              >{{ $t("categories.nav-heading") }}</a
+            >
+            <a
               href="#requirements"
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("Requirements") }}</a
@@ -48,6 +53,8 @@
             >
               {{ $t("Apply Now") }}</a
             >
+
+            <!-- English/Chinese toggle-->
             <div class="my-auto text-black"><LocaleSwitcher /></div>
 
             <!-- This is not visible ? -->
@@ -57,7 +64,7 @@
               ref="navSearch"
             />
 
-            <!-- This is not visible ? -->
+            <!-- Mobile-only hamburger view -->
             <img
               src="../images/hamBurger.svg"
               v-on:click="openNav()"
@@ -109,7 +116,7 @@
           <!-- Grant categories mobile nav -->
           <a
             v-on:click="closeNav()"
-            href="#requirements"
+            href="#categories"
             class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
           >
             {{ $t("categories.nav-heading") }}
@@ -220,7 +227,7 @@
                 </a>
               </div>
 
-              <!-- About navigation -->
+              <!-- Desktop About navigation -->
               <div class="text-headingsColor pt-8 top-[136px] bg-background">
                 <a
                   class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
@@ -247,11 +254,11 @@
                 </a>
               </div>
 
-              <!-- Grant categories navigation -->
+              <!-- Desktop Grant categories navigation -->
               <div class="text-headingsColor pt-8">
                 <a
                   class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-                  href="#requirements"
+                  href="#categories"
                 >
                   {{ $t("categories.nav-heading") }}
                 </a>
@@ -259,7 +266,7 @@
               <div class="text-headingsColor pt-6 pl-1">
                 <a
                   class="font-notoSans text-textColor text-base font-normal"
-                  href="#noRetFunding"
+                  href="#categories.general"
                 >
                   {{ $t("categories.general.nav-heading") }}
                 </a>
@@ -267,7 +274,7 @@
               <div class="text-headingsColor pt-6 pl-1">
                 <a
                   class="font-notoSans text-textColor text-base font-normal"
-                  href="#pMOpenSrc"
+                  href="#categories.targeted"
                 >
                   {{ $t("categories.targeted.nav-heading") }}
                 </a>
@@ -275,7 +282,7 @@
               <div class="text-headingsColor pt-6 pl-1">
                 <a
                   class="font-notoSans text-textColor text-base font-normal"
-                  href="#pReports"
+                  href="#categories.types"
                 >
                   {{ $t("categories.types.nav-heading") }}
                 </a>
@@ -505,6 +512,72 @@
                 {{ $t("about.funding.body.p2") }}
               </p>
             </div>
+
+            <!-- Grant categories -->
+            <a id="categories"/>
+            <div class="border-b-2 pb-16"></div>
+            <div class="pt-16"></div>
+            <div class="text-headingsColor" id="noRetFunding">
+              <p
+                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("categories.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("categories.body.p1") }}
+              </p>
+            </div>
+            <a id="categories.general"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("categories.general.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("categories.general.body.p1") }}
+              </p>
+            </div>
+            <a id="categories.targeted"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("categories.targeted.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("categories.targeted.body.p1") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("categories.targeted.body.p2") }}
+              </p>
+            </div>
+            <a id="categories.types"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("categories.types.heading") }}
+              </p>
+            </div>
+
+            <!-- Requirements -->
             <div class="border-b-2 pb-16" id="requirements"></div>
             <div class="pt-16"></div>
             <div class="text-headingsColor" id="noRetFunding">
