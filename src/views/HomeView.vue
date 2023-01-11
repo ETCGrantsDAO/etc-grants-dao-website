@@ -9,7 +9,6 @@
           <div
             class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left"
           >
-            <img src="../images/favicon.svg" alt="" ref="navLogo" />
             <p
               class="text-sm w-full my-auto pl-3 text-headingsColor lg:text-2xl font-semibold font-notoSans"
             >
