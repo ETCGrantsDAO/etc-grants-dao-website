@@ -707,6 +707,49 @@
               </p>
             </div>
 
+            <!-- Suggestions -->
+            <a id="suggestions"/>
+            <div class="border-b-2 pb-16"></div>
+            <div class="pt-16"></div>
+            <div class="text-headingsColor">
+              <p
+                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("suggestions.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("suggestions.body.p1") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("suggestions.body.bullets.b1") }} <br/>
+                - {{ $t("suggestions.body.bullets.b2") }} <br/>
+                - {{ $t("suggestions.body.bullets.b3") }} <br/>
+                - {{ $t("suggestions.body.bullets.b4") }} <br/>
+                - {{ $t("suggestions.body.bullets.b5") }} <br/>
+                - {{ $t("suggestions.body.bullets.b6") }} <br/>
+                - {{ $t("suggestions.body.bullets.b7") }} <br/>
+                - {{ $t("suggestions.body.bullets.b8") }} <br/>
+                - {{ $t("suggestions.body.bullets.b9") }} <br/>
+                - {{ $t("suggestions.body.bullets.b10") }} <br/>
+                - {{ $t("suggestions.body.bullets.b11") }} <br/>
+                - {{ $t("suggestions.body.bullets.b12") }} <br/>
+                - {{ $t("suggestions.body.bullets.b13") }} <br/>
+                - {{ $t("suggestions.body.bullets.b14") }} <br/>
+                - {{ $t("suggestions.body.bullets.b15") }} <br/>
+                - {{ $t("suggestions.body.bullets.b16") }} <br/>
+                - {{ $t("suggestions.body.bullets.b17") }} <br/>
+              </p>
+            </div>
+
+            <!-- Application form at bottom of page -->
             <a
               href=""
               class="mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-rightSecButton text-xl leading-twentyFour hidden lg:flex mt-8 hover:scale-110 transition duration-300 ease-in-out"
