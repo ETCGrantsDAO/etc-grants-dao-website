@@ -1,5 +1,4 @@
 {
-  "ETC Cooperative": "ETC Cooperative",
   "ETC": "ETC",
   "Cooperative": "Cooperative",
   "Overview": "Overview",
@@ -8,9 +7,6 @@
   "Round 1": "Round 1",
   "Apply Now": "Apply Now",
   "Application Form": "Application Form",
-
-  "title": "Ethereum Classic Grants",
-  "description": " We aim to revitalize the ecosystem by providing no strings attached funding to promising projects building on Ethereum Classic.",
 
   "Contents": "Contents",
   "overviewText": "Who is Funding this program? how much has been pledged?",
@@ -45,42 +41,38 @@
   "tableCol1-1": "#1",
   "tableCol1-2": "#9",
   "tableCol1-3": "#20",
-  "tableCol1-4": "#1",
-  "tableCol1-5": "#23",
-  "tableCol1-6": "#24",
-  "tableCol1-7": "#28",
-  "tableCol1-8": "#56",
-  "tableCol1-9": "#64",
+  "tableCol1-4": "#23",
+  "tableCol1-5": "#24",
+  "tableCol1-6": "#28",
+  "tableCol1-7": "#56",
+  "tableCol1-8": "#64",
 
   "tableCol2-1": "Bitcoin",
   "tableCol2-2": "Dogecoin",
   "tableCol2-3": "Litecoin",
-  "tableCol2-4": "Bitcoin",
-  "tableCol2-5": "ETC",
-  "tableCol2-6": "Monero",
-  "tableCol2-7": "Bitcoin Cash",
-  "tableCol2-8": "Bitcoin SV",
-  "tableCol2-9": "ZCash",
+  "tableCol2-4": "ETC",
+  "tableCol2-5": "Monero",
+  "tableCol2-6": "Bitcoin Cash",
+  "tableCol2-7": "Bitcoin SV",
+  "tableCol2-8": "ZCash",
 
   "tableCol3-1": "$313.1B",
   "tableCol3-2": "$10.6B",
   "tableCol3-3": "$3.8B",
-  "tableCol3-4": "$313.1B",
-  "tableCol3-5": "$2.7B",
-  "tableCol3-6": "$2.3B",
-  "tableCol3-7": "$1.8B",
-  "tableCol3-8": "$707M",
-  "tableCol3-9": "$560M",
+  "tableCol3-4": "$2.7B",
+  "tableCol3-5": "$2.3B",
+  "tableCol3-6": "$1.8B",
+  "tableCol3-7": "$707M",
+  "tableCol3-8": "$560M",
 
   "tableCol4-1": "$15.4M",
   "tableCol4-2": "$1.1M",
   "tableCol4-3": "$371K",
-  "tableCol4-4": "$15.4M",
-  "tableCol4-5": "$314K",
-  "tableCol4-6": "$57K",
-  "tableCol4-7": "$86K",
-  "tableCol4-8": "$43K",
-  "tableCol4-9": "$103K",
+  "tableCol4-4": "$314K",
+  "tableCol4-5": "$57K",
+  "tableCol4-6": "$86K",
+  "tableCol4-7": "$43K",
+  "tableCol4-8": "$103K",
 
   "overviewHeading1": "  Who Is Funding This Program? How Much Has Been Pledged?",
 
@@ -186,7 +178,10 @@
 
 
 
-
+  "etc-grants-dao": {
+    "title": "ETC Grants DAO",
+    "description": " We aim to revitalize the ecosystem by providing no strings attached funding to promising projects building on Ethereum Classic."
+  },
 
   "about": {
     "heading": "About ETC Grants DAO",

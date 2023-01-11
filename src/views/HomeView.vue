@@ -13,7 +13,7 @@
             <p
               class="text-sm w-full my-auto pl-3 text-headingsColor lg:text-2xl font-semibold font-notoSans"
             >
-              {{ $t("ETC Cooperative") }}
+              {{ $t("etc-grants-dao.title") }}
             </p>
           </div>
 
@@ -153,12 +153,12 @@
             <p
               class="pl-heroHeadingMobile pr-heroHeadingMobile md:pl-0 md:pr-0 text-fourty leading-heroHeadingMobile text-headingsColor md:text-xxl md:leading-heroHeadingDesktop font-bold font-notoSans"
             >
-              {{ $t("title") }}
+              {{ $t("etc-grants-dao.title") }}
             </p>
             <p
               class="text-heroTextMobile md:text-heroTextDesktop text-headingsColor leading-heroText pt-6 pb-6 font-dmSans pl-8 pr-8 md:pl-0 md:pr-0"
             >
-              {{ $t("description") }}
+              {{ $t("etc-grants-dao.description") }}
             </p>
             <a
               href=""
@@ -408,13 +408,13 @@
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-3") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-3") }}</td>
                 </tr>
-                <tr>
+                <tr class="bg-parrotGreen font-bold">
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-4") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-4") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-4") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-4") }}</td>
                 </tr>
-                <tr class="bg-parrotGreen font-bold">
+                <tr>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-5") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-5") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-5") }}</td>
@@ -437,14 +437,6 @@
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-8") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-8") }}</td>
                   <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-8") }}</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-9") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-9") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-9") }}</td>
-                  <td class="pl-1 pt-2 text-left">
-                    {{ $t("tableCol4-9") }}
-                  </td>
                 </tr>
               </tbody>
             </table>
