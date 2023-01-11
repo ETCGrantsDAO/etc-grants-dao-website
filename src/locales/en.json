@@ -218,11 +218,13 @@
     }
   },
 
-  "needToKnow": {
+  "requirements": {
     "heading": "What do grant applications need to know?",
+    "nav-heading": "Requirements",
  
     "englishOrChinese": {
       "heading": "English or Chinese",
+      "nav-heading": "English or Chinese",
       "body": {
         "p1": "The entire ETC Grants DAO process has been built with equal access in Chinese and English as a primary requirement. This website, application process, display of proposals and all other elements of the process will be visible in both languages. We want to open up accessibility to Ethereum Classic for the Chinese-speaking community, and welcome applications from that demographic, even if the outputs of those proposals are only applicable to a Chinese-speaking audience. That is no different than existing projects where the value only accrues to English speakers.",
         "p2": "We will be translating all of the applications from English to Chinese and visa-versa so that speakers of either language are able to see all of the applications. The feedback from the Committee on projects and final fund assignments will also be available in both languages.",
@@ -232,6 +234,7 @@
 
     "noRetroactiveFunding": {
       "heading": "No Retroactive Funding",
+      "nav-heading": "No Retroactive Funding",
       "body": {
         "p1" : "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants"
       }
@@ -239,19 +242,23 @@
 
     "openSource": {
       "heading": "Projects must be permissively licensed open source",
+      "nav-heading": "Open source",
       "body": {
         "p1" : "All projects must make their 'outputs' available using permissive open source licensing, with only the following licenses being acceptable:",
-        "p2": "Apache 2.0 - good for source code",
-        "p3": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
-        "p4": "Creative Commons (CC-BY-SA) - good for documentation",
-        "p5": "Funding will not be provided for projects seeking to build proprietary solutions.",
-        "p6": "The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
-        "p7": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering."  
+        "bullets": {
+          "b1": "Apache 2.0 - good for source code",
+          "b2": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
+          "b3": "Creative Commons (CC-BY-SA) - good for documentation"
+        },
+        "p2": "Funding will not be provided for projects seeking to build proprietary solutions.",
+        "p3": "The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
+        "p4": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering."
       }
     },
 
     "kycAml": {
       "heading": "Applicants will be subject to KYC/AML checks",
+      "nav-heading": "KYC/AML",
       "body": {
         "p1": "For regulatory compliance, applicants for the grants process will be subject to KYC (know your customer) checks through a third party agency. None of that information will be held by the parties participating in the ETC Grants DAO processes. Real names or other PII (personally identifying information) will not be made public unless applications choose to make that information publicly available on their application (ie. work history, past projects)."  
       }
@@ -259,6 +266,7 @@
 
     "publiclyVisible": {
       "heading": "All applications will be publicly visible",
+      "nav-heading": "Publicly visible",
       "body": {
         "p1": "All applications will be visible to the public on the website, so that other applicants can calibrate their own applications and get a good idea of the 'playing field'. This will become especially important in later rounds.",
         "p2": "Here are the ZCash Foundation proposals as an example of a desired end-state for the ETC program, though we are likely to have something more primitive at first."

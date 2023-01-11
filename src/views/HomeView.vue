@@ -32,6 +32,11 @@
               >{{ $t("categories.nav-heading") }}</a
             >
             <a
+              href="#requirements"
+              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
+              >{{ $t("requirements.nav-heading") }}</a
+            >
+            <a
               href="#decisionMaking"
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("Decision Making") }}</a
@@ -117,11 +122,37 @@
             {{ $t("categories.nav-heading") }}
           </a>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("categories.general.nav-heading") }}</p>
-           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("categories.targeted.nav-heading") }}</p>
+            {{ $t("categories.general.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("categories.targeted.nav-heading") }}
+          </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
             {{ $t("categories.types.nav-heading") }}
+          </p>
+
+          <!-- Requirements mobile nav -->
+          <a
+            v-on:click="closeNav()"
+            href="#requirements"
+            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+          >
+            {{ $t("requirements.nav-heading") }}
+          </a>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("requirements.englishOrChinese.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("requirements.noRetroactiveFunding.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("requirements.openSource.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("requirements.kycAml.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("requirements.publiclyVisible.nav-heading") }}
           </p>
 
           <a
@@ -208,7 +239,7 @@
                 </a>
               </div>
 
-              <!-- Desktop About navigation -->
+              <!-- About desktop navigation -->
               <div class="text-headingsColor pt-8 top-[136px] bg-background">
                 <a
                   class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
@@ -235,7 +266,7 @@
                 </a>
               </div>
 
-              <!-- Desktop Grant categories navigation -->
+              <!-- Grant categories desktop navigation -->
               <div class="text-headingsColor pt-8">
                 <a
                   class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
@@ -266,6 +297,56 @@
                   href="#categories.types"
                 >
                   {{ $t("categories.types.nav-heading") }}
+                </a>
+              </div>
+
+              <!-- Requirements desktop navigation -->
+              <div class="text-headingsColor pt-8">
+                <a
+                  class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+                  href="#requirements"
+                >
+                  {{ $t("requirements.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#requirements.englishOrChinese"
+                >
+                  {{ $t("requirements.englishOrChinese.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#requirements.noRetroactiveFunding"
+                >
+                  {{ $t("requirements.noRetroactiveFunding.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#requirements.openSource"
+                >
+                  {{ $t("requirements.openSource.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#requirements.kycAml"
+                >
+                  {{ $t("requirements.kycAml.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#requirements.publiclyVisible"
+                >
+                  {{ $t("requirements.publiclyVisible.nav-heading") }}
                 </a>
               </div>
 
@@ -555,6 +636,140 @@
                 class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
               >
                 {{ $t("categories.types.heading") }}
+              </p>
+            </div>
+
+            <!-- Requirements -->
+            <a id="requirements"/>
+            <div class="border-b-2 pb-16"></div>
+            <div class="pt-16"></div>
+            <div class="text-headingsColor">
+              <p
+                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("requirements.heading") }}
+              </p>
+            </div>
+            <a id="requirements.englishOrChinese"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("requirements.englishOrChinese.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.englishOrChinese.body.p1") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.englishOrChinese.body.p2") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.englishOrChinese.body.p3") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("requirements.noRetroactiveFunding.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.noRetroactiveFunding.body.p1") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("requirements.openSource.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.openSource.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("requirements.openSource.body.bullets.b1") }} <br/>
+                - {{ $t("requirements.openSource.body.bullets.b2") }} <br/>
+                - {{ $t("requirements.openSource.body.bullets.b3") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.openSource.body.p2") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.openSource.body.p3") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.openSource.body.p4") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("requirements.kycAml.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.kycAml.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("requirements.publiclyVisible.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.publiclyVisible.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("requirements.publiclyVisible.body.p2") }} <br/>
               </p>
             </div>
 
