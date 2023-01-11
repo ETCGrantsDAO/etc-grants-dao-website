@@ -8,9 +8,6 @@
   "Apply Now": "Apply Now",
   "Application Form": "Application Form",
 
-  "Contents": "Contents",
-  "overviewText": "Who is Funding this program? how much has been pledged?",
-  "overviewText1": "How is it going to work?",
   "reqText1": " No retroactive Funding",
   "reqText2": "Projects must be open source",
   "reqText3": " Progress reports",
@@ -20,18 +17,6 @@
   "grantRound1T1": "What Is the Timeline for Application?",
   "grantRound1T2": "How Much Funding Is Available?",
   "grantRound1T3": "How do I Apply?",
-
-  "overviewT1": "The ETC Grants program was launched in November 2022 to support the growth of the",
-  "overviewT1Link": "Ethereum Classic",
-  "overviewT1AfterLink": "ecosystem.",
-  "overviewT2": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on",
-  "overviewT2Link1": "every major exchange",
-  "overviewT2AfterLink1": " and hundreds of millions of dollars of $ETC are traded daily but there are very",
-  "overviewT2Link2": "few decentralized applications",
-  "overviewT2AfterLink2": "using the platform and only a very small amount of",
-  "overviewT2Link3": "TVL",
-  "overviewT2AfterLink3": " in its Defi ecosystem and only a few",
-  "overviewT2Link4": "NFT projects.",
 
   "tableHeading1": "CMC Ranking",
   "tableHeading2": "Project",
@@ -177,19 +162,25 @@
   "footerHeading4": "Partners",
 
 
+  "-------------------------------------------------------------------------------------------": "",
+  "EVERYTHING-ABOVE-THIS-LINE-IS-OLD-STRINGS-TO-BE-IGNORED-AND-WITH-BE-DELETED-BY-BOB-OVER-TIME": "",
+  "THE-NEW-STRINGS-ARE-BELOW-AND-EVERYTHING-WILL-BE-IN-THIS-NEW-NESTED-FORM-IN-THE-END": "",
+  "--------------------------------------------------------------------------------------------": "",
 
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
     "description": " We aim to revitalize the ecosystem by providing no strings attached funding to promising projects building on Ethereum Classic."
   },
 
+  "contents-title": "Contents",
+
   "about": {
     "heading": "About ETC Grants DAO",
-    "shortened": "About",
+    "nav-heading": "About",
 
     "ethereumClassicIn2023": {
       "heading": "Ethereum Classic in 2023",
-      "shortened": "Ethereum Classic in 2023",
+      "nav-heading": "Ethereum Classic in 2023",
       "body": {
         "p1": "The ETC Grants program was first announced at the WDMS conference in November 2022 to support the growth of the Ethereum Classic ecosystem.",
         "p2": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on every major exchange and hundreds of millions of dollars of $ETC are traded daily but there are very few decentralized applications using the platform, only a very small amount of TVL in its Defi ecosystem and few NFT projects.",
@@ -200,7 +191,7 @@
 
     "funding": {
       "heading": "Who is funding this program? How much has been pledged?",
-      "shortened": "Funding",
+      "nav-heading": "Funding",
       "body": {
         "p1": "In July 2022, Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
         "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
@@ -210,27 +201,31 @@
 
   "categories": {
     "heading": "Grants categories",
+    "nav-heading": "Categories",
     "body": {
       "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
     },
 
-    "generalGrants": {
+    "general": {
       "heading": "General grants",
+      "nav-heading": "General",
       "body": {
         "p1": "General grants are open to all and any teams looking to build their projects on ETC, with anything they would like to propose. There is a list of suggestions, but all options are the on the table. We welcome your creative suggestions on how to add value."
       }
     },
 
-    "targetedGrants": {
+    "targeted": {
       "heading": "Targeted grants",
+      "nav-heading": "Targeted",
       "body": {
         "p1": "Targeted grants are those that have been selected by the grant selection committee and community as priority items and growth areas and which have an open request. These items may or may not change each grant round, as priorities change and teams launch their projects.",
         "p2": "There may not be any open requests at the beginning of a new round. In that case, general grants should be selected for the category."  
       }
     },
 
-    "typesOfGrant": {
+    "types": {
       "heading": "Types of grant",
+      "nav-heading": "Types",
       "DIAGRAM_HERE": "xxx"
     }
   },

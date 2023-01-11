@@ -24,7 +24,7 @@
             <a
               href="#about"
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
-              >{{ $t("about.shortened") }}</a
+              >{{ $t("about.nav-heading") }}</a
             >
             <a
               href="#requirements"
@@ -92,17 +92,37 @@
           </a>
 
           <!-- As per Scott, this is the navigation used for the mobile version of the website -->
+
+          <!-- About mobile nav -->
           <a
             v-on:click="closeNav()"
             href="#about"
             class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
           >
-            {{ $t("about.shortened") }}
+            {{ $t("about.nav-heading") }}
           </a>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("about.ethereumClassicIn2023.shortened") }}</p>
+            {{ $t("about.ethereumClassicIn2023.nav-heading") }}</p>
            <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("about.funding.shortened") }}</p>          
+            {{ $t("about.funding.nav-heading") }}</p>
+
+          <!-- Grant categories mobile nav -->
+          <a
+            v-on:click="closeNav()"
+            href="#requirements"
+            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+          >
+            {{ $t("categories.nav-heading") }}
+          </a>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("categories.general.nav-heading") }}</p>
+           <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("categories.targeted.nav-heading") }}</p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("categories.types.nav-heading") }}
+          </p>
+
+          <!-- Requirements mobile nav -->
           <a
             v-on:click="closeNav()"
             href="#requirements"
@@ -188,23 +208,26 @@
             <div
               class="sticky top-32 overflow-y-auto h-bodyLeft bodyLeftSticky pr-8 mr-4"
             >
+              <!-- Contents title -->
               <div class="top-28 bg-background navItems w-fit">
                 <a href="#" class="flex">
                   <img src="../images/contentIcon.svg" class="mr-3" />
                   <p
                     class="font-notoSans text-headingsColor text-lg leading-twentyEight mt-1"
                   >
-                    {{ $t("Contents") }}
+                    {{ $t("contents-title") }}
                   </p>
                 </a>
               </div>
+
+              <!-- About navigation -->
               <div class="text-headingsColor pt-8 top-[136px] bg-background">
                 <a
                   class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
                   ref="blOverview"
                   href="#about"
                 >
-                  {{ $t("about.shortened") }}
+                  {{ $t("about.nav-heading") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
@@ -212,7 +235,7 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#about.ethereumClassicIn2023"
                 >
-                  {{ $t("about.ethereumClassicIn2023.shortened") }}
+                  {{ $t("about.ethereumClassicIn2023.nav-heading") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
@@ -220,16 +243,17 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#about.funding"
                 >
-                  {{ $t("about.funding.shortened") }}
+                  {{ $t("about.funding.nav-heading") }}
                 </a>
               </div>
 
+              <!-- Grant categories navigation -->
               <div class="text-headingsColor pt-8">
                 <a
                   class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
                   href="#requirements"
                 >
-                  {{ $t("Requirements") }}
+                  {{ $t("categories.nav-heading") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
@@ -237,7 +261,7 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#noRetFunding"
                 >
-                  {{ $t("reqText1") }}
+                  {{ $t("categories.general.nav-heading") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
@@ -245,7 +269,7 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#pMOpenSrc"
                 >
-                  {{ $t("reqText2") }}
+                  {{ $t("categories.targeted.nav-heading") }}
                 </a>
               </div>
               <div class="text-headingsColor pt-6 pl-1">
@@ -253,7 +277,7 @@
                   class="font-notoSans text-textColor text-base font-normal"
                   href="#pReports"
                 >
-                  {{ $t("reqText3") }}
+                  {{ $t("categories.types.nav-heading") }}
                 </a>
               </div>
 
