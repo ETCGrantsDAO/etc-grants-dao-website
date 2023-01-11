@@ -36,11 +36,6 @@
               >{{ $t("requirements.nav-heading") }}</a
             >
             <a
-              href="#decisionMaking"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
-              >{{ $t("Decision Making") }}</a
-            >
-            <a
               href="#round1"
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("Round 1") }}</a
@@ -154,17 +149,6 @@
             {{ $t("requirements.publiclyVisible.nav-heading") }}
           </p>
 
-          <a
-            v-on:click="closeNav()"
-            href="#decisionMaking"
-            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          >
-            {{ $t("Decision Making") }}
-          </a>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("decMakingT1") }}</p>  
-         <p class="font-notoSans text-textColor text-base font-normal pb-4"> {{ $t("decMakingT2") }}
-          </p>
           <a
             v-on:click="closeNav()"
             href="#round1"
@@ -349,22 +333,6 @@
                 </a>
               </div>
 
-              <div class="text-headingsColor pt-8">
-                <a
-                  class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-                  href="#decisionMaking"
-                >
-                  {{ $t("Decision Making") }}
-                </a>
-              </div>
-              <div class="text-headingsColor pt-6 pl-1">
-                <a
-                  class="font-notoSans text-textColor text-base font-normal"
-                  href="#decisionEtcT1"
-                >
-                  {{ $t("decMakingT1") }}
-                </a>
-              </div>
               <div class="text-headingsColor pt-6 pl-1">
                 <a
                   class="font-notoSans text-textColor text-base font-normal"
@@ -770,68 +738,6 @@
               >
                 {{ $t("requirements.publiclyVisible.body.p2") }} <br/>
               </p>
-            </div>
-
-            <div class="border-b-2 pb-16" id="decisionMaking"></div>
-            <div class="pt-16"></div>
-            <div class="text-headingsColor" id="decisionEtcT1">
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold  pb-8"
-              >
-                {{ $t("decisionEtcHeading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold  pb-8"
-              >
-                {{ $t("decisionEtcHeading1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText  pb-8"
-              >
-                {{ $t("decisionEtcHeading1Text1") }}</p>
-
-                <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText  pb-8"
-              >
-                {{ $t("decisionEtcHeading1Text2") }}
-                <a class="cursor-pointer underline text-parrotGreen">
-                  {{ $t("decisionEtcHeading1Text2Link") }}</a
-                >
-                {{ $t("decisionEtcHeading1Text2LinkAfter") }}</p>
-
-                <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText  pb-8"
-              >
-                {{ $t("decisionEtcHeading1Text3") }}
-                <a class="cursor-pointer underline text-parrotGreen">{{
-                  $t("decisionEtcHeading1Text3Link")
-                }}</a
-                >{{ $t("decisionEtcHeading1Text3LinkAfter") }} </p> <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText" id="stComitteMembers"
-              >
-                {{ $t("decisionEtcHeading1Text4") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
-              >
-                {{ $t("decisionEtcHeading2") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <list
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
-              >
-                <li>{{ $t("decisionEtcHeading2List1") }}</li>
-                <li>{{ $t("decisionEtcHeading2List2") }}</li>
-                <li>{{ $t("decisionEtcHeading2List3") }}</li>
-                <li>{{ $t("decisionEtcHeading2List4") }}</li>
-              </list>
             </div>
 
             <div class="border-b-2 pb-16" id="round1"></div>
