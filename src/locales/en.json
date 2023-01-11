@@ -6,9 +6,6 @@
   "Apply Now": "Apply Now",
   "Application Form": "Application Form",
 
-  "reqText1": " No retroactive Funding",
-  "reqText2": "Projects must be open source",
-  "reqText3": " Progress reports",
   "Grant Round 1": "Grant Round 1",
   "grantRound1T1": "What Is the Timeline for Application?",
   "grantRound1T2": "How Much Funding Is Available?",
@@ -54,33 +51,6 @@
   "tableCol4-6": "$86K",
   "tableCol4-7": "$43K",
   "tableCol4-8": "$103K",
-
-  "overviewHeading1": "  Who Is Funding This Program? How Much Has Been Pledged?",
-
-  "overviewHeading1Text1": " In July 2022, Antpool ",
-  "overviewHeading1Text1Link1": "announced",
-  "overviewHeading1Text1Link1After": " that they  were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig",
-  "overviewHeading1Text1Link2": "(0xA208...E8D6)",
-  "overviewHeading1Text1Link2After": " on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig",
-  "overviewHeading1Text1Link3": "(0x3db3...2f82)",
-  "overviewHeading1Text1Link3After": " on ETC mainnet.",
-
-  "overviewHeading1Text2": "The ETC Cooperative had $250K USD",
-  "overviewHeading1Text2Link": "budgeted",
-  "overviewHeading1Text2LinkAfter": " for grants during calendar year 2022 and will be contributing those funds into the program as well.",
-
-  "overviewHeading2": "How Is It Going to Work?",
-
-  "overviewHeading2Text1": "The grants process will be open for proposals once every quarter. A timetable will be published for each round showing:",
-
-  "overviewHeading2Text2-1": "- When the process is open for applications.",
-  "overviewHeading2Text2-2": "- Total maximum funding assigned to this round.",
-  "overviewHeading2Text2-3": "- What kind of projects will be welcomed in that round.",
-  "overviewHeading2Text2-4": "- How to apply for a grant and what kind of information you must provide.",
-  "overviewHeading2Text2-5": "- Expectations on likely USD amounts for particular proposals. ",
-  "overviewHeading2Text2-6": "- Timelines for applications, for assessments, for payout and for progress reporting.",
-
-  "overviewHeading2Text2": "Everything will be happening via this website and on the various channels. Grant recipients will funded in $ETC, to aligh incentives with the network.",
 
   "round1Heading": "Round 1 Of The ETC Grants Program",
 

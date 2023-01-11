@@ -1,16 +1,10 @@
 {
   "ETC": "位符",
   "Cooperative": "占位符占位",
-  "Overview": "占位符",
   "Round 1": "占位符 1",
   "Apply Now": "占位符符",
   "Application Form": "占位符符占 位符符",
 
-  "reqText1": "占位符符 占位符符 占位符符.",
-  "reqText2": "占位符符 占位符符 占位符符.",
-  "reqText3": " 占位符符 占位符符",
-  "decMakingT1": "占位符符 占位符符 占位符符 占位符符?",
-  "decMakingT2": "占位符符 占位符符",
   "Grant Round 1": "占位符符 占位 1",
   "grantRound1T1": "占位符符 占位符符 占位 占位符符?",
   "grantRound1T2": " 占位符符 占位符符 占位 占位符符?",
@@ -60,32 +54,6 @@
   "tableCol4-7": "符符",
   "tableCol4-8": "符符",
   "tableCol4-9": "符符",
-
-  "overviewHeading1": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1Link1": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1Link1After": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1Link2": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1Link2After": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1Link3": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-  "overviewHeading1Text1Link3After": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-
-  "overviewHeading1Text2": "占位符符 占位符符 占位 占位符符 占位符符 占位",
-  "overviewHeading1Text2Link": "占位符符符",
-  "overviewHeading1Text2LinkAfter": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符",
-
-  "overviewHeading2": "占位符符 占位符符 占位 占位符符 占位符符 占位",
-
-  "overviewHeading2Text1": "占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符 占位符符 占位符符 占位 占位符符:",
-
-  "overviewHeading2Text2-1": "- 占位符符 占位符符 占位 占位符符 占位符符 占位",
-  "overviewHeading2Text2-2": "-占位符符 占位符符 占位 占位符符 占位符符 占位",
-  "overviewHeading2Text2-3": "- 占位符符 占位符符 占位 占位符符 占位符符 占位",
-  "overviewHeading2Text2-4": "-占位符符 占位符符 占位 占位符符 占位符符 占位",
-  "overviewHeading2Text2-5": "-占位符符 占位符符 占位 占位符符 占位符符 占位",
-  "overviewHeading2Text2-6": "- 占位符符 占位符符 占位 占位符符 占位符符 占位",
-
-  "overviewHeading2Text2": "占位符符 占位符符 占位 占位符符 占位符符 占位占位符符 占位符符 占位 占位符符 占位符符 占位占位符符 占位符符 占位 占位符符 占位符符 占位占位符符 占位符符 占位 占位符符 占位符符 占位",
 
   "round1Heading": "占位符符 占位符符 占位 占位符符 占位符符占位符符 ",
 
