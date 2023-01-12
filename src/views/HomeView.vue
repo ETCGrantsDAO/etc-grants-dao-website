@@ -2,57 +2,8 @@
 <template>
   <div>
     <div class="bg-background p-0 relative">
-      <nav
-        class="z-40 sticky pl-8 pr-6 xl:px-28 py-navMobile md:py-8 text-headingsColor top-0 bg-background w-fullWidth border-b-2 lg:border-b-0 border-footerBorder"
-        ref="navBar">
-        <div class="flex items-center justify-between">
-          <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-            <p class="text-sm w-full my-auto pl-3 text-headingsColor lg:text-2xl font-semibold font-notoSans">
-              {{ $t("etc-grants-dao.title") }}
-            </p>
-          </div>
-
-          <!-- Shortcuts in the header-->
-          <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
-            <a href="#about"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-                $t("about.nav-heading")
-              }}</a>
-            <a href="#categories"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-                $t("categories.nav-heading")
-              }}</a>
-            <a href="#requirements"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-                $t("requirements.nav-heading")
-              }}</a>
-            <a href="#grantsProcess"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-                $t("grantsProcess.nav-heading")
-              }}</a>
-            <a href="#suggestions"
-              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-                $t("suggestions.nav-heading")
-              }}</a>
-
-            <a href="https://airtable.com/shr3VMqyLd1HX5ws4"
-              class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow">
-              {{ $t("etc-grants-dao.apply-now") }}</a>
-
-            <!-- English/Chinese toggle-->
-            <div class="my-auto text-black">
-              <LocaleSwitcher />
-            </div>
-
-            <!-- This is not visible ? -->
-            <img src="../images/search.svg" class="my-auto lg:hidden ml-6" ref="navSearch" />
-
-            <!-- Mobile-only hamburger view -->
-            <img src="../images/hamBurger.svg" v-on:click="openNav()" class="my-auto lg:hidden ml-6" id="menuIcon"
-              ref="navOpen" />
-          </div>
-        </div>
-      </nav>
+      <!--Nav Bar-->
+      <NavBar />
       <section class="">
         <div
           class="z-50 flex flex-col hidden lg:hidden pl-8 pr-6 pb-bodyY pt-3 max-h-screen bg-background w-screen top-6 fixed overflow-y-scroll"
@@ -152,37 +103,15 @@
       </section>
 
       <!-- This is the large section at the top left -->
-      <section id="hero">
-        <div
-          class="bg-[url('../images/heroBgMobile.svg')] grid-cols-1 md:mt-14 heroSection grid md:grid-cols-2 bg-no-repeat bg-contain md:bg-cover min-h-heroHeight sm:bg-[url('../images/heroBg.svg')]">
-          <div
-            class="my-auto mx-auto md:mx-0 md:my-0 text-center md:text-left container md:pl-8 xl:pl-28 md:pr-0 pt-11 content-end">
-            <p
-              class="pl-heroHeadingMobile pr-heroHeadingMobile md:pl-0 md:pr-0 text-fourty leading-heroHeadingMobile text-headingsColor md:text-xxl md:leading-heroHeadingDesktop font-bold font-notoSans">
-              {{ $t("etc-grants-dao.title") }}
-            </p>
-            <p
-              class="text-heroTextMobile md:text-heroTextDesktop text-headingsColor leading-heroText pt-6 pb-6 font-dmSans pl-8 pr-8 md:pl-0 md:pr-0">
-              {{ $t("etc-grants-dao.description") }}
-            </p>
-            <a href="https://airtable.com/shr3VMqyLd1HX5ws4"
-              class="text-xl font-bold md:text-heroTextMobile mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex hover:scale-110 transition duration-300 ease-in-out">
-              <p>{{ $t("etc-grants-dao.apply-now") }}</p>
-              <img src="../images/applyButtonIcon.png"
-                class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIconA" />
-            </a>
-          </div>
-          <div class="hidden md:block"></div>
-        </div>
-      </section>
+      <HeroSection />
 
-      <section id="body">
+      <section id="content">
         <div class="z-20 py-bodyY bodySection flex md:px-8 xl:px-28 relative" id="about">
           <!-- ^ id in wrong place-->
 
           <!-- Left hand side navigation for desktop site -->
           <!-- NavBar component defined here-->
-          <NavBar />
+          <LeftSideBar />
 
           <!-- Right hand side, main view -->
           <div
@@ -195,332 +124,11 @@
             <!-- Grant categories -->
             <GrantCategories />
             <!-- Requirements -->
-           <Requirements />
+            <Requirements />
             <!-- Grants process -->
-            <a id="grantsProcess" />
-            <div class="border-b-2 pb-16"></div>
-            <div class="pt-16"></div>
-            <div class="text-headingsColor">
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.bullets.b4") }} <br />
-                - {{ $t("grantsProcess.bullets.b5") }} <br />
-                - {{ $t("grantsProcess.bullets.b6") }} <br />
-                - {{ $t("grantsProcess.bullets.b7") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.timeline.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.timeline.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b4") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.body.p1") }} <br />
-              </p>
-            </div>
-            <a id="grantsProcess.phases.step1" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step1.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step1.phasesSummary.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step1.phasesWrapup.body.p1") }} <br />
-              </p>
-            </div>
-
-            <a id="grantsProcess.phases.step2" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step2.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step2.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step2.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step2.body.p2") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step2.body.p3") }} <br />
-              </p>
-            </div>
-
-            <a id="grantsProcess.phases.step3" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step3.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.body.p2") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.body.p3") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.body.p4") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.body.p5") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-6">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b4") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.betterChance.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-6">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b4") }} <br />
-                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b5") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.wrapup.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step3.wrapup.body.p2") }} <br />
-              </p>
-            </div>
-
-            <a id="grantsProcess.phases.step4" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step4.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step4.body.p1") }} <br />
-              </p>
-            </div>
-
-            <a id="grantsProcess.phases.step5" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step5.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step5.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step5.body.p2") }} <br />
-              </p>
-            </div>
-
-            <a id="grantsProcess.phases.step6" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step6.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step6.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step6.body.p2") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step6.body.p3") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step6.body.p4") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step6.body.p5") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step6.body.p6") }} <br />
-              </p>
-            </div>
-
-            <a id="grantsProcess.phases.step7" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("grantsProcess.phases.step7.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step7.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step7.body.p2") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("grantsProcess.phases.step7.body.p3") }} <br />
-              </p>
-            </div>
-
-            <!-- Suggestions -->
-            <a id="suggestions" />
-            <div class="border-b-2 pb-16"></div>
-            <div class="pt-16"></div>
-            <div class="text-headingsColor">
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold">
-                {{ $t("suggestions.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("suggestions.body.p1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("suggestions.body.bullets.b1") }} <br />
-                - {{ $t("suggestions.body.bullets.b2") }} <br />
-                - {{ $t("suggestions.body.bullets.b3") }} <br />
-                - {{ $t("suggestions.body.bullets.b4") }} <br />
-                - {{ $t("suggestions.body.bullets.b5") }} <br />
-                - {{ $t("suggestions.body.bullets.b6") }} <br />
-                - {{ $t("suggestions.body.bullets.b7") }} <br />
-                - {{ $t("suggestions.body.bullets.b8") }} <br />
-                - {{ $t("suggestions.body.bullets.b9") }} <br />
-                - {{ $t("suggestions.body.bullets.b10") }} <br />
-                - {{ $t("suggestions.body.bullets.b11") }} <br />
-                - {{ $t("suggestions.body.bullets.b12") }} <br />
-                - {{ $t("suggestions.body.bullets.b13") }} <br />
-                - {{ $t("suggestions.body.bullets.b14") }} <br />
-                - {{ $t("suggestions.body.bullets.b15") }} <br />
-                - {{ $t("suggestions.body.bullets.b16") }} <br />
-                - {{ $t("suggestions.body.bullets.b17") }} <br />
-              </p>
-            </div>
+            <Process />
+            <!-- ETC Grants Suggestions -->
+            <Suggestion />
 
             <!-- Apply Now form at bottom of page -->
             <a href=""
@@ -539,112 +147,37 @@
         </div>
       </section>
     </div>
-    <footer class="px-8 bg-gradient-to-t from-[#0A1C3F] to-[#020518] border-2 border-footerBorder xl:px-32 py-12">
-      <div class="grid lg:grid-cols-5 xl:grid-cols-5 sm:grid-cols-1">
-        <div class="pb-8 lg:pb-0">
-          <div class="flex">
-            <p class="text-2xl font-notoSans font-black text-headingsColor leading-8">
-              {{ $t("footer.heading-etc") }} &nbsp;
-            </p>
-            <p class="text-2xl font-notoSans font-medium text-headingsColor leading-7">
-              {{ $t("footer.heading-ooperative") }}
-            </p>
-          </div>
-          <div class="flex pt-7">
-            <img src="../images/twitter.svg" alt="t"
-              class="mr-8 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
-            <img src="../images/messenger.svg" alt="t"
-              class="cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
-          </div>
-        </div>
-        <div class="pb-8 lg:pb-0">
-          <p class="text-2xl font-notoSans font-black text-headingsColor leading-8">
-            {{ $t("footer.footerHeading1") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-8 leading-7">
-            {{ $t("footer.footerHeading1Text1") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading1Text2") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading1Text3") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading1Text4") }}
-          </p>
-        </div>
-        <div class="pb-8 lg:pb-0">
-          <p class="text-2xl font-notoSans font-black text-headingsColor leading-8">
-            {{ $t("footer.footerHeading2") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-8 leading-7">
-            {{ $t("footer.footerHeading2Text1") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading2Text2") }}
-          </p>
-        </div>
-        <div class="pb-8 lg:pb-0">
-          <p class="text-2xl font-notoSans font-black text-headingsColor leading-8">
-            {{ $t("footer.footerHeading3") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-8 leading-7">
-            {{ $t("footer.footerHeading3Text1") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading3Text2") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading3Text3") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading3Text4") }}
-          </p>
-          <p class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7">
-            {{ $t("footer.footerHeading3Text5") }}
-          </p>
-        </div>
-        <div class="pb-8 lg:pb-0">
-          <p class="text-2xl font-notoSans font-black text-headingsColor leading-8">
-            {{ $t("footer.footerHeading4") }}
-          </p>
-          <div class="pt-9">
-            <img src="../images/bwRivlet.svg" alt="" />
-          </div>
-          <div class="pt-9">
-            <img src="../images/netlify.svg" alt="" />
-          </div>
-        </div>
-      </div>
-    </footer>
+    <Footer />
   </div>
 </template>
 
 <script>
 import LocaleSwitcher from "@/components/LocaleSwitcher.vue";
-import MainHeading from "../components/Comman/Heading/mainHeading.vue"
-import NavBar from "../components/Comman/Navbar/index.vue"
-import SubHeading from "@/components/Comman/Heading/subHeading.vue";
-import Paragraph from "@/components/Comman/Paragraph"
-import Table from '@/components/Comman/Table'
+import HeroSection from '@/components/Hero'
+import NavBar from "@/components/Comman/Navbar/NavBar"
+import LeftSideBar from "../components/Comman/Navbar/LeftSideBar"
 import About from "@/components/About"
 import About_Funding from "@/components/Funding"
 import GrantCategories from "@/components/GrantsCategories"
 import Requirements from "@/components/Requirements"
+import Process from "@/components/Process"
+import Suggestion from "@/components/Suggestions"
+import Footer from "@/components/Comman/Footer"
+
 export default {
   name: "HomeView",
   components: {
     LocaleSwitcher,
-    MainHeading,
+    HeroSection,
     NavBar,
-    SubHeading,
-    Paragraph,
-    Table,
+    LeftSideBar,
     About,
     About_Funding,
     GrantCategories,
-    Requirements
+    Requirements,
+    Process,
+    Suggestion,
+    Footer
   },
   methods: {
     openNav() {
