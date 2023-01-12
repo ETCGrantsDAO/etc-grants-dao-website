@@ -106,29 +106,22 @@
       <HeroSection />
 
       <section id="content">
-        <div class="z-20 py-bodyY bodySection flex md:px-8 xl:px-28 relative" id="about">
-          <!-- ^ id in wrong place-->
+        <div class="z-20 py-bodyY bodySection flex md:px-8 xl:px-28 relative">
 
           <!-- Left hand side navigation for desktop site -->
-          <!-- NavBar component defined here-->
           <LeftSideBar />
 
           <!-- Right hand side, main view -->
           <div
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
-            <!-- About ETC Grants DAO -->
-            <!--About Component-->
+
+            <!-- Primary contenf for the website, split into multiple components -->
             <About />
-            <!-- About ETC Grants DAO / Funding -->
             <About_Funding />
-            <!-- Grant categories -->
             <GrantCategories />
-            <!-- Requirements -->
             <Requirements />
-            <!-- Grants process -->
             <Process />
-            <!-- ETC Grants Suggestions -->
-            <Suggestion />
+            <Suggestions />
 
             <!-- Apply Now form at bottom of page -->
             <a href=""
@@ -161,7 +154,7 @@ import About_Funding from "@/components/Funding"
 import GrantCategories from "@/components/GrantsCategories"
 import Requirements from "@/components/Requirements"
 import Process from "@/components/Process"
-import Suggestion from "@/components/Suggestions"
+import Suggestions from "@/components/Suggestions"
 import Footer from "@/components/Comman/Footer"
 
 export default {
@@ -176,9 +169,10 @@ export default {
     GrantCategories,
     Requirements,
     Process,
-    Suggestion,
+    Suggestions,
     Footer
   },
+
   methods: {
     openNav() {
       this.$refs.navigation.classList.remove("hidden");
@@ -186,11 +180,7 @@ export default {
     closeNav() {
       this.$refs.navigation.classList.add("hidden");
     },
-  },
-  // mounted () {
-  //   this.$refs.blOverview('inview-enter',
-  //     alert(this.$refs.blOverview)
-  //   )
-  // },
+  }
+
 };
 </script>

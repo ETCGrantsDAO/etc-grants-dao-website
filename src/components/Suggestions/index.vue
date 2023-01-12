@@ -1,5 +1,5 @@
 <template>
-    <section id="suggestion">
+    <section id="suggestions">
         <div class="border-b-2 pb-16"></div>
         <div class="pt-16"></div>
         <MainHeading title="suggestions.heading" />
@@ -34,7 +34,7 @@ import SubHeading from '../Comman/Heading/subHeading.vue';
 import Paragraph from '../Comman/Paragraph';
 
 export default {
-    name: "Suggestion",
+    name: "Suggestions",
     components: {
         MainHeading,
         SubHeading,
