@@ -41,11 +41,11 @@
           <LocaleSwitcher />
         </div>
 
-        <!-- This is not visible ? -->
-        <img src="../../../../images/search.svg" class="my-auto lg:hidden ml-6" ref="navSearch" />
+        <!-- Search control.  Does this work? -->
+        <img src="@/images/search.svg" class="my-auto lg:hidden ml-6" ref="navSearch" />
 
         <!-- Mobile-only hamburger view -->
-        <img src="../../../../images/hamBurger.svg" v-on:click="openNav()" class="my-auto lg:hidden ml-6" id="menuIcon"
+        <img src="@/images/hamBurger.svg" v-on:click="openNav()" class="my-auto lg:hidden ml-6" id="menuIcon"
           ref="navOpen" />
       </div>
     </div>

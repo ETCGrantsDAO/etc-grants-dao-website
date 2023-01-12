@@ -145,17 +145,17 @@
 </template>
 
 <script>
-import LocaleSwitcher from "@/components/LocaleSwitcher.vue";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
 import HeroSection from '@/components/Hero'
-import NavBar from "@/components/Comman/Navbar/NavBar"
-import LeftSideBar from "../components/Comman/Navbar/LeftSideBar"
+import NavBar from "@/components/Navbar/NavBar"
+import LeftSideBar from "@/components/Navbar/LeftSideBar"
 import About from "@/components/About"
 import About_Funding from "@/components/Funding"
 import GrantCategories from "@/components/GrantsCategories"
 import Requirements from "@/components/Requirements"
 import Process from "@/components/Process"
 import Suggestions from "@/components/Suggestions"
-import Footer from "@/components/Comman/Footer"
+import Footer from "@/components/Footer"
 
 export default {
   name: "HomeView",

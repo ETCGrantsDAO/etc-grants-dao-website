@@ -25,13 +25,13 @@
       id="languageEn"
       v-on:click="show()"
       class="min-w-locale w-6 h-6 lg:w-8 lg:h-8 my-auto cursor-pointer"
-      src="../images/britishFlag.svg"
+      src="@/images/britishFlag.svg"
       alt=""
     /><img
       id="languageCn"
       v-on:click="show()"
       class="min-w-locale w-6 h-6 lg:w-8 lg:h-8 my-auto cursor-pointer hidden"
-      src="../images/chineaseFlag.svg"
+      src="@/images/chineseFlag.svg"
       alt=""
     />
     <div
@@ -46,7 +46,7 @@
       >
         <img
           class="w-6 h-6 lg:w-8 lg:h-8 my-auto mr-3"
-          src="../images/britishFlag.svg"
+          src="@/images/britishFlag.svg"
           alt=""
         />
         <p class="my-auto">English</p>
@@ -59,7 +59,7 @@
       >
         <img
           class="w-6 h-6 md:w-8 md:h-8 my-auto mr-3"
-          src="../images/chineaseFlag.svg"
+          src="@/images/chineseFlag.svg"
           alt=""
         />
         <p class="my-auto">中文</p>
