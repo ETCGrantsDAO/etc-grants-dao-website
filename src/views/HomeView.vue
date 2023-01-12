@@ -163,25 +163,25 @@
             {{ $t("grantsProcess.nav-heading") }}
           </a>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step1.nav-heading") }}
+            {{ $t("grantsProcess.phases.step1.nav-heading") }}
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step2.nav-heading") }}
+            {{ $t("grantsProcess.phases.step2.nav-heading") }}
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step3.nav-heading") }}
+            {{ $t("grantsProcess.phases.step3.nav-heading") }}
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step4.nav-heading") }}
+            {{ $t("grantsProcess.phases.step4.nav-heading") }}
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step5.nav-heading") }}
+            {{ $t("grantsProcess.phases.step5.nav-heading") }}
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step6.nav-heading") }}
+            {{ $t("grantsProcess.phases.step6.nav-heading") }}
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("grantsProcess.phase1.step7.nav-heading") }}
+            {{ $t("grantsProcess.phases.step7.nav-heading") }}
           </p>
 
           <!-- Suggestions mobile nav -->
