@@ -8,18 +8,17 @@
 
   "contents-title": "Contents",
 
-  "about": {
-    "heading": "About ETC Grants DAO",
-    "nav-heading": "About",
+   "about": {
+    "heading": "关于ETC Grants DAO",
+    "nav-heading": "关于我们",
 
     "ethereumClassicIn2023": {
-      "heading": "Ethereum Classic in 2023",
-      "nav-heading": "Ethereum Classic in 2023",
+      "heading": "2023年的以太坊经典",
       "body": {
-        "p1": "The ETC Grants program was first announced at the WDMS conference in November 2022 to support the growth of the Ethereum Classic ecosystem.",
-        "p2": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on every major exchange and hundreds of millions of dollars of $ETC are traded daily but there are very few decentralized applications using the platform, only a very small amount of TVL in its Defi ecosystem and few NFT projects.",
-        "p3": "(Data above from 27th December 2022)",
-        "p4": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem."
+        "p1": "ETC赠款项目在2022年11月的WDMS会议上首次宣布，旨在支持以太坊经典生态系统的发展。",
+        "p2": "ETC在所有工作量证明智能合约平台中拥有最大的市值，但其应用生态系统尚未反映出这一价值主张。它在各大交易所上市，每天有数亿美元的ETC交易，但很少有去中心化的应用使用该平台，只有非常少的TVL在其Defi生态系统和少数NFT项目。",
+        "p3": "(以上数据来源于2022年12月27日)",
+        "p4": "我们的目标是通过向建立在以太坊经典上的有前景的项目提供“无附加条件”的资金来振兴生态系统。"
       }
     },
 
@@ -67,286 +66,284 @@
     },
 
     "funding": {
-      "heading": "Who is funding this program? How much has been pledged?",
-      "nav-heading": "Funding",
+      "heading": "谁资助了这个项目?承诺资金是多少?",
+      "nav-heading": "助款",
       "body": {
-        "p1": "In July 2022, Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
-        "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
+        "p1": "2022年7月，蚂蚁矿池Antpool宣布，他们承诺在2022年7月为以太坊经典生态系统提供1000万美元的资金。 一半的资金，以USTD的形式在以太坊经典主网的安全多签名钱包中(0xA208...E8D6)， 另一半已在2022年11月用来购买 $ETC, 并已在以ETC主网安全多签名钱包(0x3db3...2f82)中储存。",
+        "p2": "ETC合作社在2022年有25万美元的赠款预算，也将把这些资金用于该项目。"  
       }
     }
   },
 
   "categories": {
-    "heading": "Grants categories",
-    "nav-heading": "Categories",
+    "heading": "助款类别",
+    "nav-heading": "助款类别",
     "body": {
-      "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
+      "p1": "每个团队的最高资助额一般为$50,000，除非以社区资助(最高$10,000)或溢价资助(超过$50,000)申请。"
     },
 
     "general": {
-      "heading": "General grants",
-      "nav-heading": "General",
+      "heading": "一般助款",
+      "nav-heading": "一般助款",
       "body": {
-        "p1": "General grants are open to all and any teams looking to build their projects on ETC, with anything they would like to propose. There is a list of suggestions, but all options are the on the table. We welcome your creative suggestions on how to add value."
+        "p1": "一般助款对所有希望在ETC上建立项目的个人和团队都是开放的。有一个建议列表，但所有的选择都是公开的。我们欢迎您就如何增加价值提出创造性的建议。"
       }
     },
 
     "targeted": {
-      "heading": "Targeted grants",
-      "nav-heading": "Targeted",
+      "heading": "针对助款",
+      "nav-heading": "针对助款",
       "body": {
-        "p1": "Targeted grants are those that have been selected by the grant selection committee and community as priority items and growth areas and which have an open request. These items may or may not change each grant round, as priorities change and teams launch their projects.",
-        "p2": "There may not be any open requests at the beginning of a new round. In that case, general grants should be selected for the category."  
+        "p1": "针对助款，是指那些已被奖助金评选委员会和社区选定为优先项目和增长领域并且有公开请求的助款金。随着优先级的改变和团队启动他们的项目，每一轮的拨款可能会因项目而改变。",
+        "p2": "在新的一轮开始前，可能不会有任何公开的请求。在这种情况下，该类别属于一般赠款。"  
       }
     },
 
     "types": {
-      "heading": "Types of grant",
-      "nav-heading": "Types",
+      "heading": "助款种类",
+      "nav-heading": "助款种类",
       "DIAGRAM_HERE": "xxx"
     }
   },
 
   "requirements": {
-    "heading": "What do grant applications need to know?",
-    "nav-heading": "Requirements",
+    "heading": "申请助款需要知道什么?",
+    "nav-heading": "申请助款需要知道什么?",
  
     "englishOrChinese": {
-      "heading": "English or Chinese",
-      "nav-heading": "English or Chinese",
+      "heading": "英文或中文",
+      "nav-heading": "英文或中文",
       "body": {
-        "p1": "The entire ETC Grants DAO process has been built with equal access in Chinese and English as a primary requirement. This website, application process, display of proposals and all other elements of the process will be visible in both languages. We want to open up accessibility to Ethereum Classic for the Chinese-speaking community, and welcome applications from that demographic, even if the outputs of those proposals are only applicable to a Chinese-speaking audience. That is no different than existing projects where the value only accrues to English speakers.",
-        "p2": "We will be translating all of the applications from English to Chinese and visa-versa so that speakers of either language are able to see all of the applications. The feedback from the Committee on projects and final fund assignments will also be available in both languages.",
-        "p3": "(ETC Cooperative have been publishing all content in both English and Chinese since November 2022.)"  
+        "p1": "整个ETC Grants DAO过程已经建立，以中文和英文的平等访问作为基本要求。本网站、申请流程、提案展示和流程的所有其他元素将以两种语言显示。我们希望为中文社区开放对以太坊经典的访问，并欢迎来自中文社区的应用程序（即使这些建议的输出只适用于中文观众）。这与现有的项目保持相同。",
+        "p2": "我们将把所有的申请从英文翻译成中文，然后反过来翻译，这样任何一种语言的使用者都可以看到所有的申请。最后资金分配委员会的反馈意见也将以两种语言呈现。",
+        "p3": "(自从2022年11月起，ETC已开始用中英双语发表文章和内容.)"  
       }
     },
 
     "noRetroactiveFunding": {
-      "heading": "No Retroactive Funding",
-      "nav-heading": "No Retroactive Funding",
+      "heading": "无追溯资金",
+      "nav-heading": "无追溯资金",
       "body": {
-        "p1" : "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants"
+        "p1" : "我们将不考虑申请追溯申请资金已经完成的项目，或补偿个人之前的志愿工作。无论是来自新参与者还是现有的生态系统参与者，该项目旨在促进新的发展。"
       }
     },
 
     "openSource": {
-      "heading": "Projects must be permissively licensed open source",
-      "nav-heading": "Open source",
+      "heading": "项目必须获得许可开源",
+      "nav-heading": "项目必须获得许可开源",
       "body": {
-        "p1" : "All projects must make their 'outputs' available using permissive open source licensing, with only the following licenses being acceptable:",
-        "bullets": {
-          "b1": "Apache 2.0 - good for source code",
-          "b2": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
-          "b3": "Creative Commons (CC-BY-SA) - good for documentation"
-        },
-        "p2": "Funding will not be provided for projects seeking to build proprietary solutions.",
-        "p3": "The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
-        "p4": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering."
+        "p1" : "所有项目都必须使用宽松的开源许可协议使其‘outputs’可用，只有以下许可协议是可接受的:",
+        "p2": "Apache 2.0 - 适合源码",
+        "p3": "Mozilla MPL 2.0 - 适合源码 (Javascript友好)",
+        "p4": "Creative Commons (CC-BY-SA) - 适合文档记录",
+        "p5": "寻求建立专有解决方案的项目将不提供资金。",
+        "p6": "这些项目的版权将归作者所有，但许可必须是允许的，并且不得将这些项目的输出提交专利。",
+        "p7": "像MIT和BSD这样较弱的许可不能对潜艇专利提供保护，而像GPLv3这样较强的copyleft许可限制了代码的使用，从而降低了我们所交付的价值。"  
       }
     },
 
     "kycAml": {
-      "heading": "Applicants will be subject to KYC/AML checks",
+      "heading": "申请人将接受KYC/AML（了解您的客户/反洗钱）检查",
       "nav-heading": "KYC/AML",
       "body": {
-        "p1": "For regulatory compliance, applicants for the grants process will be subject to KYC (know your customer) checks through a third party agency. None of that information will be held by the parties participating in the ETC Grants DAO processes. Real names or other PII (personally identifying information) will not be made public unless applications choose to make that information publicly available on their application (ie. work history, past projects)."  
+        "p1": "为了遵守法规，授予过程的申请人将通过第三方机构接受KYC(了解您的客户)的检查。参与ETC Grants DAO过程的各方都不会持有这些信息。真实姓名或其他PII(个人身份信息)将不会公开，除非应用程序选择在其应用程序上公开这些信息。例如：工作经历，过去的项目)。"  
       }
     },
 
     "publiclyVisible": {
-      "heading": "All applications will be publicly visible",
+      "heading": "所有的申请都将对所有人可见",
       "nav-heading": "Publicly visible",
       "body": {
-        "p1": "All applications will be visible to the public on the website, so that other applicants can calibrate their own applications and get a good idea of the 'playing field'. This will become especially important in later rounds.",
+        "p1": "所有的申请都将在网站上公开，以便其他申请人可以校准自己的申请，并对“竞争环境”有一个很好的了解。这在后面几轮中将变得尤为重要。以下是ZCash基金会的建议，作为ETC项目期望的最终状态的一个示例，尽管在一开始可能会有一些更原始的内容。",
         "p2": "Here are the ZCash Foundation proposals as an example of a desired end-state for the ETC program, though we are likely to have something more primitive at first."
       }
     }
   },
 
   "grantsProcess": {
-    "heading": "ETC Grants Process",
-    "nav-heading": "Process",
+    "heading": "ETC助款过程",
+    "nav-heading": "ETC助款过程",
     "bullets": {
-      "b1": "Call for proposals",
-      "b2": "Grant Application submission",
-      "b3": "Evaluation/Technical review",
-      "b4": "Grants team approval",
-      "b5": "Formal agreement & Due diligence (KYC/KYB)",
-      "b6": "Milestone reviews & payments",
-      "b7": "Project Launch & Project retrospective analysis",  
+      "b1": "征求项目提议",
+      "b2": "提交助款申请",
+      "b3": "评估/技术审核",
+      "b4": "助款团队批准",
+      "b5": "正式协议和尽职调查(KYC/KYB)",
+      "b6": "里程碑审核和支付",
+      "b7": "项目启动和项目回顾分析",  
     },
 
     "timeline": {
-      "heading": "Timeline",
-      "nav-heading": "Timeline",
+      "heading": "时间线",
+      "nav-heading": "时间线",
       "bullets": {
-        "b1": "Announcement of new grant round - Call for proposals",
-        "b2": "Grant application submissions open (3 months)",
-        "b3": "Evaluation/Technical review, approval and due diligence (1-3 months)",
-        "b4": "Milestone reviews and project launch will be done on a project by project basis. It should be outlined in the application, when milestones and deliverables are expected. This part of the grant process will run concurrently, with the launch of subsequent grant rounds. (No defined timeline - each project will have a different timeline)."  
+        "b1": "宣布新一轮助款项目 - 征求项目提议",
+        "b2": "开放助款申请 (3个月)",
+        "b3": "评估/技术审核,尽职调查与批准 (1-3 months)",
+        "b4": "里程碑审查和项目启动将在一个项目的基础上进行。当预期有里程碑和可交付成果时，应该在应用程序中概述它。这部分资助过程将与后续资助轮的启动同时进行。(没有定义时间线——每个项目将有不同的时间线)。"  
       },
-      "MISSING_DIAGRAM": "flowchart",
+      "MISSING_DIAGRAM": "流程图",
     },
 
     "phases": {
       "body": {
-        "p1": "The 7 step grant process is outlined below:",
+        "p1": "七步助款过程如下:",
       },
 
       "step1": {
-        "heading": "Step 1: Call for Proposals",
-        "nav-heading": "Step 1: Call for Proposals",
+        "heading": "第1步：征求项目提议",
+        "sub-heading": "第1步：征求项目提议",
 
         "phasesSummary": {
           "body": {
-            "p1": "At the beginning of each grant round, the ETC grant committee will formally open the round with a call for proposals. The documentation on the grant site and other marketing materials , will outline the exact timeline for each grant round, for the following phases:"
+            "p1": "在每一轮助款开始时，ETC助款委员会将正式启动该轮的提案征集。助款网站上的文件和其他营销材料，以下将列出每一轮助款的准确时间表:"
           },
           "bullets": {
-            "b1": "The application submission (generally 3 months, subject to change)",
-            "b2": "The grant committee review and approval (generally one month, subject to change"  
+            "b1": "申请提交 (通常为期3个月,可能会有调整)",
+            "b2": "助款委员会批准(通常为期1个月,可能会有调整"  
           }  
         },
         "phasesWrapup": {
           "body": {
-            "p1": "The call for proposals documentation will also identify the open requests for that specific grant round and teams will identify if they are submitting their application, under one of these open requests as well as the type of grant they are applying for."
+            "p1": "征集建议书文件还将确定该轮特定助款项目是否根据这些公开申请提交申请，以及明确他们所申请的资助类型。"
           }  
         }
       },
 
       "step2": {
-        "heading": "Step 2: Grant Application Submission",
-        "nav-heading": "Step 2: Grant Application Submission",
+        "heading": "第2步：提交助款申请",
+        "nav-heading": "第2步：提交助款申请",
         "body": {
-          "p1": "Grant applications should be submitted via the website.",
-          "p2": "The application will outline all relevant details each team or individual should include. People should enter as much information as possible about their project, providing clear milestones and deliverables.",
-          "p3": "When submitting the application, you will choose one of the grant types. You will need to ensure that your requested grant funding does not exceed the guidelines for the grant type. To receive a premium grant, a team will be expected to have a clear financial break-down, proven track record of success, and clearly demonstrate the value proposition to the grants committee."
+          "p1": "助款申请需通过网站提交。",
+          "p2": "应用程序将列出每个团队或个人应包括的所有相关细节。申请人应输入尽可能多的项目相关信息，以提供明确的里程碑和可交付成果。",
+          "p3": "在提交申请时，您将选择其中一种资助类型。您将需要确保您所要求的赠款资金不超过赠款类型的指导方针。要获得优质奖助金，团队必须有清晰的财务分类、经过证明的成功记录，并清楚地向助款金委员会展示其价值和主张。"
         }
       },
 
       "step3": {
-        "heading": "Step 3: Evaluation/Technical review",
-        "nav-heading": "Step 3: Evaluation/Technical review",
+        "heading": "第2步：评估/技术审核",
+        "sub-heading": "第2步：评估/技术审核",
         "body": {
-          "p1": "Decisions on the initial round of grants will be made by a committee appointed by Bitmain, Antpool and ETC Cooperative, as the initial donors into this grants process. If further donors join the process, they will be invited to participate in the decision making process as well.",
-          "p2": "There is no specific plan to open up the decision making progress to the broader ETC community at the time of writing. Longer term it might make sense to move, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision making process.",
-          "p3": "Voting will be recorded using Snapshot (see etcgrantsdao.eth), in a similar manner to the existing Snapshot instance used for Litecoin/Antpool voting.",
-          "p4": "During the evaluation and technical review the grant committee will look at all the information submitted by each team and evaluate the application. Please note that the voting for the projects will be done by the members listed above, but the technical evaluation of the projects will be done by a broader set of individuals, including the ETC core developers. This is to ensure that there is sufficient technical review of all applications.",
-          "p5": "For each open request there may be grants awarded to multiple teams, one team, or no teams if none of the submissions meet the standards required."
+          "p1": "第一轮拨款的决定将由比特大陆、蚂蚁矿池和ETC合作社任命的委员会做出，这些委员会是本次拨款过程的初始捐助者。如果进一步的捐助者加入这一进程，他们也将被邀请参与决策进程。",
+          "p2": "在撰写本文时，还没有将决策过程公开给更广泛的ETC社区的具体计划。从长远来看，逐步走向一个开放的DAO结构可能是有意义的。在这个结构中，所有ETC代币持有者都可以选择参与决策过程。",
+          "p3": "投票将使用快照记录Snapshot(参见etcgrantsdao.eth)，类似于用于莱特币/蚂蚁矿池投票的现有快照实例。",
+          "p4": "在评估及技术评审期间，资助委员会将检视各小组提交的资料，并评估申请。请注意，对项目的投票将由上述成员完成，但对项目的技术评估将由更广泛的专业人士完成，包括ETC核心开发人员。这是为了确保对所有应用进行充分的技术审查。",
+          "p5": "对于每个开放的请求，助款可能会授予多个团队，一个团队，或者没有团队（如果没有任何申请符合标准）。"
         },
 
         "betterChance": {
           "body": {
-            "p1": "Your project will have better chances for acceptance if the following are met:",
+            "p1": "如果满足以下条件，您的项目将有更大的机会被接受:",
             "bullets": {
-              "b1": "The team has proven experience and strong technical background.",
-              "b2": "The team can demonstrate that they have a business model that will sustain the project long term. If the project is an open source public good and thus there are no financial incentives for the team or to sustain the project, the application should be clear on how much annual funding would be required to maintain the project. Funding beyond the initial grant, is not guaranteed and the team would have to apply for grants in subsequent periods.",
-              "b3": "The application clearly presents milestones and how to evaluate whether KPIs have been met or not.",
-              "b4": "The project fills an obvious void in the current ecosystem.",
-              "b5": "The project provides clear value to the ETC ecosystem."
+              "b1": "团队经验丰富，技术背景雄厚。",
+              "b2": "团队可以证明他们有一个可长期维持项目的商业模式。如果项目是一个开源的公共产品，团队没有经济激励或维持项目，那么应用程序应该清楚地说明每年需要多少资金来维持项目。超出最初赠款的资金是没有保证的，团队将不得不在随后的时期申请助款。",
+              "b3": "应用程序清楚地展示了里程碑，以及如何评估是否满足KPI。",
+              "b4": "该项目填补了当前生态系统中的一个明显空白。",
+              "b5": "该项目为ETC生态系统提供了明确的价值。"
             }
           }
         },
 
         "mayBeDeclined": {
           "body": {
-            "p1": "Reasons a project may be declined:",
+            "p1": "项目有可能被拒绝的原因:",
             "bullets": {
-              "b1": "The project is not aligned with ETC’s values.",
-              "b2": "The project doesn’t have a way to sustain itself after grant funding has been fully utilized (if it is not an open source public good type grant).",
-              "b3": "The project team does not appear to have requisite expertise to accomplish project goals.",
-              "b4": "The cost/benefit of the project is insufficient."
+              "b1": "该项目与ETC的价值观不一致。",
+              "b2": "项目没有办法在赠款资金被充分利用后维持自身(如果它不是一个开源的公共物品类型的赠款)。",
+              "b3": "项目团队似乎没有完成项目目标所需的专业知识。",
+              "b4": "项目的成本/效益不足。"
             }
           }
         },
 
         "wrapup": {
           "body": {
-            "p1": "During this phase, the grant committee team may reach out for more information regarding your project and conduct an interview. If your project is already at a testing phase, we may schedule a time to demonstrate the project and for the committee members and other involved stakeholders to review and ask questions.",
-            "p2": "As the grant program matures more feedback will be provided on what quantitative and qualitative factors grants will be evaluated against."
+            "p1": "在此阶段，奖助委员会团队可能会寻求更多关于您的计划并进行面谈。如果您的项目已经处于测试阶段，我们可能会安排一个时间来演示项目，并让委员会成员和其他涉众评估和提问。",
+            "p2": "随着奖助金计划的成熟，我们将会提供更多定量和定性因素的评价。"
           }
         }
       },
 
       "step4": {
-        "heading": "Step 4: Grants team approval",
-        "nav-heading": "Step 4: Grants team approval",
+        "heading": "第4步：助款团队批准",
+        "nav-heading": "第4步：助款团队批准",
         "body": {
-          "p1": "After evaluation of all submitted grants (within the submission timeline), an applicant will be notified about whether their application has been accepted or denied. If an application was denied, the team will receive a notification with some feedback on why. If an application was approved, the team will move into the due diligence phase."
+          "p1": "在评估所有提交的助款项目后(在提交时间范围内)，申请人将被告知其申请结果。如申请被拒绝，团队将收到一个通知，其中包含一些原因反馈。如果申请获得批准，团队将进入尽职调查阶段。"
         }
       },
 
       "step5": {
-        "heading": "Step 5: Due diligence and KYC/AML requirements",
-        "nav-heading": "Step 5: Due diligence and KYC/AML requirements",
+        "heading": "第5步：尽职调查和KYC/AML要求",
+        "nav-heading": "第5步：尽职调查和KYC/AML要求",
         "body": {
-          "p1": "If your grant application has been accepted, you will go through due diligence and sign your formal agreement, which includes KYC/KYB required information. This information will be obtained by a third party independent company to comply with all AML and KYC requirements. The final agreement will specify terms of the contract and required milestones to release milestone payments. Agreements would be signed by all relevant parties.",
-          "p2": "Once all successful applicants have completed the due diligence and rejected projects, the grant committee team will announce that round's grantees. The amount of funding committed in the round will also be disclosed. The plan is to have an active directory tab on the ETC grant website, that will show the status of all applications. This may not be achievable for the first grant round."
+          "p1": "如果您的资助申请被接受，您将通过尽职调查并签署正式协议，其中包括KYC/KYB所需的信息。该信息将由第三方独立公司获取，以符合AML和KYC的所有要求。最终协议将详细说明合同条款和释放里程碑付款所需的里程碑。所有有关各方将签署协议。",
+          "p2": "一旦所有成功的申请人完成尽职调查并被拒绝计划，资助委员会将公布该轮助款的获资助人。本轮助款承诺的资金量也将被披露。该计划是在ETC授权网站上有一个活动目录标签以显示所有申请的状态。这可能无法在第一轮助款中实现。"
         }
       },
 
       "step6": {
-        "heading": "Step 6: Grant progress and Milestone review",
-        "nav-heading": "Step 6: Grant progress and Milestone review",
+        "heading": "第6步：助款进度和里程碑审核",
+        "nav-heading": "第6步：助款进度和里程碑审核",
         "body": {
-          "p1": "During this stage of the process, the grantee would submit milestone/progress reports. These reports will provide insight to the grant committee and the community, about the progress of the individual grant. It will also be used to assess the efficacy and robustness of the ETC grant-making program and process. These reports will be made public, for transparency.",
-          "p2": "The documentation will depend on whether it is a larger project, that has clear and differentiated milestones, or a smaller project without discrete pieces of work. If it is the latter, then a grant progress report template will be completed mid-way through the grant period, to assess the progress of the project.",
-          "p3": "Larger projects, that have specific milestones, would be required to submit a milestone progress report, after completing each milestone. Funding will occur after each milestone has been performed and reviewed.",
-          "p4": "During this phase, project evaluations and KPI’s should be documented, as well as any changes in scope. In order to release milestone payments, it should be clear to the grant committee that these milestones were in fact met and that the project is on track. If at any milestones project review, it is determined that the project will not be able to achieve its final targets or objectives, the team should have formal discussions with the grant committee about whether a change of scope is needed or if the project should be abandoned.",
-          "p5": "If milestones are not met or do not meet expectations, or continuing the project does not make sense, work will be stopped and a post-mortem analysis will occur at that point. If a project goes to completion, post mortem analysis will commence at the end of the project.",
-          "p6": "Projects are expected to submit their invoice for milestone payments and the grant team, administering the payment, will calculate the ETC to be paid. More information will be provided during the grant acceptance phase."
+          "p1": "在该过程的这一阶段，受资助者将提交里程碑/进度报告。这些报告将为助款委员会和社区提供关于个人奖助金的进展和见解。它也将用于评估ETC资助项目和项目过程的有效性和稳健性。为了保证透明度，这些报告将公开。",
+          "p2": "文档将取决于它是一个较大的项目，具有明确的和不同的里程碑，还是一个较小的项目，没有离散的工作块。如果是后者，一份助款进度报告模板将在助款期内完成，以评估计划的进度。",
+          "p3": "对于具有特定里程碑的大型项目，里程碑进度报告需在完成每个里程碑后提交。资金将在完成和审查每个里程碑之后提供。",
+          "p4": "在此阶段，项目评估，KPI，以及范围内的任何变化将被记录。为了发放里程碑助款，资助委员应清楚地知道这些里程碑实际上是否已经达到，项目是否正在正轨上。如在检讨计划的任何里程碑时，确定计划无法达到最终目标或目标，团队应与助款委员会进行正式讨论，以决定是否需要更改计划范围或放弃计划。",
+          "p5": "如果里程碑没有达到、没有达到预期、或者项目的继续没有意义，工作就会停止，然后进行事后分析。如果一个项目要完成，事后分析将在项目结束时开始。",
+          "p6": "项目应将提交里程碑付款的发票，管理付款的助款团队将计算ETC支付。更多信息将在助款接受阶段提供。"
         }
       },
       "step7": {
-        "heading": "Step 7: Project Launch and Retrospective",
-        "nav-heading": "Step 7: Project Launch and Retrospective",
+        "heading": "第7步：项目启动及回顾",
+        "nav-heading": "第7步：项目启动及回顾",
         "body": {
-          "p1": "This phase is the final step in the grant making process and if the project has been successful, will lead to the launch of the final project and/or deliverables, as well as the completion milestone payment. This phase commences with the project retrospective that provides post mortem analysis to determine and analyze elements of the project that were successful or unsuccessful.",
-          "p2": "Project post-mortems are intended to inform process improvements which mitigate future risks and to promote iterative best practices. Post-mortems are often considered a key component of, and ongoing precursor to, effective risk management. A grant project post mortem will be required on all projects, as this will allow the grant team to tweak the process as the program matures.",
-          "p3": "As this is a new process, it will be regularly evolving to take into account learnings from each round and to integrate feedback from participants and the community. Please keep in mind that the ETC grant committee and grant admin teams are not as well resourced as many other crypto grant programs. We aim to make the processes as clear and transparent as possible and will adapt as needed."
+          "p1": "该阶段是助款过程的最后一步，如果项目成功，将导致启动最终项目和/或可交付成果，以及完成里程碑付款。该阶段从项目回顾开始，提供事后分析，以确定和分析项目成功或不成功的元素。",
+          "p2": "项目事后分析旨在为过程改进提供信息，从而减轻未来的风险，并促进迭代的最佳实践。事后分析通常被认为是有效风险管理的关键组成部分和持续的前兆。所有项目都需要一个奖助金项目事后分析，因为这将允许奖助金团队在项目成熟时调整过程。",
+          "p3": "由于这是一个新的过程，因此将定期进行改进，以考虑从每一轮中获得的经验，并整合参与者和社区的反馈。请记住，ETC助款委员会和助款管理团队的资源不像许多其他加密项目拨款计划那么丰富。我们的目标是使程序尽可能清晰透明，并将根据需要进行调整。"
         }
       }
     }
   },
 
   "suggestions": {
-    "heading": "What kind of projects are you looking to fund?",
+    "heading": "想资助怎样的项目?",
     "nav-heading": "Suggestions",
     "body": {
-      "p1": "Here are some ideas of projects which are likely to be well received, but please just take these as suggestions and feel free to bring your own ideas to the table too.",
+      "p1": "这里有一些很可能会受到欢迎的项目想法，但请把这些作为建议，也欢迎自由地提出您自己的想法。",
       "bullets": {
-        "b1": "Unique and compelling ETC-only dapps",
-        "b2": "Novel NFT projects (especially for real-world assets)",
-        "b3": "Native stablecoins (USDT, USDC, DAI, RAI, RICO, other)",
-        "b4": "First-class ETC support in key Ethereum projects",
-        "b5": "Deploying and supporting clones of key Ethereum project on ETC",
-        "b6": "Privacy solutions",
-        "b7": "Oracle solutions",
-        "b8": "Lending protocols",
-        "b9": "Bridges and interoperability",
-        "b10": "Atomic swaps",
-        "b11": "Educational content",
-        "b12": "Meetups and events",
-        "b13": "Podcasts",
-        "b14": "Safe apps",
+        "b1": "独特而引人注目的仅限ETC的dapps",
+        "b2": "新颖的NFT项目(特别是对于现实世界的资产)",
+        "b3": "原生稳定币(USDT, USDC, DAI, RAI, RICO，其他)",
+        "b4": "在关键以太坊项目中提供一流的ETC支持",
+        "b5": "在ETC上部署和支持关键以太坊项目的克隆",
+        "b6": "隐私解决方案",
+        "b7": "Oracle解决方案",
+        "b8": "借贷协议",
+        "b9": "桥梁和互操作性",
+        "b10": "原子呼唤",
+        "b11": "教育内容",
+        "b12": "活动与见面会",
+        "b13": "播客",
+        "b14": "安全应用软件",
         "b15": "MetaMask snaps",
-        "b16": "Projects supporting self-custody",
-        "b17": "Projects supporting running your own node"
+        "b16": "支持自我托管的项目",
+        "b17": "支持运行自己节点的项目"
       }
     },
 
     "timeline": {
-      "heading": "What is the timeline for applications?",
+      "heading": "申请的时间线是什么?",
       "body": {
-        "p1": "The grants process will be open for applications Thursday 19th January 2023. The application process will remain open through February and March 2023. Decisions on which grants will be funded will be made in April 2023.",
-        "p2": "The final decisions will be announced and initial funds disbursed in May 2023."
+        "p1": "助款项目和流程将于2023年1月19日星期四开放申请。申请将持续开放至2023年2月和3月。将于2023年4月决定哪些助款项目将被资助。",
+        "p2": "最终决定将于2023年5月公布，初始资金将于2023年5月发放。"
       }
     },
 
     "readyToGo": {
-      "heading": "Ready to go?",
+      "heading": "准备好了吗?",
       "body": {
-        "p1": "Bring your best ideas.",
-        "p2": "Apply here!"
+        "p1": "带上最好的创意",
+        "p2": "由此开始申请吧!"
       }
     }
   },
