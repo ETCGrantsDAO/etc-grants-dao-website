@@ -22,10 +22,10 @@
 
 </template>
 <script>
-import MainHeading from '../Comman/Heading/mainHeading.vue';
-import SubHeading from '../Comman/Heading/subHeading.vue';
-import Paragraph from '../Comman/Paragraph';
-import Table from '../Comman/Table';
+import MainHeading from '@/components/Comman/MainHeading';
+import SubHeading from '@/components/Comman/SubHeading';
+import Paragraph from '@/components/Comman/Paragraph';
+import Table from '@/components/Table';
 
 export default {
     name: "About",

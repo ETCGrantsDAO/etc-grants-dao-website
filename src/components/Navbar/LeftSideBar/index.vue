@@ -8,7 +8,7 @@
       <!-- Contents title -->
       <div class="top-28 bg-background navItems w-fit">
         <a href="#" class="flex">
-          <img src="../../../../images/contentIcon.svg" class="mr-3" />
+          <img src="@/images/contentIcon.svg" class="mr-3" />
           <p
             class="font-notoSans text-headingsColor text-lg leading-twentyEight mt-1"
           >
@@ -209,7 +209,7 @@
   </div>
 </template>
 <script>
-import LocaleSwitcher from "@/components/LocaleSwitcher.vue";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
 export default {
     name: "LeftSideBar",
     components: {

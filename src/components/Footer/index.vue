@@ -11,9 +11,9 @@
               </p>
             </div>
             <div class="flex pt-7">
-              <img src="../../../images/twitter.svg" alt="t"
+              <img src="@/images/twitter.svg" alt="t"
                 class="mr-8 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
-              <img src="../../../images/messenger.svg" alt="instagram"
+              <img src="@/images/messenger.svg" alt="instagram"
                 class="cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
             </div>
           </div>
@@ -70,10 +70,10 @@
               {{ $t("footer.footerHeading4") }}
             </p>
             <div class="pt-9">
-              <img src="../../../images/bwRivlet.svg" alt="Buitl with Rivet" />
+              <img src="@/images/bwRivlet.svg" alt="Buitl with Rivet" />
             </div>
             <div class="pt-9">
-              <img src="../../../images/netlify.svg" alt="Netlify" />
+              <img src="@/images/netlify.svg" alt="Netlify" />
             </div>
           </div>
         </div>
@@ -81,9 +81,9 @@
 </template>
 
 <script>
-import MainHeading from '../../Comman/Heading/mainHeading.vue';
-import SubHeading from '../../Comman/Heading/subHeading.vue';
-import Paragraph from '../../Comman/Paragraph';
+import MainHeading from '@/components/Comman/MainHeading';
+import SubHeading from '@/components/Comman/SubHeading';
+import Paragraph from '@/components/Comman/Paragraph';
 
  export default {
     name: 'Footer',
