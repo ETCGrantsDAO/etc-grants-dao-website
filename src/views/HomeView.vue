@@ -36,6 +36,11 @@
               >{{ $t("requirements.nav-heading") }}</a
             >
             <a
+              href="#grantsProcess"
+              class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
+              >{{ $t("grantsProcess.nav-heading") }}</a
+            >
+            <a
               href="#suggestions"
               class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700"
               >{{ $t("suggestions.nav-heading") }}</a
@@ -147,6 +152,36 @@
           </p>
           <p class="font-notoSans text-textColor text-base font-normal pb-4">
             {{ $t("requirements.publiclyVisible.nav-heading") }}
+          </p>
+
+          <!-- Grants process mobile nav -->
+          <a
+            v-on:click="closeNav()"
+            href="#grantsProcess"
+            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+          >
+            {{ $t("grantsProcess.nav-heading") }}
+          </a>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step1.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step2.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step3.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step4.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step5.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step6.nav-heading") }}
+          </p>
+          <p class="font-notoSans text-textColor text-base font-normal pb-4">
+            {{ $t("grantsProcess.phases.step7.nav-heading") }}
           </p>
 
           <!-- Suggestions mobile nav -->
@@ -327,6 +362,72 @@
                   href="#requirements.publiclyVisible"
                 >
                   {{ $t("requirements.publiclyVisible.nav-heading") }}
+                </a>
+              </div>
+
+              <!-- Grants process desktop navigation -->
+              <div class="text-headingsColor pt-8">
+                <a
+                  class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+                  href="#grantsProcess"
+                >
+                  {{ $t("grantsProcess.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step1"
+                >
+                  {{ $t("grantsProcess.phases.step1.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step2"
+                >
+                  {{ $t("grantsProcess.phases.step2.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step3"
+                >
+                  {{ $t("grantsProcess.phases.step3.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step4"
+                >
+                  {{ $t("grantsProcess.phases.step4.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step5"
+                >
+                  {{ $t("grantsProcess.phases.step5.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step6"
+                >
+                  {{ $t("grantsProcess.phases.step6.nav-heading") }}
+                </a>
+              </div>
+              <div class="text-headingsColor pt-6 pl-1">
+                <a
+                  class="font-notoSans text-textColor text-base font-normal"
+                  href="#grantsProcess.phases.step7"
+                >
+                  {{ $t("grantsProcess.phases.step7.nav-heading") }}
                 </a>
               </div>
 

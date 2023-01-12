@@ -195,8 +195,9 @@
     }
   },
 
-  "etcGrantsProcess": {
+  "grantsProcess": {
     "heading": "ETC Grants Process",
+    "nav-heading": "Process",
     "bullets": {
       "b1": "Call for proposals",
       "b2": "Grant Application submission",
@@ -225,6 +226,7 @@
 
       "step1": {
         "heading": "Step 1: Call for Proposals",
+        "nav-heading": "Step 1: Call for Proposals",
 
         "phasesSummary": {
           "body": {
@@ -244,6 +246,7 @@
 
       "step2": {
         "heading": "Step 2: Grant Application Submission",
+        "nav-heading": "Step 2: Grant Application Submission",
         "body": {
           "p1": "Grant applications should be submitted via the website.",
           "p2": "The application will outline all relevant details each team or individual should include. People should enter as much information as possible about their project, providing clear milestones and deliverables.",
@@ -253,6 +256,7 @@
 
       "step3": {
         "heading": "Step 3: Evaluation/Technical review",
+        "nav-heading": "Step 3: Evaluation/Technical review",
         "body": {
           "p1": "Decisions on the initial round of grants will be made by a committee appointed by Bitmain, Antpool and ETC Cooperative, as the initial donors into this grants process. If further donors join the process, they will be invited to participate in the decision making process as well.",
           "p2": "There is no specific plan to open up the decision making progress to the broader ETC community at the time of writing. Longer term it might make sense to move, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision making process.",
@@ -296,6 +300,7 @@
 
       "step4": {
         "heading": "Step 4: Grants team approval",
+        "nav-heading": "Step 4: Grants team approval",
         "body": {
           "p1": "After evaluation of all submitted grants (within the submission timeline), an applicant will be notified about whether their application has been accepted or denied. If an application was denied, the team will receive a notification with some feedback on why. If an application was approved, the team will move into the due diligence phase."
         }
@@ -303,6 +308,7 @@
 
       "step5": {
         "heading": "Step 5: Due diligence and KYC/AML requirements",
+        "nav-heading": "Step 5: Due diligence and KYC/AML requirements",
         "body": {
           "p1": "If your grant application has been accepted, you will go through due diligence and sign your formal agreement, which includes KYC/KYB required information. This information will be obtained by a third party independent company to comply with all AML and KYC requirements. The final agreement will specify terms of the contract and required milestones to release milestone payments. Agreements would be signed by all relevant parties.",
           "p2": "Once all successful applicants have completed the due diligence and rejected projects, the grant committee team will announce that round's grantees. The amount of funding committed in the round will also be disclosed. The plan is to have an active directory tab on the ETC grant website, that will show the status of all applications. This may not be achievable for the first grant round."
@@ -311,6 +317,7 @@
 
       "step6": {
         "heading": "Step 6: Grant progress and Milestone review",
+        "nav-heading": "Step 6: Grant progress and Milestone review",
         "body": {
           "p1": "During this stage of the process, the grantee would submit milestone/progress reports. These reports will provide insight to the grant committee and the community, about the progress of the individual grant. It will also be used to assess the efficacy and robustness of the ETC grant-making program and process. These reports will be made public, for transparency.",
           "p2": "The documentation will depend on whether it is a larger project, that has clear and differentiated milestones, or a smaller project without discrete pieces of work. If it is the latter, then a grant progress report template will be completed mid-way through the grant period, to assess the progress of the project.",
@@ -322,6 +329,7 @@
       },
       "step7": {
         "heading": "Step 7: Project Launch and Retrospective",
+        "nav-heading": "Step 7: Project Launch and Retrospective",
         "body": {
           "p1": "This phase is the final step in the grant making process and if the project has been successful, will lead to the launch of the final project and/or deliverables, as well as the completion milestone payment. This phase commences with the project retrospective that provides post mortem analysis to determine and analyze elements of the project that were successful or unsuccessful.",
           "p2": "Project post-mortems are intended to inform process improvements which mitigate future risks and to promote iterative best practices. Post-mortems are often considered a key component of, and ongoing precursor to, effective risk management. A grant project post mortem will be required on all projects, as this will allow the grant team to tweak the process as the program matures.",
