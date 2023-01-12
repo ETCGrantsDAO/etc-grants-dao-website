@@ -210,6 +210,7 @@
 
     "timeline": {
       "heading": "Timeline",
+      "nav-heading": "Timeline",
       "bullets": {
         "b1": "Announcement of new grant round - Call for proposals",
         "b2": "Grant application submissions open (3 months)",

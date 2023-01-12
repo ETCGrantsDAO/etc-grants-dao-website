@@ -808,6 +808,335 @@
               </p>
             </div>
 
+            <!-- Grants process -->
+            <a id="grantsProcess"/>
+            <div class="border-b-2 pb-16"></div>
+            <div class="pt-16"></div>
+            <div class="text-headingsColor">
+              <p
+                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("grantsProcess.bullets.b1") }} <br/>
+                - {{ $t("grantsProcess.bullets.b2") }} <br/>
+                - {{ $t("grantsProcess.bullets.b3") }} <br/>
+                - {{ $t("grantsProcess.bullets.b4") }} <br/>
+                - {{ $t("grantsProcess.bullets.b5") }} <br/>
+                - {{ $t("grantsProcess.bullets.b6") }} <br/>
+                - {{ $t("grantsProcess.bullets.b7") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.timeline.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("grantsProcess.timeline.bullets.b1") }} <br/>
+                - {{ $t("grantsProcess.timeline.bullets.b2") }} <br/>
+                - {{ $t("grantsProcess.timeline.bullets.b3") }} <br/>
+                - {{ $t("grantsProcess.timeline.bullets.b4") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.body.p1") }} <br/>
+              </p>
+            </div>
+            <a id="grantsProcess.phases.step1"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step1.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step1.phasesSummary.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} <br/>
+                - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step1.phasesWrapup.body.p1") }} <br/>
+              </p>
+            </div>
+
+            <a id="grantsProcess.phases.step2"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step2.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step2.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step2.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step2.body.p2") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step2.body.p3") }} <br/>
+              </p>
+            </div>
+
+            <a id="grantsProcess.phases.step3"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step3.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.body.p2") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.body.p3") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.body.p4") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.body.p5") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-6">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b1") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b2") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b3") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b4") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.betterChance.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-6">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b1") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b2") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b3") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b4") }} <br/>
+                - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b5") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.wrapup.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step3.wrapup.body.p2") }} <br/>
+              </p>
+            </div>
+
+            <a id="grantsProcess.phases.step4"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step4.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step4.body.p1") }} <br/>
+              </p>
+            </div>
+
+            <a id="grantsProcess.phases.step5"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step5.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step5.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step5.body.p2") }} <br/>
+              </p>
+            </div>
+
+            <a id="grantsProcess.phases.step6"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step6.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step6.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step6.body.p2") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step6.body.p3") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step6.body.p4") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step6.body.p5") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step6.body.p6") }} <br/>
+              </p>
+            </div>
+
+            <a id="grantsProcess.phases.step7"/>
+            <div class="text-headingsColor pt-16">
+              <p
+                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold"
+              >
+                {{ $t("grantsProcess.phases.step7.heading") }}
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step7.body.p1") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step7.body.p2") }} <br/>
+              </p>
+            </div>
+            <div class="text-headingsColor pt-12">
+              <p
+                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText"
+              >
+                {{ $t("grantsProcess.phases.step7.body.p3") }} <br/>
+              </p>
+            </div>
+
             <!-- Suggestions -->
             <a id="suggestions"/>
             <div class="border-b-2 pb-16"></div>
