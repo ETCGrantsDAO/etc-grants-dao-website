@@ -187,231 +187,15 @@
           <!-- Right hand side, main view -->
           <div
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
-
             <!-- About ETC Grants DAO -->
-            <!-- Main Heading -->
-            <MainHeading title="about.heading" />
-
-            <!-- About ETC Grants DAO / Ethereum Classic in 2023 -->
-            <!-- SubHeading -->
-            <SubHeading title="about.ethereumClassicIn2023.heading" />
-
-            <!-- Paragraph defined here-->
-
-            <Paragraph text="about.ethereumClassicIn2023.body.p1" />
-            <Paragraph text="about.ethereumClassicIn2023.body.p2" />
-
-
-            <Table />
-
-            <div class="pt-6"></div>
-            <div>
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("about.ethereumClassicIn2023.body.p3") }}
-              </p>
-            </div>
-            <div class="pt-12"></div>
-            <div>
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("about.ethereumClassicIn2023.body.p4") }}
-              </p>
-            </div>
-
+            <!--About Component-->
+            <About />
             <!-- About ETC Grants DAO / Funding -->
-            <a id="about.funding" />
-            <div class="pt-16"></div>
-            <div class="text-headingsColor">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("about.funding.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText pb-8">
-                {{ $t("about.funding.body.p1") }}
-              </p>
-              <br />
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("about.funding.body.p2") }}
-              </p>
-            </div>
-
+            <About_Funding />
             <!-- Grant categories -->
-            <a id="categories" />
-            <div class="border-b-2 pb-16"></div>
-            <div class="pt-16"></div>
-            <div class="text-headingsColor" id="noRetFunding">
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold">
-                {{ $t("categories.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("categories.body.p1") }}
-              </p>
-            </div>
-            <a id="categories.general" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("categories.general.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("categories.general.body.p1") }}
-              </p>
-            </div>
-            <a id="categories.targeted" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("categories.targeted.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("categories.targeted.body.p1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("categories.targeted.body.p2") }}
-              </p>
-            </div>
-            <a id="categories.types" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("categories.types.heading") }}
-              </p>
-            </div>
-
+            <GrantCategories />
             <!-- Requirements -->
-            <a id="requirements" />
-            <div class="border-b-2 pb-16"></div>
-            <div class="pt-16"></div>
-            <div class="text-headingsColor">
-              <p
-                class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold">
-                {{ $t("requirements.heading") }}
-              </p>
-            </div>
-            <a id="requirements.englishOrChinese" />
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("requirements.englishOrChinese.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.englishOrChinese.body.p1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.englishOrChinese.body.p2") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.englishOrChinese.body.p3") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("requirements.noRetroactiveFunding.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.noRetroactiveFunding.body.p1") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("requirements.openSource.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.openSource.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("requirements.openSource.body.bullets.b1") }} <br />
-                - {{ $t("requirements.openSource.body.bullets.b2") }} <br />
-                - {{ $t("requirements.openSource.body.bullets.b3") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.openSource.body.p2") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.openSource.body.p3") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.openSource.body.p4") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("requirements.kycAml.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.kycAml.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-16">
-              <p
-                class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold">
-                {{ $t("requirements.publiclyVisible.heading") }}
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.publiclyVisible.body.p1") }} <br />
-              </p>
-            </div>
-            <div class="text-headingsColor pt-12">
-              <p
-                class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                {{ $t("requirements.publiclyVisible.body.p2") }} <br />
-              </p>
-            </div>
-
+           <Requirements />
             <!-- Grants process -->
             <a id="grantsProcess" />
             <div class="border-b-2 pb-16"></div>
@@ -839,12 +623,15 @@
 
 <script>
 import LocaleSwitcher from "@/components/LocaleSwitcher.vue";
-import MainHeading from "../components/Heading/mainHeading.vue"
+import MainHeading from "../components/Comman/Heading/mainHeading.vue"
 import NavBar from "../components/Comman/Navbar/index.vue"
-import SubHeading from "@/components/Heading/subHeading.vue";
-import Paragraph from "@/components/Paragraph"
-import Table from '@/components/Table'
-
+import SubHeading from "@/components/Comman/Heading/subHeading.vue";
+import Paragraph from "@/components/Comman/Paragraph"
+import Table from '@/components/Comman/Table'
+import About from "@/components/About"
+import About_Funding from "@/components/Funding"
+import GrantCategories from "@/components/GrantsCategories"
+import Requirements from "@/components/Requirements"
 export default {
   name: "HomeView",
   components: {
@@ -853,7 +640,11 @@ export default {
     NavBar,
     SubHeading,
     Paragraph,
-    Table
+    Table,
+    About,
+    About_Funding,
+    GrantCategories,
+    Requirements
   },
   methods: {
     openNav() {
