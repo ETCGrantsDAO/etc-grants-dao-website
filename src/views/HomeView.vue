@@ -47,10 +47,10 @@
             >
 
             <a
-              href=""
+              href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow"
             >
-              {{ $t("Apply Now") }}</a
+              {{ $t("etc-grants-dao.apply-now") }}</a
             >
 
             <!-- English/Chinese toggle-->
@@ -89,11 +89,11 @@
             />
           </div>
           <a
-            href="#"
+            href="https://airtable.com/shr3VMqyLd1HX5ws4"
             class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans text-base font-bold rounded"
           >
             <span class="text-headingsColor applyNowBtn relative">
-              {{ $t("Apply Now") }}
+              {{ $t("etc-grants-dao.apply-now") }}
             </span>
           </a>
 
@@ -215,9 +215,9 @@
               {{ $t("etc-grants-dao.description") }}
             </p>
             <a
-              href=""
+              href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="text-xl font-bold md:text-heroTextMobile mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex hover:scale-110 transition duration-300 ease-in-out"
-              ><p>{{ $t("Apply Now") }}</p>
+              ><p>{{ $t("etc-grants-dao.apply-now") }}</p>
               <img
                 src="../images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIconA"
@@ -498,73 +498,73 @@
                   <th
                     class="overflow-hidden text-left border-b-[2.5px] border-solid border-tableHBorder pl-1 pt-2 font-notoSans leading-8"
                   >
-                    {{ $t("tableHeading1") }}
+                    {{ $t("about.table.tableHeading1") }}
                   </th>
                   <th
                     class="overflow-hidden text-left border-b-[2.5px] border-solid border-tableHBorder pl-1 pt-2 font-notoSans leading-8"
                   >
-                    {{ $t("tableHeading2") }}
+                    {{ $t("about.table.tableHeading2") }}
                   </th>
                   <th
                     class="overflow-hidden text-left border-b-[2.5px] border-solid border-tableHBorder pl-1 pt-2 font-notoSans leading-8"
                   >
-                    {{ $t("tableHeading3") }}
+                    {{ $t("about.table.tableHeading3") }}
                   </th>
                   <th
                     class="overflow-hidden text-left border-b-[2.5px] border-solid border-tableHBorder pl-1 pt-2 font-notoSans leading-8"
                   >
-                    {{ $t("tableHeading4") }}
+                    {{ $t("about.table.tableHeading4") }}
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-1") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-1") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-1") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-1") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-1") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-1") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-1") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-1") }}</td>
                 </tr>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-2") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-2") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-2") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-2") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-2") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-2") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-2") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-2") }}</td>
                 </tr>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-3") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-3") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-3") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-3") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-3") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-3") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-3") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-3") }}</td>
                 </tr>
                 <tr class="bg-parrotGreen font-bold">
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-4") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-4") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-4") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-4") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-4") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-4") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-4") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-4") }}</td>
                 </tr>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-5") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-5") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-5") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-5") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-5") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-5") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-5") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-5") }}</td>
                 </tr>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-6") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-6") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-6") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-6") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-6") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-6") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-6") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-6") }}</td>
                 </tr>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-7") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-7") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-7") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-7") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-7") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-7") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-7") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-7") }}</td>
                 </tr>
                 <tr>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol1-8") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol2-8") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol3-8") }}</td>
-                  <td class="pl-1 pt-2 text-left">{{ $t("tableCol4-8") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol1-8") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol2-8") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol3-8") }}</td>
+                  <td class="pl-1 pt-2 text-left">{{ $t("about.table.tableCol4-8") }}</td>
                 </tr>
               </tbody>
             </table>
@@ -1179,20 +1179,20 @@
               </p>
             </div>
 
-            <!-- Application form at bottom of page -->
+            <!-- Apply Now form at bottom of page -->
             <a
               href=""
               class="mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-rightSecButton text-xl leading-twentyFour hidden lg:flex mt-8 hover:scale-110 transition duration-300 ease-in-out"
-              ><p>{{ $t("Application Form") }}</p>
+              ><p>{{ $t("etc-grants-dao.apply-now") }}</p>
               <img
                 src="../images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIcon2"
               />
             </a>
             <a
-              href=""
+              href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="text-base md:text-heroTextMobile mt-8 md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex lg:hidden"
-              ><p>{{ $t("Apply Now") }}</p>
+              ><p>{{ $t("etc-grants-dao.apply-now") }}</p>
               <img
                 src="../images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIcon1"
@@ -1211,12 +1211,12 @@
             <p
               class="text-2xl font-notoSans font-black text-headingsColor leading-8"
             >
-              {{ $t("ETC") }} &nbsp;
+              {{ $t("footer.heading-etc") }} &nbsp;
             </p>
             <p
               class="text-2xl font-notoSans font-medium text-headingsColor leading-7"
             >
-              {{ $t("Cooperative") }}
+              {{ $t("footer.heading-ooperative") }}
             </p>
           </div>
           <div class="flex pt-7">
@@ -1236,83 +1236,83 @@
           <p
             class="text-2xl font-notoSans font-black text-headingsColor leading-8"
           >
-            {{ $t("footerHeading1") }}
+            {{ $t("footer.footerHeading1") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-8 leading-7"
           >
-            {{ $t("footerHeading1Text1") }}
+            {{ $t("footer.footerHeading1Text1") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading1Text2") }}
+            {{ $t("footer.footerHeading1Text2") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading1Text3") }}
+            {{ $t("footer.footerHeading1Text3") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading1Text4") }}
+            {{ $t("footer.footerHeading1Text4") }}
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
           <p
             class="text-2xl font-notoSans font-black text-headingsColor leading-8"
           >
-            {{ $t("footerHeading2") }}
+            {{ $t("footer.footerHeading2") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-8 leading-7"
           >
-            {{ $t("footerHeading2Text1") }}
+            {{ $t("footer.footerHeading2Text1") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading2Text2") }}
+            {{ $t("footer.footerHeading2Text2") }}
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
           <p
             class="text-2xl font-notoSans font-black text-headingsColor leading-8"
           >
-            {{ $t("footerHeading3") }}
+            {{ $t("footer.footerHeading3") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-8 leading-7"
           >
-            {{ $t("footerHeading3Text1") }}
+            {{ $t("footer.footerHeading3Text1") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading3Text2") }}
+            {{ $t("footer.footerHeading3Text2") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading3Text3") }}
+            {{ $t("footer.footerHeading3Text3") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading3Text4") }}
+            {{ $t("footer.footerHeading3Text4") }}
           </p>
           <p
             class="text-base font-roboto font-normal text-headingsColor pt-4 leading-7"
           >
-            {{ $t("footerHeading3Text5") }}
+            {{ $t("footer.footerHeading3Text5") }}
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
           <p
             class="text-2xl font-notoSans font-black text-headingsColor leading-8"
           >
-            {{ $t("footerHeading4") }}
+            {{ $t("footer.footerHeading4") }}
           </p>
           <div class="pt-9">
             <img src="../images/bwRivlet.svg" alt="" />

@@ -1,79 +1,9 @@
 {
-  "ETC": "ETC",
-  "Cooperative": "Cooperative",
-  "Round 1": "Round 1",
-  "Apply Now": "Apply Now",
-  "Application Form": "Application Form",
-
-  "tableHeading1": "CMC Ranking",
-  "tableHeading2": "Project",
-  "tableHeading3": "Market Cap",
-  "tableHeading4": "Daily Rewards",
-
-  "tableCol1-1": "#1",
-  "tableCol1-2": "#9",
-  "tableCol1-3": "#20",
-  "tableCol1-4": "#23",
-  "tableCol1-5": "#24",
-  "tableCol1-6": "#28",
-  "tableCol1-7": "#56",
-  "tableCol1-8": "#64",
-
-  "tableCol2-1": "Bitcoin",
-  "tableCol2-2": "Dogecoin",
-  "tableCol2-3": "Litecoin",
-  "tableCol2-4": "ETC",
-  "tableCol2-5": "Monero",
-  "tableCol2-6": "Bitcoin Cash",
-  "tableCol2-7": "Bitcoin SV",
-  "tableCol2-8": "ZCash",
-
-  "tableCol3-1": "$313.1B",
-  "tableCol3-2": "$10.6B",
-  "tableCol3-3": "$3.8B",
-  "tableCol3-4": "$2.7B",
-  "tableCol3-5": "$2.3B",
-  "tableCol3-6": "$1.8B",
-  "tableCol3-7": "$707M",
-  "tableCol3-8": "$560M",
-
-  "tableCol4-1": "$15.4M",
-  "tableCol4-2": "$1.1M",
-  "tableCol4-3": "$371K",
-  "tableCol4-4": "$314K",
-  "tableCol4-5": "$57K",
-  "tableCol4-6": "$86K",
-  "tableCol4-7": "$43K",
-  "tableCol4-8": "$103K",
-
-  "footerHeading1": "Learn",
-  "footerHeading1Text1": "ethereumclassic.org",
-  "footerHeading1Text2": "ETC Community Discord",
-  "footerHeading1Text3": "ETC Cooperative Discord",
-  "footerHeading1Text4": "ECIPs",
-
-  "footerHeading2": "Projects",
-  "footerHeading2Text1": "Hyperledger Besu",
-  "footerHeading2Text2": "Core-Geth",
-
-  "footerHeading3": "Run",
-  "footerHeading3Text1": "Hyperledger Besu",
-  "footerHeading3Text2": "Core-Geth",
-  "footerHeading3Text3": "BlockScout",
-  "footerHeading3Text4": "ETC Public RPC Endpoints",
-  "footerHeading3Text5": "ETC Nodes Explorer",
-
-  "footerHeading4": "Partners",
-
-
-  "-------------------------------------------------------------------------------------------": "",
-  "EVERYTHING-ABOVE-THIS-LINE-IS-OLD-STRINGS-TO-BE-IGNORED-AND-WITH-BE-DELETED-BY-BOB-OVER-TIME": "",
-  "THE-NEW-STRINGS-ARE-BELOW-AND-EVERYTHING-WILL-BE-IN-THIS-NEW-NESTED-FORM-IN-THE-END": "",
-  "--------------------------------------------------------------------------------------------": "",
 
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
-    "description": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem."
+    "description": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem.",
+    "apply-now": "Apply Now"
   },
 
   "contents-title": "Contents",
@@ -91,6 +21,49 @@
         "p3": "(Data above from 27th December 2022)",
         "p4": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem."
       }
+    },
+
+    "table": {
+      "tableHeading1": "CMC Ranking",
+      "tableHeading2": "Project",
+      "tableHeading3": "Market Cap",
+      "tableHeading4": "Daily Rewards",
+    
+      "tableCol1-1": "#1",
+      "tableCol1-2": "#9",
+      "tableCol1-3": "#20",
+      "tableCol1-4": "#23",
+      "tableCol1-5": "#24",
+      "tableCol1-6": "#28",
+      "tableCol1-7": "#56",
+      "tableCol1-8": "#64",
+    
+      "tableCol2-1": "Bitcoin",
+      "tableCol2-2": "Dogecoin",
+      "tableCol2-3": "Litecoin",
+      "tableCol2-4": "ETC",
+      "tableCol2-5": "Monero",
+      "tableCol2-6": "Bitcoin Cash",
+      "tableCol2-7": "Bitcoin SV",
+      "tableCol2-8": "ZCash",
+    
+      "tableCol3-1": "$313.1B",
+      "tableCol3-2": "$10.6B",
+      "tableCol3-3": "$3.8B",
+      "tableCol3-4": "$2.7B",
+      "tableCol3-5": "$2.3B",
+      "tableCol3-6": "$1.8B",
+      "tableCol3-7": "$707M",
+      "tableCol3-8": "$560M",
+    
+      "tableCol4-1": "$15.4M",
+      "tableCol4-2": "$1.1M",
+      "tableCol4-3": "$371K",
+      "tableCol4-4": "$314K",
+      "tableCol4-5": "$57K",
+      "tableCol4-6": "$86K",
+      "tableCol4-7": "$43K",
+      "tableCol4-8": "$103K"    
     },
 
     "funding": {
@@ -205,6 +178,7 @@
 
     "timeline": {
       "heading": "Timeline",
+      "nav-heading": "Timeline",
       "bullets": {
         "b1": "Announcement of new grant round - Call for proposals",
         "b2": "Grant application submissions open (3 months)",
@@ -375,5 +349,30 @@
         "p2": "Apply here!"
       }
     }
+  },
+
+  "footer": {
+    "heading-etc": "ETC",
+    "heading-ooperative": "Cooperative",
+
+    "footerHeading1": "Learn",
+    "footerHeading1Text1": "ethereumclassic.org",
+    "footerHeading1Text2": "ETC Community Discord",
+    "footerHeading1Text3": "ETC Cooperative Discord",
+    "footerHeading1Text4": "ECIPs",
+  
+    "footerHeading2": "Projects",
+    "footerHeading2Text1": "Hyperledger Besu",
+    "footerHeading2Text2": "Core-Geth",
+  
+    "footerHeading3": "Run",
+    "footerHeading3Text1": "Hyperledger Besu",
+    "footerHeading3Text2": "Core-Geth",
+    "footerHeading3Text3": "BlockScout",
+    "footerHeading3Text4": "ETC Public RPC Endpoints",
+    "footerHeading3Text5": "ETC Nodes Explorer",
+  
+    "footerHeading4": "Partners"
   }
+
 }
