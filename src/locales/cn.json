@@ -24,47 +24,52 @@
     },
 
     "table": {
-      "tableHeading1": "CMC Ranking",
+      "tableHeading1": "CMC ranking",
       "tableHeading2": "Project",
-      "tableHeading3": "Market Cap",
-      "tableHeading4": "Daily Rewards",
+      "tableHeading3": "Market cap",
+      "tableHeading4": "Daily mining rewards",
     
       "tableCol1-1": "#1",
-      "tableCol1-2": "#9",
-      "tableCol1-3": "#20",
-      "tableCol1-4": "#23",
-      "tableCol1-5": "#24",
-      "tableCol1-6": "#28",
-      "tableCol1-7": "#56",
-      "tableCol1-8": "#64",
-    
       "tableCol2-1": "Bitcoin",
+      "tableCol3-1": "$383.1B",
+      "tableCol4-1": "$17.97M",
+
+      "tableCol1-2": "#9",
       "tableCol2-2": "Dogecoin",
+      "tableCol3-2": "$11.1B",
+      "tableCol4-2": "$1.21M",
+
+      "tableCol1-3": "#12",
       "tableCol2-3": "Litecoin",
-      "tableCol2-4": "ETC",
-      "tableCol2-5": "Monero",
+      "tableCol3-3": "$6.2B",
+      "tableCol4-3": "$628K",
+
+      "tableCol1-4": "#23",
+      "tableCol2-4": "Monero",
+      "tableCol3-4": "$3.1B",
+      "tableCol4-4": "$74K",
+
+      "tableCol1-5": "#24",
+      "tableCol2-5": "ETC",
+      "tableCol3-5": "$3.0B",
+      "tableCol4-5": "$321K",
+
+      "tableCol1-6": "#26",
       "tableCol2-6": "Bitcoin Cash",
+      "tableCol3-6": "$2.4B",
+      "tableCol4-6": "$112K",
+
+      "tableCol1-7": "#55",
       "tableCol2-7": "Bitcoin SV",
+      "tableCol3-7": "$828M",
+      "tableCol4-7": "$39K",
+
+      "tableCol1-8": "#58",
       "tableCol2-8": "ZCash",
-    
-      "tableCol3-1": "$313.1B",
-      "tableCol3-2": "$10.6B",
-      "tableCol3-3": "$3.8B",
-      "tableCol3-4": "$2.7B",
-      "tableCol3-5": "$2.3B",
-      "tableCol3-6": "$1.8B",
-      "tableCol3-7": "$707M",
-      "tableCol3-8": "$560M",
-    
-      "tableCol4-1": "$15.4M",
-      "tableCol4-2": "$1.1M",
-      "tableCol4-3": "$371K",
-      "tableCol4-4": "$314K",
-      "tableCol4-5": "$57K",
-      "tableCol4-6": "$86K",
-      "tableCol4-7": "$43K",
-      "tableCol4-8": "$103K"    
+      "tableCol3-8": "$734M",
+      "tableCol4-8": "$131K"
     },
+
 
     "funding": {
       "heading": "谁资助了这个项目?承诺资金是多少?",

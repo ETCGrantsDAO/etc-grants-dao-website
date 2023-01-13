@@ -30,13 +30,13 @@
         <TD text="about.table.tableCol3-3" />
         <TD text="about.table.tableCol4-3" />
       </tr>
-      <tr class="bg-parrotGreen font-bold">
+      <tr>
         <TD text="about.table.tableCol1-4" />
         <TD text="about.table.tableCol2-4" />
         <TD text="about.table.tableCol3-4" />
         <TD text="about.table.tableCol4-4" />
       </tr>
-      <tr>
+      <tr class="bg-parrotGreen font-bold">
         <TD text="about.table.tableCol1-5" />
         <TD text="about.table.tableCol2-5" />
         <TD text="about.table.tableCol3-5" />
