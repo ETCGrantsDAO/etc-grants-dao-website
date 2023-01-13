@@ -81,6 +81,26 @@
     "nav-heading": "助款类别",
     "body": {
       "p1": "每个团队的最高资助额一般为$50,000，除非以社区资助(最高$10,000)或溢价资助(超过$50,000)申请。"
+    },
+    "table": {
+      "tableHeading1": "Category",
+      "tableHeading2": "Maximum funding",
+      "tableHeading3": "Description",
+    
+      "tableCol1-1": "Community grant",
+      "tableCol1-2": "Conversion grant",
+      "tableCol1-3": "Standard grant",
+      "tableCol1-4": "Premium grant",
+    
+      "tableCol2-1": "Up to $10,000 USD",
+      "tableCol2-2": "Up to $25,000 USD",
+      "tableCol2-3": "Up to $50,000 USD",
+      "tableCol2-4": "Over $50,000 USD",
+    
+      "tableCol3-1": "Grassroots community grants such as hosting presentations, meet-ups, writing articles, starting clubs, translations, supporting aligned non-profits, using ETC within an IRL setting, supporting start-ups in underserved markets, etc.",
+      "tableCol3-2": "A Conversion Grant would be for project teams that have successfully launched a viable product on other blockchains and want to launch the same project on ETC.",
+      "tableCol3-3": "Most grants would fall into this bucket. The team would be expected to be experienced in launching projects, have the relevant technical experience to perform work required, and have a detailed breakdown of the project.",
+      "tableCol3-4": "These grants would only be available to teams with a proven track record of success. The project team would need to provide clear evidence of successful past launches and why funding over the amount of a standard grant, would be needed to meet objectives. If a team requests this type of grant and the grant committee likes the project, but does not feel it meets the stringent requirements of a premium grant, they may accept the grant under the terms of the Standard grant. The project team would then have the right to accept or decline during the grant approval phase.",
     }
   },
 
