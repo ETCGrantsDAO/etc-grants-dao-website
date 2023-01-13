@@ -6,19 +6,18 @@
             <MainHeading title="categories.heading" />
         </div>
         <Paragraph text="categories.body.p1" />
-        <SubHeading title="categories.general.heading" />
-        <Paragraph text="categories.general.body.p1" />
-        <SubHeading title="categories.targeted.heading" />
-        <Paragraph text="categories.targeted.body.p2" />
-        <!--Types-->
         <SubHeading title="categories.types.heading" />
+        <GrantCategoriesTable/>
     </section>
 
 </template>
+
+
 <script>
 import MainHeading from '@/components/Comman/MainHeading';
 import SubHeading from '@/components/Comman/SubHeading';
 import Paragraph from '@/components/Comman/Paragraph';
+import GrantCategoriesTable from './table.vue';
 
 export default {
     name: "GrantCategories",
@@ -26,7 +25,7 @@ export default {
         MainHeading,
         SubHeading,
         Paragraph,
-
+        GrantCategoriesTable
     }
 }
 </script>

@@ -1,6 +1,6 @@
 {
 
-  "etc-grants-dao": {
+  "c": {
     "title": "ETC Grants DAO",
     "description": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem.",
     "apply-now": "Apply Now"
@@ -82,27 +82,9 @@
       "p1": "每个团队的最高资助额一般为$50,000，除非以社区资助(最高$10,000)或溢价资助(超过$50,000)申请。"
     },
 
-    "general": {
-      "heading": "一般助款",
-      "nav-heading": "一般助款",
-      "body": {
-        "p1": "一般助款对所有希望在ETC上建立项目的个人和团队都是开放的。有一个建议列表，但所有的选择都是公开的。我们欢迎您就如何增加价值提出创造性的建议。"
-      }
-    },
-
-    "targeted": {
-      "heading": "针对助款",
-      "nav-heading": "针对助款",
-      "body": {
-        "p1": "针对助款，是指那些已被奖助金评选委员会和社区选定为优先项目和增长领域并且有公开请求的助款金。随着优先级的改变和团队启动他们的项目，每一轮的拨款可能会因项目而改变。",
-        "p2": "在新的一轮开始前，可能不会有任何公开的请求。在这种情况下，该类别属于一般赠款。"  
-      }
-    },
-
     "types": {
       "heading": "助款种类",
-      "nav-heading": "助款种类",
-      "DIAGRAM_HERE": "xxx"
+      "nav-heading": "助款种类"
     }
   },
 

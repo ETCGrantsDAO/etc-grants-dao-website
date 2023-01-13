@@ -83,27 +83,9 @@
       "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
     },
 
-    "general": {
-      "heading": "General grants",
-      "nav-heading": "General",
-      "body": {
-        "p1": "General grants are open to all and any teams looking to build their projects on ETC, with anything they would like to propose. There is a list of suggestions, but all options are the on the table. We welcome your creative suggestions on how to add value."
-      }
-    },
-
-    "targeted": {
-      "heading": "Targeted grants",
-      "nav-heading": "Targeted",
-      "body": {
-        "p1": "Targeted grants are those that have been selected by the grant selection committee and community as priority items and growth areas and which have an open request. These items may or may not change each grant round, as priorities change and teams launch their projects.",
-        "p2": "There may not be any open requests at the beginning of a new round. In that case, general grants should be selected for the category."  
-      }
-    },
-
     "types": {
       "heading": "Types of grant",
-      "nav-heading": "Types",
-      "DIAGRAM_HERE": "xxx"
+      "nav-heading": "Types"
     }
   },
 
