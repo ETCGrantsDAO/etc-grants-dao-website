@@ -7,7 +7,7 @@
     >
       <!-- Contents title -->
       <div class="top-28 bg-background navItems w-fit">
-        <a href="#" class="flex">
+        <a href="index.html" class="flex">
           <img src="@/images/contentIcon.svg" class="mr-3" />
           <p
             class="font-notoSans text-headingsColor text-lg leading-twentyEight mt-1"
