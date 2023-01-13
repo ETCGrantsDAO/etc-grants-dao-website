@@ -6,7 +6,6 @@
             <MainHeading title="categories.heading" />
         </div>
         <Paragraph text="categories.body.p1" />
-        <SubHeading title="categories.types.heading" />
         <GrantCategoriesTable/>
     </section>
 
