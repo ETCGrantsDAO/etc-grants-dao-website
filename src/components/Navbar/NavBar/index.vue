@@ -55,7 +55,19 @@
 </template>
 
 <script>
+import LocaleSwitcher from "@/components/LocaleSwitcher";
   export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    components: {
+      LocaleSwitcher
+    },
+    methods: {
+    openNav() {
+      this.$refs.navigation.classList.remove("hidden");
+    },
+    closeNav() {
+      this.$refs.navigation.classList.add("hidden");
+    },
+  }
   }
 </script>
