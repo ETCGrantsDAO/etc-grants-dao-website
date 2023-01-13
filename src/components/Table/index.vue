@@ -65,8 +65,8 @@
 </template>
 
 <script>
-import TH from './th.vue'
-import TD from './td.vue'
+import TH from '@/components/Comman/TH'
+import TD from '@/components/Comman/TD'
 export default {
   name: "Table",
   components: {
