@@ -71,76 +71,119 @@
     class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
     {{ $t("about.nav-heading") }}
   </a>
+  <a v-on:click="closeNav()" href="#about.ethereumClassicIn2023">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("about.ethereumClassicIn2023.nav-heading") }}</p>
+  </a>
+  <a v-on:click="closeNav()" href="#about.funding">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("about.funding.nav-heading") }}</p>
-
+</a>
   <!-- Grant categories mobile nav -->
   <a v-on:click="closeNav()" href="#categories"
     class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
     {{ $t("categories.nav-heading") }}
   </a>
+  <a v-on:click="closeNav()" href="#categories.general">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("categories.general.nav-heading") }}
   </p>
+  </a>
+  <a v-on:click="closeNav()" href="#categories.targeted">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("categories.targeted.nav-heading") }}
   </p>
+  </a>
+  <a v-on:click="closeNav()" href="#categories.types">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("categories.types.nav-heading") }}
   </p>
+  </a>
+
 
   <!-- Requirements mobile nav -->
   <a v-on:click="closeNav()" href="#requirements"
     class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
     {{ $t("requirements.nav-heading") }}
   </a>
+  <a v-on:click="closeNav()" href="#requirements.englishOrChinese">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("requirements.englishOrChinese.nav-heading") }}
   </p>
+</a>
+
+<a v-on:click="closeNav()" href="#requirements.noRetroactiveFunding">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("requirements.noRetroactiveFunding.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#requirements.openSource">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("requirements.openSource.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#requirements.kycAml">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("requirements.kycAml.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#requirements.publiclyVisible">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("requirements.publiclyVisible.nav-heading") }}
   </p>
-
+</a>
   <!-- Grants process mobile nav -->
   <a v-on:click="closeNav()" href="#grantsProcess"
     class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
     {{ $t("grantsProcess.nav-heading") }}
   </a>
+
+  <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step1.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#grantsProcess.phases.step2">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step2.nav-heading") }}
   </p>
+</a>
+
+<a v-on:click="closeNav()" href="#grantsProcess.phases.step3">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step3.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#grantsProcess.phases.step4">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step4.nav-heading") }}
   </p>
+</a>
+
+<a v-on:click="closeNav()" href="#grantsProcess.phases.step5">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step5.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#grantsProcess.phases.step6">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step6.nav-heading") }}
   </p>
+  </a>
+
+  <a v-on:click="closeNav()" href="#grantsProcess.phases.step7">
   <p class="font-notoSans text-textColor text-base font-normal pb-4">
     {{ $t("grantsProcess.phases.step7.nav-heading") }}
   </p>
-
+</a>
   <!-- Suggestions mobile nav -->
-  <a v-on:click="closeNav()" href="#suggestions"
+  <a v-on:click="closeNav()" href="#suggestion"
     class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
     {{ $t("suggestions.nav-heading") }}
   </a>
