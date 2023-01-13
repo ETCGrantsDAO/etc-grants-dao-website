@@ -35,15 +35,6 @@
             class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
             {{ $t("categories.nav-heading") }}
           </a>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("categories.general.nav-heading") }}
-          </p>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("categories.targeted.nav-heading") }}
-          </p>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("categories.types.nav-heading") }}
-          </p>
 
           <!-- Requirements mobile nav -->
           <a v-on:click="closeNav()" href="#requirements"
