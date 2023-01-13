@@ -9,7 +9,7 @@
           class="z-50 flex flex-col hidden lg:hidden pl-8 pr-6 pb-bodyY pt-3 max-h-screen bg-background w-screen top-6 fixed overflow-y-scroll"
           ref="navigation">
           <div class="">
-            <img src="../images/Cross.svg" v-on:click="closeNav()" class="ml-auto" id="menuIcon" ref="navClose" />
+            <img src="@/images/Cross.svg" v-on:click="closeNav()" class="ml-auto" id="menuIcon" ref="navClose" />
           </div>
           <a href="https://airtable.com/shr3VMqyLd1HX5ws4"
             class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans text-base font-bold rounded">
@@ -127,13 +127,13 @@
             <a href=""
               class="mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-rightSecButton text-xl leading-twentyFour hidden lg:flex mt-8 hover:scale-110 transition duration-300 ease-in-out">
               <p>{{ $t("etc-grants-dao.apply-now") }}</p>
-              <img src="../images/applyButtonIcon.png"
+              <img src="@/images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIcon2" />
             </a>
             <a href="https://airtable.com/shr3VMqyLd1HX5ws4"
               class="text-base md:text-heroTextMobile mt-8 md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex lg:hidden">
               <p>{{ $t("etc-grants-dao.apply-now") }}</p>
-              <img src="../images/applyButtonIcon.png"
+              <img src="@/images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIcon1" />
             </a>
           </div>
