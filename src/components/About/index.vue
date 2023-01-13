@@ -1,12 +1,14 @@
 <template>
-    <section id="about">
+    <section id="about.ethereumClassicIn2023">
         <!-- About ETC Grants DAO -->
         <!-- Main Heading -->
-        <MainHeading title="about.heading" />
-
+            <MainHeading title="about.heading" />
         <!-- About ETC Grants DAO / Ethereum Classic in 2023 -->
         <!-- SubHeading -->
+
+
         <SubHeading title="about.ethereumClassicIn2023.heading" />
+
 
         <!-- Paragraph defined here-->
 

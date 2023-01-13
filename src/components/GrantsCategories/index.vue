@@ -6,12 +6,18 @@
             <MainHeading title="categories.heading" />
         </div>
         <Paragraph text="categories.body.p1" />
-        <SubHeading title="categories.general.heading" />
-        <Paragraph text="categories.general.body.p1" />
-        <SubHeading title="categories.targeted.heading" />
-        <Paragraph text="categories.targeted.body.p2" />
+        <div id="categories.general">
+            <SubHeading title="categories.general.heading" />
+            <Paragraph text="categories.general.body.p1" />
+        </div>
+        <div id="categories.targeted">
+            <SubHeading title="categories.targeted.heading" />
+            <Paragraph text="categories.targeted.body.p2" />
+        </div>
         <!--Types-->
-        <SubHeading title="categories.types.heading" />
+        <div id="categories.types">
+            <SubHeading title="categories.types.heading" />
+        </div>
     </section>
 
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <section id="about-funding">
+    <section id="about.funding">
         <SubHeading title="about.funding.heading" />
         <div class="text-headingsColor pt-12">
             <p
