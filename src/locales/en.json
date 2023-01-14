@@ -17,7 +17,7 @@
       "heading": "Ethereum Classic in 2023",
       "nav-heading": "Ethereum Classic in 2023",
       "body": {
-        "p1": "The ETC Grants program was first announced at the WDMS conference in November 2022 to support the growth of the Ethereum Classic ecosystem.",
+        "p1": "The ETC Grants program <a href='{link1}'>linktext</a> was first announced at the WDMS conference in November 2022 to support the growth of the Ethereum Classic ecosystem.",
         "p2": "ETC has the largest market cap and highest daily mining rewards for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on every major exchange and hundreds of millions of dollars of $ETC are traded daily but there are very few decentralized applications using the platform, only a very small amount of TVL in its Defi ecosystem and few NFT projects.",
         "p3": "(Data above from 13th January 2022)",
         "p4": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem."
