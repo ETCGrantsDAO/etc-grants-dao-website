@@ -5,13 +5,15 @@
         <MainHeading title="grantsProcess.heading" />
         <div class="text-headingsColor pt-12">
             <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.bullets.b4") }} <br />
-                - {{ $t("grantsProcess.bullets.b5") }} <br />
-                - {{ $t("grantsProcess.bullets.b6") }} <br />
-                - {{ $t("grantsProcess.bullets.b7") }} <br />
+                <ul>
+                    <li> {{ $t("grantsProcess.bullets.b1") }} </li>
+                    <li> {{ $t("grantsProcess.bullets.b2") }} </li>
+                    <li> {{ $t("grantsProcess.bullets.b3") }} </li>
+                    <li> {{ $t("grantsProcess.bullets.b4") }} </li>
+                    <li> {{ $t("grantsProcess.bullets.b5") }} </li>
+                    <li> {{ $t("grantsProcess.bullets.b6") }} </li>
+                    <li> {{ $t("grantsProcess.bullets.b7") }} </li>
+                </ul>
             </p>
         </div>
         <SubHeading title="grantsProcess.timeline.heading" />
