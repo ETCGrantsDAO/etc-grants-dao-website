@@ -63,3 +63,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Scroll margin top */
+.scroll-element {
+  scroll-margin-top: 60px;
+}
+.parent-scroll-element {
+  scroll-margin-top: 40px;
+}
