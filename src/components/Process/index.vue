@@ -33,22 +33,22 @@
             <Paragraph text="grantsProcess.phases.step3.body.p4" />
             <Paragraph text="grantsProcess.phases.step3.mayBeDeclined.body.p1" />
             <div class="text-headingsColor pt-6">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                    - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b1") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b2") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b3") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b4") }} <br />
-                </p>
+                <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                  <li> -{{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b1") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b2") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b3") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.mayBeDeclined.body.bullets.b4") }} </li>
+                </ul>
             </div>
             <Paragraph text="grantsProcess.phases.step3.betterChance.body.p1" />
             <div class="text-headingsColor pt-6">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                    - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b1") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b2") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b3") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b4") }} <br />
-                    - {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b5") }} <br />
-                </p>
+                <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                    <li>- {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b1") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b2") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b3") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b4") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step3.betterChance.body.bullets.b5") }} </li>
+                </ul>
             </div>
             <Paragraph text="grantsProcess.phases.step3.wrapup.body.p1" />
             <Paragraph text="grantsProcess.phases.step3.wrapup.body.p2" />
