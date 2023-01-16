@@ -1,8 +1,7 @@
 <template>
     <section id="grantsProcess">
-        <div class="border-b-2 pb-16"></div>
-        <div class="pt-16"></div>
         <MainHeading title="grantsProcess.heading" />
+
         <div class="text-headingsColor pt-12">
             <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
                 - {{ $t("grantsProcess.bullets.b1") }} <br />
@@ -14,6 +13,15 @@
                 - {{ $t("grantsProcess.bullets.b7") }} <br />
             </p>
         </div>
+
+        <div class="text-headingsColor pt-12">
+            <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                <SubHeading title="categories.heading" />
+                <Paragraph text="categories.body.p1" />
+            </p>
+        </div>
+        <GrantCategoriesTable/>
+
         <SubHeading title="grantsProcess.timeline.heading" />
         <div class="text-headingsColor pt-12">
             <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
@@ -109,16 +117,20 @@
     </section>
 </template>
 <script>
+
+
 import MainHeading from '@/components/Common/MainHeading';
 import SubHeading from '@/components/Common/SubHeading';
 import Paragraph from '@/components/Common/Paragraph';
+import GrantCategoriesTable from './table.vue';
 
 export default {
     name: "Process",
     components: {
         MainHeading,
         SubHeading,
-        Paragraph
+        Paragraph,
+        GrantCategoriesTable
     }
 }
 </script>

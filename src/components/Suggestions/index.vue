@@ -1,6 +1,5 @@
 <template>
     <section id="suggestions">
-        <div class="border-b-2 pb-16"></div>
         <div class="pt-16"></div>
         <MainHeading title="suggestions.heading" />
         <Paragraph text="suggestions.body.p1" />

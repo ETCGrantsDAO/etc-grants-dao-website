@@ -9,6 +9,40 @@
 
   "contents-title": "Contents",
 
+  "overview": {
+    "heading": "Overview",
+    "nav-heading": "Overview",
+
+    "etc-grants-dao": {
+      "heading": "ETC Grants DAO",
+      "nav-heading": "ETC Grants DAO",
+      "body": {
+        "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the ecological construction and long-term development of Ethereum Classic.",
+        "p2": "Mission - In the context of Ethereum's merge, under the call of PoW believers from ETH and ETC communities, facing the censorship and centralization problems of blockchain .We aim to unite the community and build Ethereum Classic into a top-level smart contract public chain based on the PoW consensus mechanism, with high security, decentralization, and censorship resistance",
+        "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work beliefs originated from Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW consensus mechanism has significant security,decentralization, and censorship resistance advantages.",
+        "p4": "Technology benefits mankind - EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a human computer in the web3.0 era.",
+        "p5": "Of the community, by the community, and for the community.  The EGD codes of conduct are of the community, by the community, and for the community. EGD will bring together the most extensive ETC community members, to"
+      }
+    },
+
+    "etc-grants-program": {
+      "heading": "ETC Grants Program",
+      "nav-heading": "ETC Grants Program",
+      "body": {
+        "p1": "In July 2022, Bitmain and Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
+        "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
+      }
+    },
+
+    "round1": {
+      "heading": "Round 1 of the ETC Grants Program",
+      "nav-heading": "Round 1",
+      "body": {
+        "p1": "The first round of ETC Grants will start on Thursday 10th January 2023. The application process will be open until the end-of-day Friday 31st March 2023. Up to $1M USD worth of ETC is available for successful applicants in this first round of grants."  
+      }
+    }
+  },
+
   "about": {
     "heading": "About ETC Grants DAO",
     "nav-heading": "About",
@@ -110,8 +144,8 @@
   },
 
   "requirements": {
-    "heading": "What do grant applications need to know?",
-    "nav-heading": "Requirements",
+    "heading": "Principles",
+    "nav-heading": "Principles",
  
     "englishOrChinese": {
       "heading": "English or Chinese",

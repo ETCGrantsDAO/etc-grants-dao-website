@@ -13,13 +13,9 @@
 
       <!-- Shortcuts in the header-->
       <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
-        <a href="#about"
+        <a href="#overview"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-            $t("about.nav-heading")
-          }}</a>
-        <a href="#categories"
-          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-            $t("categories.nav-heading")
+            $t("overview.nav-heading")
           }}</a>
         <a href="#requirements"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{

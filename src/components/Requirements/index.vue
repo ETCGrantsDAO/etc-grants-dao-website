@@ -1,7 +1,5 @@
 <template>
     <section id="requirements">
-        <div class="border-b-2 pb-16"></div>
-        <div class="pt-16"></div>
         <MainHeading title="requirements.heading" />
         <div id="requirements.englishOrChinese">
             <SubHeading title="requirements.englishOrChinese.heading" />

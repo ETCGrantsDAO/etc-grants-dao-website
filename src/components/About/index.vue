@@ -1,34 +1,31 @@
 <template>
 
-    <!-- About ETC Grants DAO -->
-    <section id="about">
-        <MainHeading title="about.heading" />
+    <!-- Overview-->
+    <section id="overview">
+        <MainHeading title="overview.heading" />
 
-        <!-- About ETC Grants DAO / Ethereum Classic in 2023 -->
-        <section id="about.ethereumClassicIn2023">
-            <SubHeading title="about.ethereumClassicIn2023.heading" />
-            <Paragraph text="about.ethereumClassicIn2023.body.p1" />
-            <Paragraph text="about.ethereumClassicIn2023.body.p2" />           
-            <AboutTable/>
-            <Paragraph text="about.ethereumClassicIn2023.body.p3" />
-            <Paragraph text="about.ethereumClassicIn2023.body.p4" />
+        <!-- Overview / ETC Grants DAO -->
+        <section id="overview.etc-grants-dao">
+            <SubHeading title="overview.etc-grants-dao.heading" />
+            <Paragraph text="overview.etc-grants-dao.body.p1" />
+            <Paragraph text="overview.etc-grants-dao.body.p2" />
+            <Paragraph text="overview.etc-grants-dao.body.p3" />
+            <Paragraph text="overview.etc-grants-dao.body.p4" />
+            <Paragraph text="overview.etc-grants-dao.body.p5" />
         </section>
 
-        <!-- About ETC Grants DAO / Funding -->        
-        <section id="about.funding">
-            <SubHeading title="about.funding.heading" />
-            <div class="text-headingsColor pt-12">
-                <p
-                    class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText pb-8">
-                    {{ $t("about.funding.body.p1") }}
-                </p>
-                <br />
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                    {{ $t("about.funding.body.p2") }}
-                </p>
-            </div>
+       <!-- Overview / ETC Grants Program -->
+       <section id="overview.etc-grants-program">
+            <SubHeading title="overview.etc-grants-program.heading" />
+            <Paragraph text="overview.etc-grants-program.body.p1" />
+            <Paragraph text="overview.etc-grants-program.body.p2" />
         </section>
-    
+
+       <!-- Overview / Round 1 -->
+       <section id="overview.round1">
+            <SubHeading title="overview.round1.heading" />
+            <Paragraph text="overview.round1.body.p1" />
+        </section>
     </section>
 
 </template>
