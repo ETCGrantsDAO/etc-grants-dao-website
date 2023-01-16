@@ -183,7 +183,7 @@
           class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
           href="#resources"
         >
-          {{ $t("Resources") }}
+          {{ $t("resources.nav-heading") }}
         </a>
       </div>
 

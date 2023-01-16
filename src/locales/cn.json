@@ -383,6 +383,11 @@
     }
   },
 
+  "resources": {
+    "heading": "Resources",
+    "nav-heading": "Resources"
+  },
+
   "footer": {
     "heading-etc": "ETC",
     "heading-ooperative": "合作社",

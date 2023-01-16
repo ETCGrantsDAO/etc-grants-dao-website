@@ -28,6 +28,10 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("suggestions.nav-heading") }}
         </a>
+        <a href="#resources"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("resources.nav-heading") }}
+        </a>
         <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English"
           class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow">
           {{ $t("etc-grants-dao.apply-now-text") }} 
@@ -160,6 +164,12 @@
     <a v-on:click="closeNav()" href="#suggestion"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
       {{ $t("suggestions.nav-heading") }}
+    </a>
+
+    <!-- Grants process mobile nav -->
+    <a v-on:click="closeNav()" href="#resources"
+      class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
+      {{ $t("resources.nav-heading") }}
     </a>
 
   </div>
