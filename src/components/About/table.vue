@@ -68,7 +68,7 @@
 import TH from '@/components/Common/TH'
 import TD from '@/components/Common/TD'
 export default {
-  name: "Table",
+  name: "AboutTable",
   components: {
     TH,
     TD
