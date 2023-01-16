@@ -1,4 +1,5 @@
 <template>
+  
   <nav
   class="z-40 sticky pl-8 pr-6 xl:px-28 py-navMobile md:py-8 text-headingsColor top-0 bg-background w-fullWidth border-b-2 lg:border-b-0 border-footerBorder"
   ref="navBar">
@@ -11,13 +12,9 @@
 
     <!-- Shortcuts in the header-->
     <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
-      <a href="#about"
+      <a href="#overview"
         class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-          $t("about.nav-heading")
-        }}</a>
-      <a href="#categories"
-        class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
-          $t("categories.nav-heading")
+          $t("overview.nav-heading")
         }}</a>
       <a href="#requirements"
         class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
@@ -27,12 +24,12 @@
         class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
           $t("grantsProcess.nav-heading")
         }}</a>
-      <a href="#suggestion"
+      <a href="#suggestions"
         class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">{{
           $t("suggestions.nav-heading")
         }}</a>
 
-      <a href="https://airtable.com/shr3VMqyLd1HX5ws4"
+      <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English"
         class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow">
         {{ $t("etc-grants-dao.apply-now-text") }} 
       </a>
@@ -178,10 +175,11 @@ ref="navigation">
 </a>
 
 </div>
+
 </template>
 
 <script>
-import LocaleSwitcher from "../../LocaleSwitcher";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
 export default {
   name: 'NavBar',
   components: {
