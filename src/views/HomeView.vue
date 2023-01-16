@@ -19,10 +19,11 @@
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
 
             <!-- Primary content for the website, split into multiple components -->
-            <About />
-            <Requirements />
-            <Process />
-            <Suggestions />
+            <About/>
+            <Requirements/>
+            <Process/>
+            <Suggestions/>
+            <Resources/>
 
             <!-- Apply Now form at bottom of page -->
             <a href=""
@@ -54,6 +55,7 @@ import About from "@/components/About"
 import Requirements from "@/components/Requirements"
 import Process from "@/components/Process"
 import Suggestions from "@/components/Suggestions"
+import Resources from "@/components/Resources"
 import Footer from "@/components/Footer"
 
 export default {
@@ -67,6 +69,7 @@ export default {
     Requirements,
     Process,
     Suggestions,
+    Resources,
     Footer
   },
 
