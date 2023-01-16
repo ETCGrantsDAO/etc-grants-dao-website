@@ -109,9 +109,9 @@
     </section>
 </template>
 <script>
-import MainHeading from '@/components/Comman/MainHeading';
-import SubHeading from '@/components/Comman/SubHeading';
-import Paragraph from '@/components/Comman/Paragraph';
+import MainHeading from '@/components/Common/MainHeading';
+import SubHeading from '@/components/Common/SubHeading';
+import Paragraph from '@/components/Common/Paragraph';
 
 export default {
     name: "Process",

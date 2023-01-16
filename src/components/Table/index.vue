@@ -65,8 +65,8 @@
 </template>
 
 <script>
-import TH from '@/components/Comman/TH'
-import TD from '@/components/Comman/TD'
+import TH from '@/components/Common/TH'
+import TD from '@/components/Common/TD'
 export default {
   name: "Table",
   components: {
