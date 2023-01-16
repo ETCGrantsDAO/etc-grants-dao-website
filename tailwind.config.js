@@ -39,10 +39,11 @@ module.exports = {
       fontSize: {
         xxl: "64px",
         fourty: "40px",
-        thirtyTwo: "32px;",
+        thirtyTwo: "28px;",
         twentyFour: "24px;",
         heroTextDesktop: "28px",
-        heroTextMobile: "22px",
+        heroTextMobile: "20px",
+
       },
       lineHeight: {
         thirtyThree: "33px",
@@ -53,6 +54,7 @@ module.exports = {
         topHeadingMobile: "60px",
         heroHeadingDesktop: "88px",
         heroText: "42px",
+    
       },
       colors: {
         background: "#020518",
