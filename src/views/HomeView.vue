@@ -108,7 +108,6 @@
 
             <!-- Primary contenf for the website, split into multiple components -->
             <About />
-            <About_Funding />
             <GrantCategories />
             <Requirements />
             <Process />
@@ -141,7 +140,6 @@ import HeroSection from '@/components/Hero'
 import NavBar from "@/components/Navbar/NavBar"
 import LeftSideBar from "@/components/Navbar/LeftSideBar"
 import About from "@/components/About"
-import About_Funding from "@/components/Funding"
 import GrantCategories from "@/components/GrantsCategories"
 import Requirements from "@/components/Requirements"
 import Process from "@/components/Process"
@@ -156,7 +154,6 @@ export default {
     NavBar,
     LeftSideBar,
     About,
-    About_Funding,
     GrantCategories,
     Requirements,
     Process,

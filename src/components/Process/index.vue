@@ -85,7 +85,7 @@
         </div>
 
         <!--Step 5-->
-        <div id="grantsProcess.phases.step4">
+        <div id="grantsProcess.phases.step5">
             <SubHeading title="grantsProcess.phases.step5.heading" />
             <Paragraph text="grantsProcess.phases.step5.body.p1" />
             <Paragraph text="grantsProcess.phases.step5.body.p2" />
