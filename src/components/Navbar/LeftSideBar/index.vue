@@ -177,6 +177,16 @@
         </a>
       </div>
 
+      <!-- Resources desktop navigation -->
+      <div class="text-headingsColor pt-8">
+        <a
+          class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+          href="#resources"
+        >
+          {{ $t("Resources") }}
+        </a>
+      </div>
+
 
     </div>
   </div>

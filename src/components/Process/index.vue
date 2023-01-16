@@ -2,36 +2,6 @@
     <section id="grantsProcess">
         <MainHeading title="grantsProcess.heading" />
 
-        <div class="text-headingsColor pt-12">
-            <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.bullets.b4") }} <br />
-                - {{ $t("grantsProcess.bullets.b5") }} <br />
-                - {{ $t("grantsProcess.bullets.b6") }} <br />
-                - {{ $t("grantsProcess.bullets.b7") }} <br />
-            </p>
-        </div>
-
-        <div class="text-headingsColor pt-12">
-            <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                <SubHeading title="categories.heading" />
-                <Paragraph text="categories.body.p1" />
-            </p>
-        </div>
-        <GrantCategoriesTable/>
-
-        <SubHeading title="grantsProcess.timeline.heading" />
-        <div class="text-headingsColor pt-12">
-            <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.timeline.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b4") }} <br />
-            </p>
-        </div>
-
         <!-- Step 1-->
         <div id="grantsProcess.phases.step1">
             <Paragraph text="grantsProcess.phases.body.p1" />
@@ -44,7 +14,6 @@
                     - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} <br />
                 </p>
             </div>
-            <Paragraph text="grantsProcess.phases.step1.phasesWrapup.body.p1" />
         </div>
 
         <!--Step 2-->
@@ -62,7 +31,6 @@
             <Paragraph text="grantsProcess.phases.step3.body.p2" />
             <Paragraph text="grantsProcess.phases.step3.body.p3" />
             <Paragraph text="grantsProcess.phases.step3.body.p4" />
-            <Paragraph text="grantsProcess.phases.step3.body.p5" />
             <Paragraph text="grantsProcess.phases.step3.mayBeDeclined.body.p1" />
             <div class="text-headingsColor pt-6">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
@@ -122,7 +90,6 @@
 import MainHeading from '@/components/Common/MainHeading';
 import SubHeading from '@/components/Common/SubHeading';
 import Paragraph from '@/components/Common/Paragraph';
-import GrantCategoriesTable from './table.vue';
 
 export default {
     name: "Process",
@@ -130,7 +97,6 @@ export default {
         MainHeading,
         SubHeading,
         Paragraph,
-        GrantCategoriesTable
     }
 }
 </script>
