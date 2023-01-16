@@ -20,22 +20,6 @@
 
           <!-- As per Scott, this is the navigation used for the mobile version of the website -->
 
-          <!-- About mobile nav -->
-          <a v-on:click="closeNav()" href="#about"
-            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
-            {{ $t("about.nav-heading") }}
-          </a>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("about.ethereumClassicIn2023.nav-heading") }}</p>
-          <p class="font-notoSans text-textColor text-base font-normal pb-4">
-            {{ $t("about.funding.nav-heading") }}</p>
-
-          <!-- Grant categories mobile nav -->
-          <a v-on:click="closeNav()" href="#categories"
-            class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
-            {{ $t("categories.nav-heading") }}
-          </a>
-
           <!-- Requirements mobile nav -->
           <a v-on:click="closeNav()" href="#requirements"
             class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
@@ -106,9 +90,8 @@
           <div
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
 
-            <!-- Primary contenf for the website, split into multiple components -->
+            <!-- Primary content for the website, split into multiple components -->
             <About />
-            <GrantCategories />
             <Requirements />
             <Process />
             <Suggestions />
@@ -140,7 +123,6 @@ import HeroSection from '@/components/Hero'
 import NavBar from "@/components/Navbar/NavBar"
 import LeftSideBar from "@/components/Navbar/LeftSideBar"
 import About from "@/components/About"
-import GrantCategories from "@/components/GrantsCategories"
 import Requirements from "@/components/Requirements"
 import Process from "@/components/Process"
 import Suggestions from "@/components/Suggestions"
@@ -154,7 +136,6 @@ export default {
     NavBar,
     LeftSideBar,
     About,
-    GrantCategories,
     Requirements,
     Process,
     Suggestions,

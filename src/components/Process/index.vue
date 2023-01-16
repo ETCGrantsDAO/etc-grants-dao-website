@@ -1,28 +1,6 @@
 <template>
     <section id="grantsProcess">
-        <div class="border-b-2 pb-16"></div>
-        <div class="pt-16"></div>
         <MainHeading title="grantsProcess.heading" />
-        <div class="text-headingsColor pt-12">
-            <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.bullets.b4") }} <br />
-                - {{ $t("grantsProcess.bullets.b5") }} <br />
-                - {{ $t("grantsProcess.bullets.b6") }} <br />
-                - {{ $t("grantsProcess.bullets.b7") }} <br />
-            </p>
-        </div>
-        <SubHeading title="grantsProcess.timeline.heading" />
-        <div class="text-headingsColor pt-12">
-            <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                - {{ $t("grantsProcess.timeline.bullets.b1") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b2") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b3") }} <br />
-                - {{ $t("grantsProcess.timeline.bullets.b4") }} <br />
-            </p>
-        </div>
 
         <!-- Step 1-->
         <div id="grantsProcess.phases.step1">
@@ -36,7 +14,6 @@
                     - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} <br />
                 </p>
             </div>
-            <Paragraph text="grantsProcess.phases.step1.phasesWrapup.body.p1" />
         </div>
 
         <!--Step 2-->
@@ -54,7 +31,6 @@
             <Paragraph text="grantsProcess.phases.step3.body.p2" />
             <Paragraph text="grantsProcess.phases.step3.body.p3" />
             <Paragraph text="grantsProcess.phases.step3.body.p4" />
-            <Paragraph text="grantsProcess.phases.step3.body.p5" />
             <Paragraph text="grantsProcess.phases.step3.mayBeDeclined.body.p1" />
             <div class="text-headingsColor pt-6">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
@@ -109,6 +85,8 @@
     </section>
 </template>
 <script>
+
+
 import MainHeading from '@/components/Common/MainHeading';
 import SubHeading from '@/components/Common/SubHeading';
 import Paragraph from '@/components/Common/Paragraph';
@@ -118,7 +96,7 @@ export default {
     components: {
         MainHeading,
         SubHeading,
-        Paragraph
+        Paragraph,
     }
 }
 </script>

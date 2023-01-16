@@ -17,40 +17,37 @@
         </a>
       </div>
 
-      <!-- About desktop navigation -->
-      <div class="text-headingsColor pt-8 top-[136px] bg-background">
-        <a
-          class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          ref="blOverview"
-          href="#about"
-        >
-          {{ $t("about.nav-heading") }}
-        </a>
-      </div>
-      <div class="text-headingsColor pt-6 pl-1">
-        <a
-          class="font-notoSans text-textColor text-base font-normal"
-          href="#about.ethereumClassicIn2023"
-        >
-          {{ $t("about.ethereumClassicIn2023.nav-heading") }}
-        </a>
-      </div>
-      <div class="text-headingsColor pt-6 pl-1">
-        <a
-          class="font-notoSans text-textColor text-base font-normal"
-          href="#about.funding"
-        >
-          {{ $t("about.funding.nav-heading") }}
-        </a>
-      </div>
-
-      <!-- Grant categories desktop navigation -->
+      <!-- Overview desktop navigation -->
       <div class="text-headingsColor pt-8">
         <a
           class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          href="#categories"
+          href="#overview"
         >
-          {{ $t("categories.nav-heading") }}
+          {{ $t("overview.nav-heading") }}
+        </a>
+      </div>
+      <div class="text-headingsColor pt-6 pl-1">
+        <a
+          class="font-notoSans text-textColor text-base font-normal"
+          href="#overview.etc-grants-dao"
+        >
+          {{ $t("overview.etc-grants-dao.nav-heading") }}
+        </a>
+      </div>
+      <div class="text-headingsColor pt-6 pl-1">
+        <a
+          class="font-notoSans text-textColor text-base font-normal"
+          href="#overview.etc-grants-program"
+        >
+          {{ $t("overview.etc-grants-program.nav-heading") }}
+        </a>
+      </div>
+      <div class="text-headingsColor pt-6 pl-1">
+        <a
+          class="font-notoSans text-textColor text-base font-normal"
+          href="#overview.round1"
+        >
+          {{ $t("overview.round1.nav-heading") }}
         </a>
       </div>
 
@@ -177,6 +174,16 @@
           href="#suggestions"
         >
           {{ $t("suggestions.nav-heading") }}
+        </a>
+      </div>
+
+      <!-- Resources desktop navigation -->
+      <div class="text-headingsColor pt-8">
+        <a
+          class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
+          href="#resources"
+        >
+          {{ $t("Resources") }}
         </a>
       </div>
 
