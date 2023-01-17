@@ -17,10 +17,14 @@
       "nav-heading": "ETC Grants DAO",
       "body": {
         "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the ecological construction and long-term development of Ethereum Classic.",
-        "p2": "Mission - In the context of Ethereum's merge, under the call of PoW believers from ETH and ETC communities, facing the censorship and centralization problems of blockchain .We aim to unite the community and build Ethereum Classic into a top-level smart contract public chain based on the PoW consensus mechanism, with high security, decentralization, and censorship resistance",
+        "p2t":"Mission:",
+        "p2": "In the context of Ethereum's merge, under the call of PoW believers from ETH and ETC communities, facing the censorship and centralization problems of blockchain .We aim to unite the community and build Ethereum Classic into a top-level smart contract public chain based on the PoW consensus mechanism, with high security, decentralization, and censorship resistance",
+        "p3t":"Value:",
         "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work beliefs originated from Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW consensus mechanism has significant security,decentralization, and censorship resistance advantages.",
-        "p4": "Technology benefits mankind - EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a human computer in the web3.0 era.",
-        "p5": "Of the community, by the community, and for the community.  The EGD codes of conduct are of the community, by the community, and for the community. EGD will bring together the most extensive ETC community members, to"
+        "p4t":"- Technology benefits mankind",
+        "p4": "EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a human computer in the web3.0 era.",
+        "p5t":"- Of the community, by the community, and for the community",
+        "p5": "The EGD codes of conduct are of the community, by the community, and for the community. EGD will bring together the most extensive ETC community members, to"
       }
     },
 
