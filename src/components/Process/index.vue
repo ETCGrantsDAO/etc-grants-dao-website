@@ -8,7 +8,7 @@
             <SubHeading title="grantsProcess.phases.step1.heading" />
 
             <Paragraph text="grantsProcess.phases.step1.phasesSummary.body.p1" />
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-6">
                 <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText customList pl-4">
                     <li> {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} </li>
                     <li> {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} </li>
@@ -24,7 +24,7 @@
             <Paragraph text="grantsProcess.phases.step2.body.p2" />
             <Paragraph text="grantsProcess.phases.step2.body.p3" />
             <Paragraph text="grantsProcess.phases.step2.body.p4" />
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-6">
                 <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText customList pl-4">
                     <li> {{ $t("grantsProcess.phases.step2.body.bullets.b1") }} </li>
                     <li> {{ $t("grantsProcess.phases.step2.body.bullets.b2") }} </li>
