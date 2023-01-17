@@ -9,10 +9,11 @@
 
             <Paragraph text="grantsProcess.phases.step1.phasesSummary.body.p1" />
             <div class="text-headingsColor pt-12">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                    - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} <br />
-                    - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} <br />
-                </p>
+                <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                    <li> -{{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b3") }} </li>
+                </ul>
             </div>
         </div>
 
