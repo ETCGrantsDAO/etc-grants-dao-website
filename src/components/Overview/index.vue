@@ -42,7 +42,7 @@ import SubHeading from '@/components/Common/SubHeading';
 import Paragraph from '@/components/Common/Paragraph';
 
 export default {
-    name: "About",
+    name: "Overview",
     components: {
         MainHeading,
         SubHeading,
