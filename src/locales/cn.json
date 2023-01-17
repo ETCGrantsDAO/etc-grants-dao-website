@@ -241,9 +241,53 @@
 
   "resources": {
     "heading": "Resources",
-    "nav-heading": "Resources"
-  },
+    "nav-heading": "Resources",
 
+    "body": {
+      "etc-community": {
+        "heading": "ETC Community resources:",
+        "development": {
+          "text": "ETC Developer resources",
+          "link": "https://ethereumclassic.org/development"
+        },
+        "community": {
+          "text": "ETC Community links",
+          "link": "https://ethereumclassic.org/community"
+        }
+      },
+      "etc-grants-dao": {
+        "heading": "ETC Grants DAO resources:",
+        "twitter": {
+          "text": "Twitter",
+          "link": "https://twitter.com/etcgrantsdao"
+        },
+        "telegram": {
+          "text": "Telegram",
+          "link": "https://t.me/+HFT390x76c4zYWRh"
+        },
+        "wechat": {
+          "text": "WeChat",
+          "link": "https://etcgrantsdao.notion.site/Wechat-group-b747ef7d2321459485aecbcbf382c6ab"
+        },
+        "github": {
+          "text": "Github",
+          "link": "https://github.com/etcgrantsdao/etc-grants-dao-website"
+        },
+      },
+      "faqs": {
+        "heading": "FAQs:",
+        "why-classic": {
+          "text": "Why Ethereum Classic?",
+          "link": "https://ethereumclassic.org/why-classic"
+        },
+        "developer-faqs": {
+          "text": "Developer FAQs",
+          "link": "https://ethereumclassic.org/faqs/developers"
+        }
+      }
+    }
+  },
+      
   "footer": {
     "heading-etc": "ETC",
     "heading-ooperative": "合作社",
