@@ -18,17 +18,13 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("overview.nav-heading") }}
         </a>
-        <a href="#requirements"
+        <a href="#howtoapply"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
-          {{ $t("requirements.nav-heading") }}
+          {{ $t("howToApply.nav-heading") }}
         </a>
         <a href="#grantsProcess"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("grantsProcess.nav-heading") }}
-        </a>
-        <a href="#howtoapply"
-          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
-          {{ $t("howToApply.nav-heading") }}
         </a>
         <a href="#resources"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
@@ -69,7 +65,7 @@
 
     <!-- Mobile navigation -->
 
-    <!-- About mobile nav -->
+    <!-- Overview mobile nav -->
     <a v-on:click="closeNav()" href="#overview"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
       {{ $t("overview.nav-heading") }}
@@ -84,43 +80,28 @@
         {{ $t("overview.etc-grants-program.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#overview.round1">
-      <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("overview.round1.nav-heading") }}
-      </p>
-    </a>
 
-    <!-- Requirements mobile nav -->
-    <a v-on:click="closeNav()" href="#requirements"
+    <!-- How To Apply mobile nav -->
+    <a v-on:click="closeNav()" href="#suggestion"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
-      {{ $t("requirements.nav-heading") }}
+      {{ $t("howToApply.nav-heading") }}
     </a>
-    <a v-on:click="closeNav()" href="#requirements.englishOrChinese">
+    <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("requirements.englishOrChinese.nav-heading") }}
+        {{ $t("howToApply.round1.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#requirements.noRetroactiveFunding">
+    <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("requirements.noRetroactiveFunding.nav-heading") }}
+        {{ $t("howToApply.categories.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#requirements.openSource">
+    <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("requirements.openSource.nav-heading") }}
+        {{ $t("howToApply.suggestions.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#requirements.kycAml">
-      <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("requirements.kycAml.nav-heading") }}
-      </p>
-    </a>
-    <a v-on:click="closeNav()" href="#requirements.publiclyVisible">
-      <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("requirements.publiclyVisible.nav-heading") }}
-      </p>
-    </a>
-
+    
     <!-- Grants process mobile nav -->
     <a v-on:click="closeNav()" href="#grantsProcess"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
@@ -160,12 +141,6 @@
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
         {{ $t("grantsProcess.phases.step7.nav-heading") }}
       </p>
-    </a>
-
-    <!-- How To Apply mobile nav -->
-    <a v-on:click="closeNav()" href="#suggestion"
-      class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
-      {{ $t("howToApply.nav-heading") }}
     </a>
 
     <!-- Grants process mobile nav -->

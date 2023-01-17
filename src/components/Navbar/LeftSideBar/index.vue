@@ -42,66 +42,42 @@
           {{ $t("overview.etc-grants-program.nav-heading") }}
         </a>
       </div>
-      <div class="text-headingsColor pt-6 pl-1">
-        <a
-          class="font-notoSans text-textColor text-base font-normal"
-          href="#overview.round1"
-        >
-          {{ $t("overview.round1.nav-heading") }}
-        </a>
-      </div>
 
-      <!-- Requirements desktop navigation -->
+      <!-- How To Apply desktop navigation -->
       <div class="text-headingsColor pt-8">
         <a
           class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          href="#requirements"
+          href="#howtoapply"
         >
-          {{ $t("requirements.nav-heading") }}
+          {{ $t("howToApply.nav-heading") }}
         </a>
       </div>
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#requirements.englishOrChinese"
+          href="#howtoapply.round1"
         >
-          {{ $t("requirements.englishOrChinese.nav-heading") }}
+          {{ $t("howToApply.round1.nav-heading") }}
         </a>
       </div>
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#requirements.noRetroactiveFunding"
+          href="#howtoapply.categories"
         >
-          {{ $t("requirements.noRetroactiveFunding.nav-heading") }}
+          {{ $t("howToApply.categories.nav-heading") }}
         </a>
       </div>
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#requirements.openSource"
+          href="#howtoapply.suggestions"
         >
-          {{ $t("requirements.openSource.nav-heading") }}
-        </a>
-      </div>
-      <div class="text-headingsColor pt-6 pl-1">
-        <a
-          class="font-notoSans text-textColor text-base font-normal"
-          href="#requirements.kycAml"
-        >
-          {{ $t("requirements.kycAml.nav-heading") }}
-        </a>
-      </div>
-      <div class="text-headingsColor pt-6 pl-1">
-        <a
-          class="font-notoSans text-textColor text-base font-normal"
-          href="#requirements.publiclyVisible"
-        >
-          {{ $t("requirements.publiclyVisible.nav-heading") }}
+          {{ $t("howToApply.suggestions.nav-heading") }}
         </a>
       </div>
 
-      <!-- Grants process desktop navigation -->
+      <!-- Grants Process desktop navigation -->
       <div class="text-headingsColor pt-8">
         <a
           class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
@@ -164,16 +140,6 @@
           href="#grantsProcess.phases.step7"
         >
           {{ $t("grantsProcess.phases.step7.nav-heading") }}
-        </a>
-      </div>
-
-      <!-- How To Apply desktop navigation -->
-      <div class="text-headingsColor pt-8">
-        <a
-          class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          href="#howtoapply"
-        >
-          {{ $t("howToApply.nav-heading") }}
         </a>
       </div>
 

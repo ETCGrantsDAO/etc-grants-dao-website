@@ -21,11 +21,6 @@
             <Paragraph text="overview.etc-grants-program.body.p2" />
         </section>
 
-       <!-- Overview / Round 1 -->
-       <section id="overview.round1" class="scroll-element">
-            <SubHeading title="overview.round1.heading" />
-            <Paragraph text="overview.round1.body.p1" />
-        </section>
     </section>
 
 </template>
