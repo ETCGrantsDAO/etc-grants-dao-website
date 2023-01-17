@@ -22,7 +22,7 @@
             <About/>
             <Requirements/>
             <Process/>
-            <Suggestions/>
+            <HowToApply/>
             <Resources/>
 
             <!-- Apply Now form at bottom of page -->
@@ -54,7 +54,7 @@ import LeftSideBar from "@/components/Navbar/LeftSideBar"
 import About from "@/components/About"
 import Requirements from "@/components/Requirements"
 import Process from "@/components/Process"
-import Suggestions from "@/components/Suggestions"
+import HowToApply from "@/components/HowToApply"
 import Resources from "@/components/Resources"
 import Footer from "@/components/Footer"
 
@@ -68,7 +68,7 @@ export default {
     About,
     Requirements,
     Process,
-    Suggestions,
+    HowToApply,
     Resources,
     Footer
   },
