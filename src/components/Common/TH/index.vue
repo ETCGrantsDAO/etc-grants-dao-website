@@ -8,6 +8,6 @@
 <script>
 export default {
     name: "TH",
-    props: ['text']
+    props: ['text', 'style']
 }
 </script>
