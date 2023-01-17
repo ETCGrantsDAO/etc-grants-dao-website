@@ -43,106 +43,6 @@
     }
   },
 
-  "about": {
-    "heading": "About ETC Grants DAO",
-    "nav-heading": "About",
-
-    "ethereumClassicIn2023": {
-      "heading": "Ethereum Classic in 2023",
-      "nav-heading": "Ethereum Classic in 2023",
-      "body": {
-        "p1": "The ETC Grants program was first announced at the WDMS conference in November 2022 to support the growth of the Ethereum Classic ecosystem.",
-        "p2": "ETC has the largest market cap and highest daily mining rewards for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on every major exchange and hundreds of millions of dollars of $ETC are traded daily but there are very few decentralized applications using the platform, only a very small amount of TVL in its Defi ecosystem and few NFT projects.",
-        "p3": "(Data above from 13th January 2022)",
-        "p4": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem."
-      }
-    },
-
-    "table": {
-      "tableHeading1": "CMC ranking",
-      "tableHeading2": "Project",
-      "tableHeading3": "Market cap",
-      "tableHeading4": "Daily mining rewards",
-    
-      "tableCol1-1": "#1",
-      "tableCol2-1": "Bitcoin",
-      "tableCol3-1": "$383.1B",
-      "tableCol4-1": "$17.97M",
-
-      "tableCol1-2": "#9",
-      "tableCol2-2": "Dogecoin",
-      "tableCol3-2": "$11.1B",
-      "tableCol4-2": "$1.21M",
-
-      "tableCol1-3": "#12",
-      "tableCol2-3": "Litecoin",
-      "tableCol3-3": "$6.2B",
-      "tableCol4-3": "$628K",
-
-      "tableCol1-4": "#23",
-      "tableCol2-4": "Monero",
-      "tableCol3-4": "$3.1B",
-      "tableCol4-4": "$74K",
-
-      "tableCol1-5": "#24",
-      "tableCol2-5": "ETC",
-      "tableCol3-5": "$3.0B",
-      "tableCol4-5": "$321K",
-
-      "tableCol1-6": "#26",
-      "tableCol2-6": "Bitcoin Cash",
-      "tableCol3-6": "$2.4B",
-      "tableCol4-6": "$112K",
-
-      "tableCol1-7": "#55",
-      "tableCol2-7": "Bitcoin SV",
-      "tableCol3-7": "$828M",
-      "tableCol4-7": "$39K",
-
-      "tableCol1-8": "#58",
-      "tableCol2-8": "ZCash",
-      "tableCol3-8": "$734M",
-      "tableCol4-8": "$131K"
-    },
-
-    "funding": {
-      "heading": "Who is funding this program? How much has been pledged?",
-      "nav-heading": "Funding",
-      "body": {
-        "p1": "In July 2022, Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
-        "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
-      }
-    }
-  },
-
-  "categories": {
-    "heading": "Grants categories",
-    "nav-heading": "Categories",
-    "body": {
-      "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
-    },
-    "table": {
-      "tableHeading1": "Category",
-      "tableHeading2": "Maximum funding",
-      "tableHeading3": "Description",
-    
-      "tableCol1-1": "Community grant",
-      "tableCol1-2": "Conversion grant",
-      "tableCol1-3": "Standard grant",
-      "tableCol1-4": "Premium grant",
-    
-      "tableCol2-1": "Up to $10,000 USD",
-      "tableCol2-2": "Up to $25,000 USD",
-      "tableCol2-3": "Up to $50,000 USD",
-      "tableCol2-4": "Over $50,000 USD",
-    
-      "tableCol3-1": "Grassroots community grants such as hosting presentations, meet-ups, writing articles, starting clubs, translations, supporting aligned non-profits, using ETC within an IRL setting, supporting start-ups in underserved markets, etc.",
-      "tableCol3-2": "A Conversion Grant would be for project teams that have successfully launched a viable product on other blockchains and want to launch the same project on ETC.",
-      "tableCol3-3": "Most grants would fall into this bucket. The team would be expected to be experienced in launching projects, have the relevant technical experience to perform work required, and have a detailed breakdown of the project.",
-      "tableCol3-4": "These grants would only be available to teams with a proven track record of success. The project team would need to provide clear evidence of successful past launches and why funding over the amount of a standard grant, would be needed to meet objectives. If a team requests this type of grant and the grant committee likes the project, but does not feel it meets the stringent requirements of a premium grant, they may accept the grant under the terms of the Standard grant. The project team would then have the right to accept or decline during the grant approval phase.",
-    }
-  },
-
   "requirements": {
     "heading": "Principles",
     "nav-heading": "Principles",
@@ -345,6 +245,34 @@
       }
     },
 
+    "categories": {
+      "heading": "Grants categories",
+      "nav-heading": "Categories",
+      "body": {
+        "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
+      },
+      "table": {
+        "tableHeading1": "Category",
+        "tableHeading2": "Maximum funding",
+        "tableHeading3": "Description",
+      
+        "tableCol1-1": "Community grant",
+        "tableCol1-2": "Conversion grant",
+        "tableCol1-3": "Standard grant",
+        "tableCol1-4": "Premium grant",
+      
+        "tableCol2-1": "Up to $10,000 USD",
+        "tableCol2-2": "Up to $25,000 USD",
+        "tableCol2-3": "Up to $50,000 USD",
+        "tableCol2-4": "Over $50,000 USD",
+      
+        "tableCol3-1": "Grassroots community grants such as hosting presentations, meet-ups, writing articles, starting clubs, translations, supporting aligned non-profits, using ETC within an IRL setting, supporting start-ups in underserved markets, etc.",
+        "tableCol3-2": "A Conversion Grant would be for project teams that have successfully launched a viable product on other blockchains and want to launch the same project on ETC.",
+        "tableCol3-3": "Most grants would fall into this bucket. The team would be expected to be experienced in launching projects, have the relevant technical experience to perform work required, and have a detailed breakdown of the project.",
+        "tableCol3-4": "These grants would only be available to teams with a proven track record of success. The project team would need to provide clear evidence of successful past launches and why funding over the amount of a standard grant, would be needed to meet objectives. If a team requests this type of grant and the grant committee likes the project, but does not feel it meets the stringent requirements of a premium grant, they may accept the grant under the terms of the Standard grant. The project team would then have the right to accept or decline during the grant approval phase.",
+      }
+    },
+  
     "timeline": {
       "heading": "What is the timeline for applications?",
       "nav-heading": "Timeline",

@@ -28,11 +28,43 @@
 
     <div class="text-headingsColor pt-12">
         <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-            <SubHeading title="categories.heading" />
-            <Paragraph text="categories.body.p1" />
+            <SubHeading title="suggestions.categories.heading" />
+            <Paragraph text="suggestions.categories.body.p1" />
         </p>
     </div>
-    <GrantCategoriesTable/>
+
+    <table
+    class="rounded-[5px] overflow-hidden border-t-4 border-b-[12px] border-l-4 border-r-4 text-base mx-auto sm:w-tableDesktopWidth ml-tableMobile mr-tableMobile xs:ml-0 xs:mr-0 pr-9 bg-tableBackground font-dmSans md:text-lg rounded mt-12 md:border-r-fourty md:border-l-fourty">
+        <thead>
+            <tr>
+                <TH text="suggestions.categories.table.tableHeading1" />
+                <TH text="suggestions.categories.table.tableHeading2" />
+                <TH text="suggestions.categories.table.tableHeading3" />
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <TD text="suggestions.categories.table.tableCol1-1" />
+                <TD text="suggestions.categories.table.tableCol2-1" />
+                <TD text="suggestions.categories.table.tableCol3-1" />
+            </tr>
+            <tr>
+                <TD text="suggestions.categories.table.tableCol1-2" />
+                <TD text="suggestions.categories.table.tableCol2-2" />
+                <TD text="suggestions.categories.table.tableCol3-2" />
+            </tr>
+            <tr>
+                <TD text="suggestions.categories.table.tableCol1-3" />
+                <TD text="suggestions.categories.table.tableCol2-3" />
+                <TD text="suggestions.categories.table.tableCol3-3" />
+            </tr>
+            <tr>
+                <TD text="suggestions.categories.table.tableCol1-4" />
+                <TD text="suggestions.categories.table.tableCol2-4" />
+                <TD text="suggestions.categories.table.tableCol3-4" />
+            </tr>
+        </tbody>
+    </table>
 
     <div class="text-headingsColor pt-12">
         <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
@@ -55,7 +87,6 @@
 import MainHeading from '@/components/Common/MainHeading';
 import SubHeading from '@/components/Common/SubHeading';
 import Paragraph from '@/components/Common/Paragraph';
-import GrantCategoriesTable from './table.vue';
 
 export default {
     name: "Suggestions",
@@ -63,7 +94,6 @@ export default {
         MainHeading,
         SubHeading,
         Paragraph,
-        GrantCategoriesTable
     }
 }
 </script>
