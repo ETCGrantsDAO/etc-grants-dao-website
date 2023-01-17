@@ -1,5 +1,25 @@
 {
 
+  "ethereum-classic": {
+    "text": "The ETC Grants program was first announced \"ethereum-classic.link-title-one\" in November 2022 to support the growth \"ethereum-classic.link-title-two\" ecosystem.",
+    "link-title-one": "at the WDMS conference",
+    "link-title-two": "Ethereum Classic",
+    "link-title-one-href": "https://etccooperative.org/posts/2022-11-16-outline-of-xmei-lins-and-bob-summerwills-speeches-at-bitmain-wdsm-global-2022-en",
+    "link-title-two-href": "https://ethereumclassic.org/"
+  },
+
+  "ethereum-classic-test-two": {
+    "text": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on \"ethereum-classic-test-two.link-title-one\" and hundreds of millions of dollars of $ETC are traded daily but there are very \"ethereum-classic-test-two.link-title-two\" using the platform, only a very small amount of \"ethereum-classic-test-two.link-title-three\" in its Defi ecosystem and \"ethereum-classic-test-two.link-title-four\" .",
+    "link-title-one": "every major exchange",
+    "link-title-two": "few decentralized applications",
+    "link-title-three": "TVL",
+    "link-title-four": " few NFT projects",
+    "link-title-one-href": "https://coinmarketcap.com/currencies/ethereum-classic/markets/",
+    "link-title-two-href": "https://ethereumclassic.org/services/apps",
+    "link-title-three-href": "https://defillama.com/chain/EthereumClassic",
+    "link-title-four-href": "https://etcplanets.com/"
+  },
+  
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
     "description": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem.",
