@@ -9,19 +9,19 @@
             <SubHeading title="overview.etc-grants-dao.heading" />
             <Paragraph text="overview.etc-grants-dao.body.p1" />
             <div class="pt-12">
-                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p2t") }}</p>
+                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen">{{ $t("overview.etc-grants-dao.body.p2t") }}</p>
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p2") }}</p>
             </div>
             <div class="pt-12">
-                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p3t") }}</p>
+                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen">{{ $t("overview.etc-grants-dao.body.p3t") }}</p>
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p3") }}</p>
             </div>
             <div class="pt-12">
-                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p4t") }}</p>
+                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen">{{ $t("overview.etc-grants-dao.body.p4t") }}</p>
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p4") }}</p>
             </div>
             <div class="pt-12">
-                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p5t") }}</p>
+                <p style="font-weight:bold" class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen">{{ $t("overview.etc-grants-dao.body.p5t") }}</p>
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p5") }}</p>
             </div>
         </section>
@@ -40,15 +40,13 @@
 import MainHeading from '@/components/Common/MainHeading';
 import SubHeading from '@/components/Common/SubHeading';
 import Paragraph from '@/components/Common/Paragraph';
-import AboutTable from './table.vue';
 
 export default {
     name: "About",
     components: {
         MainHeading,
         SubHeading,
-        Paragraph,
-        AboutTable
+        Paragraph
     }
 }
 </script>

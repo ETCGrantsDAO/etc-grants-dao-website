@@ -71,8 +71,8 @@ html {
 .parent-scroll-element {
   scroll-margin-top: 40px;
 }
-.font-green{
-  color:#53eb45;
+.font-parrotGreen{
+  color:#93DA97;
 }
 
 .customList>li::before {
