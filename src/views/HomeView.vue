@@ -19,7 +19,7 @@
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
 
             <!-- Primary content for the website, split into multiple components -->
-            <About/>
+            <Overview/>
             <HowToApply/>
             <Process/>
             <Resources/>
@@ -50,7 +50,8 @@ import LocaleSwitcher from "@/components/LocaleSwitcher";
 import HeroSection from '@/components/Hero'
 import NavBar from "@/components/Navbar/NavBar"
 import LeftSideBar from "@/components/Navbar/LeftSideBar"
-import About from "@/components/About"
+
+import Overview from "@/components/Overview"
 import HowToApply from "@/components/HowToApply"
 import Process from "@/components/Process"
 import Resources from "@/components/Resources"
@@ -63,7 +64,8 @@ export default {
     HeroSection,
     NavBar,
     LeftSideBar,
-    About,
+
+    Overview,
     HowToApply,
     Process,
     Resources,
