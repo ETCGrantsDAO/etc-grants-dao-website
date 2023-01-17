@@ -1,5 +1,5 @@
 <template>
-    <div class="text-headingsColor pt-12">
+    <div class="text-headingsColor pt-6">
         <h2
             class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt rightSecHeading font-bold font-green">
             {{ $t(title) }}

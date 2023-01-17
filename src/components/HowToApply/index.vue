@@ -17,7 +17,7 @@
         <!-- How to Apply / Categories -->
         <section id="howToApply.categories" class="scroll-element">
             <table
-            class="rounded-[5px] overflow-hidden border-t-4 border-b-[12px] border-l-4 border-r-4 text-base mx-auto sm:w-tableDesktopWidth ml-tableMobile mr-tableMobile xs:ml-0 xs:mr-0 pr-9 bg-tableBackground font-dmSans md:text-lg rounded mt-12 md:border-r-fourty md:border-l-fourty">
+            class="rounded-[5px] overflow-hidden border-t-4 border-b-[12px] border-l-4 border-r-4 text-base mx-auto ml-tableMobile mr-tableMobile xs:ml-0 xs:mr-0 pr-9 bg-tableBackground font-dmSans md:text-lg rounded mt-12 md:border-r-fourty md:border-l-fourty">
                 <thead>
                     <tr>
                         <TH text="howToApply.categories.table.tableHeading1" />
@@ -57,24 +57,24 @@
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green">{{ $t("howToApply.suggestions.body.p1") }}</p>
             </div>
             <div class="text-headingsColor pt-12">
-                <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green">
-                <li> - {{ $t("howToApply.suggestions.body.bullets.b1") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b2") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b3") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b4") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b5") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b6") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b7") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b8") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b9") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b10") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b11") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b12") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b13") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b14") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b15") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b16") }} </li>
-                    <li>- {{ $t("howToApply.suggestions.body.bullets.b17") }} </li>
+                <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
+                <li> {{ $t("howToApply.suggestions.body.bullets.b1") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b2") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b3") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b4") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b5") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b6") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b7") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b8") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b9") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b10") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b11") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b12") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b13") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b14") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b15") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b16") }} </li>
+                    <li> {{ $t("howToApply.suggestions.body.bullets.b17") }} </li>
                 </ul>
             </div>
         </section>
