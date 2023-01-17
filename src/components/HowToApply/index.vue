@@ -56,7 +56,7 @@
             <div class="pt-12">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green">{{ $t("howToApply.suggestions.body.p1") }}</p>
             </div>
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-6">
                 <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
                 <li> {{ $t("howToApply.suggestions.body.bullets.b1") }} </li>
                     <li> {{ $t("howToApply.suggestions.body.bullets.b2") }} </li>
