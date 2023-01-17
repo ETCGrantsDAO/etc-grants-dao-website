@@ -32,82 +32,18 @@
         "p1": "In July 2022, Bitmain and Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
         "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
       }
-    },
-
-    "round1": {
-      "heading": "Round 1 of the ETC Grants Program",
-      "nav-heading": "Round 1",
-      "body": {
-        "p1": "The first round of ETC Grants will start on Thursday 10th January 2023. The application process will be open until the end-of-day Friday 31st March 2023. Up to $1M USD worth of ETC is available for successful applicants in this first round of grants."  
-      }
-    }
-  },
-
-  "requirements": {
-    "heading": "Principles",
-    "nav-heading": "Principles",
- 
-    "englishOrChinese": {
-      "heading": "English or Chinese",
-      "nav-heading": "English or Chinese",
-      "body": {
-        "p1": "The entire ETC Grants DAO process has been built with equal access in Chinese and English as a primary requirement. This website, application process, display of proposals and all other elements of the process will be visible in both languages. We want to open up accessibility to Ethereum Classic for the Chinese-speaking community, and welcome applications from that demographic, even if the outputs of those proposals are only applicable to a Chinese-speaking audience. That is no different than existing projects where the value only accrues to English speakers.",
-        "p2": "We will be translating all of the applications from English to Chinese and visa-versa so that speakers of either language are able to see all of the applications. The feedback from the Committee on projects and final fund assignments will also be available in both languages.",
-        "p3": "(ETC Cooperative have been publishing all content in both English and Chinese since November 2022.)"  
-      }
-    },
-
-    "noRetroactiveFunding": {
-      "heading": "No Retroactive Funding",
-      "nav-heading": "No Retroactive Funding",
-      "body": {
-        "p1" : "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants"
-      }
-    },
-
-    "openSource": {
-      "heading": "Projects must be permissively licensed open source",
-      "nav-heading": "Open source",
-      "body": {
-        "p1" : "All projects must make their 'outputs' available using permissive open source licensing, with only the following licenses being acceptable:",
-        "bullets": {
-          "b1": "Apache 2.0 - good for source code",
-          "b2": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
-          "b3": "Creative Commons (CC-BY-SA) - good for documentation"
-        },
-        "p2": "Funding will not be provided for projects seeking to build proprietary solutions.",
-        "p3": "The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
-        "p4": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering."
-      }
-    },
-
-    "kycAml": {
-      "heading": "Applicants will be subject to KYC/AML checks",
-      "nav-heading": "KYC/AML",
-      "body": {
-        "p1": "For regulatory compliance, applicants for the grants process will be subject to KYC (know your customer) checks through a third party agency. None of that information will be held by the parties participating in the ETC Grants DAO processes. Real names or other PII (personally identifying information) will not be made public unless applications choose to make that information publicly available on their application (ie. work history, past projects)."  
-      }
-    },
-
-    "publiclyVisible": {
-      "heading": "All applications will be publicly visible",
-      "nav-heading": "Publicly visible",
-      "body": {
-        "p1": "All applications will be visible to the public on the website, so that other applicants can calibrate their own applications and get a good idea of the 'playing field'. This will become especially important in later rounds.",
-        "p2": "Here are the ZCash Foundation proposals as an example of a desired end-state for the ETC program, though we are likely to have something more primitive at first."
-      }
     }
   },
 
   "grantsProcess": {
-    "heading": "ETC Grants Process",
-    "nav-heading": "Process",
+    "heading": "ETC Grants Process in Detail",
+    "nav-heading": "ETC Grants Process",
 
     "MISSING_DIAGRAM": "flowchart",
 
     "phases": {
       "body": {
-        "p1": "The 7 step grant process is outlined below:",
+        "p1": "Here is an in-depth description of the 7 step grant process:"
       },
 
       "step1": {
@@ -120,7 +56,8 @@
           },
           "bullets": {
             "b1": "The application submission (generally 3 months, subject to change)",
-            "b2": "The grant committee review and approval (generally one month, subject to change)"  
+            "b2": "The grant committee review and approval (generally one month, subject to change)",
+            "b3": "Announcing the recipients and disbursing the funds."
           }  
         }
       },
@@ -131,7 +68,15 @@
         "body": {
           "p1": "Grant applications should be submitted via the website.",
           "p2": "The application will outline all relevant details each team or individual should include. People should enter as much information as possible about their project, providing clear milestones and deliverables.",
-          "p3": "When submitting the application, you will choose one of the grant types. You will need to ensure that your requested grant funding does not exceed the guidelines for the grant type. To receive a premium grant, a team will be expected to have a clear financial break-down, proven track record of success, and clearly demonstrate the value proposition to the grants committee."
+          "p3": "When submitting the application, you will choose one of the grant types. You will need to ensure that your requested grant funding does not exceed the guidelines for the grant type. To receive a premium grant, a team will be expected to have a clear financial break-down, proven track record of success, and clearly demonstrate the value proposition to the grants committee.",
+          "p4" : "All projects must use permissive open source licenses, with only the following licenses being acceptable:",
+          "bullets": {
+            "b1": "Apache 2.0 - good for source code",
+            "b2": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
+            "b3": "Creative Commons (CC-BY-SA) - good for documentation"
+          },
+          "p5": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering.  Funding will not be provided for projects seeking to build proprietary solutions. The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
+          "p6": "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants."
         }
       },
 
@@ -191,7 +136,7 @@
         "nav-heading": "Step 5: Due diligence and KYC/AML requirements",
         "body": {
           "p1": "If your grant application has been accepted, you will go through due diligence and sign your formal agreement, which includes KYC/KYB required information. This information will be obtained by a third party independent company to comply with all AML and KYC requirements. The final agreement will specify terms of the contract and required milestones to release milestone payments. Agreements would be signed by all relevant parties.",
-          "p2": "Once all successful applicants have completed the due diligence and rejected projects, the grant committee team will announce that round's grantees. The amount of funding committed in the round will also be disclosed. The plan is to have an active directory tab on the ETC grant website, that will show the status of all applications. This may not be achievable for the first grant round."
+          "p2": "Once all successful applicants have completed the due diligence and rejected projects, the grant committee team will announce that round's grantees. The amount of funding committed in the round will also be disclosed."
         }
       },
 
@@ -222,32 +167,45 @@
   "howToApply": {
     "heading": "How to Apply",
     "nav-heading": "How to Apply",
-    "body": {
-      "p1": "Here are some ideas of projects which are likely to be well received, but please just take these as suggestions and feel free to bring your own ideas to the table too.",
-      "bullets": {
-        "b1": "Unique and compelling ETC-only dapps",
-        "b2": "Novel NFT projects (especially for real-world assets)",
-        "b3": "Native stablecoins (USDT, USDC, DAI, RAI, RICO, other)",
-        "b4": "First-class ETC support in key Ethereum projects",
-        "b5": "Deploying and supporting clones of key Ethereum project on ETC",
-        "b6": "Privacy solutions",
-        "b7": "Oracle solutions",
-        "b8": "Lending protocols",
-        "b9": "Bridges and interoperability",
-        "b10": "Atomic swaps",
-        "b11": "Educational content",
-        "b12": "Meetups and events",
-        "b13": "Podcasts",
-        "b14": "Safe apps",
-        "b15": "MetaMask snaps",
-        "b16": "Projects supporting self-custody",
-        "b17": "Projects supporting running your own node"
+    "round1": {
+      "heading": "Round 1 of the ETC Grants Program",
+      "nav-heading": "ETC Grants Round 1",
+      "body": {
+        "p1": "The grants process will be open for applications Thursday 19th January 2023. The application process will remain open through February and March 2023. Decisions on which grants will be funded will be made in April 2023.  The final decisions will be announced and initial funds disbursed in May 2023.",
+        "p2": "Up to $1M worth of ETC is available for successful applicants in this first round of funds."
+      }
+    },
+
+    "suggestions": {
+      "heading": "Suggestions",
+      "nav-heading": "Suggestions",
+      "body": {
+        "p1": "Here are some ideas of projects which are likely to be well received, but please just take these as suggestions and feel free to bring your own ideas to the table too.",
+        "bullets": {
+          "b1": "Unique and compelling ETC-only dapps",
+          "b2": "Novel NFT projects (especially for real-world assets)",
+          "b3": "Native stablecoins (USDT, USDC, DAI, RAI, RICO, other)",
+          "b4": "First-class ETC support in key Ethereum projects",
+          "b5": "Deploying and supporting clones of key Ethereum project on ETC",
+          "b6": "Privacy solutions",
+          "b7": "Oracle solutions",
+          "b8": "Lending protocols",
+          "b9": "Bridges and interoperability",
+          "b10": "Atomic swaps",
+          "b11": "Educational content",
+          "b12": "Meetups and events",
+          "b13": "Podcasts",
+          "b14": "Safe apps",
+          "b15": "MetaMask snaps",
+          "b16": "Projects supporting self-custody",
+          "b17": "Projects supporting running your own node"
+        }
       }
     },
 
     "categories": {
       "heading": "Grants categories",
-      "nav-heading": "Categories",
+      "nav-heading": "Grant categories",
       "body": {
         "p1": "The maximum funding per team for grants is generally $50,000, unless applying under a community grant (maximum of $10,000) or a premium grant (those over $50,000)."
       },
@@ -269,16 +227,7 @@
         "tableCol3-1": "Grassroots community grants such as hosting presentations, meet-ups, writing articles, starting clubs, translations, supporting aligned non-profits, using ETC within an IRL setting, supporting start-ups in underserved markets, etc.",
         "tableCol3-2": "A Conversion Grant would be for project teams that have successfully launched a viable product on other blockchains and want to launch the same project on ETC.",
         "tableCol3-3": "Most grants would fall into this bucket. The team would be expected to be experienced in launching projects, have the relevant technical experience to perform work required, and have a detailed breakdown of the project.",
-        "tableCol3-4": "These grants would only be available to teams with a proven track record of success. The project team would need to provide clear evidence of successful past launches and why funding over the amount of a standard grant, would be needed to meet objectives. If a team requests this type of grant and the grant committee likes the project, but does not feel it meets the stringent requirements of a premium grant, they may accept the grant under the terms of the Standard grant. The project team would then have the right to accept or decline during the grant approval phase.",
-      }
-    },
-  
-    "timeline": {
-      "heading": "What is the timeline for applications?",
-      "nav-heading": "Timeline",
-      "body": {
-        "p1": "The grants process will be open for applications Thursday 19th January 2023. The application process will remain open through February and March 2023. Decisions on which grants will be funded will be made in April 2023.",
-        "p2": "The final decisions will be announced and initial funds disbursed in May 2023."
+        "tableCol3-4": "These grants would only be available to teams with a proven track record of success. The project team would need to provide clear evidence of successful past launches and why funding over the amount of a standard grant, would be needed to meet objectives. If a team requests this type of grant and the grant committee likes the project, but does not feel it meets the stringent requirements of a premium grant, they may accept the grant under the terms of the Standard grant. The project team would then have the right to accept or decline during the grant approval phase."
       }
     },
 
