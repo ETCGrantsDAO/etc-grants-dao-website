@@ -26,9 +26,9 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("grantsProcess.nav-heading") }}
         </a>
-        <a href="#suggestions"
+        <a href="#howtoapply"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
-          {{ $t("suggestions.nav-heading") }}
+          {{ $t("howToApply.nav-heading") }}
         </a>
         <a href="#resources"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
@@ -162,10 +162,10 @@
       </p>
     </a>
 
-    <!-- Suggestions mobile nav -->
+    <!-- How To Apply mobile nav -->
     <a v-on:click="closeNav()" href="#suggestion"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
-      {{ $t("suggestions.nav-heading") }}
+      {{ $t("howToApply.nav-heading") }}
     </a>
 
     <!-- Grants process mobile nav -->

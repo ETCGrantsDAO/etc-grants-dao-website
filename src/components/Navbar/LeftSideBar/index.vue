@@ -167,13 +167,13 @@
         </a>
       </div>
 
-      <!-- Suggestions desktop navigation -->
+      <!-- How To Apply desktop navigation -->
       <div class="text-headingsColor pt-8">
         <a
           class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          href="#suggestions"
+          href="#howtoapply"
         >
-          {{ $t("suggestions.nav-heading") }}
+          {{ $t("howToApply.nav-heading") }}
         </a>
       </div>
 
