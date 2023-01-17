@@ -76,5 +76,5 @@ html {
 }
 
 .customList>li::before {
-  content:'- '
+  content:'• '
 }
