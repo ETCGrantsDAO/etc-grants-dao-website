@@ -1,5 +1,4 @@
 <template>
-    <div class="border-b-2 pb-7"></div>
     <div class="">
         <h1 class="font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold">
             {{ $t(title) }}
