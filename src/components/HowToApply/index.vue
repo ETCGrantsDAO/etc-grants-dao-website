@@ -52,9 +52,7 @@
 
         <!-- How to Apply / Suggestions -->
         <section id="howToApply.suggestions" class="scroll-element">
-            <div class="text-headingsColor pt-12">
-                <h2 class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt rightSecHeading font-bold font-green">{{ $t("howToApply.suggestions.heading") }}</h2>
-            </div>
+            <SubHeading title="howToApply.suggestions.heading" />
             <div class="pt-12">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green">{{ $t("howToApply.suggestions.body.p1") }}</p>
             </div>
