@@ -20,9 +20,8 @@
 
             <!-- Primary content for the website, split into multiple components -->
             <About/>
-            <Requirements/>
-            <Process/>
             <HowToApply/>
+            <Process/>
             <Resources/>
 
             <!-- Apply Now form at bottom of page -->
@@ -52,9 +51,8 @@ import HeroSection from '@/components/Hero'
 import NavBar from "@/components/Navbar/NavBar"
 import LeftSideBar from "@/components/Navbar/LeftSideBar"
 import About from "@/components/About"
-import Requirements from "@/components/Requirements"
-import Process from "@/components/Process"
 import HowToApply from "@/components/HowToApply"
+import Process from "@/components/Process"
 import Resources from "@/components/Resources"
 import Footer from "@/components/Footer"
 
@@ -66,9 +64,8 @@ export default {
     NavBar,
     LeftSideBar,
     About,
-    Requirements,
-    Process,
     HowToApply,
+    Process,
     Resources,
     Footer
   },

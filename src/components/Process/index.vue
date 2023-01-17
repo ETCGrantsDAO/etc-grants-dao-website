@@ -9,10 +9,11 @@
 
             <Paragraph text="grantsProcess.phases.step1.phasesSummary.body.p1" />
             <div class="text-headingsColor pt-12">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
-                    - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} <br />
-                    - {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} <br />
-                </p>
+                <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                    <li>- {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b1") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b2") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b3") }} </li>
+                </ul>
             </div>
         </div>
 
@@ -22,6 +23,16 @@
             <Paragraph text="grantsProcess.phases.step2.body.p1" />
             <Paragraph text="grantsProcess.phases.step2.body.p2" />
             <Paragraph text="grantsProcess.phases.step2.body.p3" />
+            <Paragraph text="grantsProcess.phases.step2.body.p4" />
+            <div class="text-headingsColor pt-12">
+                <ul class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                    <li>- {{ $t("grantsProcess.phases.step2.body.bullets.b1") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step2.body.bullets.b2") }} </li>
+                    <li>- {{ $t("grantsProcess.phases.step2.body.bullets.b3") }} </li>
+                </ul>
+            </div>
+            <Paragraph text="grantsProcess.phases.step2.body.p5" />
+            <Paragraph text="grantsProcess.phases.step2.body.p6" />
         </div>
 
         <!--Step 3-->
