@@ -17,15 +17,17 @@
       "heading": "ETC Grants DAO",
       "nav-heading": "ETC Grants DAO",
       "body": {
-        "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the ecological construction and long-term development of Ethereum Classic.",
+        "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the growth of the ecosystem and long-term development of Ethereum Classic.",
         "p2t":"Mission:",
-        "p2": "In the context of Ethereum's merge, under the call of PoW believers from ETH and ETC communities, facing the censorship and centralization problems of blockchain .We aim to unite the community and build Ethereum Classic into a top-level smart contract public chain based on the PoW consensus mechanism, with high security, decentralization, and censorship resistance",
-        "p3t":"Value:",
-        "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work beliefs originated from Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW consensus mechanism has significant security,decentralization, and censorship resistance advantages.",
-        "p4t":"Technology benefits mankind:",
-        "p4": "EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a human computer in the web3.0 era.",
-        "p5t":"Of the community, by the community, and for the community:",
-        "p5": "The EGD codes of conduct are of the community, by the community, and for the community. EGD will bring together the most extensive ETC community members, to"
+        "p2": "In the context of Ethereum's migration to Proof of Stake; under the call of Proof of Work believers from the ETH and ETC communities; with the censorship threat and centralization problems of most other blockchain projects; we aim to help unite the ETC community to build Ethereum Classic into a global, top-level, smart contracts, public chain based on the PoW consensus mechanism, with high security, decentralization, immutability, and censorship resistance.",
+        "p3t":"Values:",
+        "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work principles originated by Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW based Nakamoto Consensus mechanism has significant security, decentralization, and censorship resistance advantages.",
+        "p4t":"Code Is Law:",
+        "p4": "EGD believes in the principle of Code Is Law of Ethereum Classic, that decentralized applications must be unstoppable, uncensorable, and immutable, so the system may be uncompromisable and uncapturable by special interests.",
+        "p5t":"Technology benefits mankind:",
+        "p5": "EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a world computer for humanity in the web3.0 era.",
+        "p6t":"Of the community, by the community, and for the community:",
+        "p6": "The EGD code of conduct is that everything is of the community, by the community, and for the community. EGD will help bring together the most prominent ETC community members."
       }
     },
 
@@ -33,8 +35,8 @@
       "heading": "ETC Grants Program",
       "nav-heading": "ETC Grants Program",
       "body": {
-        "p1": "In July 2022, Bitmain and Antpool announced that they were committing $10M USD for funding of the Ethereum Classic ecosystem in July 2022. Half of that amount is being held as Tether (USTD) in a Safe multisig (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November 2022, which is being held in a Safe multisig (0x3db3...2f82) on ETC mainnet.",
-        "p2": "The ETC Cooperative had $250K USD budgeted for grants during calendar year 2022 and will be contributing those funds into the program as well."  
+        "p1": "In July of 2022, Bitmain and Antpool announced that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet (0x3db3...2f82) on the Ethereum Classsic mainnet.",
+        "p2": "Additionally, the ETC Cooperative had 250 thousand dollars budgeted for grants during calendar year 2022 and will be contributing those funds into the EGP program as well."  
       }
     }
   },
