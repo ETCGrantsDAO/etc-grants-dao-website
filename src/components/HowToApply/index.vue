@@ -1,5 +1,5 @@
 <template>
-    <section id="howtoapply" class="parent-scroll-element">
+    <section id="howToApply" class="parent-scroll-element">
         <div class="pt-16"></div>
         <MainHeading title="howToApply.heading" />
 
@@ -7,6 +7,7 @@
         <section id="howToApply.round1" class="scroll-element">
             <div class="text-headingsColor">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                    <div class="pt-4"></div>
                     <SubHeading title="howToApply.round1.heading" />
                     <Paragraph text="howToApply.round1.body.p1" />
                     <Paragraph text="howToApply.round1.body.p2" />
@@ -17,11 +18,14 @@
         <!-- How to Apply / Categories -->
         <section id="howToApply.categories" class="scroll-element">
             <div class="pt-6"></div>
+            <SubHeading title="howToApply.categories.heading" />
+            <div class="pt-4"></div>
             <img src="@/images/grant-categories.png"/>
         </section>
 
         <!-- How to Apply / Suggestions -->
         <section id="howToApply.suggestions" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="howToApply.suggestions.heading" />
             <div class="pt-4">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green">{{ $t("howToApply.suggestions.body.p1") }}</p>
