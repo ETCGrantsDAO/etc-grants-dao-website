@@ -1,4 +1,29 @@
 {
+
+  "ethereum-classic": {
+    "text": "The Chinese ETC Grants program was first announced \"ethereum-classic.link-wdms\" in November 2022 to support the growth \"ethereum-classic.link-etc\" ecosystem.",
+    "link-wdms-text": "at the WDMS conference",
+    "link-wdms-url": "https://etccooperative.org/posts/2022-11-16-outline-of-xmei-lins-and-bob-summerwills-speeches-at-bitmain-wdsm-global-2022-cn",
+    "link-etc-text": "Ethereum Classic",
+    "link-etc-url": "https://ethereumclassic.org/zh/"
+  },
+
+  "ethereum-classic-test-two": {
+    "text": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on \"ethereum-classic-test-two.link-exchange\" and hundreds of millions of dollars of $ETC are traded daily but there are very \"ethereum-classic-test-two.link-dapps\" using the platform, only a very small amount of \"ethereum-classic-test-two.link-tvl\" in its Defi ecosystem and \"ethereum-classic-test-two.link-nft\" .",
+
+    "link-exchange-text": "every major exchange",
+    "link-exchange-url": "https://coinmarketcap.com/currencies/ethereum-classic/markets/",
+
+    "link-dapps-text": "few decentralized applications",
+    "link-dapps-url": "https://ethereumclassic.org/services/apps",
+
+    "link-tvl-text": "TVL",
+    "link-tvl-url": "https://defillama.com/chain/EthereumClassic",
+
+    "link-nft-text": " few NFT projects",
+    "link-nft-url": "https://etcplanets.com/"
+  },
+
   "etc-grants-dao": {
     "title": "ETC Grants DAO助款项目",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
