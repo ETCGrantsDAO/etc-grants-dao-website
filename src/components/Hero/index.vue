@@ -4,12 +4,12 @@
           class="bg-[url('@/images/heroBgMobile.svg')] grid-cols-1 md:mt-14 heroSection grid md:grid-cols-2 bg-no-repeat bg-contain md:bg-cover min-h-heroHeight sm:bg-[url('@/images/heroBg.svg')]">
           <div
             class="my-auto mx-auto md:mx-0 md:my-0 text-center md:text-left container md:pl-8 xl:pl-28 md:pr-0 pt-11 content-end">
-            <p
+            <h1
               class="pl-heroHeadingMobile pr-heroHeadingMobile md:pl-0 md:pr-0 text-fourty leading-heroHeadingMobile text-headingsColor md:text-xxl md:leading-heroHeadingDesktop font-bold font-notoSans">
               {{ $t("etc-grants-dao.title") }}
-            </p>
+    </h1>
             <p
-              class="text-heroTextMobile md:text-heroTextDesktop text-headingsColor leading-heroText pt-6 pb-6 font-dmSans pl-8 pr-8 md:pl-0 md:pr-0">
+              class="text-heroTextMobile md:text-heroTextDesktop text-headingsColor leading-heroText pt-1 pb-6 font-dmSans pl-8 pr-8 md:pl-0 md:pr-0">
               {{ $t("etc-grants-dao.description") }}
             </p>
             <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English?prefill_Form%20Language=English"

@@ -5,7 +5,7 @@
 
         <!-- How to Apply / Round 1 -->
         <section id="howToApply.round1" class="scroll-element">
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
                     <SubHeading title="howToApply.round1.heading" />
                     <Paragraph text="howToApply.round1.body.p1" />
@@ -23,10 +23,10 @@
         <!-- How to Apply / Suggestions -->
         <section id="howToApply.suggestions" class="scroll-element">
             <SubHeading title="howToApply.suggestions.heading" />
-            <div class="pt-12">
+            <div class="pt-4">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green">{{ $t("howToApply.suggestions.body.p1") }}</p>
             </div>
-            <div class="text-headingsColor pt-6">
+            <div class="text-headingsColor pt-3">
                 <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
                 <li> {{ $t("howToApply.suggestions.body.bullets.b1") }} </li>
                     <li> {{ $t("howToApply.suggestions.body.bullets.b2") }} </li>
@@ -51,7 +51,7 @@
 
         <!-- How to Apply / Ready to Go -->
         <section id="howToApply.readytogo" class="scroll-element">
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-1">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
                     <SubHeading title="howToApply.readyToGo.heading" />
                     <Paragraph text="howToApply.readyToGo.body.p1" />

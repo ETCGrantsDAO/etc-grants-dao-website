@@ -1,5 +1,5 @@
 <template>
-    <section id="grantsProcess" class="parent-scroll-element">
+    <section id="grantsProcess" class="parent-scroll-element mt-6">
         <MainHeading title="grantsProcess.heading" />
 
         <!-- Step 1-->

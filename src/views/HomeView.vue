@@ -4,7 +4,7 @@
     <div class="bg-background p-0 relative">
       <!--Nav Bar-->
       <NavBar />
-      
+
       <!-- This is the large section at the top left -->
       <HeroSection />
 
@@ -19,20 +19,20 @@
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
 
             <!-- Primary content for the website, split into multiple components -->
-            <Overview/>
-            <HowToApply/>
-            <Process/>
-            <Resources/>
+            <Overview />
+            <HowToApply />
+            <Process />
+            <Resources />
 
             <!-- Apply Now form at bottom of page -->
             <!-- Apply Now form at bottom of page -->
-            <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English"
-              class="mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-rightSecButton text-xl leading-twentyFour hidden lg:flex mt-8 hover:scale-110 transition duration-300 ease-in-out">
+            <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English?prefill_Form%20Language=English"
+              class="text-xl font-bold md:w-1/5 mt-6 md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth  heroButton flex hover:scale-110 transition duration-300 ease-in-out">
               <p>{{ $t("etc-grants-dao.apply-now-text") }}</p>
               <img src="@/images/applyButtonIcon.png"
-                class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIcon2" />
+                class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIconA" />
             </a>
-            
+
           </div>
         </div>
       </section>
