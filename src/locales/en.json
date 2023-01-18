@@ -1,28 +1,4 @@
 {
-
-  "ethereum-classic": {
-    "text": "The ETC Grants program was first announced \"ethereum-classic.link-wdms\" in November 2022 to support the growth \"ethereum-classic.link-etc\" ecosystem.",
-    "link-wdms-text": "at the WDMS conference",
-    "link-wdms-url": "https://etccooperative.org/posts/2022-11-16-outline-of-xmei-lins-and-bob-summerwills-speeches-at-bitmain-wdsm-global-2022-en",
-    "link-etc-text": "Ethereum Classic",
-    "link-etc-url": "https://ethereumclassic.org/"
-  },
-
-  "ethereum-classic-test-two": {
-    "text": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on \"ethereum-classic-test-two.link-exchange\" and hundreds of millions of dollars of $ETC are traded daily but there are very \"ethereum-classic-test-two.link-dapps\" using the platform, only a very small amount of \"ethereum-classic-test-two.link-tvl\" in its Defi ecosystem and \"ethereum-classic-test-two.link-nft\" .",
-
-    "link-exchange-text": "every major exchange",
-    "link-exchange-url": "https://coinmarketcap.com/currencies/ethereum-classic/markets/",
-
-    "link-dapps-text": "few decentralized applications",
-    "link-dapps-url": "https://ethereumclassic.org/services/apps",
-
-    "link-tvl-text": "TVL",
-    "link-tvl-url": "https://defillama.com/chain/EthereumClassic",
-
-    "link-nft-text": " few NFT projects",
-    "link-nft-url": "https://etcplanets.com/"
-  },
   
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
@@ -59,9 +35,19 @@
       "heading": "ETC Grants Program",
       "nav-heading": "ETC Grants Program",
       "body": {
-        "p1": "In July of 2022, Bitmain and Antpool announced that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet (0xA208...E8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet (0x3db3...2f82) on the Ethereum Classsic mainnet.",
-        "p2": "Additionally, the ETC Cooperative had 250 thousand dollars budgeted for grants during calendar year 2022 and will be contributing those funds into the EGP program as well."  
-      }
+        "p1": "In July of 2022, Bitmain and Antpool \"overview.etc-grants-program.link-announced\" that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet ( \"overview.etc-grants-program.link-eth-safe\" ) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet ( \"overview.etc-grants-program.link-etc-safe\" ) on the Ethereum Classic mainnet.",
+        "p2": "Additionally, the \"overview.etc-grants-program.link-etc-coop\" had 250 thousand dollars \"overview.etc-grants-program.link-budgeted\" for grants during calendar year 2022 and will be contributing those funds into the EGP program as well."  
+      },
+      "link-announced-text": "announced",
+      "link-announced-url": "https://www.coindesk.com/business/2022/07/26/antpool-supports-ethereum-classic-ecosystem-with-10m-investment/",
+      "link-eth-safe-text": "0xA208...E8D6",
+      "link-eth-safe-url": "https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances",
+      "link-etc-safe-text": "0x3db3...2f82",
+      "link-etc-safe-url": "https://multisig.etccooperative.org/app/ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82/balances",
+      "link-etc-coop-text": "ETC Cooperative",
+      "link-etc-coop-url": "https://etccooperative.org/",
+      "link-budgeted-text": "budgeted",
+      "link-budgeted-url": "https://etccooperative.org/posts/2022-04-12-2021-retrospective-2022-budget-roadmap"
     }
   },
 
