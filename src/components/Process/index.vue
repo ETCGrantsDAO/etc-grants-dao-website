@@ -4,9 +4,11 @@
         <MainHeading title="grantsProcess.heading" />
 
         <!-- Step 1-->
-        <div id="grantsProcess.phases.step1" class="scroll-element">
+        <div>
             <Paragraph text="grantsProcess.phases.body.p1" />
-            <SubHeading title="grantsProcess.phases.step1.heading" />
+            <div id="grantsProcess.phases.step1" class="scroll-element"></div>
+            <div class="pt-4"></div>
+            <SubHeading title="grantsProcess.phases.step1.heading"/>
 
             <Paragraph text="grantsProcess.phases.step1.phasesSummary.body.p1" />
             <div class="text-headingsColor pt-6">

@@ -1,5 +1,5 @@
 <template>
-    <section id="howtoapply" class="parent-scroll-element">
+    <section id="howToApply" class="parent-scroll-element">
         <div class="pt-16"></div>
         <MainHeading title="howToApply.heading" />
 
@@ -18,6 +18,8 @@
         <!-- How to Apply / Categories -->
         <section id="howToApply.categories" class="scroll-element">
             <div class="pt-6"></div>
+            <SubHeading title="howToApply.categories.heading" />
+            <div class="pt-4"></div>
             <img src="@/images/grant-categories.png"/>
         </section>
 

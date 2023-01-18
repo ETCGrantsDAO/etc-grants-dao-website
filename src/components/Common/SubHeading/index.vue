@@ -1,5 +1,5 @@
 <template>
-    <div class="text-headingsColor pt-6">
+    <div :class="isPaddingInclude ? 'text-headingsColor pt-6' : ''">
         <h2
             class="font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt rightSecHeading font-bold font-parrotGreen">
             {{ $t(title) }}
@@ -10,6 +10,15 @@
 <script>
 export default {
     name: "SubHeading",
-    props: ['title']
+    props: {
+        title: {
+            type: String,
+            default: '',
+        },
+        isPaddingInclude: {
+            type: String,
+            default: true,
+        }
+    }
 }
 </script>

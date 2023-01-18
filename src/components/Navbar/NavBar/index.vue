@@ -18,7 +18,7 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("overview.nav-heading") }}
         </a>
-        <a href="#howtoapply"
+        <a href="#howToApply"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("howToApply.nav-heading") }}
         </a>
@@ -82,21 +82,21 @@
     </a>
 
     <!-- How To Apply mobile nav -->
-    <a v-on:click="closeNav()" href="#suggestion"
+    <a v-on:click="closeNav()" href="#howToApply"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
       {{ $t("howToApply.nav-heading") }}
     </a>
-    <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
+    <a v-on:click="closeNav()" href="#howToApply.round1">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
         {{ $t("howToApply.round1.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
+    <a v-on:click="closeNav()" href="#howToApply.categories">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
         {{ $t("howToApply.categories.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#grantsProcess.phases.step1">
+    <a v-on:click="closeNav()" href="#howToApply.suggestions">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
         {{ $t("howToApply.suggestions.nav-heading") }}
       </p>

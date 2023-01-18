@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-12">
+    <div class="pt-6">
         <p
           v-if="!isTextContainingLink"
           class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">

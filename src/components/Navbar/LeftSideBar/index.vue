@@ -47,7 +47,7 @@
       <div class="text-headingsColor pt-8">
         <a
           class="font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt"
-          href="#howtoapply"
+          href="#howToApply"
         >
           {{ $t("howToApply.nav-heading") }}
         </a>
