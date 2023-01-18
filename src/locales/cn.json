@@ -1,29 +1,5 @@
 {
 
-  "ethereum-classic": {
-    "text": "The Chinese ETC Grants program was first announced \"ethereum-classic.link-wdms\" in November 2022 to support the growth \"ethereum-classic.link-etc\" ecosystem.",
-    "link-wdms-text": "at the WDMS conference",
-    "link-wdms-url": "https://etccooperative.org/posts/2022-11-16-outline-of-xmei-lins-and-bob-summerwills-speeches-at-bitmain-wdsm-global-2022-cn",
-    "link-etc-text": "Ethereum Classic",
-    "link-etc-url": "https://ethereumclassic.org/zh/"
-  },
-
-  "ethereum-classic-test-two": {
-    "text": "ETC has the largest market cap for any proof-of-work smart contract platform, but its application ecosystem does not yet reflect that value proposition. It is listed on \"ethereum-classic-test-two.link-exchange\" and hundreds of millions of dollars of $ETC are traded daily but there are very \"ethereum-classic-test-two.link-dapps\" using the platform, only a very small amount of \"ethereum-classic-test-two.link-tvl\" in its Defi ecosystem and \"ethereum-classic-test-two.link-nft\" .",
-
-    "link-exchange-text": "every major exchange",
-    "link-exchange-url": "https://coinmarketcap.com/currencies/ethereum-classic/markets/",
-
-    "link-dapps-text": "few decentralized applications",
-    "link-dapps-url": "https://ethereumclassic.org/services/apps",
-
-    "link-tvl-text": "TVL",
-    "link-tvl-url": "https://defillama.com/chain/EthereumClassic",
-
-    "link-nft-text": " few NFT projects",
-    "link-nft-url": "https://etcplanets.com/"
-  },
-
   "etc-grants-dao": {
     "title": "ETC Grants DAO助款项目",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
@@ -239,26 +215,6 @@
       "nav-heading": "助款类别",
       "body": {
         "p1": "每个团队的最高资助额一般为$50,000，除非以社区资助(最高$10,000)或溢价资助(超过$50,000)申请。"
-      },
-      "table": {
-        "tableHeading1": "类别",
-        "tableHeading2": "最大助款金额",
-        "tableHeading3": "说明",
-      
-        "tableCol1-1": "社区助款",
-        "tableCol1-2": "转换助款",
-        "tableCol1-3": "标准助款",
-        "tableCol1-4": "最高助款",
-      
-        "tableCol2-1": "最高至$10,000美元",
-        "tableCol2-2": "最高至$25,000美元",
-        "tableCol2-3": "最高至to $50,000美元",
-        "tableCol2-4": "超过$50,000美元",
-      
-        "tableCol3-1": "基层社区助款，如举办演讲、会面、撰写文章、创办俱乐部、翻译、支持结盟的非营利组织、在IRL环境中使用ETC、支持服务不足的市场中的初创企业等。",
-        "tableCol3-2": "转换助款将用于已经在其他区块链上成功推出可行产品的项目团队，并希望在ETC上推出相同的项目。",
-        "tableCol3-3": "大多数助款都属于这一类。该团队需在启动项目方面有经验，有执行所需工作的相关技术经验，并有项目的详细分解。",
-        "tableCol3-4": "这些助款只提供给有成功记录的团队。项目团队将需要提供明确的证据以证明过去项目的成功启动，以及为什么需要超过标准助款的资金来实现目标。如果一个团队申请这种类型的助款，而助款委员会喜欢该项目，但认为它不符合最高助款的严格要求，他们可以根据标准助款的条款接受资助。项目团队将有权在助款批准阶段接受或拒绝。"
       }
     },
 
@@ -297,13 +253,12 @@
           "text": "Telegram",
           "link": "https://t.me/+HFT390x76c4zYWRh"
         },
-        "wechat": {
-          "text": "WeChat",
-          "link": "https://etcgrantsdao.notion.site/Wechat-group-b747ef7d2321459485aecbcbf382c6ab"
-        },
         "github": {
           "text": "Github",
           "link": "https://github.com/etcgrantsdao/etc-grants-dao-website"
+        },
+        "wechat": {
+          "text": "WeChat - Please scan the QR code below to send a friend request and we will add you to the WeChat group."
         }
       },
       "faqs": {
