@@ -65,6 +65,12 @@
                     </div>
                 </p>
             </div>
+
+            <section>
+                <div class="pt-6"></div>
+                <img src="@/images/wechat-group.png"/>
+            </section>
+            
             <div class="text-headingsColor pt-12">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
                     {{  $t("resources.body.faqs.heading") }}

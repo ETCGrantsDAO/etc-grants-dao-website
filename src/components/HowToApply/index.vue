@@ -16,6 +16,9 @@
 
         <!-- How to Apply / Categories -->
         <section id="howToApply.categories" class="scroll-element">
+            <div class="pt-6"></div>
+            <img src="@/images/grant-categories.png"/>
+
             <table
             class="rounded-[5px] overflow-hidden border-t-4 border-b-[12px] border-l-4 border-r-4 text-base mx-auto ml-tableMobile mr-tableMobile xs:ml-0 xs:mr-0 pr-9 bg-tableBackground font-dmSans md:text-lg rounded mt-12 md:border-r-fourty md:border-l-fourty">
                 <thead>
