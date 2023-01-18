@@ -31,8 +31,6 @@
             <SubHeading title="overview.etc-grants-program.heading" />
             <Paragraph text="overview.etc-grants-program.body.p1" />
             <Paragraph text="overview.etc-grants-program.body.p2" />
-            <Paragraph text="ethereum-classic.text" />
-            <Paragraph text="ethereum-classic-test-two.text" />
         </section>
 
     </section>
