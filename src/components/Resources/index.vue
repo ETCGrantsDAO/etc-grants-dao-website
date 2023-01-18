@@ -49,22 +49,24 @@
                             </li>
                             <li>
                                 <u>
-                                    <a href="https://etcgrantsdao.notion.site/Wechat-group-b747ef7d2321459485aecbcbf382c6ab">
-                                        {{ $t("resources.body.etc-grants-dao.wechat.text") }}
-                                    </a>
-                                </u>
-                            </li>
-                            <li>
-                                <u>
                                     <a href="https://github.com/etcgrantsdao/etc-grants-dao-website">
                                         {{ $t("resources.body.etc-grants-dao.github.text") }}
                                     </a>
                                  </u>
                             </li>
+                            <li>
+                                {{ $t("resources.body.etc-grants-dao.wechat.text") }}
+                            </li>
                         </ul>
                     </div>
                 </p>
             </div>
+
+            <section>
+                <div class="pt-6"></div>
+                <img src="@/images/wechat-group.png"/>
+            </section>
+            
             <div class="text-headingsColor pt-12">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
                     {{  $t("resources.body.faqs.heading") }}

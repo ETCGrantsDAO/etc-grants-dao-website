@@ -1,4 +1,5 @@
 {
+
   "etc-grants-dao": {
     "title": "ETC Grants DAO助款项目",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
@@ -16,15 +17,17 @@
       "heading": "ETC Grants DAO",
       "nav-heading": "ETC Grants DAO",
       "body": {
-        "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the ecological construction and long-term development of Ethereum Classic.",
+        "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the growth of the ecosystem and long-term development of Ethereum Classic.",
         "p2t":"Mission:",
-        "p2": "In the context of Ethereum's merge, under the call of PoW believers from ETH and ETC communities, facing the censorship and centralization problems of blockchain .We aim to unite the community and build Ethereum Classic into a top-level smart contract public chain based on the PoW consensus mechanism, with high security, decentralization, and censorship resistance",
-        "p3t":"Value:",
-        "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work beliefs originated from Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW consensus mechanism has significant security,decentralization, and censorship resistance advantages.",
-        "p4t":"- Technology benefits mankind",
-        "p4": "EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a human computer in the web3.0 era.",
-        "p5t":"- Of the community, by the community, and for the community",
-        "p5": "The EGD codes of conduct are of the community, by the community, and for the community. EGD will bring together the most extensive ETC community members, to"
+        "p2": "In the context of Ethereum's migration to Proof of Stake; under the call of Proof of Work believers from the ETH and ETC communities; with the censorship threat and centralization problems of most other blockchain projects; we aim to help unite the ETC community to build Ethereum Classic into a global, top-level, smart contracts, public chain based on the PoW consensus mechanism, with high security, decentralization, immutability, and censorship resistance.",
+        "p3t":"Values:",
+        "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work principles originated by Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW based Nakamoto Consensus mechanism has significant security, decentralization, and censorship resistance advantages.",
+        "p4t":"Code Is Law:",
+        "p4": "EGD believes in the principle of Code Is Law of Ethereum Classic, that decentralized applications must be unstoppable, uncensorable, and immutable, so the system may be uncompromisable and uncapturable by special interests.",
+        "p5t":"Technology benefits mankind:",
+        "p5": "EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a world computer for humanity in the web3.0 era.",
+        "p6t":"Of the community, by the community, and for the community:",
+        "p6": "The EGD code of conduct is that everything is of the community, by the community, and for the community. EGD will help bring together the most prominent ETC community members."
       }
     },
 
@@ -62,6 +65,7 @@
             "b2": "助款委员会批准(通常为期1个月,可能会有调整",
             "b3": "Announcing the recipients and disbursing the funds."
           }
+        }
       },
 
       "step2": {
@@ -211,26 +215,6 @@
       "nav-heading": "助款类别",
       "body": {
         "p1": "每个团队的最高资助额一般为$50,000，除非以社区资助(最高$10,000)或溢价资助(超过$50,000)申请。"
-      },
-      "table": {
-        "tableHeading1": "类别",
-        "tableHeading2": "最大助款金额",
-        "tableHeading3": "说明",
-      
-        "tableCol1-1": "社区助款",
-        "tableCol1-2": "转换助款",
-        "tableCol1-3": "标准助款",
-        "tableCol1-4": "最高助款",
-      
-        "tableCol2-1": "最高至$10,000美元",
-        "tableCol2-2": "最高至$25,000美元",
-        "tableCol2-3": "最高至to $50,000美元",
-        "tableCol2-4": "超过$50,000美元",
-      
-        "tableCol3-1": "基层社区助款，如举办演讲、会面、撰写文章、创办俱乐部、翻译、支持结盟的非营利组织、在IRL环境中使用ETC、支持服务不足的市场中的初创企业等。",
-        "tableCol3-2": "转换助款将用于已经在其他区块链上成功推出可行产品的项目团队，并希望在ETC上推出相同的项目。",
-        "tableCol3-3": "大多数助款都属于这一类。该团队需在启动项目方面有经验，有执行所需工作的相关技术经验，并有项目的详细分解。",
-        "tableCol3-4": "这些助款只提供给有成功记录的团队。项目团队将需要提供明确的证据以证明过去项目的成功启动，以及为什么需要超过标准助款的资金来实现目标。如果一个团队申请这种类型的助款，而助款委员会喜欢该项目，但认为它不符合最高助款的严格要求，他们可以根据标准助款的条款接受资助。项目团队将有权在助款批准阶段接受或拒绝。"
       }
     },
 
@@ -269,13 +253,12 @@
           "text": "Telegram",
           "link": "https://t.me/+HFT390x76c4zYWRh"
         },
-        "wechat": {
-          "text": "WeChat",
-          "link": "https://etcgrantsdao.notion.site/Wechat-group-b747ef7d2321459485aecbcbf382c6ab"
-        },
         "github": {
           "text": "Github",
           "link": "https://github.com/etcgrantsdao/etc-grants-dao-website"
+        },
+        "wechat": {
+          "text": "WeChat - Please scan the QR code below to send a friend request and we will add you to the WeChat group."
         }
       },
       "faqs": {
@@ -291,7 +274,7 @@
       }
     }
   },
-      
+
   "footer": {
     "heading-etc": "ETC",
     "heading-ooperative": "合作社",
@@ -315,6 +298,5 @@
   
     "footerHeading4": "合作伙伴"
   }
-}
 
 }
