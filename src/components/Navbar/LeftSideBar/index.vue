@@ -55,7 +55,7 @@
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#howtoapply.round1"
+          href="#howToApply.round1"
         >
           {{ $t("howToApply.round1.nav-heading") }}
         </a>
@@ -63,7 +63,7 @@
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#howtoapply.categories"
+          href="#howToApply.categories"
         >
           {{ $t("howToApply.categories.nav-heading") }}
         </a>
@@ -71,7 +71,7 @@
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#howtoapply.suggestions"
+          href="#howToApply.suggestions"
         >
           {{ $t("howToApply.suggestions.nav-heading") }}
         </a>

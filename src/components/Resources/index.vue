@@ -1,6 +1,6 @@
 <template>
     <section id="resources" class="parent-scroll-element mt-6">
-     
+        <div class="pt-16"></div>
         <MainHeading title="resources.heading" />
 
         <!-- How to Apply / Round 1 -->

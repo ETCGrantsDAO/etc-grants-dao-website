@@ -1,5 +1,6 @@
 <template>
     <section id="grantsProcess" class="parent-scroll-element mt-6">
+        <div class="pt-16"></div>
         <MainHeading title="grantsProcess.heading" />
 
         <!-- Step 1-->
@@ -23,6 +24,7 @@
 
         <!--Step 2-->
         <div id="grantsProcess.phases.step2" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="grantsProcess.phases.step2.heading" />
             <Paragraph text="grantsProcess.phases.step2.body.p1" />
             <Paragraph text="grantsProcess.phases.step2.body.p2" />
@@ -41,6 +43,7 @@
 
         <!--Step 3-->
         <div id="grantsProcess.phases.step3" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="grantsProcess.phases.step3.heading" />
             <Paragraph text="grantsProcess.phases.step3.body.p1" />
             <Paragraph text="grantsProcess.phases.step3.body.p2" />
@@ -71,12 +74,14 @@
 
         <!--Step 4 -->
         <div id="grantsProcess.phases.step4" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="grantsProcess.phases.step4.heading" />
             <Paragraph text="grantsProcess.phases.step4.body.p1" />
         </div>
 
         <!--Step 5-->
         <div id="grantsProcess.phases.step5" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="grantsProcess.phases.step5.heading" />
             <Paragraph text="grantsProcess.phases.step5.body.p1" />
             <Paragraph text="grantsProcess.phases.step5.body.p2" />
@@ -84,6 +89,7 @@
 
         <!--Step 6-->
         <div id="grantsProcess.phases.step6" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="grantsProcess.phases.step6.heading" />
             <Paragraph text="grantsProcess.phases.step6.body.p1" />
             <Paragraph text="grantsProcess.phases.step6.body.p2" />
@@ -91,6 +97,7 @@
 
         <!--Step 7-->
         <div id="grantsProcess.phases.step7" class="scroll-element">
+            <div class="pt-4"></div>
             <SubHeading title="grantsProcess.phases.step7.heading" />
             <Paragraph text="grantsProcess.phases.step7.body.p1" />
             <Paragraph text="grantsProcess.phases.step7.body.p2" />

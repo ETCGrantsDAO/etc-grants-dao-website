@@ -78,3 +78,7 @@ html {
 .customList>li::before {
   content:'• '
 }
+
+.font-bold {
+  font-weight:bold;
+}
