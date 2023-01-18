@@ -1,11 +1,11 @@
 <template>
-    <section id="resources" class="parent-scroll-element">
-        <div class="pt-16"></div>
+    <section id="resources" class="parent-scroll-element mt-6">
+     
         <MainHeading title="resources.heading" />
 
         <!-- How to Apply / Round 1 -->
         <section>
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-4">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
                     {{  $t("resources.body.etc-community.heading") }}
                     <div class="text-headingsColor pt-6">
@@ -28,7 +28,7 @@
                     </div>
                 </p>
             </div>
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-6">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
                     {{  $t("resources.body.etc-grants-dao.heading") }}
                     <div class="text-headingsColor pt-6">
@@ -67,7 +67,7 @@
                 <img src="@/images/wechat-group.png"/>
             </section>
             
-            <div class="text-headingsColor pt-12">
+            <div class="text-headingsColor pt-6">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
                     {{  $t("resources.body.faqs.heading") }}
                     <div class="text-headingsColor pt-6">

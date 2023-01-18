@@ -299,8 +299,7 @@
   },
 
   "footer": {
-    "heading-etc": "ETC",
-    "heading-ooperative": "Cooperative",
+    "heading-etc": "ETC Cooperative",
 
     "footerHeading1": "Learn",
     "footerHeading1Text1": "ethereumclassic.org",
@@ -319,7 +318,7 @@
     "footerHeading3Text4": "ETC Public RPC Endpoints",
     "footerHeading3Text5": "ETC Nodes Explorer",
   
-    "footerHeading4": "Partners"
+    "footerPartners": "Partners"
   }
 
 }
