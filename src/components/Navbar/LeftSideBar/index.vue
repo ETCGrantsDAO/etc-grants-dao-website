@@ -152,6 +152,30 @@
           {{ $t("resources.nav-heading") }}
         </a>
       </div>
+      <div class="text-headingsColor pt-6 pl-1">
+        <a
+          class="font-notoSans text-textColor text-base font-normal"
+          href="#resources.etc-community"
+        >
+          {{ $t("resources.etc-community.navheading") }}
+        </a>
+      </div>
+      <div class="text-headingsColor pt-6 pl-1">
+        <a
+          class="font-notoSans text-textColor text-base font-normal"
+          href="#resources.etc-grants-dao"
+        >
+          {{ $t("resources.etc-grants-dao.navheading") }}
+        </a>
+      </div>
+      <div class="text-headingsColor pt-6 pl-1">
+        <a
+          class="font-notoSans text-textColor text-base font-normal"
+          href="#resources.faqs"
+        >
+          {{ $t("resources.faqs.navheading") }}
+        </a>
+      </div>
 
 
     </div>

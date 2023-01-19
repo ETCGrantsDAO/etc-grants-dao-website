@@ -3,59 +3,64 @@
         <div class="pt-16"></div>
         <MainHeading title="resources.heading" />
 
-        <!-- How to Apply / Round 1 -->
+        <!-- Resources / ETC Community-->
+        <div id="resources.etc-community" class="scroll-element">
+            <SubHeading title="resources.etc-community.body.development.text" />
+        </div>
         <section>
             <div class="text-headingsColor pt-4">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
-                    {{  $t("resources.body.etc-community.heading") }}
-                    <div class="text-headingsColor pt-6">
-                        <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
-                            <li>
-                                <u>
-                                    <a href="https://ethereumclassic.org/development">
-                                        {{ $t("resources.body.etc-community.development.text") }}
-                                     </a>
-                                </u>
-                            </li>
-                            <li>
-                                <u>
-                                    <a href="https://ethereumclassic.org/community">
-                                    {{ $t("resources.body.etc-community.community.text") }}
+                <div class="text-headingsColor pt-6">
+                    <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
+                        <li>
+                            <u>
+                                <a href="https://ethereumclassic.org/development">
+                                    {{ $t("resources.etc-community.body.development.text") }}
                                     </a>
-                                </u>
-                            </li>
-                        </ul>
-                    </div>
-                </p>
+                            </u>
+                        </li>
+                        <li>
+                            <u>
+                                <a href="https://ethereumclassic.org/community">
+                                {{ $t("resources.etc-community.body.community.text") }}
+                                </a>
+                            </u>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+            <!-- Resources / ETC Grants DAO -->
+            <div id="resources.etc-grants-dao" class="scroll-element">
+                <SubHeading title="resources.etc-grants-dao.heading" />
+            </div>
+
             <div class="text-headingsColor pt-6">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
-                    {{  $t("resources.body.etc-grants-dao.heading") }}
                     <div class="text-headingsColor pt-6">
                         <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
                             <li>
                                 <u>
                                     <a href="https://twitter.com/etcgrantsdao">
-                                        {{ $t("resources.body.etc-grants-dao.twitter.text") }}
+                                        {{ $t("resources.etc-grants-dao.body.twitter.text") }}
                                     </a>
                                 </u>
                             </li>
                             <li>
                                 <u>
                                     <a href="https://t.me/+HFT390x76c4zYWRh">
-                                        {{ $t("resources.body.etc-grants-dao.telegram.text") }}
+                                        {{ $t("resources.etc-grants-dao.body.telegram.text") }}
                                     </a>
                                  </u>
                             </li>
                             <li>
                                 <u>
                                     <a href="https://github.com/etcgrantsdao/etc-grants-dao-website">
-                                        {{ $t("resources.body.etc-grants-dao.github.text") }}
+                                        {{ $t("resources.etc-grants-dao.body.github.text") }}
                                     </a>
                                  </u>
                             </li>
                             <li>
-                                {{ $t("resources.body.etc-grants-dao.wechat.text") }}
+                                {{ $t("resources.etc-grants-dao.body.wechat.text") }}
                             </li>
                         </ul>
                     </div>
@@ -66,23 +71,27 @@
                 <div class="pt-6"></div>
                 <img src="@/images/wechat-group.png"/>
             </section>
+
+            <!-- Resources / FAQ -->
+            <div id="resources.faqs" class="scroll-element">
+                <SubHeading title="resources.faqs.heading" />
+            </div>
             
             <div class="text-headingsColor pt-6">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
-                    {{  $t("resources.body.faqs.heading") }}
                     <div class="text-headingsColor pt-6">
                         <ul class="font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-green customList" >
                             <li>
                                 <u>
                                     <a href="https://ethereumclassic.org/why-classic">
-                                        {{ $t("resources.body.faqs.why-classic.text") }}
+                                        {{ $t("resources.faqs.body.why-classic.text") }}
                                     </a>
                                 </u>
                             </li>
                             <li>
                                 <u>
                                     <a href="https://ethereumclassic.org/faqs/developers">
-                                        {{ $t("resources.body.faqs.developer-faqs.text") }}
+                                        {{ $t("resources.faqs.body.developer-faqs.text") }}
                                     </a>
                                 </u>
                             </li>

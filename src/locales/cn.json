@@ -4,7 +4,7 @@
     "title": "ETC Grants DAO助款项目",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
     "apply-now-text": "立即申请",
-    "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English?prefill_Form%20Language=%E4%B8%AD%E5%9B%BD%E4%BA%BA"
+    "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=%E4%B8%AD%E5%9B%BD%E4%BA%BA"
   },
 
   "contents-title": "目录",
@@ -35,9 +35,19 @@
       "heading": "ETC Grants Program",
       "nav-heading": "ETC Grants Program",
       "body": {
-        "p1": "2022年7月，蚂蚁矿池Antpool宣布，他们承诺在2022年7月为以太坊经典生态系统提供1000万美元的资金。 一半的资金，以USTD的形式在以太坊经典主网的安全多签名钱包中(0xA208...E8D6)， 另一半已在2022年11月用来购买 $ETC, 并已在以ETC主网安全多签名钱包(0x3db3...2f82)中储存。",
-        "p2": "ETC合作社在2022年有25万美元的赠款预算，也将把这些资金用于该项目。"  
-      }
+        "p1": "In July of 2022, Bitmain and Antpool \"overview.etc-grants-program.link-announced\" that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet ( \"overview.etc-grants-program.link-eth-safe\" ) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet ( \"overview.etc-grants-program.link-etc-safe\" ) on the Ethereum Classic mainnet.",
+        "p2": "Additionally, the \"overview.etc-grants-program.link-etc-coop\" had 250 thousand dollars \"overview.etc-grants-program.link-budgeted\" for grants during calendar year 2022 and will be contributing those funds into the EGP program as well."  
+      },
+      "link-announced-text": "announced",
+      "link-announced-url": "https://www.coindesk.com/business/2022/07/26/antpool-supports-ethereum-classic-ecosystem-with-10m-investment/",
+      "link-eth-safe-text": "0xA208...E8D6",
+      "link-eth-safe-url": "https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances",
+      "link-etc-safe-text": "0x3db3...2f82",
+      "link-etc-safe-url": "https://multisig.etccooperative.org/app/ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82/balances",
+      "link-etc-coop-text": "ETC Cooperative",
+      "link-etc-coop-url": "https://etccooperative.org/",
+      "link-budgeted-text": "budgeted",
+      "link-budgeted-url": "https://etccooperative.org/posts/2022-04-12-2021-retrospective-2022-budget-roadmap"
     }
   },
 
@@ -231,9 +241,10 @@
     "heading": "Resources",
     "nav-heading": "Resources",
 
-    "body": {
-      "etc-community": {
-        "heading": "ETC Community resources:",
+    "etc-community": {
+      "heading": "ETC Community resources",
+      "navheading": "ETC Community",
+      "body": {
         "development": {
           "text": "ETC Developer resources",
           "link": "https://ethereumclassic.org/development"
@@ -243,8 +254,11 @@
           "link": "https://ethereumclassic.org/community"
         }
       },
-      "etc-grants-dao": {
-        "heading": "ETC Grants DAO resources:",
+    },
+    "etc-grants-dao": {
+      "heading": "ETC Grants DAO resources",
+      "navheading": "ETC Grants DAO",
+      "body": {
         "twitter": {
           "text": "Twitter",
           "link": "https://twitter.com/etcgrantsdao"
@@ -260,9 +274,12 @@
         "wechat": {
           "text": "WeChat - Please scan the QR code below to send a friend request and we will add you to the WeChat group."
         }
-      },
-      "faqs": {
-        "heading": "FAQs:",
+      }
+    },
+    "faqs": {
+      "heading": "FAQs",
+      "navheading": "FAQs",
+      "body": {
         "why-classic": {
           "text": "Why Ethereum Classic?",
           "link": "https://ethereumclassic.org/why-classic"
@@ -270,7 +287,7 @@
         "developer-faqs": {
           "text": "Developer FAQs",
           "link": "https://ethereumclassic.org/faqs/developers"
-        }
+        }  
       }
     }
   },
