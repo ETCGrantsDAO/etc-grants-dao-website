@@ -242,7 +242,7 @@
 
     "etc-community": {
       "heading": "ETC Community resources",
-      "navheading": "ETC Community resources",
+      "navheading": "ETC Community",
       "body": {
         "development": {
           "text": "ETC Developer resources",
@@ -256,7 +256,7 @@
     },
     "etc-grants-dao": {
       "heading": "ETC Grants DAO resources",
-      "navheading": "ETC Grants DAO resources",
+      "navheading": "ETC Grants DAO",
       "body": {
         "twitter": {
           "text": "Twitter",

@@ -143,10 +143,25 @@
       </p>
     </a>
 
-    <!-- Grants process mobile nav -->
+    <!--Resources mobile nav -->
     <a v-on:click="closeNav()" href="#resources"
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
       {{ $t("resources.nav-heading") }}
+    </a>
+    <a v-on:click="closeNav()" href="#resources.etc-community">
+      <p class="font-notoSans text-textColor text-base font-normal pb-4">
+        {{ $t("resources.etc-community.navheading") }}
+      </p>
+    </a>
+    <a v-on:click="closeNav()" href="#resources.etc-grants-dao">
+      <p class="font-notoSans text-textColor text-base font-normal pb-4">
+        {{ $t("resources.etc-grants-dao.navheading") }}
+      </p>
+    </a>
+    <a v-on:click="closeNav()" href="#resources.faqs">
+      <p class="font-notoSans text-textColor text-base font-normal pb-4">
+        {{ $t("resources.faqs.navheading") }}
+      </p>
     </a>
 
   </div>
