@@ -7,8 +7,7 @@
 
         <!-- Overview / ETC Grants DAO -->
         <section id="overview.etc-grants-dao" class="scroll-element">
-            <div class="pt-4"></div>
-            <SubHeading title="overview.etc-grants-dao.heading" />
+            <SubHeading title="overview.etc-grants-dao.heading"/>
             <Paragraph text="overview.etc-grants-dao.body.p1" />
             <div class="pt-12">
                 <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen font-bold">{{ $t("overview.etc-grants-dao.body.p2t") }}</p>
@@ -30,7 +29,6 @@
 
        <!-- Overview / ETC Grants Program -->
        <section id="overview.etc-grants-program" class="scroll-element">
-            <div class="pt-4"></div>
             <SubHeading title="overview.etc-grants-program.heading" />
             <Paragraph text="overview.etc-grants-program.body.p1" />
             <Paragraph text="overview.etc-grants-program.body.p2" />
