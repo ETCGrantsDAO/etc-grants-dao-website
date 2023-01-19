@@ -240,9 +240,10 @@
     "heading": "Resources",
     "nav-heading": "Resources",
 
-    "body": {
-      "etc-community": {
-        "heading": "ETC Community resources:",
+    "etc-community": {
+      "heading": "ETC Community resources",
+      "navheading": "ETC Community resources",
+      "body": {
         "development": {
           "text": "ETC Developer resources",
           "link": "https://ethereumclassic.org/development"
@@ -252,8 +253,11 @@
           "link": "https://ethereumclassic.org/community"
         }
       },
-      "etc-grants-dao": {
-        "heading": "ETC Grants DAO resources:",
+    },
+    "etc-grants-dao": {
+      "heading": "ETC Grants DAO resources",
+      "navheading": "ETC Grants DAO resources",
+      "body": {
         "twitter": {
           "text": "Twitter",
           "link": "https://twitter.com/etcgrantsdao"
@@ -269,9 +273,12 @@
         "wechat": {
           "text": "WeChat - Please scan the QR code below to send a friend request and we will add you to the WeChat group."
         }
-      },
-      "faqs": {
-        "heading": "FAQs:",
+      }
+    },
+    "faqs": {
+      "heading": "FAQs",
+      "navheading": "FAQs",
+      "body": {
         "why-classic": {
           "text": "Why Ethereum Classic?",
           "link": "https://ethereumclassic.org/why-classic"
@@ -279,7 +286,7 @@
         "developer-faqs": {
           "text": "Developer FAQs",
           "link": "https://ethereumclassic.org/faqs/developers"
-        }
+        }  
       }
     }
   },
