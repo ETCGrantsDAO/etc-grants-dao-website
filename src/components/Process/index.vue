@@ -18,10 +18,6 @@
                     <li> {{ $t("grantsProcess.phases.step1.phasesSummary.bullets.b3") }} </li>
                 </ul>
             </div>
-
-            <Paragraph text="ethereum-classic.text" />
-            <Paragraph text="ethereum-classic-test-two.text" />
-
         </div>
 
         <!--Step 2-->
