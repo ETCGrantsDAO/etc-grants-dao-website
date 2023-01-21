@@ -30,7 +30,7 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("resources.nav-heading") }}
         </a>
-        <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English"
+        <a :href="$t('etc-grants-dao.apply-now-link')"
           class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow">
           {{ $t("etc-grants-dao.apply-now-text") }} 
         </a>
