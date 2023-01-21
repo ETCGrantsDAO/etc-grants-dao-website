@@ -26,7 +26,7 @@
 
             <!-- Apply Now form at bottom of page -->
             <!-- Apply Now form at bottom of page -->
-            <a href="https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English"
+            <a :href="$t('etc-grants-dao.apply-now-link')"
               class="text-xl font-bold md:w-1/5 mt-6 md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth  heroButton flex hover:scale-110 transition duration-300 ease-in-out">
               <p>{{ $t("etc-grants-dao.apply-now-text") }}</p>
               <img src="@/images/applyButtonIcon.png"
