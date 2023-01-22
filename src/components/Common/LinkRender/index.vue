@@ -1,5 +1,5 @@
 <template>
-    <div class="text-headingsColor pt-6">
+    <div class="text-headingsColor">
         <p
             class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText text-parrotGreen">
         <div class="text-headingsColor pt-6">

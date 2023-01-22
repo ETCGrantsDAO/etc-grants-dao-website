@@ -9,21 +9,13 @@
         <section id="overview.etc-grants-dao" class="scroll-element">
             <SubHeading title="overview.etc-grants-dao.heading"/>
             <Paragraph text="overview.etc-grants-dao.body.p1" />
-            <div class="pt-12">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen font-bold">{{ $t("overview.etc-grants-dao.body.p2t") }}</p>
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p2") }}</p>
-            </div>
-            <div class="pt-12">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen font-bold">{{ $t("overview.etc-grants-dao.body.p3t") }}</p>
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p3") }}</p>
-            </div>
-            <div class="pt-12">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen font-bold">{{ $t("overview.etc-grants-dao.body.p4t") }}</p>
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p4") }}</p>
-            </div>
-            <div class="pt-12">
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen font-bold">{{ $t("overview.etc-grants-dao.body.p5t") }}</p>
-                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">{{ $t("overview.etc-grants-dao.body.p5") }}</p>
+            <div v-for="(paragraph, index) in etcGrantsDaoList" class="pt-12">
+                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText font-parrotGreen font-bold">
+                    {{ $t(`overview.etc-grants-dao.body.p${index + 2}t`) }}
+                </p>
+                <p class="font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree righttSecText">
+                    {{ $t(`overview.etc-grants-dao.body.p${index + 2}`) }}
+                </p>
             </div>
         </section>
 
@@ -48,6 +40,11 @@ export default {
         MainHeading,
         SubHeading,
         Paragraph
+    },
+    data() {
+        return {
+            etcGrantsDaoList: new Array(4)
+        }
     }
 }
 </script>
