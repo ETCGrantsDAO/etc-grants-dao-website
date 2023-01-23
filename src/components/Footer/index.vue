@@ -5,7 +5,7 @@
       <div class="w-full lg:w-1/3">
         <div>
           <h2 class="text-2xl font-notoSans text-headingsColor leading-8">
-            {{ $t("footer.heading-etc") }} &nbsp;
+            {{ $t("footer.footerPartners") }} &nbsp;
           </h2>
         </div>
         <div class="mt-5 lg:mt-9 etclogo">
@@ -25,11 +25,6 @@
         </div>
       </div>
       <div class="w-full lg:w-2/3">
-        <div class="mt-10 lg:mt-0">
-          <h2 class="text-2xl font-notoSans text-headingsColor leading-8">
-            {{ $t("footer.footerPartners") }} &nbsp;
-          </h2>
-        </div>
         <div class="row mt-5 lg:mt-9">
           <div class="grid grid-cols-1 lg:grid-cols-3">
             <div class="lg:mt-4">
