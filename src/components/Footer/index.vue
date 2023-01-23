@@ -3,11 +3,7 @@
 
     <div class="flex flex-col lg:flex-row">
       <div class="w-full lg:w-1/3">
-        <div>
-          <h2 class="text-2xl font-notoSans text-headingsColor leading-8">
-            {{ $t("footer.footerPartners") }} &nbsp;
-          </h2>
-        </div>
+        
         <div class="mt-5 lg:mt-9 etclogo">
           <a href="https://etccooperative.org/" target="_blank">
             <img src="@/images/etclogo.png" alt="">
