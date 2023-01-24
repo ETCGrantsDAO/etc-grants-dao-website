@@ -31,7 +31,7 @@
           {{ $t("resources.nav-heading") }}
         </a>
         <a :href="$t('etc-grants-dao.apply-now-link')"
-          class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow">
+          class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#133706] to-[#53EB45]">
           {{ $t("etc-grants-dao.apply-now-text") }} 
         </a>
 
