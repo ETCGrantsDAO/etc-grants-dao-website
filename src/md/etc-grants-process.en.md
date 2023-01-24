@@ -20,9 +20,9 @@ When applying, you will choose one of four grant types: Community, Conversion, S
 
 All projects must use permissive open-source licenses, with only the following licenses being acceptable:
 
-- • Apache 2.0 - good for source code
-- • Mozilla MPL 2.0 - good for source code (Javascript friendly)
-- • Creative Commons (CC-BY-SA) - good for documentation
+- • [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License) - good for source code
+- • [Mozilla MPL 2.0](https://en.wikipedia.org/wiki/Mozilla_Public_License) - good for source code (Javascript friendly)
+- • [Creative Commons (CC-BY-SA)](https://en.wikipedia.org/wiki/Creative_Commons_license) - good for documentation
 
 Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways that reduce the value we are delivering. Funding will not be provided for projects seeking to build proprietary solutions. The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.
 
