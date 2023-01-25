@@ -40,10 +40,10 @@ We will not be considering applications seeking to retroactively claiming fundin
 
 项目有可能被拒绝的原因:
 
-- • grantsProcess.phases.step3.mayBeDeclined.body.bullets.b1
-- • grantsProcess.phases.step3.mayBeDeclined.body.bullets.b2
-- • grantsProcess.phases.step3.mayBeDeclined.body.bullets.b3
-- • grantsProcess.phases.step3.mayBeDeclined.body.bullets.b4
+- • 该项目与ETC的价值观不一致。
+- • 项目没有办法在赠款资金被充分利用后维持自身(如果它不是一个开源的公共物品类型的赠款)。
+- • 项目团队似乎没有完成项目目标所需的专业知识。
+- • 项目的成本/效益不足。
 
 如果满足以下条件，您的项目将有更大的机会被接受:
 

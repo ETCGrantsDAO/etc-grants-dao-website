@@ -39,7 +39,3 @@ Here are some ideas for projects which are likely to be well received, but pleas
 - • MetaMask snaps
 - • Projects supporting self-custody
 - • Projects supporting running your own node
-
-### Ready to go? { .scroll-element #howToApply.readytogo}
-
-Bring your best ideas.
