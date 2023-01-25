@@ -22,6 +22,10 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("howToApply.nav-heading") }}
         </a>
+        <a :href="$t('etc-grants-dao.browse-link')"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("etc-grants-dao.browse-text") }}
+        </a>
         <a href="#grantsProcess"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("grantsProcess.nav-heading") }}
@@ -56,14 +60,20 @@
     <div class="">
       <img src="@/images/Cross.svg" v-on:click="closeNav()" class="ml-auto" id="menuIcon" ref="navClose" />
     </div>
-    <a href="https://airtable.com/shr3VMqyLd1HX5ws4"
+
+    <!-- Mobile navigation -->
+    <a :href="$t('etc-grants-dao.apply-now-link')"
       class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans text-base font-bold rounded">
       <span class="text-headingsColor applyNowBtn relative">
         {{ $t("etc-grants-dao.apply-now-text") }}
       </span>
     </a>
-
-    <!-- Mobile navigation -->
+    <a :href="$t('etc-grants-dao.browse-link')"
+      class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#09371B] to-[#317E2] font-notoSans text-base font-bold rounded">
+      <span class="text-headingsColor applyNowBtn relative">
+        {{ $t("etc-grants-dao.browse-text") }}
+      </span>
+    </a>
 
     <!-- Overview mobile nav -->
     <a v-on:click="closeNav()" href="#overview"
