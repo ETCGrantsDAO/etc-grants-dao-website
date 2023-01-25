@@ -71,7 +71,7 @@
     <a :href="$t('etc-grants-dao.browse-link')"
       class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#09371B] to-[#317E2] font-notoSans text-base font-bold rounded">
       <span class="text-headingsColor applyNowBtn relative">
-        {{ $t("etc-grants-dao.-text") }}
+        {{ $t("etc-grants-dao.browse-text") }}
       </span>
     </a>
 
