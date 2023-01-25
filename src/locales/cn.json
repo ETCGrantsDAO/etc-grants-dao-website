@@ -4,7 +4,9 @@
     "title": "ETC Grants DAO",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
     "apply-now-text": "立即申请",
-    "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=%E4%B8%AD%E5%9B%BD%E4%BA%BA"
+    "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=%E4%B8%AD%E5%9B%BD%E4%BA%BA",
+    "browse-text": "Browse",
+    "browse-link": "https://etcgrants.softr.app/projects-list-zh"
   },
 
   "contents-title": "目录",
