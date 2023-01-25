@@ -10,13 +10,13 @@
   "contents-title": "目录",
 
   "overview": {
-    "nav-heading": "Overview",
+    "nav-heading": "概述",
 
     "etc-grants-dao": {
       "nav-heading": "ETC Grants DAO"
     },
     "etc-grants-program": {
-      "nav-heading": "ETC Grants Program"
+      "nav-heading": "ETC助款项目"
     }
   },
 
@@ -24,10 +24,10 @@
     "nav-heading": "意见反馈",
 
     "round1": {
-      "nav-heading": "ETC Grants Round 1"
+      "nav-heading": "ETC助款 第一轮"
     },
     "suggestions": {
-      "nav-heading": "Suggestions"
+      "nav-heading": "建议"
     },
     "categories": {
       "nav-heading": "助款类别"
@@ -63,16 +63,16 @@
   },
 
   "resources": {
-    "nav-heading": "Resources",
+    "nav-heading": "资料",
 
     "etc-community": {
-      "navheading": "ETC Community"
+      "navheading": "ETC社区"
     },
     "etc-grants-dao": {
       "navheading": "ETC Grants DAO"
     },
     "faqs": {
-      "navheading": "FAQs"
+      "navheading": "常见问题"
     }
   }
 
