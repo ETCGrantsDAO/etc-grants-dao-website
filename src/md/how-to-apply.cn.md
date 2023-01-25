@@ -31,7 +31,3 @@ Up to $1M worth of ETC is available for successful applicants in this first roun
 - • MetaMask snaps
 - • 支持自我托管的项目
 - • 支持运行自己节点的项目
-
-### 准备好了吗? { .scroll-element #howToApply.readytogo}
-
-带上最好的创意
