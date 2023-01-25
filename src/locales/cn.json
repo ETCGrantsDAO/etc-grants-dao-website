@@ -15,44 +15,8 @@
     "etc-grants-dao": {
       "nav-heading": "ETC Grants DAO"
     },
-
     "etc-grants-program": {
       "nav-heading": "ETC Grants Program"
-    }
-  },
-
-  "grantsProcess": {
-    "nav-heading": "ETC助款过程",
-
-    "phases": {
-
-      "step1": {
-        "nav-heading": "第1步：征求项目提议"
-      },
-
-      "step2": {
-        "nav-heading": "第2步：提交助款申请"
-      },
-
-      "step3": {
-        "nav-heading": "第2步：评估/技术审核"
-      },
-
-      "step4": {
-        "nav-heading": "第4步：助款团队批准"
-      },
-
-      "step5": {
-        "nav-heading": "第5步：尽职调查和KYC/AML要求"
-      },
-
-      "step6": {
-        "nav-heading": "第6步：助款进度和里程碑审核"
-      },
-
-      "step7": {
-        "nav-heading": "第7步：项目启动及回顾"
-      }
     }
   },
 
@@ -62,13 +26,39 @@
     "round1": {
       "nav-heading": "ETC Grants Round 1"
     },
-
     "suggestions": {
       "nav-heading": "Suggestions"
     },
-
     "categories": {
       "nav-heading": "助款类别"
+    }
+  },
+
+  "grantsProcess": {
+    "nav-heading": "ETC助款过程",
+
+    "phases": {
+      "step1": {
+        "nav-heading": "第1步：征求项目提议"
+      },
+      "step2": {
+        "nav-heading": "第2步：提交助款申请"
+      },
+      "step3": {
+        "nav-heading": "第2步：评估/技术审核"
+      },
+      "step4": {
+        "nav-heading": "第4步：助款团队批准"
+      },
+      "step5": {
+        "nav-heading": "第5步：尽职调查和KYC/AML要求"
+      },
+      "step6": {
+        "nav-heading": "第6步：助款进度和里程碑审核"
+      },
+      "step7": {
+        "nav-heading": "第7步：项目启动及回顾"
+      }
     }
   },
 
@@ -84,29 +74,6 @@
     "faqs": {
       "navheading": "FAQs"
     }
-  },
-
-  "footer": {
-    "heading-etc": "ETC合作社",
-
-    "footerHeading1": "学习更多",
-    "footerHeading1Text1": "ethereumclassic.org",
-    "footerHeading1Text2": "ETC社区Discord",
-    "footerHeading1Text3": "ETC合作社Discord",
-    "footerHeading1Text4": "ECIPs",
-  
-    "footerHeading2": "项目",
-    "footerHeading2Text1": "超级账本Hyperledger Besu",
-    "footerHeading2Text2": "Core-Geth",
-  
-    "footerHeading3": "运行",
-    "footerHeading3Text1": "超级账本Hyperledger Besu",
-    "footerHeading3Text2": "Core-Geth",
-    "footerHeading3Text3": "BlockScout",
-    "footerHeading3Text4": "ETC公共RPC端点",
-    "footerHeading3Text5": "ETC节点资源管理器",
-  
-    "footerPartners": "Partners"
   }
 
 }

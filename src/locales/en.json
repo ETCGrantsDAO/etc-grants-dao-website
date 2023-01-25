@@ -15,9 +15,22 @@
     "etc-grants-dao": {
       "nav-heading": "ETC Grants DAO"
     },    
-
     "etc-grants-program": {
       "nav-heading": "ETC Grants Program"
+    }
+  },
+
+  "howToApply": {
+    "nav-heading": "How to Apply",
+
+    "round1": {
+      "nav-heading": "ETC Grants Round 1"
+    },
+    "suggestions": {
+      "nav-heading": "Suggestions"
+    },
+    "categories": {
+      "nav-heading": "Grant Categories"
     }
   },
 
@@ -25,49 +38,27 @@
     "nav-heading": "ETC Grants Process",
 
     "phases": {
-
       "step1": {
         "nav-heading": "Step 1: Call for Proposals"
       },
-
       "step2": {
         "nav-heading": "Step 2: Grant Application Submission"
       },
-
       "step3": {
         "nav-heading": "Step 3: Evaluation/Technical review"
       },
-
       "step4": {
         "nav-heading": "Step 4: Grants team approval"
       },
-
       "step5": {
         "nav-heading": "Step 5: Due diligence and KYC/AML requirements"
       },
-
       "step6": {
         "nav-heading": "Step 6: Grant progress and Milestone review"
       },
-
       "step7": {
         "nav-heading": "Step 7: Project Launch and Retrospective"
       }
-    }
-  },
-
-  "howToApply": {
-    "nav-heading": "How to Apply",
-    "round1": {
-      "nav-heading": "ETC Grants Round 1"
-    },
-
-    "suggestions": {
-      "nav-heading": "Suggestions"
-    },
-
-    "categories": {
-      "nav-heading": "Grant Categories"
     }
   },
 
@@ -77,37 +68,12 @@
     "etc-community": {
       "navheading": "ETC Community"
     },
-
     "etc-grants-dao": {
       "navheading": "ETC Grants DAO"
     },
-
     "faqs": {
       "navheading": "FAQs"
     }
-  },
-
-  "footer": {
-    "heading-etc": "ETC Cooperative",
-
-    "footerHeading1": "Learn",
-    "footerHeading1Text1": "ethereumclassic.org",
-    "footerHeading1Text2": "ETC Community Discord",
-    "footerHeading1Text3": "ETC Cooperative Discord",
-    "footerHeading1Text4": "ECIPs",
-  
-    "footerHeading2": "Projects",
-    "footerHeading2Text1": "Hyperledger Besu",
-    "footerHeading2Text2": "Core-Geth",
-  
-    "footerHeading3": "Run",
-    "footerHeading3Text1": "Hyperledger Besu",
-    "footerHeading3Text2": "Core-Geth",
-    "footerHeading3Text3": "BlockScout",
-    "footerHeading3Text4": "ETC Public RPC Endpoints",
-    "footerHeading3Text5": "ETC Nodes Explorer",
-  
-    "footerPartners": "Partners"
   }
 
 }
