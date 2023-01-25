@@ -75,6 +75,9 @@ html {
 .font-parrotGreen {
   color: #93da97;
 }
+.font-highlighted {
+  color: #ffffff;
+}
 
 .customList > li::before {
   content: "• ";
@@ -110,4 +113,8 @@ html {
 
 #md-content a {
   @apply cursor-pointer underline text-parrotGreen;
+}
+
+#md-content strong {
+  @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree font-highlighted font-bold;
 }
