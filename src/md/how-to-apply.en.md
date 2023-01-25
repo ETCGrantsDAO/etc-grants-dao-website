@@ -2,9 +2,9 @@
 
 ### Round 1 of the ETC Grants Program { .scroll-element #howToApply.round1}
 
-The grants process will be open for applications on February 1st, 2023. The application process will remain open through February and March 2023. Decisions on which grants will be funded will be made in May 2023. The final decisions will be announced and initial funds will be disbursed in June 2023.
+The grants process will be open for applications on **February 1st, 2023.** The application process will remain open through **February and March 2023.** Decisions on which grants will be funded will be made in **May 2023.** The final decisions will be announced and initial funds will be disbursed in **June 2023.**
 
-Up to $1M, worth of ETC is available for successful applicants in this first round of funds.
+Up to $1M worth of ETC is available for successful applicants in this first round of funds.
 
 ### Grants categories { .scroll-element #howToApply.categories}
 
