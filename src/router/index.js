@@ -8,6 +8,12 @@ const routes = [
     component: HomeView
   },
   {
+    path: "/wechat",
+    name: "wechat",
+    component: () =>
+      import(/* webpackChunkName: "wechat" */ "@/views/WeChatView.vue"),
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

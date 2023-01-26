@@ -1,5 +1,4 @@
 {
-  
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
     "description": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem.",
@@ -77,6 +76,15 @@
     "faqs": {
       "navheading": "FAQs"
     }
-  }
+  },
 
+  "wechat": {
+    "back-button": "Back To Website",
+    "paragraph": "Please scan the QR code below to send a friend request and we will add you to the WeChat group"
+  },
+
+  "footer": {
+    "etc_grand_dao": "ETC Grants DAO",
+    "sponsors": "Sponsors"
+  }
 }
