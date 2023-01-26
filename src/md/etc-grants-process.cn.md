@@ -34,7 +34,7 @@ We will not be considering applications seeking to retroactively claiming fundin
 
 在撰写本文时，还没有将决策过程公开给更广泛的 ETC 社区的具体计划。从长远来看，逐步走向一个开放的 DAO 结构可能是有意义的。在这个结构中，所有 ETC 代币持有者都可以选择参与决策过程。
 
-投票将使用快照记录 Snapshot(参见 etcgrantsdao.eth)，类似于用于莱特币/蚂蚁矿池投票的现有快照实例。
+投票将使用快照记录 Snapshot(参见 [etcgrantsdao.eth](https://snapshot.org/#/etcgrantsdao.eth)), 类似于用于[莱特币/蚂蚁矿池投票](https://snapshot.org/#/litecoin-antpool-dao.eth)的现有快照实例。
 
 在评估及技术评审期间，资助委员会将检视各小组提交的资料，并评估申请。请注意，对项目的投票将由上述成员完成，但对项目的技术评估将由更广泛的专业人士完成，包括 ETC 核心开发人员。这是为了确保对所有应用进行充分的技术审查。
 
