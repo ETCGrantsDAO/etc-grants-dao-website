@@ -20,7 +20,7 @@ EGD believes in the principle of Code Is Law of Ethereum Classic, that decentral
 
 EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a world computer for humanity in the web3.0 era.
 
-## ETC Grants Program { .scroll-element #overview.etc-grants-program}
+## EGD Grants Program { .scroll-element #overview.egd-grants-program}
 
 In July of 2022, Bitmain and Antpool [announced](https://www.coindesk.com/business/2022/07/26/antpool-supports-ethereum-classic-ecosystem-with-10m-investment/) that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet [( 0xA208...E8D6 )](https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet [( 0x3db3...2f82 )](https://multisig.etccooperative.org/app/ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82/balances) on the Ethereum Classic mainnet.
 

@@ -1,6 +1,6 @@
 # How to Apply {.parent-scroll-element #howToApply}
 
-### Round 1 of the ETC Grants Program { .scroll-element #howToApply.round1}
+### Round 1 of the EGD Grants Program { .scroll-element #howToApply.round1}
 
 The grants process will be open for applications on **February 1st, 2023.** The application process will remain open through **February and March 2023.** Decisions on which grants will be funded will be made in **May 2023.** The final decisions will be announced and initial funds will be disbursed in **June 2023.**
 
