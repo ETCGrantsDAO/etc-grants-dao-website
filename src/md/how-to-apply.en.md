@@ -20,22 +20,16 @@ Up to $1M worth of ETC is available for successful applicants in this first roun
 
 ### Suggestions: { .scroll-element #howToApply.suggestions}
 
+The aim of the first round is to award grants to developers who actively build applications and protocols on ETC , including scaling solutions, cross-chain bridges and lending protocols etc.
+
+We are committed to the innovation and prosperity of the next generation ETC.
+
 Here are some ideas for projects which are likely to be well received, but please take these as suggestions and feel free to bring your own ideas to the table.
 
-- • Unique and compelling ETC-only dapps
-- • Novel NFT projects (especially for real-world assets)
-- • Native stablecoins (USDT, USDC, DAI, RAI, RICO, other)
-- • First-class ETC support in key Ethereum projects
-- • Deploying and supporting clones of key Ethereum project on ETC
-- • Privacy solutions
-- • Oracle solutions
+- • Native stablecoins
 - • Lending protocols
+- • Unique and compelling ETC-only dapps  
+- • Novel NFT projects (especially for real-world assets) 
 - • Bridges and interoperability
 - • Atomic swaps
-- • Educational content
-- • Meetups and events
-- • Podcasts
-- • Safe apps
-- • MetaMask snaps
-- • Projects supporting self-custody
-- • Projects supporting running your own node
+- • L2 scaling solutions
