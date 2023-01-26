@@ -155,9 +155,9 @@
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#resources.etc-community"
+          href="#resources.etc-developer-resources"
         >
-          {{ $t("resources.etc-community.navheading") }}
+          {{ $t("resources.etc-developer-resources.navheading") }}
         </a>
       </div>
       <div class="text-headingsColor pt-6 pl-1">

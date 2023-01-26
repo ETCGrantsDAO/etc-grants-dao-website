@@ -158,9 +158,9 @@
       class="pt-6 font-notoSans text-headingsColor text-2xl font-bold leading-rightHeadingsDt">
       {{ $t("resources.nav-heading") }}
     </a>
-    <a v-on:click="closeNav()" href="#resources.etc-community">
+    <a v-on:click="closeNav()" href="#resources.etc-developer-resources">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("resources.etc-community.navheading") }}
+        {{ $t("resources.etc-developer-resources.navheading") }}
       </p>
     </a>
     <a v-on:click="closeNav()" href="#resources.etc-grants-dao">
