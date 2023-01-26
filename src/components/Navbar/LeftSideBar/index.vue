@@ -37,9 +37,9 @@
       <div class="text-headingsColor pt-6 pl-1">
         <a
           class="font-notoSans text-textColor text-base font-normal"
-          href="#overview.etc-grants-program"
+          href="#overview.egd-grants-program"
         >
-          {{ $t("overview.etc-grants-program.nav-heading") }}
+          {{ $t("overview.egd-grants-program.nav-heading") }}
         </a>
       </div>
 

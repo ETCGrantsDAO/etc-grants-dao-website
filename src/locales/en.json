@@ -17,9 +17,9 @@
 
     "etc-grants-dao": {
       "nav-heading": "ETC Grants DAO"
-    },    
-    "etc-grants-program": {
-      "nav-heading": "ETC Grants Program"
+    },
+    "egd-grants-program": {
+      "nav-heading": "EGD Grants Program"
     }
   },
 

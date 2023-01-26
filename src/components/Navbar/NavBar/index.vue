@@ -85,9 +85,9 @@
         {{ $t("overview.etc-grants-dao.nav-heading") }}
       </p>
     </a>
-    <a v-on:click="closeNav()" href="#overview.etc-grants-program">
+    <a v-on:click="closeNav()" href="#overview.egd-grants-program">
       <p class="font-notoSans text-textColor text-base font-normal pb-4">
-        {{ $t("overview.etc-grants-program.nav-heading") }}
+        {{ $t("overview.egd-grants-program.nav-heading") }}
       </p>
     </a>
 
