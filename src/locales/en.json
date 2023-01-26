@@ -68,8 +68,8 @@
   "resources": {
     "nav-heading": "Resources",
 
-    "etc-community": {
-      "navheading": "ETC Community"
+    "etc-developer-resources": {
+      "navheading": "ETC Developer Resources"
     },
     "etc-grants-dao": {
       "navheading": "ETC Grants DAO"
