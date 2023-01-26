@@ -73,7 +73,7 @@ During this stage of the process, the grantee would submit milestone/progress re
 
 The documentation will depend on whether it is a larger project, that has clear and differentiated milestones, or a smaller project without discrete pieces of work. If it is the latter, then a grant progress report template will be completed mid-way through the grant period, to assess the progress of the project.
 
-### Step 7: Project Launch and Retrospective { .scroll-element #grantsProcess.phases.step7}
+### Step 7: Wrap-up and Retrospective { .scroll-element #grantsProcess.phases.step7}
 
 This phase is the final step in the grant-making process and if the project has been successful – will lead to the launch of the final project and/or deliverables – as well as the completion milestone payment. This phase commences with a project retrospective that provides a post-mortem analysis to determine and analyze elements of the project that were successful or unsuccessful.
 
