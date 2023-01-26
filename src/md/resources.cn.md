@@ -10,9 +10,7 @@
 - • [Twitter](https://twitter.com/etcgrantsdao){.md-link-gray}
 - • [Telegram](https://t.me/+HFT390x76c4zYWRh){.md-link-gray}
 - • [Github](https://github.com/etcgrantsdao/etc-grants-dao-website){.md-link-gray}
-- • &nbsp;&nbsp; WeChat - Please scan the QR code below to send a friend request and we will add you to the WeChat group.
-
-![WeChat QR](wechat-group.png)
+- • [WeChat](/wechat){.md-link-gray}
 
 ### FAQs { .scroll-element #resources.faqs}
 

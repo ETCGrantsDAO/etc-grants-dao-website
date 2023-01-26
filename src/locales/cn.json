@@ -1,5 +1,4 @@
 {
-
   "etc-grants-dao": {
     "title": "ETC Grants DAO",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
@@ -77,6 +76,10 @@
     "faqs": {
       "navheading": "常见问题"
     }
-  }
+  },
 
+  "wechat": {
+    "back-button": "Back To Website",
+    "paragraph": "Please scan the QR code below to send a friend request and we will add you to the WeChat group"
+  }
 }
