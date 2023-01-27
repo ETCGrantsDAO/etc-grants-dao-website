@@ -22,6 +22,26 @@
               <img src="@/images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIconA" />
             </a>
+            <table>
+  <tr>
+    <th>Key Dates</th>
+    <th>Phase</th>
+  </tr>
+  <tr>
+    <td >31st Jan to 30th Apr 2023</td>
+    <td> Applications </td>
+  </tr>
+  <tr>
+    <td>May 2023</td>
+    <td>Review Process</td>
+  </tr>
+
+  <tr>
+    <td>June 2023</td>
+    <td>Decisions and Funds disbursed</td>
+  </tr>
+</table>
+            
           </div>
           <div class="hidden md:block"></div>
         </div>
