@@ -1,12 +1,12 @@
 {
   "etc-grants-dao": {
-    "title": "ETC Grants DAO",
-    "description": "We provide funding for promising projects that will invigorate the Ethereum Classic ecosystem.",
-    "date": "Round 1 is open 31st Jan to 30th Apr 2023.",
-    "apply-now-text": "Apply Now",
+    "title": "POW Summit",
+    "description": "A pluralist conference bringing together the major POW chains.",
+    "date": "Prague, Czech Republic, June 26-27",
+    "apply-now-text": "Contact Us",
     "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English",
-    "browse-text": "Browse",
-    "browse-link": "https://etcgrants.softr.app/projects-list-en"
+    "browse-text": "MoneroKon",
+    "browse-link": "https://monerokon.com"
   },
 
   "contents-title": "Contents",
@@ -23,13 +23,13 @@
   },
 
   "howToApply": {
-    "nav-heading": "How to Apply",
+    "nav-heading": "Venues",
 
-    "round1": {
-      "nav-heading": "ETC Grants Round 1"
+    "lafabrika": {
+      "nav-heading": "La Fabrika"
     },
-    "suggestions": {
-      "nav-heading": "Suggestions"
+    "nvitroblock": {
+      "nav-heading": "Nvitroblock"
     },
     "categories": {
       "nav-heading": "Grant Categories"
@@ -37,7 +37,7 @@
   },
 
   "grantsProcess": {
-    "nav-heading": "ETC Grants Process",
+    "nav-heading": "Ticketing",
 
     "phases": {
       "step1": {
@@ -65,7 +65,7 @@
   },
 
   "resources": {
-    "nav-heading": "Resources",
+    "nav-heading": "Prague",
 
     "etc-developer-resources": {
       "navheading": "ETC Developer Resources"

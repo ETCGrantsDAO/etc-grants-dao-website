@@ -6,56 +6,31 @@
       "locale": {
         "en": "Overview",
         "cn": "概述"
-      },
-      "subsections": [
-        {
-          "key": "etcGrantsDao",
-          "target": "#overview.etc-grants-dao",
-          "locale": {
-            "en": "ETC Grants DAO",
-            "cn": "ETC Grants DAO"
-          }
-        },
-        {
-          "key": "egdGrantsProgram",
-          "target": "#overview.egd-grants-program",
-          "locale": {
-            "en": "EGD Grants Program",
-            "cn": "EGD助款项目"
-          }
-        }
-      ]
+      }
     },
     {
       "key": "howToApply",
       "target": "#howToApply",
       "locale": {
-        "en": "How to Apply",
-        "cn": "意见反馈"
+        "en": "Venues",
+        "cn": "Venues"
       },
+
       "subsections": [
         {
-          "key": "etcGrandsRound1",
-          "target": "#howToApply.round1",
+          "key": "lafabrika",
+          "target": "#howToApply.lafabrika",
           "locale": {
-            "en": "ETC Grants Round 1",
-            "cn": "ETC助款 第一轮"
+            "en": "La Fabrika",
+            "cn": "La Fabrika"
           }
         },
         {
-          "key": "grantCategories",
-          "target": "#howToApply.categories",
+          "key": "vnitroblock",
+          "target": "#howToApply.vnitroblock",
           "locale": {
-            "en": "Grant Categories",
-            "cn": "助款类别"
-          }
-        },
-        {
-          "key": "suggestions",
-          "target": "#howToApply.suggestions",
-          "locale": {
-            "en": "Suggestions",
-            "cn": "建议"
+            "en": "Vnitroblock",
+            "cn": "Vnitroblock"
           }
         }
       ]
@@ -64,101 +39,17 @@
       "key": "grantsProcess",
       "target": "#grantsProcess",
       "locale": {
-        "en": "ETC Grants Process",
-        "cn": "ETC助款过程"
-      },
-      "subsections": [
-        {
-          "key": "step1",
-          "target": "#grantsProcess.phases.step1",
-          "locale": {
-            "en": "Step 1: Call for Proposals",
-            "cn": "第1步：征求项目提议"
-          }
-        },
-        {
-          "key": "step2",
-          "target": "#grantsProcess.phases.step2",
-          "locale": {
-            "en": "Step 2: Grant Application Submission",
-            "cn": "第2步：评估/技术审核"
-          }
-        },
-        {
-          "key": "step3",
-          "target": "#grantsProcess.phases.step3",
-          "locale": {
-            "en": "Step 3: Evaluation/Technical review",
-            "cn": "第2步：评估/技术审核"
-          }
-        },
-        {
-          "key": "step4",
-          "target": "#grantsProcess.phases.step4",
-          "locale": {
-            "en": "Step 4: Grants team approval",
-            "cn": "第4步：助款团队批准"
-          }
-        },
-        {
-          "key": "step5",
-          "target": "#grantsProcess.phases.step5",
-          "locale": {
-            "en": "Step 5: Due diligence and KYC/AML requirements",
-            "cn": "第5步：尽职调查和KYC/AML要求"
-          }
-        },
-        {
-          "key": "step6",
-          "target": "#grantsProcess.phases.step6",
-          "locale": {
-            "en": "Step 6: Grant progress and Milestone review",
-            "cn": "第6步：助款进度和里程碑审核"
-          }
-        },
-        {
-          "key": "step7",
-          "target": "#grantsProcess.phases.step7",
-          "locale": {
-            "en": "Step 7: Project Launch and Retrospective",
-            "cn": "第7步：项目启动及回顾"
-          }
-        }
-      ]
+        "en": "Ticketing",
+        "cn": "Ticketing"
+      }
     },
     {
       "key": "resources",
       "target": "#resources",
       "locale": {
-        "en": "Resources",
-        "cn": "资料"
-      },
-      "subsections": [
-        {
-          "key": "etcDeveloperResources",
-          "target": "#resources.etc-developer-resources",
-          "locale": {
-            "en": "ETC Developer Resources",
-            "cn": "ETC Developer Resources"
-          }
-        },
-        {
-          "key": "etcGrantsDao",
-          "target": "#resources.etc-grants-dao",
-          "locale": {
-            "en": "ETC Grants DAO",
-            "cn": "ETC Grants DAO"
-          }
-        },
-        {
-          "key": "faqs",
-          "target": "#resources.faqs",
-          "locale": {
-            "en": "FAQs",
-            "cn": "常见问题"
-          }
-        }
-      ]
+        "en": "Prague",
+        "cn": "Prague"
+      }
     }
   ]
 }

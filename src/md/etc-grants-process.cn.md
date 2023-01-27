@@ -73,7 +73,7 @@ We will not be considering applications seeking to retroactively claiming fundin
 
 文档将取决于它是一个较大的项目，具有明确的和不同的里程碑，还是一个较小的项目，没有离散的工作块。如果是后者，一份助款进度报告模板将在助款期内完成，以评估计划的进度。
 
-### 第 7: Wrap-up and Retrospective { .scroll-element #grantsProcess.phases.step7}
+### 第 7 步：项目启动及回顾 { .scroll-element #grantsProcess.phases.step7}
 
 该阶段是助款过程的最后一步，如果项目成功，将导致启动最终项目和/或可交付成果，以及完成里程碑付款。该阶段从项目回顾开始，提供事后分析，以确定和分析项目成功或不成功的元素。
 

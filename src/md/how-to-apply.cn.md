@@ -12,16 +12,22 @@ Up to $1M worth of ETC is available for successful applicants in this first roun
 
 ### Suggestions { .scroll-element #howToApply.suggestions}
 
-The aim of the first round is to award grants to developers who actively build applications and protocols on ETC , including scaling solutions, cross-chain bridges and lending protocols etc.
+这里有一些很可能会受到欢迎的项目想法，但请把这些作为建议，也欢迎自由地提出您自己的想法。
 
-We are committed to the innovation and prosperity of the next generation ETC.
-
-Here are some ideas for projects which are likely to be well received, but please take these as suggestions and feel free to bring your own ideas to the table.
-
-- • Native stablecoins
-- • Lending protocols
-- • Unique and compelling ETC-only dapps  
-- • Novel NFT projects (especially for real-world assets) 
-- • Bridges and interoperability
-- • Atomic swaps
-- • L2 scaling solutions
+- • 独特而引人注目的仅限 ETC 的 dapps
+- • 新颖的 NFT 项目(特别是对于现实世界的资产)
+- • 原生稳定币(USDT, USDC, DAI, RAI, RICO，其他)
+- • 在关键以太坊项目中提供一流的 ETC 支持
+- • 在 ETC 上部署和支持关键以太坊项目的克隆
+- • 隐私解决方案
+- • Oracle 解决方案
+- • 借贷协议
+- • 桥梁和互操作性
+- • 原子呼唤
+- • 教育内容
+- • 活动与见面会
+- • 播客
+- • 安全应用软件
+- • MetaMask snaps
+- • 支持自我托管的项目
+- • 支持运行自己节点的项目

@@ -1,31 +1,21 @@
-# Overview
 
-## ETC Grants DAO { .scroll-element #overview.etc-grants-dao}
+# Overview { .parent-scroll-element #overview}
 
-The ETC GRANTS DAO (“EGD”) is a non-profit autonomous organization composed of Ethereum Classic enthusiasts, supporters, and developers, aiming to promote the growth of the ecosystem and long-term development of Ethereum Classic.
+POW Summit 2023 is a unique conference which will bring the major Proof of Work (POW) communities together around our common cause.  After Ethereum’s transition to Proof of Stake (POS), the mainstream narrative is that POW is obsolete technology and is entirely environmentally unfriendly.  This conference will highlight the unique merits of POW and related topics:
 
-### Mission:
+- • Why maximal decentralization is so important
+- • Censorship resistance and avoidance of capture
+- • POW environmental sustainability (POW can be carbon-negative)
+- • Privacy technology
 
-Our aim is to unite the ETC community to develop the Ethereum Classic PoW blockchain into the leading global smart-contract-based, public chain with high security, decentralization, immutability, and censorship resistance.
+There will be many well-known keynote speakers with a distinct OG flavor, together with a strong slate of speakers from each of the participating POW projects.
 
-### Landscape: 
+These overarching themes are accessible for all audiences.  They are not unique to miners, or developers, or to end-users.  They are universal and hugely important.  We want to take attendees back to basics - explaining the pre-Bitcoin landscape, talking through cypherpunk origins, encryption-as-a-munition, Napster, Bitgold, B-money, and then the birth of Bitcoin and POW.  We will explain why these fundamentals are still so important in 2022.
 
-With Ethereum's migration to Proof of Stake, ETC remains a PoW chain that is more resistant to censorship and centralization with better security than PoS blockchains. 
+There have been mining conferences.  There have been plenty of Bitcoin-only conferences, but to our knowledge there has never been a pluralist conference with an overarching focus on POW and on blockchain fundamentals.   The vast majority of people in the blockchain ecosystem were not around in the early days and have likely never heard the origin stories.
 
-### Values:
+We aim to attract around 500 attendees, with sponsors from the mining world, Bitcoin service companies, and from companies involved in the ecosystems of the collaborating POW projects.  This is not a profit-making enterprise.  Sponsorship is just intended to offset costs for the speakers and the organization - and especially so that we can pay keynote speakers who require speaking fees.
 
-Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work principles originated by Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW-based Nakamoto Consensus mechanism has significant security, decentralization, and censorship resistance advantages over other consensus mechanisms like PoS.
+The event will be organized by Emma Todd and MMH Group under contract to the ETC Cooperative.
 
-### Code Is Law:
-
-EGD believes in the principle of Code Is Law. This means that decentralized applications must be unstoppable, uncensorable, and immutable, so the system may be uncompromisable and uncapturable by special interests.
-
-### Transformative Technology:
-
-EGD believes that technology should serve humanity, blockchains should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a more secure world computer for humanity in the web3.0 era.
-
-## EGD Grants Program: { .scroll-element #overview.egd-grants-program}
-
-In July of 2022, Bitmain and Antpool [announced](https://www.coindesk.com/business/2022/07/26/antpool-supports-ethereum-classic-ecosystem-with-10m-investment/) that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet [( 0xA208...E8D6 )](https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet [( 0x3db3...2f82 )](https://multisig.etccooperative.org/app/ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82/balances) on the Ethereum Classic mainnet.
-
-The [ETC Cooperative](https://etccooperative.org/) will be contributing 250 thousand dollars to the EGP grants program as well.
+The content will be a collaboration between ETC Cooperative, Litecoin Foundation and individuals from the ZCash, Dogecoin and Monero and Bitcoin ecosystems.  In addition to the keynotes there will be project-specific streams of content, together with mining sessions and other sub-themes as seem appropriate.
