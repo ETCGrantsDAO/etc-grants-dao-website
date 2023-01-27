@@ -34,7 +34,7 @@ We will not be considering applications seeking to retroactively claiming fundin
 
 在撰写本文时，还没有将决策过程公开给更广泛的 ETC 社区的具体计划。从长远来看，逐步走向一个开放的 DAO 结构可能是有意义的。在这个结构中，所有 ETC 代币持有者都可以选择参与决策过程。
 
-投票将使用快照记录 Snapshot(参见 etcgrantsdao.eth)，类似于用于莱特币/蚂蚁矿池投票的现有快照实例。
+投票将使用快照记录 Snapshot(参见 [etcgrantsdao.eth](https://snapshot.org/#/etcgrantsdao.eth)), 类似于用于[莱特币/蚂蚁矿池投票](https://snapshot.org/#/litecoin-antpool-dao.eth)的现有快照实例。
 
 在评估及技术评审期间，资助委员会将检视各小组提交的资料，并评估申请。请注意，对项目的投票将由上述成员完成，但对项目的技术评估将由更广泛的专业人士完成，包括 ETC 核心开发人员。这是为了确保对所有应用进行充分的技术审查。
 
@@ -73,7 +73,7 @@ We will not be considering applications seeking to retroactively claiming fundin
 
 文档将取决于它是一个较大的项目，具有明确的和不同的里程碑，还是一个较小的项目，没有离散的工作块。如果是后者，一份助款进度报告模板将在助款期内完成，以评估计划的进度。
 
-### 第 7 步：项目启动及回顾 { .scroll-element #grantsProcess.phases.step7}
+### 第 7 步：总结和回顾 { .scroll-element #grantsProcess.phases.step7}
 
 该阶段是助款过程的最后一步，如果项目成功，将导致启动最终项目和/或可交付成果，以及完成里程碑付款。该阶段从项目回顾开始，提供事后分析，以确定和分析项目成功或不成功的元素。
 
