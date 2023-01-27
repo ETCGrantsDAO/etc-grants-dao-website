@@ -38,7 +38,7 @@
           "key": "etcGrandsRound1",
           "target": "#howToApply.round1",
           "locale": {
-            "en": "ETC Grants Round 1",
+            "en": "EGD Grants Round 1",
             "cn": "ETC助款 第一轮"
           }
         },
@@ -64,7 +64,7 @@
       "key": "grantsProcess",
       "target": "#grantsProcess",
       "locale": {
-        "en": "ETC Grants Process",
+        "en": "EGD Grants Process",
         "cn": "ETC助款过程"
       },
       "subsections": [
