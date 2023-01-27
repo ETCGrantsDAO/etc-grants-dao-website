@@ -6,7 +6,7 @@
     <div class="flex items-center justify-between">
 
       <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-          <img src="@/images/opt2-c2.png"/>
+          <img src="@/images/opt2-c1.png"/>
         </div>
 
       <!-- Shortcuts in the header-->
