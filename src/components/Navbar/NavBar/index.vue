@@ -4,9 +4,11 @@
   class="z-40 sticky pl-8 pr-6 xl:px-28 py-navMobile md:py-8 text-headingsColor top-0 bg-background w-fullWidth border-b-2 lg:border-b-0 border-footerBorder"
   ref="navBar">
     <div class="flex items-center justify-between">
+
+      <img src="@/images/new-logo.png" width="48" height="48"/>
       <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
         <a href="#">
-          <p class="text-sm w-full my-auto pl-3 text-headingsColor lg:text-2xl font-semibold font-notoSans">
+          <p class="text-sm w-full my-auto text-headingsColor lg:text-2xl font-semibold font-notoSans">
             {{ $t("etc-grants-dao.title") }}
           </p>
         </a>
