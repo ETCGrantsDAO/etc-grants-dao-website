@@ -8,7 +8,7 @@ Up to $1M worth of ETC is available for successful applicants in this first roun
 
 ### 助款类别 { .scroll-element #howToApply.categories}
 
-![Grant Categories](grant-categories.png)
+![Grant Categories](grants-chart-cn.png)
 
 ### Suggestions { .scroll-element #howToApply.suggestions}
 
