@@ -15,12 +15,12 @@ module.exports = {
         bodyRightSecMobile: "70%",
         bodyLeftSecMobile: "30%",
         fullWidth: "100%",
-        logoDesktopWidth: "240.19px",
+        logoDesktopWidth: "300px",
         logoMobileWidth: "168.19px",
         rightSecButton: "247px",
       },
       height: {
-        logoDesktopheight: "48px",
+        logoDesktopheight: "200px",
         bodyLeft: "80vh",
       },
       padding: {

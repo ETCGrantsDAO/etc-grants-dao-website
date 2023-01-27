@@ -5,17 +5,13 @@
   ref="navBar">
     <div class="flex items-center justify-between">
 
-      <img src="@/images/new-logo.png" width="48" height="48"/>
       <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-        <a href="#">
-          <p class="text-sm w-full my-auto text-headingsColor lg:text-2xl font-semibold font-notoSans">
-            {{ $t("etc-grants-dao.title") }}
-          </p>
-        </a>
-      </div>
+          <img src="@/images/opt2-c1.png"/>
+        </div>
 
       <!-- Shortcuts in the header-->
       <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
+
         <a href="#overview"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("overview.nav-heading") }}
