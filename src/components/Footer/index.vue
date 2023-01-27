@@ -11,7 +11,7 @@
         </div>
         <div class="mt-5 lg:mt-9 etclogo">
           <a href="/">
-            <img src="@/images/etheriumclassic.png" alt=""
+            <img src="@/images/ethereumclassic.png" alt=""
           /></a>
         </div>
         <div class="flex mt-5 lg:mt-8">
