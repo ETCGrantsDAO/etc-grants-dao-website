@@ -1,4 +1,4 @@
-# ETC Grants Process in Detail {.parent-scroll-element #grantsProcess}
+# EGD Grants Process in Detail {.parent-scroll-element #grantsProcess}
 
 Here is an in-depth description of the 7 step grant process:
 
@@ -30,7 +30,7 @@ We will not be considering applications seeking to retroactively claim funding f
 
 ### Step 3: Evaluation/Technical review { .scroll-element #grantsProcess.phases.step3}
 
-Decisions on the initial round of grants will be made by a committee appointed by Bitmain, Antpool, and the ETC Cooperative, as the initial donors in this grants process. If further donors join the process, they will be invited to participate in the decision-making process as well.
+Decisions on the initial round of grants will be made by a committee appointed by BITMAIN, ANTPOOL, and the ETC Cooperative, as the initial donors in this grants process. If further donors join the process, they will be invited to participate in the decision-making process as well.
 
 There is no specific plan to open up the decision-making progress to the broader ETC community at the time of writing. Longer term the committee may consider moving, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision-making process.
 
