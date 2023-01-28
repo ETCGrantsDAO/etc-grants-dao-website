@@ -1,18 +1,18 @@
-# Resources { .parent-scroll-element #resources}
+# ETC 开发者资源 { .parent-scroll-element #resources}
 
-### ETC Developer resources { .scroll-element #resources.etc-developer-resources}
+### ETC 开发者资源 { .scroll-element #resources.etc-developer-resources}
 
-- • [ETC Developer resources](https://ethereumclassic.org/development/){.md-link-gray}
-- • [ETC Community links](https://ethereumclassic.org/community){.md-link-gray}
+- • [ETC 开发者资源](https://ethereumclassic.org/development/){.md-link-gray}
+- • [ETC 社区链接](https://ethereumclassic.org/community){.md-link-gray}
 
-### ETC Grants DAO resources { .scroll-element #resources.etc-grants-dao}
+### ETC Grants DAO 资源 { .scroll-element #resources.etc-grants-dao}
 
-- • [Twitter](https://twitter.com/etcgrantsdao){.md-link-gray}
-- • [Telegram](https://t.me/+HFT390x76c4zYWRh){.md-link-gray}
+- • [推特](https://twitter.com/etcgrantsdao){.md-link-gray}
+- • [电报](https://t.me/+HFT390x76c4zYWRh){.md-link-gray}
 - • [Github](https://github.com/etcgrantsdao/etc-grants-dao-website){.md-link-gray}
-- • [WeChat](/wechat){.md-link-gray}
+- • [微信群](/wechat){.md-link-gray}
 
-### FAQs { .scroll-element #resources.faqs}
+### 常见问题 { .scroll-element #resources.faqs}
 
-- • [Why Ethereum Classic?](https://ethereumclassic.org/why-classic){.md-link-gray}
-- • [Developer FAQs](https://ethereumclassic.org/faqs/developers){.md-link-gray}
+- • [为什么选择以太经典？](https://ethereumclassic.org/why-classic){.md-link-gray}
+- • [开发人员常见问题解答](https://ethereumclassic.org/faqs/developers){.md-link-gray}

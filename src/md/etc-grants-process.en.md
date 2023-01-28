@@ -1,4 +1,4 @@
-# EGD Grants Process in Detail {.parent-scroll-element #grantsProcess}
+# EGD Grants Process {.parent-scroll-element #grantsProcess}
 
 ![Grant Workflow](grants-workflow-en.jpg)
 

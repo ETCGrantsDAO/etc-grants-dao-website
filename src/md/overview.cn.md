@@ -2,26 +2,27 @@
 
 ### ETC Grants DAO
 
-ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the growth of the ecosystem and long-term development of Ethereum Classic.
+ETC GRANTS DAO (EGD) 是由以太经典信徒、支持者、建设者组成的非营利性自治组织，旨在促进生态的壮大和以太经典的长远发展。
 
-### Mission:
+### 使命:
 
-In the context of Ethereum's migration to Proof of Stake; under the call of Proof of Work believers from the ETH and ETC communities; with the censorship threat and centralization problems of most other blockchain projects; we aim to help unite the ETC community to build Ethereum Classic into a global, top-level, smart contracts, public chain based on the PoW consensus mechanism, with high security, decentralization, immutability, and censorship resistance.
+我们的目标是团结 ETC 社区，将 Ethereum Classic PoW 区块链发展成为全球领先的基于智能合约的公链，具有高安全性、去中心化、不可篡改和抗审查性。
 
-### Values:
+### 愿景:
 
-Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work principles originated by Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW based Nakamoto Consensus mechanism has significant security, decentralization, and censorship resistance advantages.
+随着以太坊向权益证明（POS）迁移，以太经典ETC保留PoW链中比PoS区块链更优越的特性：更抗审查、更中心化、更高安全性。
 
-### Code Is Law:
+### 价值观:
 
-EGD believes in the principle of Code Is Law of Ethereum Classic, that decentralized applications must be unstoppable, uncensorable, and immutable, so the system may be uncompromisable and uncapturable by special interests.
+工作量证明 - EGD 秉承比特币精神和中本聪发起的工作量证明共识。作为区块链的基础设施，基于 PoW 的中本聪共识机制相对于 PoS 等其他共识机制在安全性、去中心化和抗审查性上具有显著的优势。
 
-### Technology benefits mankind:
+代码即法律 - EGD 信奉代码即法律的原则。这意味着去中心化应用程序必须是不可终止的、抗审查的和不可更改的，因此整个系统不会被任何利益集团所挟持和改变。
 
-EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a world computer for humanity in the web3.0 era.
+变革性的技术 - EGD认为技术应该为人类服务，区块链应该有用，图灵完备的区块链将造福人类。 EGD 将与社区携手，将以太经典（Ethereum Classic）打造成 web3.0 时代人类更安全的世界计算机。
 
-## EGD Grants Program { .scroll-element #overview.egd-grants-program}
 
-In July of 2022, BITMAIN and ANTPOOL announced that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet [( 0xA208...E8D6 )](https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet [( 0x3db3...2f82 )](https://multisig.etccooperative.org/app/ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82/balances) on the Ethereum Classic mainnet.
+## EGD 资助计划 { .scroll-element #overview.egd-grants-program}
 
-The [ETC Cooperative](https://etccooperative.org/) will be contributing 250 thousand dollars to the EGP grants program as well.
+2022年7月，BITMAIN 和 ANTPOOL 宣布他们将承诺 1000 万美元用于资助 Ethereum Classic 生态系统的项目。该金额的一半以Tether (USDT)形式存放在以太坊主网上的多重签名钱包 (0xA208...E8D6) 中，另一半用于在 2022 年 11 月购买 $ETC，该部分ETC存放在以太坊经典主网上的多重签名钱包 ( 0x3db3...2f82 )中。
+
+ETC Cooperative 也将为 EGD 资助计划捐款 25 万美元。

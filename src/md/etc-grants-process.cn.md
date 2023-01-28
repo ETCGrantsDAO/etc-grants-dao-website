@@ -20,15 +20,16 @@
 
 在提交申请时，您将选择其中一种资助类型。您将需要确保您所要求的赠款资金不超过赠款类型的指导方针。要获得优质奖助金，团队必须有清晰的财务分类、经过证明的成功记录，并清楚地向助款金委员会展示其价值和主张。
 
-All projects must use permissive open source licenses, with only the following licenses being acceptable:
+所有项目成果都必须使用开放的公共许可证，只有以下许可证是可以接受的：
 
-- • Apache 2.0 - good for source code
-- • Mozilla MPL 2.0 - good for source code (Javascript friendly)
-- • Creative Commons (CC-BY-SA) - good for documentation
+- • Apache 2.0 - 适用于源代码
+- • Mozilla MPL 2.0 - 适用于源代码（Javascript 友好）
+- • Creative Commons (CC-BY-SA) - 适用于文档
 
-Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering. Funding will not be provided for projects seeking to build proprietary solutions. The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.
+MIT 和 BSD 等较弱的许可无法防止潜艇式专利，而 GPLv3 等较强大的 copyleft 许可会限制代码的使用，降低我们交付的价值。 本次资助计划不会为寻求构建私有解决方案的项目提供资金。这些项目的版权将归作者所有，但必须是自由使用的，不得对这些项目成果申请专利。
 
-We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants.
+我们不会批准已经完成的项目或个人志愿工作的资助申请。 该计划旨在刺激新老生态系统参与者对新项目的发展。
+
 
 ### 第 3 步：评估/技术审核 { .scroll-element #grantsProcess.phases.step3}
 
