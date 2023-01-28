@@ -5,9 +5,12 @@
   ref="navBar">
     <div class="flex items-center justify-between">
 
-      <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-          <img src="@/images/opt2-c1.png"/>
-        </div>
+      <!-- EGD logo -->
+      <a href="#">
+        <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
+            <img src="@/images/opt2-c1.png"/>
+          </div>
+      </a>
 
       <!-- Shortcuts in the header-->
       <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
