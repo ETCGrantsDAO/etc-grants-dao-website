@@ -1,5 +1,7 @@
 # ETC 助款过程 {.parent-scroll-element #grantsProcess}
 
+![Grant Workflow](grants-workflow-cn.jpg)
+
 七步助款过程如下:
 
 ### 第 1 步：征求项目提议 { .scroll-element #grantsProcess.phases.step1}
