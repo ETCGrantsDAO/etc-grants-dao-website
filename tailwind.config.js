@@ -15,8 +15,8 @@ module.exports = {
         bodyRightSecMobile: "70%",
         bodyLeftSecMobile: "30%",
         fullWidth: "100%",
-        logoDesktopWidth: "300px",
-        logoMobileWidth: "300px",
+        logoDesktopWidth: "200px",
+        logoMobileWidth: "200px",
         rightSecButton: "247px",
       },
       height: {
