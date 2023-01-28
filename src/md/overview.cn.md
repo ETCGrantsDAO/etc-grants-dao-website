@@ -1,4 +1,4 @@
-# Overview (Chinese)
+# 概述
 
 ### ETC Grants DAO
 
