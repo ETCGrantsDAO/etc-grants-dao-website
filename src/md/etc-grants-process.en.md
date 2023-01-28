@@ -1,5 +1,7 @@
 # EGD Grants Process in Detail {.parent-scroll-element #grantsProcess}
 
+![Grant Workflow](grants-workflow-en.jpg)
+
 Here is an in-depth description of the 7 step grant process:
 
 ### Step 1: Call for Proposals { .scroll-element #grantsProcess.phases.step1}
