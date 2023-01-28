@@ -22,9 +22,10 @@
 
 所有项目成果都必须使用开放的公共许可证，只有以下许可证是可以接受的：
 
-- • Apache 2.0 - 适用于源代码
-- • Mozilla MPL 2.0 - 适用于源代码（Javascript 友好）
-- • Creative Commons (CC-BY-SA) - 适用于文档
+- • [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License) - 适用于源代码
+- • [Mozilla MPL 2.0](https://en.wikipedia.org/wiki/Mozilla_Public_License) - 适用于源代码（Javascript 友好）
+- • [Creative Commons (CC-BY-SA)](https://en.wikipedia.org/wiki/Creative_Commons_license) - 适用于文档
+
 
 MIT 和 BSD 等较弱的许可无法防止潜艇式专利，而 GPLv3 等较强大的 copyleft 许可会限制代码的使用，降低我们交付的价值。 本次资助计划不会为寻求构建私有解决方案的项目提供资金。这些项目的版权将归作者所有，但必须是自由使用的，不得对这些项目成果申请专利。
 
