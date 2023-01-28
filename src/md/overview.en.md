@@ -8,7 +8,7 @@ The ETC GRANTS DAO (“EGD”) is a non-profit autonomous organization composed 
 
 Our aim is to unite the ETC community to develop the Ethereum Classic PoW blockchain into the leading global smart-contract-based, public chain with high security, decentralization, immutability, and censorship resistance.
 
-### Landscape: 
+### Vision: 
 
 With Ethereum's migration to Proof of Stake, ETC remains a PoW chain that is more resistant to censorship and centralization with better security than PoS blockchains. 
 
