@@ -66,13 +66,13 @@
   },
 
   "resources": {
-    "nav-heading": "资料",
+    "nav-heading": "ETC 开发者资源",
 
     "etc-developer-resources": {
-      "navheading": "ETC Developer Resources"
+      "navheading": "ETC 开发者资源"
     },
     "etc-grants-dao": {
-      "navheading": "ETC Grants DAO"
+      "navheading": "ETC 社区链接"
     },
     "faqs": {
       "navheading": "常见问题"

@@ -120,7 +120,7 @@
           "key": "step7",
           "target": "#grantsProcess.phases.step7",
           "locale": {
-            "en": "Step 7: Project Launch and Retrospective",
+            "en": "Step 7: Wrap-up and Retrospective",
             "cn": "第7步：项目启动及回顾"
           }
         }
@@ -131,7 +131,7 @@
       "target": "#resources",
       "locale": {
         "en": "Resources",
-        "cn": "资料"
+        "cn": "ETC 开发者资源"
       },
       "subsections": [
         {
@@ -139,15 +139,15 @@
           "target": "#resources.etc-developer-resources",
           "locale": {
             "en": "ETC Developer Resources",
-            "cn": "ETC Developer Resources"
+            "cn": "ETC 开发者资源"
           }
         },
         {
           "key": "etcGrantsDao",
           "target": "#resources.etc-grants-dao",
           "locale": {
-            "en": "ETC Grants DAO",
-            "cn": "ETC Grants DAO"
+            "en": "ETC Grants DAO Resources",
+            "cn": "ETC 社区链接"
           }
         },
         {
