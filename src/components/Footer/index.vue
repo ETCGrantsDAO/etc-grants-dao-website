@@ -11,7 +11,7 @@
         </div>
         <div class="mt-5 lg:mt-9 etclogo">
           <a href="/">
-            <img src="@/images/ethereumclassic.png" alt=""
+            <img src="@/images/edg-logo-with-text-footer.png" alt=""
           /></a>
         </div>
         <div class="flex mt-5 lg:mt-8">
@@ -39,7 +39,7 @@
           <div class="grid grid-cols-1 lg:grid-cols-3">
             <div>
               <a href="https://etccooperative.org/" target="_blank"
-                ><img src="@/images/etclogo.png" alt=""
+                ><img src="@/images/etc-cooperative-logo.png" alt=""
               /></a>
                 <div class="flex mt-5 lg:mt-8">
                   <a href="https://twitter.com/ETCCooperative" target="_blank"
@@ -78,7 +78,7 @@
             <div>
               <div class="mt-10 lg:mt-0">
                 <a href="https://www.antpool.com/home" target="_blank"
-                  ><img src="@/images/ant.png" alt=""
+                  ><img src="@/images/antpool.png" alt=""
                 /></a>
                 <div class="flex mt-5 lg:mt-8">
                   <a href="https://twitter.com/AntPoolofficial" target="_blank"
