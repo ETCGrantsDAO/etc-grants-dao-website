@@ -19,7 +19,7 @@
       "nav-heading": "ETC Grants DAO"
     },
     "egd-grants-program": {
-      "nav-heading": "EGD助款项目"
+      "nav-heading": "EGD资助项目"
     }
   },
 
@@ -27,37 +27,37 @@
     "nav-heading": "意见反馈",
 
     "round1": {
-      "nav-heading": "ETC助款 第一轮"
+      "nav-heading": "ETC资助 第一轮"
     },
     "suggestions": {
       "nav-heading": "建议"
     },
     "categories": {
-      "nav-heading": "助款类别"
+      "nav-heading": "资助类别"
     }
   },
 
   "grantsProcess": {
-    "nav-heading": "ETC助款过程",
+    "nav-heading": "ETC资助过程",
 
     "phases": {
       "step1": {
         "nav-heading": "第1步：征求项目提议"
       },
       "step2": {
-        "nav-heading": "第2步：提交助款申请"
+        "nav-heading": "第2步：提交资助申请"
       },
       "step3": {
         "nav-heading": "第2步：评估/技术审核"
       },
       "step4": {
-        "nav-heading": "第4步：助款团队批准"
+        "nav-heading": "第4步：资助团队批准"
       },
       "step5": {
         "nav-heading": "第5步：尽职调查和KYC/AML要求"
       },
       "step6": {
-        "nav-heading": "第6步：助款进度和里程碑审核"
+        "nav-heading": "第6步：资助进度和里程碑审核"
       },
       "step7": {
         "nav-heading": "第7步：项目启动及回顾"

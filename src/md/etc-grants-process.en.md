@@ -6,10 +6,10 @@ Here is an in-depth description of the 7 step grant process:
 
 ### Step 1: Call for Proposals { .scroll-element #grantsProcess.phases.step1}
 
-At the beginning of each grant round, the ETC grant committee will formally open the round with a call for proposals. The documentation on the grant site and other marketing materials , will outline the exact timeline for each grant round, for the following phases:
+At the beginning of each grant round, the EGD grant committee will formally open the round with a call for proposals. The documentation on the grant site and other marketing materials , will outline the exact timeline for each grant round, for the following phases:
 
 - • The application submission (generally 3 months, subject to change)
-- • The grant committee review and approval (generally one month, subject to change)
+- • The EGD grant committee review and approval (generally one month, subject to change)
 - • Announcing the recipients and disbursing the funds.
 
 ### Step 2: Grant Application Submission { .scroll-element #grantsProcess.phases.step2}
@@ -61,7 +61,7 @@ As the grant program matures more feedback will be provided on what quantitative
 
 ### Step 4: Grants team approval { .scroll-element #grantsProcess.phases.step4}
 
-After evaluating all submitted grants – within the submission timeline – the applicants will be notified whether their application has been accepted or denied.  If an application was denied, the team will receive a notification with some feedback on why the application was rejected. When an application is approved, the team will move into the due diligence phase.
+After evaluating all submitted grants. the applicants will be notified whether their application has been accepted or denied.  If an application was denied, the team will receive a notification with some feedback on why the application was rejected. When an application is approved, the team will move into the due diligence phase.
 
 ### Step 5: Due diligence and KYC/AML requirements { .scroll-element #grantsProcess.phases.step5}
 
@@ -81,4 +81,4 @@ This phase is the final step in the grant-making process and if the project has 
 
 Project post-mortems are intended to inform process improvements that mitigate future risks and promote iterative best practices. Post-mortems are often considered a key component of, and ongoing precursor to, effective risk management. A grant project post-mortem will be required on all projects, as this will allow the grant team to tweak the process as the program matures.
 
-As this is a new process, it will be regularly evolving to take into account learnings from each round and to integrate feedback from participants and the community. Please keep in mind that the ETC grant committee and grant admin teams are not as well-resourced as many other crypto grant programs. We aim to make the processes as clear and transparent as possible and will adapt as needed.
+As this is a new process, it will be regularly evolving to take into account learnings from each round and to integrate feedback from participants and the community. Please keep in mind that the EGD grant committee and grant admin teams are not as well-resourced as many other crypto grant programs. We aim to make the processes as clear and transparent as possible and will adapt as needed.
