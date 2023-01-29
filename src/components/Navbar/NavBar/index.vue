@@ -6,7 +6,7 @@
     <div class="flex items-center justify-between header-wrapper">
 
       <!-- EGD logo -->
-      <a href="#">
+      <a href="#" class="mobile-logo-width">
         <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
             <img src="@/images/edg-logo-with-text.png"/>
           </div>
@@ -46,7 +46,7 @@
         </div>
 
         <!-- Mobile-only hamburger view -->
-        <img src="@/images/hamBurger.svg" v-on:click="openNav()" class="my-auto lg:hidden ml-6" id="menuIcon"
+        <img src="@/images/hamBurger.svg" v-on:click="openNav()" class="my-auto lg:hidden ml-2" id="menuIcon"
           ref="navOpen" />
       </div>
     </div>
