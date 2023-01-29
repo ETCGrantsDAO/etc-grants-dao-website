@@ -9,7 +9,7 @@
       },
       "subsections": [
         {
-          "key": "etcGrantsDao",
+          "key": "overviewEtcGrantsDao",
           "target": "#overview.etc-grants-dao",
           "locale": {
             "en": "ETC Grants DAO",
@@ -21,7 +21,7 @@
           "target": "#overview.egd-grants-program",
           "locale": {
             "en": "EGD Grants Program",
-            "cn": "EGD助款项目"
+            "cn": "EGD 资助计划"
           }
         }
       ]
@@ -31,7 +31,7 @@
       "target": "#howToApply",
       "locale": {
         "en": "How to Apply",
-        "cn": "意见反馈"
+        "cn": "如何申请"
       },
       "subsections": [
         {
@@ -39,7 +39,7 @@
           "target": "#howToApply.round1",
           "locale": {
             "en": "First Round of EGD Grants Program",
-            "cn": "ETC助款 第一轮"
+            "cn": "第一轮EGD资助计划"
           }
         },
         {
@@ -47,7 +47,7 @@
           "target": "#howToApply.categories",
           "locale": {
             "en": "Grant Categories",
-            "cn": "助款类别"
+            "cn": "资助类别"
           }
         },
         {
@@ -55,7 +55,7 @@
           "target": "#howToApply.suggestions",
           "locale": {
             "en": "Suggestions",
-            "cn": "建议"
+            "cn": "建议方向"
           }
         }
       ]
@@ -65,7 +65,7 @@
       "target": "#grantsProcess",
       "locale": {
         "en": "EGD Grants Process",
-        "cn": "EGD资助计划流程"
+        "cn": "EGD资助流程"
       },
       "subsections": [
         {
@@ -131,7 +131,7 @@
       "target": "#resources",
       "locale": {
         "en": "Resources",
-        "cn": "ETC 开发者资源"
+        "cn": "相关资料"
       },
       "subsections": [
         {
@@ -147,7 +147,7 @@
           "target": "#resources.etc-grants-dao",
           "locale": {
             "en": "ETC Grants DAO Resources",
-            "cn": "ETC 社区链接"
+            "cn": "ETC Grants DAO"
           }
         },
         {
