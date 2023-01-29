@@ -1,4 +1,5 @@
 import { createI18n } from 'vue-i18n'
+import sections from "@/sections.json"
 
 /**
  * Load locale messages
@@ -13,8 +14,20 @@ function loadLocaleMessages() {
     if (matched && matched.length > 1) {
       const locale = matched[1]
       messages[locale] = locales(key).default
+      
+      //add sections locales
+      if(sections.data && sections.data.length)
+        sections.data.forEach(section => {
+          messages[locale][`sections.${section.key}`] = section.locale[locale]
+          if(section.subsections && section.subsections.length){
+            section.subsections.forEach(subSection => {
+              messages[locale][`subsection.${subSection.key}`] = subSection.locale[locale]
+            })
+          }
+        })
     }
   })
+  
   return messages
 }
 export default createI18n({

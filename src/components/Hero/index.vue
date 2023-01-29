@@ -12,6 +12,10 @@
               class="text-heroTextMobile md:text-heroTextDesktop text-headingsColor leading-heroText pt-1 pb-6 font-dmSans pl-8 pr-8 md:pl-0 md:pr-0">
               {{ $t("etc-grants-dao.description") }}
             </p>
+<p
+              class="text-heroTextMobile md:text-heroTextDesktop text-headingsColor leading-heroText pt-1 pb-6 font-dmSans pl-8 pr-8 md:pl-0 md:pr-0">
+              {{ $t("etc-grants-dao.date") }}
+</p>
             <a :href="$t('etc-grants-dao.apply-now-link')"
               class="text-xl font-bold md:text-heroTextMobile mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex hover:scale-110 transition duration-300 ease-in-out">
               <p>{{ $t("etc-grants-dao.apply-now-text") }}</p>

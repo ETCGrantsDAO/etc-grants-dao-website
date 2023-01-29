@@ -62,6 +62,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 /* Scroll margin top */
@@ -71,14 +72,49 @@ html {
 .parent-scroll-element {
   scroll-margin-top: 40px;
 }
-.font-parrotGreen{
-  color:#93DA97;
+.font-parrotGreen {
+  color: #93da97;
+}
+.font-highlighted {
+  color: #ffffff;
 }
 
-.customList>li::before {
-  content:'• '
+.customList > li::before {
+  content: "• ";
 }
 
 .font-bold {
-  font-weight:bold;
+  font-weight: bold;
+}
+
+.md-link-gray {
+  @apply font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree underline !important;
+}
+
+#md-content p {
+  @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree;
+}
+
+#md-content ul {
+  @apply font-roboto pb-6 pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree;
+}
+
+#md-content h1 {
+  @apply pb-6 font-notoSans text-headingsColor text-thirtyTwo md:text-fourty leading-rightHeadingsDt font-bold;
+}
+
+#md-content h2 {
+  @apply pb-6 pt-6 text-headingsColor font-notoSans text-headingsColor text-twentyFour leading-thirtySix md:text-thirtyTwo md:leading-rightHeadingsDt font-bold font-parrotGreen;
+}
+
+#md-content h3 {
+  @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree font-parrotGreen font-bold;
+}
+
+#md-content a {
+  @apply cursor-pointer underline text-parrotGreen;
+}
+
+#md-content strong {
+  @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree font-highlighted font-bold underline;
 }

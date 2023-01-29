@@ -1,319 +1,90 @@
 {
-
   "etc-grants-dao": {
-    "title": "ETC Grants DAO助款项目",
+    "title": "ETC Grants DAO",
     "description": "我们为有前途的项目提供资金，这些项目将振兴以太坊经典生态系统。",
+    "date": "Round 1 is open 31st Jan to 30th Apr 2023.",
     "apply-now-text": "立即申请",
-    "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=%E4%B8%AD%E5%9B%BD%E4%BA%BA"
+    "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=%E4%B8%AD%E5%9B%BD%E4%BA%BA",
+    "browse-text": "Browse",
+    "browse-link": "https://etcgrants.softr.app/projects-list-zh"
   },
 
   "contents-title": "目录",
 
   "overview": {
-    "heading": "Overview",
-    "nav-heading": "Overview",
+    "nav-heading": "概述",
 
     "etc-grants-dao": {
-      "heading": "ETC Grants DAO",
-      "nav-heading": "ETC Grants DAO",
-      "body": {
-        "p1": "ETC GRANTS DAO (EGD) is a non-profit autonomous organization composed of Ethereum Classic believers, supporters, and builders, aiming to promote the growth of the ecosystem and long-term development of Ethereum Classic.",
-        "p2t":"Mission:",
-        "p2": "In the context of Ethereum's migration to Proof of Stake; under the call of Proof of Work believers from the ETH and ETC communities; with the censorship threat and centralization problems of most other blockchain projects; we aim to help unite the ETC community to build Ethereum Classic into a global, top-level, smart contracts, public chain based on the PoW consensus mechanism, with high security, decentralization, immutability, and censorship resistance.",
-        "p3t":"Values:",
-        "p3": "Proof of Work - EGD upholds the Bitcoin spirit and Proof of Work principles originated by Satoshi Nakamoto. As the infrastructure of the blockchain, the PoW based Nakamoto Consensus mechanism has significant security, decentralization, and censorship resistance advantages.",
-        "p4t":"Code Is Law:",
-        "p4": "EGD believes in the principle of Code Is Law of Ethereum Classic, that decentralized applications must be unstoppable, uncensorable, and immutable, so the system may be uncompromisable and uncapturable by special interests.",
-        "p5t":"Technology benefits mankind:",
-        "p5": "EGD believes that technology should serve humanity, blockchain should be useful, and a Turing-complete blockchain will benefit humanity. EGD will work with the community to build Ethereum Classic into a world computer for humanity in the web3.0 era.",
-        "p6t":"Of the community, by the community, and for the community:",
-        "p6": "The EGD code of conduct is that everything is of the community, by the community, and for the community. EGD will help bring together the most prominent ETC community members."
-      }
+      "nav-heading": "ETC Grants DAO"
     },
-
-    "etc-grants-program": {
-      "heading": "ETC Grants Program",
-      "nav-heading": "ETC Grants Program",
-      "body": {
-        "p1": "In July of 2022, Bitmain and Antpool \"overview.etc-grants-program.link-announced\" that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USTD) in a Safe multisig wallet ( \"overview.etc-grants-program.link-eth-safe\" ) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet ( \"overview.etc-grants-program.link-etc-safe\" ) on the Ethereum Classic mainnet.",
-        "p2": "Additionally, the \"overview.etc-grants-program.link-etc-coop\" had 250 thousand dollars \"overview.etc-grants-program.link-budgeted\" for grants during calendar year 2022 and will be contributing those funds into the EGP program as well."  
-      },
-      "link-announced-text": "announced",
-      "link-announced-url": "https://www.coindesk.com/business/2022/07/26/antpool-supports-ethereum-classic-ecosystem-with-10m-investment/",
-      "link-eth-safe-text": "0xA208...E8D6",
-      "link-eth-safe-url": "https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances",
-      "link-etc-safe-text": "0x3db3...2f82",
-      "link-etc-safe-url": "https://multisig.etccooperative.org/app/ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82/balances",
-      "link-etc-coop-text": "ETC Cooperative",
-      "link-etc-coop-url": "https://etccooperative.org/",
-      "link-budgeted-text": "budgeted",
-      "link-budgeted-url": "https://etccooperative.org/posts/2022-04-12-2021-retrospective-2022-budget-roadmap"
-    }
-  },
-
-  "grantsProcess": {
-    "heading": "ETC助款过程",
-    "nav-heading": "ETC助款过程",
-
-    "MISSING_DIAGRAM": "流程图",
-
-    "phases": {
-      "body": {
-        "p1": "七步助款过程如下:"
-      },
-
-      "step1": {
-        "heading": "第1步：征求项目提议",
-        "nav-heading": "第1步：征求项目提议",
-
-        "phasesSummary": {
-          "body": {
-            "p1": "在每一轮助款开始时，ETC助款委员会将正式启动该轮的提案征集。助款网站上的文件和其他营销材料，以下将列出每一轮助款的准确时间表:"
-          },
-          "bullets": {
-            "b1": "申请提交 (通常为期3个月,可能会有调整)",
-            "b2": "助款委员会批准(通常为期1个月,可能会有调整",
-            "b3": "Announcing the recipients and disbursing the funds."
-          }
-        }
-      },
-
-      "step2": {
-        "heading": "第2步：提交助款申请",
-        "nav-heading": "第2步：提交助款申请",
-        "body": {
-          "p1": "助款申请需通过网站提交。",
-          "p2": "应用程序将列出每个团队或个人应包括的所有相关细节。申请人应输入尽可能多的项目相关信息，以提供明确的里程碑和可交付成果。",
-          "p3": "在提交申请时，您将选择其中一种资助类型。您将需要确保您所要求的赠款资金不超过赠款类型的指导方针。要获得优质奖助金，团队必须有清晰的财务分类、经过证明的成功记录，并清楚地向助款金委员会展示其价值和主张。",
-          "p4" : "All projects must use permissive open source licenses, with only the following licenses being acceptable:",
-          "bullets": {
-            "b1": "Apache 2.0 - good for source code",
-            "b2": "Mozilla MPL 2.0 - good for source code (Javascript friendly)",
-            "b3": "Creative Commons (CC-BY-SA) - good for documentation"
-          },
-          "p5": "Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways which reduce the value we are delivering.  Funding will not be provided for projects seeking to build proprietary solutions. The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.",
-          "p6": "We will not be considering applications seeking to retroactively claiming funding for already completed projects, or to compensate individuals for prior volunteer work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants."
-        }
-      },
-
-      "step3": {
-        "heading": "第2步：评估/技术审核",
-        "nav-heading": "第2步：评估/技术审核",
-        "body": {
-          "p1": "第一轮拨款的决定将由比特大陆、蚂蚁矿池和ETC合作社任命的委员会做出，这些委员会是本次拨款过程的初始捐助者。如果进一步的捐助者加入这一进程，他们也将被邀请参与决策进程。",
-          "p2": "在撰写本文时，还没有将决策过程公开给更广泛的ETC社区的具体计划。从长远来看，逐步走向一个开放的DAO结构可能是有意义的。在这个结构中，所有ETC代币持有者都可以选择参与决策过程。",
-          "p3": "投票将使用快照记录Snapshot(参见etcgrantsdao.eth)，类似于用于莱特币/蚂蚁矿池投票的现有快照实例。",
-          "p4": "在评估及技术评审期间，资助委员会将检视各小组提交的资料，并评估申请。请注意，对项目的投票将由上述成员完成，但对项目的技术评估将由更广泛的专业人士完成，包括ETC核心开发人员。这是为了确保对所有应用进行充分的技术审查。"
-        },
-
-        "betterChance": {
-          "body": {
-            "p1": "如果满足以下条件，您的项目将有更大的机会被接受:",
-            "bullets": {
-              "b1": "团队经验丰富，技术背景雄厚。",
-              "b2": "团队可以证明他们有一个可长期维持项目的商业模式。如果项目是一个开源的公共产品，团队没有经济激励或维持项目，那么应用程序应该清楚地说明每年需要多少资金来维持项目。超出最初赠款的资金是没有保证的，团队将不得不在随后的时期申请助款。",
-              "b3": "应用程序清楚地展示了里程碑，以及如何评估是否满足KPI。",
-              "b4": "该项目填补了当前生态系统中的一个明显空白。",
-              "b5": "该项目为ETC生态系统提供了明确的价值。"
-            }
-          }
-        },
-
-        "mayBeDeclined": {
-          "body": {
-            "p1": "项目有可能被拒绝的原因:",
-            "bullets": {
-              "b1": "该项目与ETC的价值观不一致。",
-              "b2": "项目没有办法在赠款资金被充分利用后维持自身(如果它不是一个开源的公共物品类型的赠款)。",
-              "b3": "项目团队似乎没有完成项目目标所需的专业知识。",
-              "b4": "项目的成本/效益不足。"
-            }
-          }
-        },
-
-        "wrapup": {
-          "body": {
-            "p1": "在此阶段，奖助委员会团队可能会寻求更多关于您的计划并进行面谈。如果您的项目已经处于测试阶段，我们可能会安排一个时间来演示项目，并让委员会成员和其他涉众评估和提问。",
-            "p2": "随着奖助金计划的成熟，我们将会提供更多定量和定性因素的评价。"
-          }
-        }
-      },
-
-      "step4": {
-        "heading": "第4步：助款团队批准",
-        "nav-heading": "第4步：助款团队批准",
-        "body": {
-          "p1": "在评估所有提交的助款项目后(在提交时间范围内)，申请人将被告知其申请结果。如申请被拒绝，团队将收到一个通知，其中包含一些原因反馈。如果申请获得批准，团队将进入尽职调查阶段。"
-        }
-      },
-
-      "step5": {
-        "heading": "第5步：尽职调查和KYC/AML要求",
-        "nav-heading": "第5步：尽职调查和KYC/AML要求",
-        "body": {
-          "p1": "如果您的资助申请被接受，您将通过尽职调查并签署正式协议，其中包括KYC/KYB所需的信息。该信息将由第三方独立公司获取，以符合AML和KYC的所有要求。最终协议将详细说明合同条款和释放里程碑付款所需的里程碑。所有有关各方将签署协议。",
-          "p2": "一旦所有成功的申请人完成尽职调查并被拒绝计划，资助委员会将公布该轮助款的获资助人。本轮助款承诺的资金量也将被披露。该计划是在ETC授权网站上有一个活动目录标签以显示所有申请的状态。这可能无法在第一轮助款中实现。"
-        }
-      },
-
-      "step6": {
-        "heading": "第6步：助款进度和里程碑审核",
-        "nav-heading": "第6步：助款进度和里程碑审核",
-        "body": {
-          "p1": "在该过程的这一阶段，受资助者将提交里程碑/进度报告。这些报告将为助款委员会和社区提供关于个人奖助金的进展和见解。它也将用于评估ETC资助项目和项目过程的有效性和稳健性。为了保证透明度，这些报告将公开。",
-          "p2": "文档将取决于它是一个较大的项目，具有明确的和不同的里程碑，还是一个较小的项目，没有离散的工作块。如果是后者，一份助款进度报告模板将在助款期内完成，以评估计划的进度。",
-          "p3": "对于具有特定里程碑的大型项目，里程碑进度报告需在完成每个里程碑后提交。资金将在完成和审查每个里程碑之后提供。",
-          "p4": "在此阶段，项目评估，KPI，以及范围内的任何变化将被记录。为了发放里程碑助款，资助委员应清楚地知道这些里程碑实际上是否已经达到，项目是否正在正轨上。如在检讨计划的任何里程碑时，确定计划无法达到最终目标或目标，团队应与助款委员会进行正式讨论，以决定是否需要更改计划范围或放弃计划。",
-          "p5": "如果里程碑没有达到、没有达到预期、或者项目的继续没有意义，工作就会停止，然后进行事后分析。如果一个项目要完成，事后分析将在项目结束时开始。",
-          "p6": "项目应将提交里程碑付款的发票，管理付款的助款团队将计算ETC支付。更多信息将在助款接受阶段提供。"
-        }
-      },
-      "step7": {
-        "heading": "第7步：项目启动及回顾",
-        "nav-heading": "第7步：项目启动及回顾",
-        "body": {
-          "p1": "该阶段是助款过程的最后一步，如果项目成功，将导致启动最终项目和/或可交付成果，以及完成里程碑付款。该阶段从项目回顾开始，提供事后分析，以确定和分析项目成功或不成功的元素。",
-          "p2": "项目事后分析旨在为过程改进提供信息，从而减轻未来的风险，并促进迭代的最佳实践。事后分析通常被认为是有效风险管理的关键组成部分和持续的前兆。所有项目都需要一个奖助金项目事后分析，因为这将允许奖助金团队在项目成熟时调整过程。",
-          "p3": "由于这是一个新的过程，因此将定期进行改进，以考虑从每一轮中获得的经验，并整合参与者和社区的反馈。请记住，ETC助款委员会和助款管理团队的资源不像许多其他加密项目拨款计划那么丰富。我们的目标是使程序尽可能清晰透明，并将根据需要进行调整。"
-        }
-      }
+    "egd-grants-program": {
+      "nav-heading": "EGD助款项目"
     }
   },
 
   "howToApply": {
-    "heading": "想资助怎样的项目?",
     "nav-heading": "意见反馈",
 
     "round1": {
-      "heading": "Round 1 of the ETC Grants Program",
-      "nav-heading": "ETC Grants Round 1",
-      "body": {
-        "p1": "The grants process will be open for applications Thursday 19th January 2023. The application process will remain open through February and March 2023. Decisions on which grants will be funded will be made in April 2023.  The final decisions will be announced and initial funds disbursed in May 2023.",
-        "p2": "Up to $1M worth of ETC is available for successful applicants in this first round of funds."
-      }
+      "nav-heading": "ETC助款 第一轮"
     },
-
     "suggestions": {
-      "heading": "Suggestions",
-      "nav-heading": "Suggestions",
-      "body": {
-        "p1": "这里有一些很可能会受到欢迎的项目想法，但请把这些作为建议，也欢迎自由地提出您自己的想法。",
-        "bullets": {
-          "b1": "独特而引人注目的仅限ETC的dapps",
-          "b2": "新颖的NFT项目(特别是对于现实世界的资产)",
-          "b3": "原生稳定币(USDT, USDC, DAI, RAI, RICO，其他)",
-          "b4": "在关键以太坊项目中提供一流的ETC支持",
-          "b5": "在ETC上部署和支持关键以太坊项目的克隆",
-          "b6": "隐私解决方案",
-          "b7": "Oracle解决方案",
-          "b8": "借贷协议",
-          "b9": "桥梁和互操作性",
-          "b10": "原子呼唤",
-          "b11": "教育内容",
-          "b12": "活动与见面会",
-          "b13": "播客",
-          "b14": "安全应用软件",
-          "b15": "MetaMask snaps",
-          "b16": "支持自我托管的项目",
-          "b17": "支持运行自己节点的项目"
-        }
-      }
+      "nav-heading": "建议"
     },
-
     "categories": {
-      "heading": "助款类别",
-      "nav-heading": "助款类别",
-      "body": {
-        "p1": "每个团队的最高资助额一般为$50,000，除非以社区资助(最高$10,000)或溢价资助(超过$50,000)申请。"
-      }
-    },
+      "nav-heading": "助款类别"
+    }
+  },
 
-    "readyToGo": {
-      "heading": "准备好了吗?",
-      "nav-heading": "准备好了吗?",
-      "body": {
-        "p1": "带上最好的创意"
+  "grantsProcess": {
+    "nav-heading": "ETC助款过程",
+
+    "phases": {
+      "step1": {
+        "nav-heading": "第1步：征求项目提议"
+      },
+      "step2": {
+        "nav-heading": "第2步：提交助款申请"
+      },
+      "step3": {
+        "nav-heading": "第2步：评估/技术审核"
+      },
+      "step4": {
+        "nav-heading": "第4步：助款团队批准"
+      },
+      "step5": {
+        "nav-heading": "第5步：尽职调查和KYC/AML要求"
+      },
+      "step6": {
+        "nav-heading": "第6步：助款进度和里程碑审核"
+      },
+      "step7": {
+        "nav-heading": "第7步：项目启动及回顾"
       }
     }
   },
 
   "resources": {
-    "heading": "Resources",
-    "nav-heading": "Resources",
+    "nav-heading": "资料",
 
-    "etc-community": {
-      "heading": "ETC Community resources",
-      "navheading": "ETC Community",
-      "body": {
-        "development": {
-          "text": "ETC Developer resources",
-          "link": "https://ethereumclassic.org/development"
-        },
-        "community": {
-          "text": "ETC Community links",
-          "link": "https://ethereumclassic.org/community"
-        }
-      },
+    "etc-developer-resources": {
+      "navheading": "ETC Developer Resources"
     },
     "etc-grants-dao": {
-      "heading": "ETC Grants DAO resources",
-      "navheading": "ETC Grants DAO",
-      "body": {
-        "twitter": {
-          "text": "Twitter",
-          "link": "https://twitter.com/etcgrantsdao"
-        },
-        "telegram": {
-          "text": "Telegram",
-          "link": "https://t.me/+HFT390x76c4zYWRh"
-        },
-        "github": {
-          "text": "Github",
-          "link": "https://github.com/etcgrantsdao/etc-grants-dao-website"
-        },
-        "wechat": {
-          "text": "WeChat - Please scan the QR code below to send a friend request and we will add you to the WeChat group."
-        }
-      }
+      "navheading": "ETC Grants DAO"
     },
     "faqs": {
-      "heading": "FAQs",
-      "navheading": "FAQs",
-      "body": {
-        "why-classic": {
-          "text": "Why Ethereum Classic?",
-          "link": "https://ethereumclassic.org/why-classic"
-        },
-        "developer-faqs": {
-          "text": "Developer FAQs",
-          "link": "https://ethereumclassic.org/faqs/developers"
-        }  
-      }
+      "navheading": "常见问题"
     }
   },
 
+  "wechat": {
+    "back-button": "Back To Website",
+    "paragraph": "Please scan the QR code below to send a friend request and we will add you to the WeChat group"
+  },
+
   "footer": {
-    "heading-etc": "ETC",
-    "heading-ooperative": "合作社",
-
-    "footerHeading1": "学习更多",
-    "footerHeading1Text1": "ethereumclassic.org",
-    "footerHeading1Text2": "ETC社区Discord",
-    "footerHeading1Text3": "ETC合作社Discord",
-    "footerHeading1Text4": "ECIPs",
-  
-    "footerHeading2": "项目",
-    "footerHeading2Text1": "超级账本Hyperledger Besu",
-    "footerHeading2Text2": "Core-Geth",
-  
-    "footerHeading3": "运行",
-    "footerHeading3Text1": "超级账本Hyperledger Besu",
-    "footerHeading3Text2": "Core-Geth",
-    "footerHeading3Text3": "BlockScout",
-    "footerHeading3Text4": "ETC公共RPC端点",
-    "footerHeading3Text5": "ETC节点资源管理器",
-  
-    "footerHeading4": "合作伙伴"
+    "etc_grand_dao": "ETC Grants DAO",
+    "sponsors": "Sponsors"
   }
-
 }
