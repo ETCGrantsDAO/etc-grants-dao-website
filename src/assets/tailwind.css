@@ -143,9 +143,13 @@ html {
   @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree font-highlighted font-bold underline;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .mobile-logo-width {
     width: 50%;
+  }
+
+  .mobile-logo-width img {
+    width: 70%;
   }
 }
 
