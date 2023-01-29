@@ -65,7 +65,7 @@
       "target": "#grantsProcess",
       "locale": {
         "en": "EGD Grants Process",
-        "cn": "ETC助款过程"
+        "cn": "EGD资助计划流程"
       },
       "subsections": [
         {
@@ -73,7 +73,7 @@
           "target": "#grantsProcess.phases.step1",
           "locale": {
             "en": "Step 1: Call for Proposals",
-            "cn": "第1步：征求项目提议"
+            "cn": "第1步：开启提案征集"
           }
         },
         {
@@ -81,7 +81,7 @@
           "target": "#grantsProcess.phases.step2",
           "locale": {
             "en": "Step 2: Grant Application Submission",
-            "cn": "第2步：评估/技术审核"
+            "cn": "第2步：提交资助申请"
           }
         },
         {
@@ -97,7 +97,7 @@
           "target": "#grantsProcess.phases.step4",
           "locale": {
             "en": "Step 4: Grants team approval",
-            "cn": "第4步：助款团队批准"
+            "cn": "第4步：申请结果批准"
           }
         },
         {
@@ -105,7 +105,7 @@
           "target": "#grantsProcess.phases.step5",
           "locale": {
             "en": "Step 5: Due diligence and KYC/AML requirements",
-            "cn": "第5步：尽职调查和KYC/AML要求"
+            "cn": "第5步：尽职调查和 KYC/AML 要求"
           }
         },
         {
@@ -113,7 +113,7 @@
           "target": "#grantsProcess.phases.step6",
           "locale": {
             "en": "Step 6: Grant progress and Milestone review",
-            "cn": "第6步：助款进度和里程碑审核"
+            "cn": "第6步：资助进度和里程碑审核"
           }
         },
         {
@@ -121,7 +121,7 @@
           "target": "#grantsProcess.phases.step7",
           "locale": {
             "en": "Step 7: Wrap-up and Retrospective",
-            "cn": "第7步：项目启动及回顾"
+            "cn": "第7步：总结及回顾"
           }
         }
       ]
