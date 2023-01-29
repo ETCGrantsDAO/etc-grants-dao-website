@@ -57,7 +57,7 @@ module.exports = {
     
       },
       colors: {
-        background: "#020518",
+        background: "#727588",
         headingsColor: "#ffffff",
         textColor: "#CCCCCC",
         tableHBorder: "#CECECE",
