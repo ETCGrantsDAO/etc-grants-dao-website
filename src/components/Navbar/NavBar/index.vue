@@ -7,8 +7,8 @@
 
       <!-- EGD logo -->
       <a href="#">
-        <img src="@/images/edg-logo.png" width="48" height="48"/>
-      </a>
+        <img src="@/images/edg-logo.png" width="140" height="48"/>
+      </a>      
 
       <!-- Shortcuts in the header-->
       <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
