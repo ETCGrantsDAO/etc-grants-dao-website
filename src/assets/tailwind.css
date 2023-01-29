@@ -87,6 +87,30 @@ html {
   font-weight: bold;
 }
 
+.navigation-bar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-wrapper {
+  width: 100%;
+}
+
+#md-content p img {
+  max-width: 50%;
+}
+
+.etc-grants-dao-media-wrapper {
+  margin: 0 !important;
+}
+
+.etclogo {
+  margin-top: 24px !important;
+}
+
 .md-link-gray {
   @apply font-roboto pl-4 text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree underline !important;
 }

@@ -14,7 +14,7 @@
             <img src="@/images/edg-logo-with-text-footer.png" alt=""
           /></a>
         </div>
-        <div class="flex mt-5 lg:mt-8">
+        <div class="flex lg:mt-8 etc-grants-dao-media-wrapper">
           <a href="https://twitter.com/etcgrantsdao" target="_blank"
             ><img
               src="@/images/twitter.svg"
