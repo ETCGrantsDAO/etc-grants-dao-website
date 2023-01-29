@@ -1,7 +1,7 @@
 <template>
   
   <nav
-  class="z-40 sticky pl-8 pr-6 xl:px-28 py-navMobile md:py-8 text-headingsColor top-0 bg-background w-fullWidth border-b-2 lg:border-b-0 border-footerBorder"
+  class="z-40 sticky pl-8 pr-6 xl:px-40 py-navMobile md:py-8 text-headingsColor top-0 bg-background w-fullWidth border-b-2 lg:border-b-0 border-footerBorder"
   ref="navBar">
     <div class="flex items-center justify-between">
 
