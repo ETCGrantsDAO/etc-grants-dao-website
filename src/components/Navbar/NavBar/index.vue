@@ -4,16 +4,17 @@
   class="z-40 sticky pl-8 pr-6 xl:px-28 py-navMobile md:py-8 text-headingsColor top-0 bg-background w-fullWidth border-b-2 lg:border-b-0 border-footerBorder"
   ref="navBar">
     <div class="flex items-center justify-between">
-      <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-        <a href="#">
-          <p class="text-sm w-full my-auto pl-3 text-headingsColor lg:text-2xl font-semibold font-notoSans">
-            {{ $t("etc-grants-dao.title") }}
-          </p>
-        </a>
-      </div>
+
+      <!-- EGD logo -->
+      <a href="#">
+        <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
+            <img src="@/images/edg-logo-with-text.png"/>
+          </div>
+      </a>
 
       <!-- Shortcuts in the header-->
       <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
+
         <a href="#overview"
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("overview.nav-heading") }}
@@ -43,9 +44,6 @@
         <div class="my-auto text-black">
           <LocaleSwitcher />
         </div>
-
-        <!-- This is not visible ? -->
-        <img src="@/images/search.svg" class="my-auto lg:hidden ml-6" ref="navSearch" />
 
         <!-- Mobile-only hamburger view -->
         <img src="@/images/hamBurger.svg" v-on:click="openNav()" class="my-auto lg:hidden ml-6" id="menuIcon"

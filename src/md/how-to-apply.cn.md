@@ -1,27 +1,38 @@
-# 想资助怎样的项目? {.parent-scroll-element #howToApply}
+# 如何申请 {.parent-scroll-element #howToApply}
 
-### Round 1 of the EGD Grants Program { .scroll-element #howToApply.round1}
+### 第一轮 EGD 资助计划 { .scroll-element #howToApply.round1}
 
-The grants process will be open for applications on **31st January 2023.** The application process will remain open until **30th April 2023.** Decisions on which grants will be funded will be made in **May 2023.** The final decisions will be announced and initial funds will be disbursed in **June 2023.**
+第一轮资助计划的目标是支持积极在ETC上构建应用和协议的开发者，包括扩容解决方案、跨链桥和借贷协议等，致力于下一代以太经典的创新和繁荣。
 
-Up to $1M worth of ETC is available for successful applicants in this first round of funds.
+资助的申请期为2023年1月31日至4月30日，并在5月完成评审，6月公布结果并发放资助。 第一轮资助计划的总金额是等值 100 万美元的 ETC。
 
-### 助款类别 { .scroll-element #howToApply.categories}
 
-![Grant Categories](grant-categories.png)
+### 资助类别 { .scroll-element #howToApply.categories}
 
-### Suggestions { .scroll-element #howToApply.suggestions}
+社区资助 - 适用于提供社区资源的项目，这些社区为社区成员建立联系，并传播
+ETC资讯和专业知识。
 
-The aim of the first round is to award grants to developers who actively build applications and protocols on ETC , including scaling solutions, cross-chain bridges and lending protocols etc.
+迁移资助 - 适用于从其他区块链创建的项目迁移至 ETC 区块链的团队。
 
-We are committed to the innovation and prosperity of the next generation ETC.
+标准资助 – 适用于目前 ETC 生态缺乏的通用工具及项目。
 
-Here are some ideas for projects which are likely to be well received, but please take these as suggestions and feel free to bring your own ideas to the table.
+超额资助 -专为成功且经验丰富的开发团队提供，其项目需要的资金比标准资助更多。
 
-- • Native stablecoins
-- • Lending protocols
-- • Unique and compelling ETC-only dapps  
-- • Novel NFT projects (especially for real-world assets) 
-- • Bridges and interoperability
-- • Atomic swaps
-- • L2 scaling solutions
+![Grant Categories](grants-chart-cn.png)
+
+### 建议方向 { .scroll-element #howToApply.suggestions}
+
+第一轮资助的目的是奖励积极在 ETC 上构建应用程序和协议的开发人员，包括扩容解决方案、跨链桥和借贷协议等。
+
+我们致力于下一代ETC的创新与繁荣。
+
+以下是一些可能优先采纳的项目方向，但请仅作为建议，并随时将您自己的想法在社区中讨论。
+
+
+- • 原生稳定币
+- • 借贷协议
+- • 独特且引人注目的ETC-only去中心化应用  
+- • 新颖的NFT项目（尤其是现实世界的资产） 
+- • 跨链桥或跨链交互
+- • 原子交换类去中心化交易所
+- • L2 扩容解决方案
