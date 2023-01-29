@@ -61,7 +61,7 @@ As the grant program matures more feedback will be provided on what quantitative
 
 ### Step 4: Grants team approval { .scroll-element #grantsProcess.phases.step4}
 
-After evaluating all submitted grants the applicants will be notified whether their application has been accepted or denied.  If an application was denied, the team will receive a notification with some feedback on why the application was rejected. When an application is approved, the team will move into the due diligence phase.
+After evaluating all submitted grants. the applicants will be notified whether their application has been accepted or denied.  If an application was denied, the team will receive a notification with some feedback on why the application was rejected. When an application is approved, the team will move into the due diligence phase.
 
 ### Step 5: Due diligence and KYC/AML requirements { .scroll-element #grantsProcess.phases.step5}
 
