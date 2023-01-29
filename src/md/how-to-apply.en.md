@@ -1,10 +1,10 @@
 # How to Apply {.parent-scroll-element #howToApply}
 
-### Round 1 of the EGD Grants Program { .scroll-element #howToApply.round1}
+### First Round of EGD Grants Program { .scroll-element #howToApply.round1}
 
-The grants process will be open for applications on **31st January 2023.** The application process will remain open until **30th April 2023.** Decisions on which grants will be funded will be made in **May 2023.** The final decisions will be announced and initial funds will be disbursed in **June 2023.**
+The goal of the first round of grants is to support developers who actively build applications and protocols on ETC , including scaling solutions,cross-chain bridges and lending protocols, etc., committing to the innovation and prosperity of the next-generation Ethereum Classic .
 
-Up to $1M worth of ETC is available for successful applicants in this first round of funds.
+The application period of the grants will start from January 31st to April 30th, 2023. Decisions will be made this May, which will be announced and disbursed this June. The grants pool of the first round is $1 million worth of ETC.
 
 ### Grants categories { .scroll-element #howToApply.categories}
 
@@ -16,7 +16,7 @@ Up to $1M worth of ETC is available for successful applicants in this first roun
 
 **Premium Grants** - Premium Grants are available exclusively for successful and experienced development teams whose project requires more funding than the Standard Grant provides.
 
-![Grant Categories](grant-categories.png)
+![Grant Categories](grants-chart-en.png)
 
 ### Suggestions: { .scroll-element #howToApply.suggestions}
 

@@ -6,7 +6,8 @@
     "apply-now-text": "Apply Now",
     "apply-now-link": "https://airtable.com/shr3VMqyLd1HX5ws4?prefill_Form%20Language=English",
     "browse-text": "Browse",
-    "browse-link": "https://etcgrants.softr.app/projects-list-en"
+    "browse-link": "https://etcgrants.softr.app/projects-list-en",
+    "key-dates-link": "/key-dates-en.png"
   },
 
   "contents-title": "Contents",
@@ -26,7 +27,7 @@
     "nav-heading": "How to Apply",
 
     "round1": {
-      "nav-heading": "ETC Grants Round 1"
+      "nav-heading": "EGD Grants Round 1"
     },
     "suggestions": {
       "nav-heading": "Suggestions"
@@ -37,7 +38,7 @@
   },
 
   "grantsProcess": {
-    "nav-heading": "ETC Grants Process",
+    "nav-heading": "EGD Grants Process",
 
     "phases": {
       "step1": {
@@ -59,7 +60,7 @@
         "nav-heading": "Step 6: Grant progress and Milestone review"
       },
       "step7": {
-        "nav-heading": "Step 7: Project Launch and Retrospective"
+        "nav-heading": "Step 7: Wrap-up and Retrospective"
       }
     }
   },
