@@ -7,9 +7,7 @@
 
       <!-- EGD logo -->
       <a href="#">
-        <div class="w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-            <img src="@/images/edg-logo-with-text.png"/>
-          </div>
+        <img src="@/images/edg-logo.png" width="48" height="48"/>
       </a>
 
       <!-- Shortcuts in the header-->
