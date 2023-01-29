@@ -1,10 +1,10 @@
-# ETC 助款过程 {.parent-scroll-element #grantsProcess}
+# EGD资助计划流程 {.parent-scroll-element #grantsProcess}
 
 ![Grant Workflow](grants-workflow-cn.jpg)
 
 七步助款过程如下:
 
-### 第 1 步：征求项目提议 { .scroll-element #grantsProcess.phases.step1}
+### 第 1 步：开启提案征集 { .scroll-element #grantsProcess.phases.step1}
 
 在每一轮助款开始时，ETC 助款委员会将正式启动该轮的提案征集。助款网站上的文件和其他营销材料，以下将列出每一轮助款的准确时间表:
 
@@ -12,7 +12,7 @@
 - • 助款委员会批准(通常为期 1 个月,可能会有调整
 - • Announcing the recipients and disbursing the funds.
 
-### 第 2 步：提交助款申请 { .scroll-element #grantsProcess.phases.step2}
+### 第 2 步：提交资助申请 { .scroll-element #grantsProcess.phases.step2}
 
 助款申请需通过网站提交。
 
@@ -61,7 +61,7 @@ MIT 和 BSD 等较弱的许可无法防止潜艇式专利，而 GPLv3 等较强�
 
 随着奖助金计划的成熟，我们将会提供更多定量和定性因素的评价。
 
-### 第 4 步：助款团队批准 { .scroll-element #grantsProcess.phases.step4}
+### 第 4 步：申请结果批准 { .scroll-element #grantsProcess.phases.step4}
 
 在评估所有提交的助款项目后(在提交时间范围内)，申请人将被告知其申请结果。如申请被拒绝，团队将收到一个通知，其中包含一些原因反馈。如果申请获得批准，团队将进入尽职调查阶段。
 
@@ -71,13 +71,13 @@ MIT 和 BSD 等较弱的许可无法防止潜艇式专利，而 GPLv3 等较强�
 
 一旦所有成功的申请人完成尽职调查并被拒绝计划，资助委员会将公布该轮助款的获资助人。本轮助款承诺的资金量也将被披露。该计划是在 ETC 授权网站上有一个活动目录标签以显示所有申请的状态。这可能无法在第一轮助款中实现。
 
-### 第 6 步：助款进度和里程碑审核 { .scroll-element #grantsProcess.phases.step6}
+### 第 6 步：资助进度和里程碑审核 { .scroll-element #grantsProcess.phases.step6}
 
 在该过程的这一阶段，受资助者将提交里程碑/进度报告。这些报告将为助款委员会和社区提供关于个人奖助金的进展和见解。它也将用于评估 ETC 资助项目和项目过程的有效性和稳健性。为了保证透明度，这些报告将公开。
 
 文档将取决于它是一个较大的项目，具有明确的和不同的里程碑，还是一个较小的项目，没有离散的工作块。如果是后者，一份助款进度报告模板将在助款期内完成，以评估计划的进度。
 
-### 第 7 步：总结和回顾 { .scroll-element #grantsProcess.phases.step7}
+### 第 7 步：总结及回顾 { .scroll-element #grantsProcess.phases.step7}
 
 该阶段是助款过程的最后一步，如果项目成功，将导致启动最终项目和/或可交付成果，以及完成里程碑付款。该阶段从项目回顾开始，提供事后分析，以确定和分析项目成功或不成功的元素。
 
