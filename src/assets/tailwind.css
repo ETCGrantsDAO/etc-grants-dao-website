@@ -152,6 +152,10 @@ html {
   height: 52px;
 }
 
+.apply-now-btn {
+  width: 140px;
+}
+
 @media (max-width: 400px) {
   .mobile-logo-width {
     width: 50%;
