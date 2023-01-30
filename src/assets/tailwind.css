@@ -143,6 +143,10 @@ html {
   @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree font-highlighted font-bold underline;
 }
 
+.md-img-full {
+  max-width: 100% !important;
+}
+
 @media (max-width: 400px) {
   .mobile-logo-width {
     width: 50%;
