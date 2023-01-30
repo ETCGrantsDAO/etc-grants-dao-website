@@ -103,10 +103,6 @@ html {
   max-width: 50%;
 }
 
-.etc-grants-dao-media-wrapper {
-  margin: 0 !important;
-}
-
 .etclogo {
   margin-top: 24px !important;
 }
@@ -143,13 +139,51 @@ html {
   @apply pb-6 font-roboto text-textColor text-base md:text-heroTextMobile md:leading-thirtyThree font-highlighted font-bold underline;
 }
 
+.nav-header {
+  @apply hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700;
+}
+
 .md-img-full {
   max-width: 100% !important;
+}
+
+.main-logo, .mobile-size-img-main-logo {
+  width: 200px;
+  height: 52px;
+}
+
+.apply-now-btn {
+  width: 140px;
 }
 
 @media (max-width: 400px) {
   .mobile-logo-width {
     width: 50%;
+  }
+
+  .sponsor, .grants-dao {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-size-img, .mobile-size-img-main-logo {
+    width: 90%
+  }
+
+  .sponsor div {
+    margin-top: 0;
+  }
+
+  .grants-dao-title {
+    margin-bottom: 5px;
+  }
+
+  .etc-grants-dao-media-wrapper a {
+    padding-top: 17px;
+  }
+
+  .etc-grants-dao-media-wrapper {
+    align-items: center;
   }
 }
 
