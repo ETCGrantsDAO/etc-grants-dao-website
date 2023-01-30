@@ -16,7 +16,7 @@ The application period of the grants will start from January 31st to April 30th,
 
 **Premium Grants** - Premium Grants are available exclusively for successful and experienced development teams whose project requires more funding than the Standard Grant provides.
 
-![Grant Categories](grants-chart-en.png)
+![Grant Categories](grants-chart-en.png){.md-img-full}
 
 ### Suggestions: { .scroll-element #howToApply.suggestions}
 

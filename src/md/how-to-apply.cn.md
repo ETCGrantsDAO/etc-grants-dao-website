@@ -18,7 +18,7 @@ ETC资讯和专业知识。
 
 超额资助 -专为成功且经验丰富的开发团队提供，其项目需要的资金比标准资助更多。
 
-![Grant Categories](grants-chart-cn.png)
+![Grant Categories](grants-chart-cn.png){.md-img-full}
 
 ### 建议方向 { .scroll-element #howToApply.suggestions}
 
