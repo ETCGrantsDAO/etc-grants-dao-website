@@ -17,8 +17,7 @@
               <div class="pt-6"/>
               <a 
                 :href="$t('etc-grants-dao.apply-now-link')"
-                class="apply-now-btn relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#133706] to-[#53EB45]"
-              >
+                class="text-xl font-bold md:text-heroTextMobile mx-auto md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#133706] to-[#53EB45] font-notoSans w-heroButtonMobileWidth md:w-heroButtonDesktopWidth heroButton flex hover:scale-110 transition duration-300 ease-in-out">
                 {{ $t("etc-grants-dao.apply-now-text") }}
               </a>
             </p>
