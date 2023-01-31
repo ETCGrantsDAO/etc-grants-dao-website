@@ -165,7 +165,7 @@ html {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .mobile-size-img, .mobile-size-img-main-logo {
     width: 90%
   }
@@ -205,16 +205,14 @@ html {
   position: absolute;
   background-image: url("../images/watermark.png");
   background-repeat: no-repeat;
-  opacity: 0.60;
-  background-position: bottom right;
-  background-origin: content-box;
-  margin: 0px 0px 0px 5%;
+  background-position: center;
+  background-origin: content-box;  
   z-index: -1;
 }
 
+
 @media (max-width: 600px) {
   .md-watermark::before {
-    opacity: 0.3;
-    margin: 0px 0px 0px 30%;
+    background-size: 1000px 500px;
   }
 }
