@@ -1,7 +1,7 @@
 <template>
     <section id="hero">
         <div
-          class="bg-[url('@/images/heroBgMobile.svg')] grid-cols-1 md:mt-14 heroSection grid md:grid-cols-2 bg-no-repeat bg-contain md:bg-cover min-h-heroHeight sm:bg-[url('@/images/heroBg.svg')]">
+          class="bg-[url('@/images/heroBgMobile.svg')] grid-cols-1 heroSection grid md:grid-cols-2 bg-no-repeat bg-contain md:bg-cover min-h-heroHeight sm:bg-[url('@/images/heroBg.svg')]">
           <div
             class="my-auto mx-auto md:mx-0 md:my-0 text-center md:text-left container md:pl-8 xl:pl-28 md:pr-0 pt-11 content-end">
             <h1
