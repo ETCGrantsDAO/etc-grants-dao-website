@@ -8,7 +8,7 @@
       <!-- EGD logo -->
       <a href="#" class="mobile-logo-width">
         <div class="main-logo w-logoMobileWidth cursor-pointer md:w-logoDesktopWidth h-logoDesktopheight flex float-left">
-          <img src="@/images/edg-logo-with-text-trans.png" />
+          <img src="@/images/edg-logo-green-with-text.png" />
         </div>
       </a>
 
