@@ -18,7 +18,7 @@
               <div class="inline-block font-semibold px-5 py-2 rounded text-headingsColor text-lg  bg-gradient-to-r from-[#133706] to-[#53EB45] w-heroButtonMobileWidth md:w-heroButtonDesktopWidth">
                 <a 
                   :href="$t('etc-grants-dao.apply-now-link')"
-                  class="inline-block md:block lg:block font-notoSans w-16">
+                  class="inline-block md:block lg:block font-notoSans">
                   {{ $t("etc-grants-dao.apply-now-text") }}
                 </a>
               </div>
