@@ -10,7 +10,7 @@
         <div class="grants-dao">
           <div class="mt-5 lg:mt-9 etclogo">
             <a href="/">
-              <img class="mobile-size-img-main-logo" src="@/images/edg-logo-with-text-trans.png" alt="" /></a>
+              <img class="mobile-size-img-main-logo" src="@/images/edg-logo-white-with-text.png" alt="" /></a>
           </div>
           <div class="flex lg:mt-8 etc-grants-dao-media-wrapper">
             <a href="https://twitter.com/etcgrantsdao" target="_blank"><img src="@/images/twitter.svg" alt="twitter"
