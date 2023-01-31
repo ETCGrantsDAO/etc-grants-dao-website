@@ -1,7 +1,9 @@
 <template>
   <!-- Overview-->
   <section id="overview" class="parent-scroll-element">
-    <div id="md-content" v-html="md(content)"></div>
+    <div class="md-watermark">
+      <div id="md-content" v-html="md(content)"></div>
+    </div>
   </section>
 </template>
 <script>
