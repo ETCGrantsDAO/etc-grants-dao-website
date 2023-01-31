@@ -15,9 +15,36 @@
       <!-- Shortcuts in the header-->
       <div class="items-end float-right lg:space-x-4 xl:space-x-8 flex text-lg">
 
+        <!-- Explicitly listing every navigation link -->
+        <a href="#overview"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("overview.nav-heading") }}
+        </a>
+        <a href="#howToApply"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("howToApply.nav-heading") }}
+        </a>
+        <a :href="$t('etc-grants-dao.browse-link')"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("etc-grants-dao.browse-text") }}
+        </a>
+        <a href="#grantsProcess"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("grantsProcess.nav-heading") }}
+        </a>
+        <a href="#resources"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("resources.nav-heading") }}        
+        </a>
+
+        <!--
+          This for-loop was intended to replace the hard-coded links above, but resulted
+          in the translations breaking so has been reverted.  Perhaps the translation is
+          being evaluated at a different scope?
         <a v-for="(link, index) in navLinks" :href="link.href" class="nav-header">
           {{ link.text }}
-        </a>
+        </a> -->
+
         <a :href="$t('etc-grants-dao.apply-now-link')"
           class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#133706] to-[#53EB45]">
           {{ $t("etc-grants-dao.apply-now-text") }}
