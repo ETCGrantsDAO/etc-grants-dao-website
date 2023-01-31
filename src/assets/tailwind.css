@@ -156,7 +156,13 @@ html {
   width: 140px;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 450px) and (max-width: 900px) {
+  .etc-grants-dao-media-wrapper {
+    margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 450px) {
   .mobile-logo-width {
     width: 50%;
   }
