@@ -1,7 +1,9 @@
 <template>
   <section>
     <div class="pt-8"></div>
-    <div id="md-content" v-html="md(content)"></div>
+    <div class="md-watermark">
+      <div id="md-content" v-html="md(content)"></div>
+    </div>
   </section>
 </template>
 <script>
