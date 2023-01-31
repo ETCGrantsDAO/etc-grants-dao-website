@@ -192,3 +192,27 @@ html {
     max-width: 100%;
   }
 }
+
+.md-watermark {
+  position: relative;
+}
+
+.md-watermark::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../images/watermark.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;  
+  z-index: -1;
+}
+
+
+@media (max-width: 600px) {
+  .md-watermark::before {
+    background-size: 1000px 500px;
+  }
+}
