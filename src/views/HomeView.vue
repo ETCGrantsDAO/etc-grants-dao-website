@@ -19,10 +19,7 @@
             class="w-fullWidth text-left md:w-bodyRightSecMobile relative lg:w-bodyRightSecDesktop pl-8 pr-8 border-0 bodyRightSec md:border-l-2 md:pl-12 md:pr-0">
 
             <!-- Primary content for the website, split into multiple components -->
-            <Overview />
-            <HowToApply />
-            <Process />
-            <Resources />
+            <GenericSection v-for="(section, sectionKey) in sections" :key="sectionKey" :files="section.files" />
 
             <!-- Apply Now form at bottom of page -->
             <a :href="$t('etc-grants-dao.apply-now-link')"
@@ -45,12 +42,10 @@ import LocaleSwitcher from "@/components/LocaleSwitcher";
 import HeroSection from '@/components/Hero'
 import NavBar from "@/components/Navbar/NavBar"
 import LeftSideBar from "@/components/Navbar/LeftSideBar"
-
-import Overview from "@/components/Overview"
-import HowToApply from "@/components/HowToApply"
-import Process from "@/components/Process"
-import Resources from "@/components/Resources"
 import Footer from "@/components/Footer"
+
+import GenericSection from "@/components/GenericSession"
+import sections from "@/sections.json"
 
 export default {
   name: "HomeView",
@@ -59,13 +54,13 @@ export default {
     HeroSection,
     NavBar,
     LeftSideBar,
-
-    Overview,
-    HowToApply,
-    Process,
-    Resources,
+    GenericSection,
     Footer
   },
-
+  data() {
+    return {
+      sections: sections.data,
+    }
+  }
 };
 </script>
