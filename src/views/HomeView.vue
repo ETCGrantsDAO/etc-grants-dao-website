@@ -44,7 +44,7 @@ import NavBar from "@/components/Navbar/NavBar"
 import LeftSideBar from "@/components/Navbar/LeftSideBar"
 import Footer from "@/components/Footer"
 
-import GenericSection from "@/components/GenericSession"
+import GenericSection from "@/components/GenericSection"
 import sections from "@/sections.json"
 
 export default {
