@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="pt-8"></div>
+    <div class="pt-6"></div>
     <div class="md-watermark">
       <div id="md-content" v-html="md(content)"></div>
     </div>
@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name: "Suggestions",
+  name: "GenericSection",
   watch: {
     "$i18n.locale": function (newLang) {
       this.getContent(newLang);
@@ -16,20 +16,24 @@ export default {
   },
   data() {
     return {
-      bullets: new Array(17),
       content: "",
     };
   },
+  props:{
+    files: null
+  }, 
   methods: {
     getContent(lang) {
+      console.log()
+
       switch (lang) {
         case "en":
-          import("@/md/how-to-apply.en.md").then((contentEN) => {
+          import(`@/md/${this.files.en}`).then((contentEN) => {
             this.content = contentEN.default;
           });
           break;
         case "cn":
-          import("@/md/how-to-apply.cn.md").then((contentCH) => {
+          import(`@/md/${this.files.cn}`).then((contentCH) => {
             this.content = contentCH.default;
           });
           break;
