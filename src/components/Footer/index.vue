@@ -8,11 +8,11 @@
           </h2>
         </div>
         <div class="grants-dao">
-          <div class="mt-5 lg:mt-9 etclogo">
+          <div class="w-56">
             <a href="/">
-              <img class="mobile-size-img-main-logo" src="@/images/edg-logo-white-with-text.png" alt="" /></a>
+              <img class="mt-6 max-w-full h-auto" src="@/images/edg-logo-white-with-text.png" alt="" /></a>
           </div>
-          <div class="flex lg:mt-8 etc-grants-dao-media-wrapper">
+          <div class="flex mt-3 lg:mt-8 etc-grants-dao-media-wrapper">
             <a href="https://twitter.com/etcgrantsdao" target="_blank"><img src="@/images/twitter.svg" alt="twitter"
                 class="ml-1 mr-5 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" /></a>
             <a href="https://t.me/+HFT390x76c4zYWRh" target="_blank"><img src="@/images/messenger.svg" alt="telegram"

@@ -36,7 +36,7 @@ Decisions on the initial round of grants will be made by a committee appointed b
 
 There is no specific plan to open up the decision-making progress to the broader ETC community at the time of writing. Longer term the committee may consider moving, step-by-step, towards an open DAO structure where all ETC token holders have the option to participate in the decision-making process.
 
-Voting will be recorded using Snapshot (see etcgrantsdao.eth), in a similar manner to the existing Snapshot instance used for Litecoin/Antpool voting.
+Voting will be recorded using Snapshot (see [etcgrantsdao.eth](https://snapshot.org/#/etcgrantsdao.eth)), in a similar manner to the existing Snapshot instance used for [Litecoin/Antpool](https://snapshot.org/#/litecoin-antpool-dao.eth) voting.
 
 During the evaluation and technical review the grant committee will look at all the information submitted by each team and evaluate the application. Please note that the voting for the projects will be done by the members listed above, but the technical evaluation of the projects will be done by a broader set of individuals, including the ETC core developers. This is to ensure that there is a sufficient technical review of all applications.
 

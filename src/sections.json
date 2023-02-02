@@ -2,6 +2,10 @@
   "data": [
     {
       "key": "overview",
+      "files": {
+        "en": "overview.en.md",
+        "cn": "overview.cn.md"
+      },
       "target": "#overview",
       "locale": {
         "en": "Overview",
@@ -28,6 +32,10 @@
     },
     {
       "key": "howToApply",
+      "files": {
+        "en": "how-to-apply.en.md",
+        "cn": "how-to-apply.cn.md"
+      },
       "target": "#howToApply",
       "locale": {
         "en": "How to Apply",
@@ -62,6 +70,10 @@
     },
     {
       "key": "grantsProcess",
+      "files": {
+        "en": "etc-grants-process.en.md",
+        "cn": "etc-grants-process.cn.md"
+      },
       "target": "#grantsProcess",
       "locale": {
         "en": "EGD Grants Process",
@@ -128,6 +140,10 @@
     },
     {
       "key": "resources",
+      "files": {
+        "en": "resources.en.md",
+        "cn": "resources.cn.md"
+      },
       "target": "#resources",
       "locale": {
         "en": "Resources",
