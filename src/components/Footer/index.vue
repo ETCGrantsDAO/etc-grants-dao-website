@@ -15,7 +15,7 @@
           <div class="flex mt-3 lg:mt-8 etc-grants-dao-media-wrapper">
             <a href="https://twitter.com/etcgrantsdao" target="_blank"><img src="@/images/twitter.svg" alt="twitter"
                 class="ml-1 mr-5 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" /></a>
-            <a href="https://t.me/+HFT390x76c4zYWRh" target="_blank"><img src="@/images/messenger.svg" alt="telegram"
+            <a href="https://t.me/etcgrantsdaoofficial" target="_blank"><img src="@/images/messenger.svg" alt="telegram"
                 class="cursor-pointer hover:scale-110 transition duration-300 ease-in-out" /></a>
           </div>
         </div>
