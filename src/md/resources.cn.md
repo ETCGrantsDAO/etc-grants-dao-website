@@ -8,7 +8,7 @@
 ### ETC Grants DAO 资源 { .scroll-element #resources.etc-grants-dao}
 
 - • [推特](https://twitter.com/etcgrantsdao){.md-link-gray}
-- • [电报](https://t.me/+HFT390x76c4zYWRh){.md-link-gray}
+- • [电报](https://t.me/etcgrantsdaoofficial){.md-link-gray}
 - • [Github](https://github.com/etcgrantsdao/etc-grants-dao-website){.md-link-gray}
 - • [微信群](/wechat){.md-link-gray}
 

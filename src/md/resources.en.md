@@ -8,7 +8,7 @@
 ### ETC Grants DAO resources { .scroll-element #resources.etc-grants-dao}
 
 - • [Twitter](https://twitter.com/etcgrantsdao){.md-link-gray}
-- • [Telegram](https://t.me/+HFT390x76c4zYWRh){.md-link-gray}
+- • [Telegram](https://t.me/etcgrantsdaoofficial){.md-link-gray}
 - • [Github](https://github.com/etcgrantsdao/etc-grants-dao-website){.md-link-gray}
 - • [WeChat](/wechat){.md-link-gray}
 
