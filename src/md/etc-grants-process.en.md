@@ -20,13 +20,23 @@ The application will outline all relevant details of the project and the team. P
 
 When applying, you will choose one of four grant types: Community, Conversion, Standard and Premium.  You will need to ensure that your requested grant funding does not exceed the guidelines for the grant type. To receive a premium grant, a team will be expected to have a clear financial breakdown, a proven track record of success, and clearly demonstrate the value proposition to the grants committee.
 
-All projects must use permissive open-source licenses, with only the following licenses being acceptable:
+All projects must use either permissive or copyleft open-source licenses, with the following licenses being preferred:
 
 - • [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License) - good for source code
 - • [Mozilla MPL 2.0](https://en.wikipedia.org/wiki/Mozilla_Public_License) - good for source code (Javascript friendly)
 - • [Creative Commons (CC-BY-SA)](https://en.wikipedia.org/wiki/Creative_Commons_license) - good for documentation
 
-Weaker licenses like MIT and BSD provide no protection against submarine patents and stronger copyleft licenses like GPLv3 constrain the use of the code in ways that reduce the value we are delivering. Funding will not be provided for projects seeking to build proprietary solutions. The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.
+And the following licenses being acceptable, but not recommended:
+
+- • [MIT](https://en.wikipedia.org/wiki/MIT_License) - a weak permissive license
+- • [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - another weak permissive license
+- • [GPLv3](https://en.wikipedia.org/wiki/GNU_General_Public_License) - the most common copyleft licence
+- • [AGPLv3](https://en.wikipedia.org/wiki/Affero_General_Public_License) - the strongest copyleft licence, covering server-side usage too
+
+Weaker licenses like MIT and BSD provide no protection against submarine patents.  Stronger copyleft licenses like GPLv3 intentionally reduce the scenarios in which the code can be
+used because of their virality and incompatibility with permissive licenses.  That copyleft constraint diminishes the benefit which is being delivered by grantees.
+
+Funding will not be provided for projects seeking to build proprietary solutions. The copyright for these projects will remain with the authors, but licensing must be permissive and patents must not be filed on the outputs of these projects.
 
 We will not be considering applications seeking to retroactively claim funding for previously completed projects or to compensate individuals for prior work. This program is intended to spur new development, whether from new entrants or existing ecosystem participants.
 

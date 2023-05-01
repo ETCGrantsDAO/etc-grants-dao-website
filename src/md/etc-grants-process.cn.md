@@ -20,7 +20,7 @@
 
 申请时，您请在四种资助类型选择其一：社区资助、迁移资助、标准资助和超额资助。 您将需要确保您申请的资助资金不超过该资助类型的上限。 若申请超额资助，团队需要有清晰的财务明细、可靠的成功记录，并向资助金委员会清楚地展示价值主张。
 
-所有项目成果都必须使用开放的公共许可证，只有以下许可证是可以接受的：
+所有项目都必须使用宽松式自由软件或公共许可开源许可证，优先使用以下许可证：
 
 
 - • [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License) - 适用于源代码
@@ -28,7 +28,15 @@
 - • [Creative Commons (CC-BY-SA)](https://en.wikipedia.org/wiki/Creative_Commons_license) - 适用于文档
 
 
-MIT 和 BSD 等较弱的许可无法防止潜艇式专利，而 GPLv3 等较强大的 copyleft 许可会限制代码的使用，降低我们交付的价值。 本次资助计划不会为寻求构建私有解决方案的项目提供资金。这些项目的版权将归作者所有，但必须是自由使用的，不得对这些项目成果申请专利。
+以下许可证是可以接受的，但不推荐：
+- • [MIT](https://en.wikipedia.org/wiki/MIT_License) - 弱许可
+- • [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - 另一个弱许可
+- • [GPLv3](https://en.wikipedia.org/wiki/GNU_General_Public_License) - 最常见的公共许可开源许可证
+- • [AGPLv3](https://en.wikipedia.org/wiki/Affero_General_Public_License) - 最强大的公共许可开源许可证，也涵盖服务器端使用
+
+MIT 和 BSD 等较弱的许可不提供针对潜艇专利的保护。 更强大的公共许可证（如 GPLv3）有意减少代码可以被使用的场景，由于它们的病毒式传播和与宽松式自由软件许可证不兼容而被使用， 公共许可开源许可证限制减少了受让人提供的利益。
+
+不会为寻求构建私有解决方案的项目提供资助。 这些项目的版权将归作者所有，但许可必须是宽松的，不得对这些项目的成果申请专利。
 
 我们不会批准已经完成的项目或个人志愿工作的资助申请。 该计划旨在刺激新老生态系统参与者对新项目的发展。
 
