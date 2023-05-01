@@ -46,7 +46,7 @@
         </a> -->
 
         <a :href="$t('etc-grants-dao.apply-now-link')"
-          class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#d92626] to-[#ff0606]">
+          class="relative hidden lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#ff0000] to-[#581b1b]">
           {{ $t("etc-grants-dao.apply-now-text") }}
         </a>
 
@@ -71,7 +71,7 @@
 
     <!-- Mobile navigation -->
     <a :href="$t('etc-grants-dao.apply-now-link')"
-      class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#d92626] to-[#ff0606] font-notoSans text-base font-bold rounded">
+      class="py-1 mt-11 text-black text-center bg-gradient-to-r from-[#ff0000] to-[#581b1b] font-notoSans text-base font-bold rounded">
       <span class="text-headingsColor applyNowBtn relative">
         {{ $t("etc-grants-dao.apply-now-text") }}
       </span>
