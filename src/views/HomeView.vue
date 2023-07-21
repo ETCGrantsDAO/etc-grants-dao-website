@@ -23,7 +23,7 @@
 
             <!-- Apply Now form at bottom of page -->
             <a :href="$t('etc-grants-dao.apply-now-link')"
-              class="text-xl font-bold md:w-1/5 mt-6 md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#d92626] to-[#133706] font-notoSans w-heroButtonMobileWidth  heroButton flex hover:scale-110 transition duration-300 ease-in-out">
+              class="text-xl font-bold md:w-1/5 mt-6 md:mx-0 px-5 py-3 rounded text-headingsColor bg-gradient-to-r from-[#53EB45] to-[#133706] font-notoSans w-heroButtonMobileWidth  heroButton flex hover:scale-110 transition duration-300 ease-in-out">
               <p>{{ $t("etc-grants-dao.apply-now-text") }}</p>
               <img src="@/images/applyButtonIcon.png"
                 class="max-w-heroBtnIcon max-h-heroBtnIcon ml-heroBtnIcon mt-heroBtnIconA" />
