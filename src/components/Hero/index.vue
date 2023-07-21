@@ -18,7 +18,7 @@
               <div class="inline-block">
                 <a 
                   :href="$t('etc-grants-dao.apply-now-link')"
-                  class="relative lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#ff0000] to-[#581b1b]">
+                  class="relative lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#d92626] to-[#133706]">
                   {{ $t("etc-grants-dao.apply-now-text") }}
                 </a>
               </div>
