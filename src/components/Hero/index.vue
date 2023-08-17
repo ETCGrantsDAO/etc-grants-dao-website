@@ -21,6 +21,14 @@
                   class="relative lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#53EB45] to-[#133706]">
                   {{ $t("etc-grants-dao.apply-now-text") }}
                 </a>
+                
+              </div>
+              <div class="inline-block" style="margin-left:20px;">
+                <a target="_blank"
+                  :href="$t('etc-grants-dao.report-link')"
+                  class="relative lg:block font-notoSans font-semibold px-5 py-2 rounded text-headingsColor border-2 text-lg topApplyNow bg-gradient-to-r from-[#53EB45] to-[#133706]">
+                  {{ $t("etc-grants-dao.report-text") }}
+                </a>
               </div>
             </p>
           </div>
