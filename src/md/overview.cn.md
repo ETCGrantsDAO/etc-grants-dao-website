@@ -23,6 +23,6 @@ ETC GRANTS DAO (EGD) 是由以太经典信徒、支持者、建设者组成的�
 
 ## EGD 资助计划 { .scroll-element #overview.egd-grants-program}
 
-2022年7月，BITMAIN 和 ANTPOOL 宣布他们将承诺 1000 万美元用于资助 Ethereum Classic 生态系统的项目。该金额的一半以Tether (USDT)形式存放在以太坊主网上的多重签名钱包 [( 0xA208...E8D6 )](https://app.safe.global/eth:0xA208013A926718B43A6609e29691783833dcE8D6/balances) 中，另一半用于在 2022 年 11 月购买 $ETC，该部分ETC存放在以太坊经典主网上的多重签名钱包 [( 0x3db3...2f82 )](https://multisig.etccooperative.org/balances?safe=ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82) 中。
+2022年7月，BITMAIN 和 ANTPOOL 宣布他们将承诺 1000 万美元用于资助 Ethereum Classic 生态系统的项目。该金额的一半以Tether (USDT)形式存放在以太坊主网上的多重签名钱包 [( 0xA208...E8D6 )](https://app.safe.global/balances?safe=eth:0xA208013A926718B43A6609e29691783833dcE8D6) 中，另一半用于在 2022 年 11 月购买 $ETC，该部分ETC存放在以太坊经典主网上的多重签名钱包 [( 0x3db3...2f82 )](https://multisig.etccooperative.org/balances?safe=ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82) 中。
 
 [ETC Cooperative](https://etccooperative.org/) 也将为 EGD 资助计划捐款 25 万美元。
