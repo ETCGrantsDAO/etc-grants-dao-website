@@ -40,6 +40,10 @@
           class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
           {{ $t("etc-grants-dao.report-text") }}
         </a>
+        <a href="/blog"
+          class="hidden lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("etc-grants-dao.blog-text") }}        
+        </a>
         <!--
           This for-loop was intended to replace the hard-coded links above, but resulted
           in the translations breaking so has been reverted.  Perhaps the translation is
