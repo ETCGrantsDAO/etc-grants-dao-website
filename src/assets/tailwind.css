@@ -312,7 +312,14 @@ html {
 }
 
 .newsCard .newsCardContent {
-  padding: 100px 0px 0px;
+  padding: 35px 0px 0px;
+}
+
+.newsListSection .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .newsCard .newsCardContent h4 {

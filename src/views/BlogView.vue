@@ -19,8 +19,8 @@
 							<div class="swiper-slide">
 								<div class="py-7" v-if="currentPosts.length > 0">
 									<div class="flex flex-wrap">
-										<div class="col-lg-8 col-md-6 col-sm-12">
-											<div class="row">
+										<div class="grid grid-cols-12 gap-4">
+											<div class="col-span-8">
 												<div class="col-12" v-if="currentPosts[0]">
 													<router-link
 														:to="`/posts/${currentPosts[0].alias}`"
@@ -57,14 +57,14 @@
 															:to="`/posts/${currentPosts[3].alias}`"
 															class="removeUnderline"
 														>
-															<div class="newsCard newsCardLg">
-																<div class="newsCardHeroImg">
+															<div class="newsCard">
+																<div class="newsCardImg">
 																	<img
 																		:src="`/img/posts/featuredImg/${currentPosts[3].image}`"
 																		alt=""
 																	/>
 																</div>
-																<div class="newsImgOverContent">
+																<div class="newsCardContent">
 																	<h5>
 																		ETC Coop Blog
 																		<span class="dot">.</span>
@@ -87,14 +87,14 @@
 															:to="`/posts/${currentPosts[4].alias}`"
 															class="removeUnderline"
 														>
-															<div class="newsCard newsCardLg">
-																<div class="newsCardHeroImg">
+															<div class="newsCard">
+																<div class="newsCardImg">
 																	<img
 																		:src="`/img/posts/featuredImg/${currentPosts[4].image}`"
 																		alt=""
 																	/>
 																</div>
-																<div class="newsImgOverContent">
+																<div class="newsCardContent">
 																	<h5>
 																		ETC Coop Blog
 																		<span class="dot">.</span>
@@ -114,102 +114,104 @@
 													</div>
 												</div>
 											</div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-sm-12">
-											<div class="flex gap-4">
-												<div class="col-12">
-													<router-link
-														:to="`/posts/${currentPosts[1].alias}`"
-														class="removeUnderline"
-													>
-														<div class="newsCard">
-															<div class="newsCardImg">
-																<img
-																	:src="`/img/posts/featuredImg/${currentPosts[1].image}`"
-																	alt=""
-																/>
+
+
+											<div class="col-span-4">
+												<div class="flex flex-col gap-4">
+													<div class="col-12">
+														<router-link
+															:to="`/posts/${currentPosts[1].alias}`"
+															class="removeUnderline"
+														>
+															<div class="newsCard">
+																<div class="newsCardImg">
+																	<img
+																		:src="`/img/posts/featuredImg/${currentPosts[1].image}`"
+																		alt=""
+																	/>
+																</div>
+																<div class="newsCardContent">
+																	<h5>
+																		ETC Coop Blog
+																		<span class="dot">.</span>
+																		<span v-if="currentPosts[1].date">{{
+																			currentPosts[1].date
+																		}}</span>
+																	</h5>
+																	<h4>
+																		{{ currentPosts[1].title }}
+																	</h4>
+																</div>
 															</div>
-															<div class="newsCardContent">
-																<h5>
-																	ETC Coop Blog
-																	<span class="dot">.</span>
-																	<span v-if="currentPosts[1].date">{{
-																		currentPosts[1].date
-																	}}</span>
-																</h5>
-																<h4>
-																	{{ currentPosts[1].title }}
-																</h4>
+														</router-link>
+													</div>
+													<div class="col-12">
+														<router-link
+															:to="`/posts/${currentPosts[2].alias}`"
+															class="removeUnderline"
+														>
+															<div class="newsCard">
+																<div class="newsCardImg">
+																	<img
+																		:src="`/img/posts/featuredImg/${currentPosts[2].image}`"
+																		alt=""
+																	/>
+																</div>
+																<div class="newsCardContent">
+																	<h5>
+																		ETC Coop Blog
+																		<span class="dot">.</span>
+																		<span v-if="currentPosts[2].date">{{
+																			currentPosts[2].date
+																		}}</span>
+																	</h5>
+																	<h4>
+																		{{ currentPosts[2].title }}
+																	</h4>
+																</div>
 															</div>
-														</div>
-													</router-link>
-												</div>
-												<div class="col-12">
-													<router-link
-														:to="`/posts/${currentPosts[2].alias}`"
-														class="removeUnderline"
-													>
-														<div class="newsCard">
-															<div class="newsCardImg">
-																<img
-																	:src="`/img/posts/featuredImg/${currentPosts[2].image}`"
-																	alt=""
-																/>
+														</router-link>
+													</div>
+													<div class="col-12">
+														<router-link
+															:to="`/posts/${currentPosts[5].alias}`"
+															class="removeUnderline"
+														>
+															<div class="newsCard">
+																<div class="newsCardImg">
+																	<img
+																		:src="`/img/posts/featuredImg/${currentPosts[5].image}`"
+																		alt=""
+																	/>
+																</div>
+																<div class="newsCardContent">
+																	<h5>
+																		ETC Coop Blog
+																		<span class="dot">.</span>
+																		<span v-if="currentPosts[5].date">{{
+																			currentPosts[5].date
+																		}}</span>
+																	</h5>
+																	<h4>
+																		{{ currentPosts[5].title }}
+																	</h4>
+																	<p>
+																		{{ currentPosts[5].description }}
+																	</p>
+																</div>
 															</div>
-															<div class="newsCardContent">
-																<h5>
-																	ETC Coop Blog
-																	<span class="dot">.</span>
-																	<span v-if="currentPosts[2].date">{{
-																		currentPosts[2].date
-																	}}</span>
-																</h5>
-																<h4>
-																	{{ currentPosts[2].title }}
-																</h4>
-															</div>
-														</div>
-													</router-link>
-												</div>
-												<div class="col-12">
-													<router-link
-														:to="`/posts/${currentPosts[5].alias}`"
-														class="removeUnderline"
-													>
-														<div class="newsCard">
-															<div class="newsCardImg">
-																<img
-																	:src="`/img/posts/featuredImg/${currentPosts[5].image}`"
-																	alt=""
-																/>
-															</div>
-															<div class="newsCardContent">
-																<h5>
-																	ETC Coop Blog
-																	<span class="dot">.</span>
-																	<span v-if="currentPosts[5].date">{{
-																		currentPosts[5].date
-																	}}</span>
-																</h5>
-																<h4>
-																	{{ currentPosts[5].title }}
-																</h4>
-																<p>
-																	{{ currentPosts[5].description }}
-																</p>
-															</div>
-														</div>
-													</router-link>
+														</router-link>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="flex gap-4">
+									<div class="grid grid-cols-12 gap-4">
 										<div
-											class="col-lg-4 col-md-4 col-sm-12"
+											class="col-span-4 col-lg-4 col-md-4 col-sm-12"
 											v-if="currentPosts.length > 6"
 											v-for="(remaincurrentPosts, rpKey) in currentPosts.slice(
-												9
+												6
 											)"
 											:key="rpKey"
 										>
