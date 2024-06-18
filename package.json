@@ -4,22 +4,26 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "node ./generatePostJson.js && vue-cli-service build",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.7",
+    "@vueuse/head": "^1.1.23",
     "autoprefixer": "^10",
     "core-js": "^3.8.3",
     "in-view": "^0.6.1",
+    "glob": "^9.3.2",
     "markdown-it": "^13.0.1",
     "markdown-it-attrs": "^4.1.6",
+    "markdown-it-metadata-block": "^1.0.2",
     "postcss": "^8",
     "raw-loader": "^4.0.2",
     "tailwindcss": "^3",
     "vue": "^3.2.13",
     "vue-i18n": "^9.1.0",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
     "@intlify/vue-i18n-loader": "^3.0.0",

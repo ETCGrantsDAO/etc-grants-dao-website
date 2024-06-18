@@ -9,7 +9,8 @@
     "browse-link": "https://etcgrants.softr.app/projects-list-en",
     "report-text": "Operation Report",
     "report-link": "https://docs.google.com/presentation/d/e/2PACX-1vTWM3_MPkD3ojhu1K7DB2r8VbbfW6NTYmA8UszbryQyTKrZLxwr7bAGcT6iuithSZwlRP4jEtZbwLu8/pub?start=false&loop=false&delayms=60000&slide=id.g23bfe540a28_2_0",
-    "key-dates-link": "/winners-selected-en.png"
+    "key-dates-link": "/winners-selected-en.png",
+    "blog-text": "Blog"
   },
 
   "contents-title": "Contents",
@@ -84,6 +85,10 @@
   "wechat": {
     "back-button": "Back To Website",
     "paragraph": "Please scan the QR code below to send a friend request and we will add you to the WeChat group"
+  },
+
+  "newsList": {
+    "header": "Blog"
   },
 
   "footer": {

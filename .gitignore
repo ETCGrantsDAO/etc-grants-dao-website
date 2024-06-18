@@ -1,6 +1,11 @@
 .DS_Store
 node_modules
 /dist
+public/img/posts/featuredImg/*
+src/contents/posts.cn.json
+src/contents/posts.en.json
+src/contents/posts.home.cn.json
+src/contents/posts.home.en.json
 
 
 # local env files
