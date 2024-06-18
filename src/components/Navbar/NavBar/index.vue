@@ -70,10 +70,42 @@
   </nav>
 
   <div
-    class="z-50 flex flex-col hidden lg:hidden pl-8 pr-6 pb-bodyY pt-3 max-h-screen bg-background w-screen top-6 fixed overflow-y-scroll"
+    class="z-50 flex flex-col lg:hidden pl-8 pr-6 pb-bodyY pt-3 max-h-screen bg-background w-screen top-6 fixed overflow-y-scroll"
     ref="navigation">
     <div class="">
       <img src="@/images/Cross.svg" v-on:click="closeNav()" class="ml-auto" id="menuIcon" ref="navClose" />
+    </div>
+
+    <div class="flex flex-col header-wrapper">
+      <!-- Explicitly listing every navigation link -->
+        <a href="#overview"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("overview.nav-heading") }}
+        </a>
+        <a href="#howToApply"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("howToApply.nav-heading") }}
+        </a>
+        <a :href="$t('etc-grants-dao.browse-link')"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("etc-grants-dao.browse-text") }}
+        </a>
+        <a href="#grantsProcess"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("grantsProcess.nav-heading") }}
+        </a>
+        <a href="#resources"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("resources.nav-heading") }}        
+        </a>
+        <a target="_blank" :href="$t('etc-grants-dao.report-link')"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("etc-grants-dao.report-text") }}
+        </a>
+        <a href="/blog"
+          class=" lg:block font-roboto font-semibold text-textColor text-lg my-auto navItems hover:text-headingsColor transition duration-700">
+          {{ $t("etc-grants-dao.blog-text") }}        
+        </a>
     </div>
 
     <!-- Mobile navigation -->

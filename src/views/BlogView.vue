@@ -20,7 +20,7 @@
 								<div class="py-7" v-if="currentPosts.length > 0">
 									<div class="flex flex-wrap">
 										<div class="grid grid-cols-12 gap-4">
-											<div class="col-span-8">
+											<div class="col-span-12 lg:col-span-8">
 												<div class="col-12" v-if="currentPosts[0]">
 													<router-link
 														:to="`/posts/${currentPosts[0].alias}`"
@@ -115,8 +115,7 @@
 												</div>
 											</div>
 
-
-											<div class="col-span-4">
+											<div class="col-span-12 lg:col-span-4">
 												<div class="flex flex-col gap-4">
 													<div class="col-12">
 														<router-link
@@ -208,7 +207,7 @@
 									</div>
 									<div class="grid grid-cols-12 gap-4">
 										<div
-											class="col-span-4 col-lg-4 col-md-4 col-sm-12"
+											class="col-span-12 lg:col-span-4 col-lg-4 col-md-4 col-sm-12"
 											v-if="currentPosts.length > 6"
 											v-for="(remaincurrentPosts, rpKey) in currentPosts.slice(
 												6
