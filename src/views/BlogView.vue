@@ -51,7 +51,7 @@
 														</div>
 													</router-link>
 												</div>
-												<div class="flex gap-4 text-white">
+												<div class="flex flex-col md:flex-row gap-4 text-white">
 													<div class="col-lg-6 col-md-12">
 														<router-link
 															:to="`/posts/${currentPosts[3].alias}`"
