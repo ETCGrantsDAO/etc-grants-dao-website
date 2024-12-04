@@ -26,20 +26,7 @@
             {{ $t("footer.sponsors") }}
           </h2>
         </div>
-        <div class="row mt-10 lg:mt-9">
-          <div class="grid grid-cols-1 lg:grid-cols-3">
-            <div class="sponsor">
-              <a href="https://etccooperative.org/" target="_blank">
-                <img class="mobile-size-img" src="@/images/etc-cooperative-logo.png" alt="" />
-              </a>
-              <div class="flex mt-5 lg:mt-8">
-                <a href="https://twitter.com/ETCCooperative" target="_blank"><img src="@/images/twitter.svg"
-                    alt="twitter"
-                    class="ml-1 mr-5 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" /></a><a
-                  href="https://discord.com/invite/5wDyd6u6pU" target="_blank"><img src="@/images/discord.svg"
-                    alt="discord" class="cursor-pointer hover:scale-110 transition duration-300 ease-in-out" /></a>
-              </div>
-            </div>
+      
             <div>
               <div class="mt-10 lg:mt-3 sponsor">
                 <a href="https://www.bitmain.com/" target="_blank">
@@ -62,8 +49,6 @@
                       alt="telegram-logo"
                       class="cursor-pointer hover:scale-110 transition duration-300 ease-in-out" /></a>
                 </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
