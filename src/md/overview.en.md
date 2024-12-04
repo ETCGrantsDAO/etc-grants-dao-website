@@ -2,6 +2,8 @@
 
 ## ETC Grants DAO { .scroll-element #overview.etc-grants-dao}
 
+*ETC Grants DAO was a collaboration between Bitmain and ETC Cooperative that was launched in 2023.  There was a round of open grants in 2023 which was largely unsuccessful and some ad-hoc grants to stablecoin project teams in 2024.   ETC Cooperative left the program in late 2024.*
+
 The ETC GRANTS DAO (“EGD”) is a non-profit autonomous organization composed of Ethereum Classic enthusiasts, supporters, and developers, aiming to promote the growth of the ecosystem and long-term development of Ethereum Classic.
 
 ### Mission:
