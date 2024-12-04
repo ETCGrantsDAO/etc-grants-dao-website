@@ -29,9 +29,7 @@
         <div class="row mt-10 lg:mt-9">
           <div class="grid grid-cols-1 lg:grid-cols-3">
             <div class="sponsor">
-              <a href="https://etccooperative.org/" target="_blank">
-                <img class="mobile-size-img" src="@/images/etc-cooperative-logo.png" alt="" />
-              </a>
+              
               <div class="flex mt-5 lg:mt-8">
                
               </div>
