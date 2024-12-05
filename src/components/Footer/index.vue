@@ -28,12 +28,7 @@
         </div>
         <div class="row mt-10 lg:mt-9">
           <div class="grid grid-cols-1 lg:grid-cols-3">
-            <div class="sponsor">
-              
-              <div class="flex mt-5 lg:mt-8">
-               
-              </div>
-            </div>
+            
             <div>
               <div class="mt-10 lg:mt-3 sponsor">
                 <a href="https://www.bitmain.com/" target="_blank">
