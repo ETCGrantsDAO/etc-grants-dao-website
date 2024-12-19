@@ -30,4 +30,4 @@ Transformative Technology - EGD believes that technology should serve humanity, 
 
 In July of 2022, BITMAIN and ANTPOOL announced that they were committing 10 million dollars for funding projects of the Ethereum Classic ecosystem. Half of that amount is being held in Tether (USDT) in a Safe multisig wallet [( 0xA208...E8D6 )](https://app.safe.global/balances?safe=eth:0xA208013A926718B43A6609e29691783833dcE8D6) on the Ethereum mainnet and the other half was used to purchase $ETC in November of 2022, which is being held in a Safe multisig wallet [( 0x3db3...2f82 )](https://multisig.etccooperative.org/balances?safe=ETC:0x3db3D728B8783656b83c3cB8eDc1481eC3c62f82) on the Ethereum Classic mainnet.
 
-The [ETC Cooperative](https://etccooperative.org/) will be contributing 250 thousand dollars to the EGD grants program as well.
+The [ETC Cooperative](https://etccooperative.org/) contributed 250 thousand dollars to the EGD grants program.
